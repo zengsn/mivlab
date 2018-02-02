@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>惠州学院 - 移动互联网虚拟仿真实验教学中心</title>
+
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+  
+  <style>
+    .banner, .footer {
+      background-color: darkred;
+      color: white;
+    }
+
+    .banner, .footer, .container-fluid {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .banner-title {
+      margin-left: 90px;
+      font-size: 24px;
+      padding-bottom: 15px;
+    }
+
+    .logo {
+      padding-top: 2%;
+    }
+
+    /*顶部导航栏*/
+    .nav-head {
+      background-color: white;
+    }
+
+    .nav-head > li {
+      display: inline-block;
+    }
+
+    .nav-head > li > a {
+      color: black;
+      font-size: 14px;     
+    } 
+
+    .nav-head > li.active,
+    .nav-head > li > a:hover  {
+      background-color: #b3080a; 
+      opacity: 0.8;
+      color: white;
+    }
+
+    .nav-head > li.active > a {
+      background-color: #b3080a; 
+      color: white;
+    }
+
+    .tab-content {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    /*主题内容*/
+    .container-fluid {
+      margin-bottom: 40px;
+    }
+
+    /*侧边栏样式*/
+    .sidebar-banner {
+      background-color: #b3080a; 
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      color: white;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-radius: 6px;
+      box-shadow: 2px 2px 5px #999;
+    }
+
+    .nav-sidebar {
+      margin-top: 15px;
+    }
+
+    .nav-sidebar > li {
+      margin-bottom: 5px;
+      border-radius: 6px;
+      font-size: 16px;
+      text-align: center;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .nav-sidebar > li > a {
+      color: black;
+    }
+
+    .nav-sidebar > li.active,
+    .nav-sidebar > li > a:hover,
+    .nav-sidebar > li > a:focus,
+    .nav-sidebar > li > a:active {     
+      background-color: #eee;
+      border-radius: 6px;
+    }
+
+    /*文章正文*/
+    .note {
+      border: 1px solid #c9c9c9;
+      border-radius: 10px;
+      padding: 20px 15px 20px 15px;
+      min-height: 300px;
+    }
+
+    .note p {
+    	text-indent: 2em;
+    }
+
+    /*页脚*/
+    .footer {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+    }
+
+    .footer .address {
+      padding-left: 40px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <img class="logo" src="http://www.hzu.edu.cn/_upload/site/00/03/3/logo.png" alt="logo">
+    <div class="banner-title">移动互联网虚拟仿真实验教学中心（建设中）</div> 
+  </div>
+
+  <div class="container-fluid">
+    <!-- 顶部导航栏 -->
+    <ul class="nav nav-head" role="tablist">
+      <li role="presentation"><a href="#home">首页</a></li>
+      <li role="presentation" class="active"><a href="#zxgk" aria-controls="zxgk" role="tab" data-toggle="tab">中心概况</a></li>
+      <li role="presentation"><a href="#jxzy" aria-controls="jxzy" role="tab" data-toggle="tab">教学资源</a></li>
+      <li role="presentation"><a href="#cgzh" aria-controls="cgzh" role="tab" data-toggle="tab">成果转化</a></li>
+      <li role="presentation"><a href="#xqhz" aria-controls="xqhz" role="tab" data-toggle="tab">校企合作</a></li>
+      <li role="presentation"><a href="#szdw" aria-controls="szdw" role="tab" data-toggle="tab">师资队伍</a></li>
+      <li role="presentation"><a href="#gltx" aria-controls="gltx" role="tab" data-toggle="tab">管理体系</a></li>
+      <li role="presentation"><a href="#zygx" aria-controls="zygx" role="tab" data-toggle="tab">资源共享</a></li>
+      <li role="presentation"><a href="#hjsb" aria-controls="hjsb" role="tab" data-toggle="tab">环境设备</a></li>
+      <li role="presentation"><a href="#sbcl" aria-controls="sbcl" role="tab" data-toggle="tab">申报材料</a></li>
+      <li role="presentation"><a href="#ptrk">平台入口</a></li>    
+    </ul>    
+    <!-- 顶部导航内容 -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="zxgk">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">中心概况</div>
+            <div>
+              <!-- 侧边导航栏 -->
+              <ul class="nav nav-sidebar" role="tablist">
+                <li role="presentation" class="active"><a href="#note1" aria-controls="note1" role="tab" data-toggle="tab">中心概况</a></li>
+                <li role="presentation"><a href="#note2" aria-controls="note2" role="tab" data-toggle="tab">发展历程</a></li>
+                <li role="presentation"><a href="#note3" aria-controls="note3" role="tab" data-toggle="tab">队伍建设</a></li>
+                <li role="presentation"><a href="#note4" aria-controls="note4" role="tab" data-toggle="tab">虚拟仿真实验教学优势</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note1">
+                <div class="note">
+                	<p>信息科学技术学院移动互联网虚拟仿真实验教学中心隶属于惠州学院计算机实验教学示范中心（省级，2012年），由二级学院直接管理，实行中心主任负责制。</p>
+                	<p>信息科学技术学院移动互联网虚拟仿真实验教学中心依托信息科学技术学院现有3个专业计算机科学与技术、软件工程、网络工程，同时在建设计划中纳入对新申报的网络空间安全专业的支持，目标是建设及虚拟化5个与移动互联网相关的实验室（移动应用开发实验室、计算机网络技术实验室、计算机网络集成实验室、物联网实验室和网络信息安全虚拟仿真实验室）。</p>
+                	<p>本着“虚实实验结合、实验教学与科研成果转化结合、模拟实验与与企业应用结合”的“三结合”建设理念，中心致力于建设开放式移动互联网虚拟仿真实验教学管理与共享平台，其中包含虚拟仿真实验教学系统（资源）7个：移动应用开发实验教学系统（实验项目8个）、HTML5高级网页实验教学系统（实验项目6个）、计算机网络实验教学系统（实验项目8项）、网络规划综合实验教学系统（综合实验项目1项）、路由与交换技术实验教学系统（实验项目8项）。目前已建成虚拟仿真实验课程5门，虚拟仿真实验项目30项。从2018年起，针对采用2016版培养方案的专业（大三），将建设和开设物联网应用与技术、网络安全、信息安全等实验课程。另外，实验中心也将支持和承担新申报专业“网络空间安全”的部分实验教学课程。最终形成的移动互联网虚拟仿真实验中心架构如图1所示。</p>
+                	<p style="text-align: center;text-indent: 0;">
+                		<img src="figure1.png" width="80%" />
+                	</p>
+                	<p style="text-align: center;text-indent: 0;">图1：实验中心组织架构图</p>
+
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note2">
+                <div class="note">
+                	<p>信息科学技术学院移动互联网虚拟仿真实验教学中心隶属于惠州学院计算机实验教学示范中心。惠州学院计算机实验教学示范中心成立于2004年，后于2012年被批准为广东省高等学校省级教学实验示范中心。</p>
+                	<p>目前实验中心拥有计算机组成原理及微机接口、操作系统、网络工程、数字逻辑与数字系统、嵌入式系统、软件工程、多媒体技术、智能信息处理、移动应用开发、企业信息化等10个实验室；与企业联合建立了“公共安全协同创新中心”、“旭惠信息技术创新中心”、“公共信息安全技术研究联合实验室”、“新一代IT协同创新中心”、“惠州电商人才培训基地”，配置各类计算机设备1000余台，为教学和科学研究提供了良好的实验环境。</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note3">
+                <div class="note">
+                	<p>本虚拟仿真实验教学队伍以中青年教师为主，所有成员目前均从事一线实验教学工作，其中大部分成员为高级职称（68%），整个教学队伍具有较高的教学水平和优秀的教学成果，主要具体如下：</p>
+                	<ol>
+                		<li>教学队伍成员有优异的一线教学水平上。教学队伍成员均为计算机专业课程负责人和主讲教师，理论教学及实验教学工作量饱满，近年来平均教学评价结果均为优秀（90分）以上。其中，所有教授均参与计算机专业授课及虚拟实验教学，例如：彭刚（教授，院长）负责《软件项目管理》等课程的授课与实验，蔡昭权（教授）负责《计算机网络工程》的授课与实验。此外，其他教学队伍核心人员也直接担任主要课程的授课与实验工作，其中中心主任曾少宁（网络工程系主任）是《移动应用设计与开发》、《高级网页设计》等课程负责人，参与授课与虚拟实验教授，汪华斌（副教授）负责《计算机网络》课程的授课与实验。教学队伍基本覆盖中心的所有实验课程，并且具有较高的教学经验和水平。</li>
+                		<li>教学队伍成员的教学成果显著。其中，中心主任曾少宁已主持过1项省级和2项校级教研教改课题，完成了1项双语示范课程，指导过2项省级大创项目和多项校级大创项目，曾经指导学生参加学科竞赛多次获得国家级和省级奖项，发表了多篇与虚拟实验教学技术相关的教学研究论文。核心成员彭刚教授2017年获得惠州学院校级教学成果一等奖。蔡昭权教授2017年入选广东省本科高校创新创业教育教学指导委员会。汪华斌、李慧老师各主持1项省级教研教改项目。此外，教学队伍其他成员也曾经主持或参与各级教学质量工程和教研教改项目。</li>
+                	</ol>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note4">
+                <div class="note">
+                	<p>随着信息技术的发展，作为传统实验教学的一种有效的补充，虚拟仿真实验教学已经成为加强实践教学、提高教学质量的重要手段，它不仅可以在一定程度上代替传统的实验教学，而且可以克服传统实验的各种制约和弊端，从而有效地解决目前实验教学中存在的诸多问题。将虚拟实验教学融入现有教学体系，能够节约实验成本，提高学生素质。既解决了学校实验教学的实际问题，又顺应国家严抓教学质量、注重创新人才培养的精神。建立开放式基于网络与虚拟化技术的移动互联网虚拟仿真实验教学中心将成为信息科学技术学院实验室建设新的亮点和教学质量提升的助推器。</p>
+                	<p><b>一方面，所开设专业课程实验要求决定了需要有虚拟仿真实验教学中心的支持。</b></p>
+                	<p>（1）移动应用开发平台直接采购成本高，手机、平板电脑等移动实验设备难以管理。例如，在基于Android的移动应用开发课程实验中，需要为学生分配适合不同版本的移动平台实验环境，如果采用真机（Android手机）来实现，需要中心投入大量的资金购买手机设备，同时这些设备会给实验中心带来无法承担的管理风险。而采用虚拟化的技术，通过虚拟软件技术为学生分配实验机，则可以完全规避这些问题。</p>
+                	<p>（2）软件定义网络（SDN）、虚拟网络设备等计算机网络新技术实验天生需要依托虚拟化软件实验平台，无法在单纯硬件的实验平台上进行。目前已经开设的路由、组网等实验课程，在传统IT架构中的网络中，其配置是一件非常繁琐的事情。采用虚拟化技术之后，无需对网络中每个节点的设备（路由器、交换机、防火墙）反复进行配置，网络中的设备本身就是自动化连通的。只需要在使用时定义好简单的网络规则即可。如果用户不喜欢网络设备（路由器、交换机、防火墙）自身内置的协议，还可以通过编程的方式对其进行修改，以实现更好的数据交换性能。除此之外，未来课程需要涉及的软件定义网络（SDN）等网络新代表了一种新趋势，是未来网络设备发展的主流之一。而开设这些新课程，都需要虚拟仿真实验环境的支持。</p>
+                	<p>（3） 大型综合设计性网络实验成本高且实现难度困难。大型综合设计性网络实验，如大型校园网络需求分析、方案设计与系统集成，企业网搭建与应用，园区网互联及网站建设等大型综合设计性网络实验，是网络工程专业、物联网专业，以及相关的计算机专业网络工程实验的亮点和难点，如果能开展贴近现实的、大型校园网、企业网以及园区网的综合性实验，对学生综合利用网络工程的知识、提高学生实际网络集成的水平有极大的帮助。但由于大型综合设计性网络实验，需要的网络设备类型多、数量大、拓扑结构复杂多样，设置和调试复杂困难，实体实验室由于成本的原因，以及实验场地的限制，在实现上非常困难，难以实现。虚拟仿真实验环境中，增加新的实验设备容易，提供的拓扑结构可以非常复杂，可扩展性强，可根据教学需要灵活添加实验设备及典型实验，提供个性化定制服务；而且实验界面友好直观、所有的仿真网络实验设备操作贴近实际，真实感强；每个学生都可以在虚拟仿真环境中，独立或共同设计大型的综合型网络实验，受益的学生多，对提高学生实现网络集成的能力有极大的帮助，具有实体网络实验不可替代的作用。</p>
+                	<p>（4） 网络安全类实验在实际网络中难以实现。采用防火墙、入侵检测、VPN等设备搭建网络安全实验平台，不但成本高，学生受益面窄，多个设备仅支持单个用户的配置操作，一个实验室需要配置多套相同的设备；而且仅支持对安全配置等偏工程应用类的实验，无法进行信息安全原理相关的教学和实验，更无法进行大型综合安全实验。在实体网络类实验室直接做网络安全类实验，由于实体网络类实验室线路与校园网络直连，因此可能造成病毒等不良数据外溢，严重影响校园网络安全，造成无法预料的严重后果，所以网络安全类实验在实际网络中难以实现，最好在虚拟仿真的环境下进行。中心根据真实网络及信息安全环境，基于真实的网络安全设备，采用硬件虚拟、软件仿真的方式，建立了一个技术先进、覆盖面广、扩展性强的网络信息安全虚拟仿真实验室，可以让学生通过独立操作或者分组合作，进行网络信息安全各个领域知识的学习和配套实验操作，通过虚拟仿真实验的操作，加快、加深理论知识的学习，同时通过仿真实验环境下理论知识的讲解加深对实际动手操作的理解，实现理论与实践教学的结合。特别是在虚拟仿真网络环境下，可以方便地进行网络攻防实验和大型综合安全实验，不会对实体的网络环境造成影响。</p>
+                	<p>（5） 常规实验环境建设成本高。网络设备种类繁多，如果要购置较齐全的网络设备，初期投入成本高；而且网络技术变化快、设备生命周期有限、更新非常快，要建立非常完备且与时俱进的网络实验教学硬件环境是非常困难的，日常的实验室维护经费完全无法满足网络实验设备更新的要求。虚拟仿真实验教学平台，只需要少量的网络硬件，就可以硬件虚拟、软件仿真的方式实现网络实验设备的更新换代，更新周期短、成本低。而且利用软件扩展性好的特性，可以将少量的网络设备，虚拟成大量虚拟网络设备，更新硬件成本低。</p>
+                	<p><b>另一方面，现有实验室与实验课程的管理与实施决定了必须引入更为高效的虚拟仿真实验教学技术。</b></p>
+                	<p>虚拟仿真环境有利于提高实验考核的效率及可追溯性。常规实验环境中，所有考核环境均需要教师亲自检查，实验结果也无法以电子方式保存，或者必须通过录像等手段保存，而视频文件的保存、备份及查看均不够方便且耗费时间。在虚拟修真实验系统中，所有实验的环节和结果均以电子的方式保存，教师可以方便地检查和评测，其中有很大一部分工作，包括计分统计，都可以通过软件的方式自动完成，从而大大提高了实验考核的效果。</p>
+                	<p>实体网络设备实验的优点是现场感好，与工程现实环境接近；但实体网络设备实验涉及到设备之间的连线问题，因此无法有效实现远程共享实验，特别是需要频繁更换设备连接方式的网络实验。网络虚拟仿真实验，可以在任何计算机上进行实验操作，可以在虚拟的环境中，更新设备以及设备之间的连线，可以实现最大程度的资源开放和共享。非常有利于有实验内容的网络类UOOC课程的实验教学，解决UOOC类课程只能局限于理论课，而无法向实验课推广的缺陷。</p>
+                </div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="jxzy">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">教学资源</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note5" aria-controls="note5" role="tab" data-toggle="tab">移动平台与移动应用开发虚拟仿真实验教学平台</a></li>
+              <li role="presentation"><a href="#note6" aria-controls="note6" role="tab" data-toggle="tab">计算机网络与工程虚拟仿真实验教学系统</a></li>
+              <li role="presentation"><a href="#note7" aria-controls="note7" role="tab" data-toggle="tab">物联网应用与技术虚拟仿真实验教学系统</a></li>
+              <li role="presentation"><a href="#note8" aria-controls="note8" role="tab" data-toggle="tab">网络信息安全虚拟仿真实验室及教学系统</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note5">
+                <div class="note">
+                	<p>移动互联网虚拟仿真实验教学中心首先要支持的是移动应用开发类课程，主要代表性课程为《移动应用开发》和《高级网页设计》两个课程。其中，《移动应用开发》为针对移动平台（Android）的应用开发课程，它需要实验室提供移动平台软件的支持；而《高级网页设计》则涉及移动平台上的高级网页开发技术，一样需要有移动平台的支持。</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note6">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note7">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note8">
+                <div class="note">建设中...</div>
+              </div>
+            </div>             
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="cgzh">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">成果转化</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note9" aria-controls="note9" role="tab" data-toggle="tab">科研成果(近五年)转化而来的虚拟仿真实验教学内容</a></li>
+              <li role="presentation"><a href="#note10" aria-controls="note10" role="tab" data-toggle="tab">移动互联网虚拟仿真实验室科研成果转化实验项目情况</a></li>
+              <!--li role="presentation"><a href="#note11" aria-controls="note11" role="tab" data-toggle="tab">移动互联网虚拟仿真实验室科研成果转化为实验项目情况</a></li>
+              <li role="presentation"><a href="#note12" aria-controls="note12" role="tab" data-toggle="tab"> 深圳市嵌入式系统设计重点虚拟仿真实验室科研成果转化为实验项目情况</a></li-->
+            </ul>            
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note9">
+                <div class="note">暂无。</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note10">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note11">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note12">
+                <div class="note">建设中...</div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="xqhz">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">校企合作</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note13" aria-controls="note13" role="tab" data-toggle="tab">校企合作</a></li>
+              <li role="presentation"><a href="#note14" aria-controls="note14" role="tab" data-toggle="tab"> 公共安全协同创新中心</a></li>
+              <li role="presentation"><a href="#note15" aria-controls="note15" role="tab" data-toggle="tab">旭惠信息技术创新中心</a></li>
+              <li role="presentation"><a href="#note16" aria-controls="note16" role="tab" data-toggle="tab">公共信息安全技术研究联合实验室</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note13">
+                <div class="note">
+                	<p>从2012年起，信息科学技术学院在原有实验室建设基础之上，创新地开始建设与企业直接对接的协同创新中心。截止到目前为止，与企业联合建立了“公共安全协同创新中心”、“旭惠信息技术创新中心”、“公共信息安全技术研究联合实验室”、“新一代IT协同创新中心”、“惠州电商人才培训基地”，配置各类计算机设备1000余台，为教学和科学研究提供了良好的实验环境，信息技术创新中心完全实现企业化管理，建立起了一个创新应用型人才培养机制，中心师生参与合作企业的信息技术产品的研发，完成的项目获得了企业的高度评价，并为企业创造了良好的经济效益，同时也促进了信息科学技术学院的学科建设。近年来，信息科学技术学院在全国及省级多个学科竞赛中取得了优异成绩，曾获得“全国大学生计算机设计大赛”总决赛一等奖以及全国软件外包设计大赛一等奖；2015年，全年参赛学生数超过200人次，有150多人次在全国、省、市学科竞赛中获奖，2016年有160多人才获得各类奖项。此外，学生创业热情高，部分学生在校期间或毕业后短期间内即走上了创业发展的道路。</p>
+                	<p>2017年，以协同创新中心为主要亮点的“校企深度融合的创新应用型信息技术人才培养模式探索与实践”获得惠州学院校级教学成果一等奖（彭刚，院长）。</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note14">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note15">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note16">
+                <div class="note">建设中...</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="szdw">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">师资队伍</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note17" aria-controls="note17" role="tab" data-toggle="tab">中心主任</a></li>
+              <li role="presentation"><a href="#note18" aria-controls="note18" role="tab" data-toggle="tab">中心人员</a></li>
+              <li role="presentation"><a href="#note19" aria-controls="note19" role="tab" data-toggle="tab">队伍结构</a></li>
+              <li role="presentation"><a href="#note20" aria-controls="note20" role="tab" data-toggle="tab">教学水平</a></li>
+            </ul>            
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note17">
+                <div class="note">
+                	<p>曾少宁（网络工程系主任）</p>
+                	<p>科研成果：https://github.com/zengsn/research/</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note18">
+                <div class="note">
+                	彭刚（院长，教授）、蒋辉（副院长，教授）、蔡昭权（教授）、
+曾树洪（学院实验中心主任，高级实验师）、汪华斌（副教授）、
+黄震（副教授）、徐涛（副教授）、肖东（高工）、李慧、陈朝华、袁秀莲
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note19">
+                <div class="note">
+                	总人数13，平均年龄41岁，正高23%，副高38%，其他38%。
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note20">
+                <div class="note">
+                	<p>本虚拟仿真实验教学队伍以中青年教师为主，所有成员目前均从事一线实验教学工作，其中大部分成员为高级职称（68%），整个教学队伍具有较高的教学水平和优秀的教学成果，主要具体如下：</p>
+                	<ol>
+                		<li>教学队伍成员有优异的一线教学水平上。教学队伍成员均为计算机专业课程负责人和主讲教师，理论教学及实验教学工作量饱满，近年来平均教学评价结果均为优秀（90分）以上。其中，所有教授均参与计算机专业授课及虚拟实验教学，例如：彭刚（教授，院长）负责《软件项目管理》等课程的授课与实验，蔡昭权（教授）负责《计算机网络工程》的授课与实验。此外，其他教学队伍核心人员也直接担任主要课程的授课与实验工作，其中中心主任曾少宁（网络工程系主任）是《移动应用设计与开发》、《高级网页设计》等课程负责人，参与授课与虚拟实验教授，汪华斌（副教授）负责《计算机网络》课程的授课与实验。教学队伍基本覆盖中心的所有实验课程，并且具有较高的教学经验和水平。</li>
+                		<li>教学队伍成员的教学成果显著。其中，中心主任曾少宁已主持过1项省级和2项校级教研教改课题，完成了1项双语示范课程，指导过2项省级大创项目和多项校级大创项目，曾经指导学生参加学科竞赛多次获得国家级和省级奖项，发表了多篇与虚拟实验教学技术相关的教学研究论文。核心成员彭刚教授2017年获得惠州学院校级教学成果一等奖。蔡昭权教授2017年入选广东省本科高校创新创业教育教学指导委员会。汪华斌、李慧老师各主持1项省级教研教改项目。此外，教学队伍其他成员也曾经主持或参与各级教学质量工程和教研教改项目。</li>
+                	</ol>
+                </div>
+              </div>
+            </div>             
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="gltx">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">管理体系</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note21" aria-controls="note21" role="tab" data-toggle="tab">组织保障</a></li>
+              <li role="presentation"><a href="#note22" aria-controls="note22" role="tab" data-toggle="tab">制度保障</a></li>
+              <li role="presentation"><a href="#note23" aria-controls="note23" role="tab" data-toggle="tab">管理规范</a></li>
+            </ul>            
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note21">
+                <div class="note">
+                	<p>（1） 学院重视并支持中心的制度建设。学院特别重视实验教学工作，制定了一系列与计算机相关的实验室管理办法以及设备管理办法。学院非常重视实验教学规范化，规定每门实验课程均编印实验教学大纲，实验指导书，实验多媒体讲义等实验教学材料。</p>
+                	<p>（2） 学院重视并支持中心的基础条件建设。学院实验指导思想明确，特别重视学生动手能力和创新能力的培养。以学生为本，将建设完成的各级实验中心和创新中心全方位向全校学生开放，学生可以根据自己的知识、能力和兴趣，到各实验教学中心做实验，或者参加创新中心的企业团队，从而进一步提高自己的动手能力和创新实验能力。</p>
+                	<p>（3） 学院非常注重实验教学队伍的建设。将有经验的教师调整到实验教学第一线，其中学院的大部分教授都参与实验教学，进一步整合实验教学和实验队伍资源，调整实验室布局，更好地适应学科发展和学生培养的要求。</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note22">
+                <div class="note">
+                	<p>（1） 建立虚拟仿真实验教学中心的管理体制。实验中心由二级学院管理，采中心主任负责制。在运行机制上，实验教学主任作为中心的第一责任人，在课程设置、教学改革、人员聘用、实验室管理和经费管理等方面具有较大的自主权，从而保证了教学资源的充分合理利用，形成了功能明确和管理有序的实验教学中心。实验教学中心实行按需设岗，按岗聘任实验教师。中心的本科实验教学实验室皆有专职实验技术人员负责管理，实验室主任由教学经验丰富，教学能力强的教师担任。实验教师不但具备扎实的理论知识、较全面的实验技能、严谨的科学态度与作风，而且是一个掌握多学科知识与技术的多面手，这样的实验教师才能适应开设多门实验课程的要求。实验中心仪器设备、实验人员、实验用房均由实验教学中心统一管理，实现了资源共享，转变了实验室专为某一课程或专业服务的观念，根据功能和学科特点进行重组和建设，减少重复投资，对实验室仪器设备进行实时动态管理，即从仪器设备的使用信息到仪器设备的使用状态有明确的“账目”；实验中心每年对实验仪器进行清查，做到帐物相符，提高了实验仪器设备的投资效益和使用效率。</p>
+                	<p>（2） 建立虚拟仿真实验教学中心的教学质量保障制度。为了保证中心实验开出的质量，中心还经常组织理论课程主讲老师与实验指导老师的交流，在教学进度、实验项目安排、实验仪器采购与应用等方面进行协调，并对学生在实验过程中暴露出的问题进行沟通，对症下药，使理论课与实验课能更好地结合。每个学期末，中心还要收集每门实验课程的学生实验报告，分好、中、差三组，通过对这些实验报告进行分析、总结，找出该实验课程在项目设置、老师指导、学生完成等方面的成功与不足，对这些实验课程进行改革，不断完善，保证了实验课程质量的进一步提升。学校实验与设备部每学期至少到实验室听课1次，中心主任和实验室主任每学期至少到实验室听课2次，并对实验报告进行抽查，保证实验课的质量。对新开实验和开新实验的教师，组织有经验的实验教学老师进行听课，并帮助制定实验课程的教学计划和教学内容，提高实验课的教学质量。</p>
+                	<p>（3） 制定了实验队伍建设政策措施。学校制定了一系列实验教学队伍建设的政策和措施，包括：教学实验中心管理办法、实验技术人员岗位职责与考核办法、实验室考核评比条例、实验技术成果评审奖励管理办法等规章制度。奖励教师完成的实验教学成果、论文、实验指导书等，奖励在各种竞赛中获得名次学生和在公开刊物上发表论文学生的指导教师。</p>
+                	<p>（4） 制定了实验队伍培训制度措施。专门出台了实验队伍培训管理办法，对实验人员培训和继续深造提供经费支持，实验技术人员的培训，以在职、在岗的方式参加短期进修班、培训班为主；以通过在职进修、系统学习以及学历培养为辅，少部分人员可以考虑安排脱产进修，重点培养。</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note23">
+                <div class="note">
+                	<p>首先，为了保证实验教学中心开放运行良好，除学校为实验中心制的各项相关管理制度外，中心还专业制定了适合计算机实验管理的相关制度，其中包括：</p>
+                	<ol>
+                		<li>《教学实验中心管理办法》；</li>
+                		<li>《实验室管理办法》；</li>
+                		<li>《实验室开放管理办法》；</li>
+                		<li>《实验室设置与调整管理规定》；</li>
+                		<li>《实验室基本信息收集及档案管理办法》；</li>
+                		<li>《实验室实验室安全管理办法》。</li>
+                	</ol>
+                	<p>其次，建立良好的实验教学考评体系是提高实验教学质量的保证机制。除了根据学校制定的实验技术人员岗位职责与考核管理办法，每学年进行一次考核之外，中心还做了以下两个方面的工作：</p>
+                	<ol>
+                		<li>
+                			学生评教。每学期由二级学院组织期中教学检查和期末学生评教活动，由学生对每门实验课程按评估指标进行打分，作为对实验教师教学效果考评的一个重要依据，而且学院及时将评估结果反馈给实验教学老师，以便老师及时改进实验教学工作中的缺陷，进一步提高实验教学质量。
+                		</li>
+                		<li>
+                			学院督导。聘请教学经验丰富、责任心强、学术水平高的老教授担任督导员，协助检查、监督实验教学工作的全过程，包括实验教学大纲和教学内容、教材的选用、考试以及成绩评定，帮助实验教学老师提高实验教学质量。
+                		</li>
+                	</ol>
+                </div>
+              </div>
+            </div>              
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="zygx">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">资源共享</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note24" aria-controls="note24" role="tab" data-toggle="tab">校内共享</a></li>
+              <li role="presentation"><a href="#note25" aria-controls="note25" role="tab" data-toggle="tab">校外共享</a></li>
+              <li role="presentation"><a href="#note26" aria-controls="note26" role="tab" data-toggle="tab">进一步拓宽资源共享的渠道</a></li>
+              <li role="presentation"><a href="#note27" aria-controls="note27" role="tab" data-toggle="tab">进一步优化和丰富共享资源</a></li>
+            </ul>              
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note24">
+                <div class="note">
+                	<p>到目前为止，整个实验中心的资源共享仅限于二级学院范围之内，实验教学资源共享的范围及方式主要有3种：</p>
+                	<ol>
+                		<li><b>专业内多课程共享</b>：面向移动应用开发课程的网络实验平台，已经扩展到学院内部的其他编程类课程，如高级网页设计，并且也取得了一样好的教学效果。</li>
+                		<li><b>学院内多专业共享</b>：除了网络工程专业之外，移动和网络两个方面的实验教学资源均同时支持计算机科学与技术和软件工程等学院内专业的同类课程实验。所有的实验课程及项目由3个专业的课程和学生共享使用。</li>
+                	</ol>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note25">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note26">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note27">
+                <div class="note">建设中...</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="hjsb">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">环境设备</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note28" aria-controls="note28" role="tab" data-toggle="tab">仪器设备配置情况</a></li>
+              <li role="presentation"><a href="#note29" aria-controls="note29" role="tab" data-toggle="tab">环境与安全</a></li>
+              <li role="presentation"><a href="#note30" aria-controls="note30" role="tab" data-toggle="tab">运行与维护</a></li>
+              <li role="presentation"><a href="#note31" aria-controls="note31" role="tab" data-toggle="tab">网络管理与安全</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note28">
+                <div class="note">
+                	<p>计算机实验中心自成立以来，经费来源主要包括学校和政府。近年来，广东省和惠州市已为中心投入经费约365余万元，这些经费全部用于实验教学设备的购置和维护，以及实验资源的开发。整个实验中心的设备利用率达99%，设备完好率达99%。</p>
+                	<p>移动互联网虚拟仿真实验教学中心依托计算机实验教学示范中心，其中实验中心的经费来源具体见下表。</p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note29">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note30">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note31">
+                <div class="note">建设中...</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="sbcl">
+        <div class="row"> 
+          <div class="col-xs-6 col-md-4">
+            <div class="sidebar-banner">申报材料</div>
+            <!-- 侧边导航栏 -->
+            <ul class="nav nav-sidebar" role="tablist">
+              <li role="presentation" class="active"><a href="#note32" aria-controls="note32" role="tab" data-toggle="tab">申报书</a></li>
+              <li role="presentation"><a href="#note33" aria-controls="note33" role="tab" data-toggle="tab">支撑材料</a></li>
+              <li role="presentation"><a href="#note34" aria-controls="note34" role="tab" data-toggle="tab">政策措施和规章制度</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-8">
+            <!-- 侧边导航内容 -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="note32">
+                <div class="note">近期发布。</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note33">
+                <div class="note">建设中...</div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="note34">
+                <div class="note">建设中...</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>     
+  </div>
+
+  <div class="footer">
+    <span class="school">建设单位：惠州学院</span>
+    <span class="address">惠州市惠城区演达大道46号</span>
+  </div>
+
+  <!-- jquery -->
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+</body>
+</html>

@@ -1,0 +1,22 @@
+.STYLE1 {font-size: 12px}
+.STYLE3 {color: #707070; font-size: 12px;font-weight: bold; }
+.STYLE4 {color: #03515d;font-size: 12px;}
+.STYLE5 {color: #0a6e0c;font-size: 12px; }
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.STYLE7 {font-size: 14px;color: #03515d;font-weight: bold;}
+.ckinput{width: 120px;height: 20px;margin-right: 20px;}
+a:link {
+ text-decoration: none;
+}
+a:visited {
+ text-decoration: none;
+}
+a:hover {
+ text-decoration: none;
+}
+a:active {
+ text-decoration: none;
+}

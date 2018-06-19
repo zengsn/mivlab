@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.AddSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.UpdSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DelSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.DelSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CkSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.CkSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>PagingSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.PagingSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.LoginSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LogoutSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.LogoutSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>InitSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.InitSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetDataSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetDataSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SyInitSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.SyInitSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetttSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetttSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GettSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GettSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetCCSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetCCSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetCSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetCSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetstuSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetstuSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetsySvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetsySvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddzySvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.AddzySvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdzySvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.UpdzySvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetCourseSvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.GetCourseSvlt</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddszySvlt</servlet-name>
+		<servlet-class>teachingSys.svlt.AddszySvlt</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddSvlt</servlet-name>
+		<url-pattern>/AddSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdSvlt</servlet-name>
+		<url-pattern>/UpdSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelSvlt</servlet-name>
+		<url-pattern>/DelSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CkSvlt</servlet-name>
+		<url-pattern>/CkSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PagingSvlt</servlet-name>
+		<url-pattern>/PagingSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginSvlt</servlet-name>
+		<url-pattern>/LoginSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutSvlt</servlet-name>
+		<url-pattern>/LogoutSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InitSvlt</servlet-name>
+		<url-pattern>/InitSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetDataSvlt</servlet-name>
+		<url-pattern>/GetDataSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SyInitSvlt</servlet-name>
+		<url-pattern>/SyInitSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetttSvlt</servlet-name>
+		<url-pattern>/GetttSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GettSvlt</servlet-name>
+		<url-pattern>/GettSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetCCSvlt</servlet-name>
+		<url-pattern>/GetCCSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetCSvlt</servlet-name>
+		<url-pattern>/GetCSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetstuSvlt</servlet-name>
+		<url-pattern>/GetstuSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetsySvlt</servlet-name>
+		<url-pattern>/GetsySvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddzySvlt</servlet-name>
+		<url-pattern>/AddzySvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdzySvlt</servlet-name>
+		<url-pattern>/UpdzySvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetCourseSvlt</servlet-name>
+		<url-pattern>/GetCourseSvlt</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddszySvlt</servlet-name>
+		<url-pattern>/AddszySvlt</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>SyInitSvlt</welcome-file>
+	</welcome-file-list>
+</web-app>

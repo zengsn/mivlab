@@ -1,0 +1,55 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 1,
+    "additions" : 1,
+    "deletions" : 0
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/21b0b33382c91e8381db840dc522201163bb2b96",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-09-20T01:59:52Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-09-20T01:59:52Z"
+    },
+    "message" : "第一次",
+    "tree" : {
+      "sha" : "9914aa24157980ceaae6471fd2405ba63f8b877d",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/9914aa24157980ceaae6471fd2405ba63f8b877d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/21b0b33382c91e8381db840dc522201163bb2b96",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/21b0b33382c91e8381db840dc522201163bb2b96/comments",
+  "files" : [ {
+    "sha" : "6b4fd4de44ba4e7949e4c1f09bb5226b55eb59f1",
+    "filename" : "1517060313/a.txt",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/21b0b33382c91e8381db840dc522201163bb2b96/1517060313/a.txt",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/21b0b33382c91e8381db840dc522201163bb2b96/1517060313/a.txt",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060313/a.txt?ref=21b0b33382c91e8381db840dc522201163bb2b96",
+    "patch" : "@@ -0,0 +1 @@\n+����\n\\ No newline at end of file"
+  } ],
+  "sha" : "21b0b33382c91e8381db840dc522201163bb2b96",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/21b0b33382c91e8381db840dc522201163bb2b96",
+  "parents" : [ {
+    "sha" : "5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/5b00559a1a0c0581e84250c35a8510106fea1bc9"
+  } ]
+}

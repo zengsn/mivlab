@@ -1,0 +1,27 @@
+[ {
+  "id" : 1320098088,
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/events/1320098088",
+  "actor" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "event" : "referenced",
+  "commit_id" : "8dd7d895823a4891d1b1d2ae59186ca2c5e97b8f",
+  "commit_url" : "https://api.github.com/repos/Sprite24/wechat-miniprogram-hzc-2017/commits/8dd7d895823a4891d1b1d2ae59186ca2c5e97b8f",
+  "created_at" : "2017-11-01T01:43:58Z"
+} ]

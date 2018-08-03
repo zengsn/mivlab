@@ -1,0 +1,293 @@
+[ {
+  "sha" : "bb56860836fcfcbb825b0c6eb81f7fc14c678cd7",
+  "commit" : {
+    "author" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-10-25T09:33:00Z"
+    },
+    "committer" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-10-25T09:33:00Z"
+    },
+    "message" : "#84 #100 期末作业：开发一个仿微信小程序",
+    "tree" : {
+      "sha" : "6c51cdbce3d67956de5169e7bfc86cab670b4d54",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/6c51cdbce3d67956de5169e7bfc86cab670b4d54"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/bb56860836fcfcbb825b0c6eb81f7fc14c678cd7",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/bb56860836fcfcbb825b0c6eb81f7fc14c678cd7",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/bb56860836fcfcbb825b0c6eb81f7fc14c678cd7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/bb56860836fcfcbb825b0c6eb81f7fc14c678cd7/comments",
+  "author" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "e6cdfefca601e11ae3d4184cd3313f7906ad3c64",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e6cdfefca601e11ae3d4184cd3313f7906ad3c64",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/e6cdfefca601e11ae3d4184cd3313f7906ad3c64"
+  } ]
+}, {
+  "sha" : "f8e145f1c1754a134eb80270a81d4a0d91577081",
+  "commit" : {
+    "author" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-10-25T10:02:43Z"
+    },
+    "committer" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-10-25T10:02:43Z"
+    },
+    "message" : "#71 第3次实验-实现滚动界面",
+    "tree" : {
+      "sha" : "c576c79ca03981648c1e3199265abe7e9869ba96",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/c576c79ca03981648c1e3199265abe7e9869ba96"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/f8e145f1c1754a134eb80270a81d4a0d91577081",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/f8e145f1c1754a134eb80270a81d4a0d91577081",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/f8e145f1c1754a134eb80270a81d4a0d91577081",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/f8e145f1c1754a134eb80270a81d4a0d91577081/comments",
+  "author" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "bb56860836fcfcbb825b0c6eb81f7fc14c678cd7",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/bb56860836fcfcbb825b0c6eb81f7fc14c678cd7",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/bb56860836fcfcbb825b0c6eb81f7fc14c678cd7"
+  } ]
+}, {
+  "sha" : "9755e580182dd49601aad48ba95304810ae683eb",
+  "commit" : {
+    "author" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-11-01T07:46:24Z"
+    },
+    "committer" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-11-01T07:46:24Z"
+    },
+    "message" : "删除",
+    "tree" : {
+      "sha" : "2711ea0ffaf2fd091316eb40e5dfc39401a582e3",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/2711ea0ffaf2fd091316eb40e5dfc39401a582e3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/9755e580182dd49601aad48ba95304810ae683eb",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9755e580182dd49601aad48ba95304810ae683eb",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9755e580182dd49601aad48ba95304810ae683eb",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9755e580182dd49601aad48ba95304810ae683eb/comments",
+  "author" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "f8e145f1c1754a134eb80270a81d4a0d91577081",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/f8e145f1c1754a134eb80270a81d4a0d91577081",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/f8e145f1c1754a134eb80270a81d4a0d91577081"
+  } ]
+}, {
+  "sha" : "dae2b4be1d620bd0795458e2cb4ea37dee7102aa",
+  "commit" : {
+    "author" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-11-01T08:47:44Z"
+    },
+    "committer" : {
+      "name" : "xiaoyanhui123",
+      "email" : "824034857@qq.com",
+      "date" : "2017-11-01T08:47:44Z"
+    },
+    "message" : "sc0",
+    "tree" : {
+      "sha" : "266d84e5ca1aca23c356c9359737436f84fe51dd",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/266d84e5ca1aca23c356c9359737436f84fe51dd"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/dae2b4be1d620bd0795458e2cb4ea37dee7102aa",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/dae2b4be1d620bd0795458e2cb4ea37dee7102aa",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/dae2b4be1d620bd0795458e2cb4ea37dee7102aa",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/dae2b4be1d620bd0795458e2cb4ea37dee7102aa/comments",
+  "author" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "xiaoyanhui123",
+    "id" : 31909454,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909454?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/xiaoyanhui123",
+    "html_url" : "https://github.com/xiaoyanhui123",
+    "followers_url" : "https://api.github.com/users/xiaoyanhui123/followers",
+    "following_url" : "https://api.github.com/users/xiaoyanhui123/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/xiaoyanhui123/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/xiaoyanhui123/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/xiaoyanhui123/subscriptions",
+    "organizations_url" : "https://api.github.com/users/xiaoyanhui123/orgs",
+    "repos_url" : "https://api.github.com/users/xiaoyanhui123/repos",
+    "events_url" : "https://api.github.com/users/xiaoyanhui123/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/xiaoyanhui123/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9755e580182dd49601aad48ba95304810ae683eb",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9755e580182dd49601aad48ba95304810ae683eb",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9755e580182dd49601aad48ba95304810ae683eb"
+  } ]
+} ]

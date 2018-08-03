@@ -1,0 +1,74 @@
+[ {
+  "sha" : "885a8af5640205ed92740200ac813b3006c2285d",
+  "commit" : {
+    "author" : {
+      "name" : "zengsn",
+      "email" : "shaoning.zeng@gmail.com",
+      "date" : "2017-10-11T01:19:42Z"
+    },
+    "committer" : {
+      "name" : "zengsn",
+      "email" : "shaoning.zeng@gmail.com",
+      "date" : "2017-10-11T01:19:42Z"
+    },
+    "message" : "练习例子：List + View",
+    "tree" : {
+      "sha" : "e45bf4581abab9bbb6dfbcea33f8be24ca531300",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/e45bf4581abab9bbb6dfbcea33f8be24ca531300"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/885a8af5640205ed92740200ac813b3006c2285d",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/885a8af5640205ed92740200ac813b3006c2285d",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/885a8af5640205ed92740200ac813b3006c2285d",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/885a8af5640205ed92740200ac813b3006c2285d/comments",
+  "author" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee"
+  } ]
+} ]

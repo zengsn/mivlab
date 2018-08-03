@@ -1,0 +1,439 @@
+[ {
+  "sha" : "d1aed98c99f476aba1c9f8436eaff9cc50495b49",
+  "commit" : {
+    "author" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-09-20T03:51:57Z"
+    },
+    "committer" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-09-20T03:51:57Z"
+    },
+    "message" : "#26",
+    "tree" : {
+      "sha" : "b7fcd87468daed75691fdeb4c535d3d0f772243b",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/b7fcd87468daed75691fdeb4c535d3d0f772243b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/d1aed98c99f476aba1c9f8436eaff9cc50495b49",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d1aed98c99f476aba1c9f8436eaff9cc50495b49",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d1aed98c99f476aba1c9f8436eaff9cc50495b49",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d1aed98c99f476aba1c9f8436eaff9cc50495b49/comments",
+  "author" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1436ecc767387790fcc1375748e4cb7ee4c89140",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1436ecc767387790fcc1375748e4cb7ee4c89140",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/1436ecc767387790fcc1375748e4cb7ee4c89140"
+  } ]
+}, {
+  "sha" : "0fa6658e85e17e7a3fadba6d647e514be9e6f826",
+  "commit" : {
+    "author" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-10-18T03:50:10Z"
+    },
+    "committer" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-10-18T03:50:10Z"
+    },
+    "message" : "#71 第3次实验-实现滚动界面",
+    "tree" : {
+      "sha" : "3a1ef4c9e334f90bc7b9e64ed756fde2081a3046",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/3a1ef4c9e334f90bc7b9e64ed756fde2081a3046"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/0fa6658e85e17e7a3fadba6d647e514be9e6f826",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/0fa6658e85e17e7a3fadba6d647e514be9e6f826",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/0fa6658e85e17e7a3fadba6d647e514be9e6f826",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/0fa6658e85e17e7a3fadba6d647e514be9e6f826/comments",
+  "author" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "d1aed98c99f476aba1c9f8436eaff9cc50495b49",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d1aed98c99f476aba1c9f8436eaff9cc50495b49",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d1aed98c99f476aba1c9f8436eaff9cc50495b49"
+  } ]
+}, {
+  "sha" : "d0f72d425bc35354ff10f3efe01170db9a000c22",
+  "commit" : {
+    "author" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-10-18T04:16:44Z"
+    },
+    "committer" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-10-18T04:16:44Z"
+    },
+    "message" : "#21 第1次实验 截图",
+    "tree" : {
+      "sha" : "769334e0ee46adb1e09f5ad64b1224738bca6548",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/769334e0ee46adb1e09f5ad64b1224738bca6548"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/d0f72d425bc35354ff10f3efe01170db9a000c22",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d0f72d425bc35354ff10f3efe01170db9a000c22",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d0f72d425bc35354ff10f3efe01170db9a000c22",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d0f72d425bc35354ff10f3efe01170db9a000c22/comments",
+  "author" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "0fa6658e85e17e7a3fadba6d647e514be9e6f826",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/0fa6658e85e17e7a3fadba6d647e514be9e6f826",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/0fa6658e85e17e7a3fadba6d647e514be9e6f826"
+  } ]
+}, {
+  "sha" : "a0cd69c39e16d2d4748b7556da2a76cecabeca99",
+  "commit" : {
+    "author" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-10-18T04:20:21Z"
+    },
+    "committer" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-10-18T04:20:21Z"
+    },
+    "message" : "#82 第4次实验",
+    "tree" : {
+      "sha" : "25311d9674bc0444932092c978a482a6e1d596cc",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/25311d9674bc0444932092c978a482a6e1d596cc"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/a0cd69c39e16d2d4748b7556da2a76cecabeca99",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a0cd69c39e16d2d4748b7556da2a76cecabeca99",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/a0cd69c39e16d2d4748b7556da2a76cecabeca99",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a0cd69c39e16d2d4748b7556da2a76cecabeca99/comments",
+  "author" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "d0f72d425bc35354ff10f3efe01170db9a000c22",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d0f72d425bc35354ff10f3efe01170db9a000c22",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d0f72d425bc35354ff10f3efe01170db9a000c22"
+  } ]
+}, {
+  "sha" : "ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a",
+  "commit" : {
+    "author" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-11-01T02:04:43Z"
+    },
+    "committer" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-11-01T02:04:43Z"
+    },
+    "message" : "#84 #131 期末作业：小汽车",
+    "tree" : {
+      "sha" : "329b2f2afe0011f22dcc5485ac8b7ef893c72ec1",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/329b2f2afe0011f22dcc5485ac8b7ef893c72ec1"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a/comments",
+  "author" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "a0cd69c39e16d2d4748b7556da2a76cecabeca99",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a0cd69c39e16d2d4748b7556da2a76cecabeca99",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/a0cd69c39e16d2d4748b7556da2a76cecabeca99"
+  } ]
+}, {
+  "sha" : "e6fb7103cebf298e8c20a6e4ee512dc2e9bc702c",
+  "commit" : {
+    "author" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-11-01T02:56:44Z"
+    },
+    "committer" : {
+      "name" : "ChengZhiBin",
+      "email" : "1315291709@qq.com",
+      "date" : "2017-11-01T02:56:44Z"
+    },
+    "message" : "#84 删除不需要的文件",
+    "tree" : {
+      "sha" : "86b72682d858ab673bfd3a28abc10b9d5007fb46",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/86b72682d858ab673bfd3a28abc10b9d5007fb46"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/e6fb7103cebf298e8c20a6e4ee512dc2e9bc702c",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e6fb7103cebf298e8c20a6e4ee512dc2e9bc702c",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/e6fb7103cebf298e8c20a6e4ee512dc2e9bc702c",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e6fb7103cebf298e8c20a6e4ee512dc2e9bc702c/comments",
+  "author" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "ChengZhiBin",
+    "id" : 31909455,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909455?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ChengZhiBin",
+    "html_url" : "https://github.com/ChengZhiBin",
+    "followers_url" : "https://api.github.com/users/ChengZhiBin/followers",
+    "following_url" : "https://api.github.com/users/ChengZhiBin/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ChengZhiBin/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ChengZhiBin/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ChengZhiBin/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ChengZhiBin/orgs",
+    "repos_url" : "https://api.github.com/users/ChengZhiBin/repos",
+    "events_url" : "https://api.github.com/users/ChengZhiBin/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ChengZhiBin/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/ee8bcd7e79f7b067ad1caf58c8520d9cec06ca6a"
+  } ]
+} ]

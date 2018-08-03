@@ -1,0 +1,27 @@
+[ {
+  "id" : 1320154462,
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/events/1320154462",
+  "actor" : {
+    "login" : "zfyyy",
+    "id" : 31909392,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909392?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zfyyy",
+    "html_url" : "https://github.com/zfyyy",
+    "followers_url" : "https://api.github.com/users/zfyyy/followers",
+    "following_url" : "https://api.github.com/users/zfyyy/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zfyyy/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zfyyy/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zfyyy/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zfyyy/orgs",
+    "repos_url" : "https://api.github.com/users/zfyyy/repos",
+    "events_url" : "https://api.github.com/users/zfyyy/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zfyyy/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "event" : "referenced",
+  "commit_id" : "968fc6fc2bc3455f34d97252ccef1f0180a8e61d",
+  "commit_url" : "https://api.github.com/repos/zfyyy/wechat-miniprogram-hzc-2017/commits/968fc6fc2bc3455f34d97252ccef1f0180a8e61d",
+  "created_at" : "2017-11-01T02:53:10Z"
+} ]

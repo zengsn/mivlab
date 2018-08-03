@@ -1,0 +1,113 @@
+{
+  "committer" : {
+    "login" : "13192350024",
+    "id" : 29529960,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/29529960?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/13192350024",
+    "html_url" : "https://github.com/13192350024",
+    "followers_url" : "https://api.github.com/users/13192350024/followers",
+    "following_url" : "https://api.github.com/users/13192350024/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/13192350024/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/13192350024/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/13192350024/subscriptions",
+    "organizations_url" : "https://api.github.com/users/13192350024/orgs",
+    "repos_url" : "https://api.github.com/users/13192350024/repos",
+    "events_url" : "https://api.github.com/users/13192350024/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/13192350024/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 138,
+    "additions" : 138,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "13192350024",
+    "id" : 29529960,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/29529960?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/13192350024",
+    "html_url" : "https://github.com/13192350024",
+    "followers_url" : "https://api.github.com/users/13192350024/followers",
+    "following_url" : "https://api.github.com/users/13192350024/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/13192350024/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/13192350024/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/13192350024/subscriptions",
+    "organizations_url" : "https://api.github.com/users/13192350024/orgs",
+    "repos_url" : "https://api.github.com/users/13192350024/repos",
+    "events_url" : "https://api.github.com/users/13192350024/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/13192350024/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/84047750f6c0c3a2d2919fcc0033b474f523d26c",
+  "commit" : {
+    "author" : {
+      "name" : "chz",
+      "email" : "1064711610@qq.com",
+      "date" : "2017-10-15T08:36:39Z"
+    },
+    "committer" : {
+      "name" : "chz",
+      "email" : "1064711610@qq.com",
+      "date" : "2017-10-15T08:51:39Z"
+    },
+    "message" : "#71 第3次实验-实现滚动界面",
+    "tree" : {
+      "sha" : "e1af31f563bed0e3bc9fd8acf23cae4c4750e318",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/e1af31f563bed0e3bc9fd8acf23cae4c4750e318"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/84047750f6c0c3a2d2919fcc0033b474f523d26c",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/84047750f6c0c3a2d2919fcc0033b474f523d26c/comments",
+  "files" : [ {
+    "sha" : "9538027314dc075810bb603e5608ee250eca6ac3",
+    "filename" : "1517010101/pages/comp/scroll.js",
+    "status" : "added",
+    "additions" : 110,
+    "deletions" : 0,
+    "changes" : 110,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/84047750f6c0c3a2d2919fcc0033b474f523d26c/1517010101/pages/comp/scroll.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/84047750f6c0c3a2d2919fcc0033b474f523d26c/1517010101/pages/comp/scroll.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010101/pages/comp/scroll.js?ref=84047750f6c0c3a2d2919fcc0033b474f523d26c",
+    "patch" : "@@ -0,0 +1,110 @@\n+// pages/comp/scroll.js\n+var base64 = require(\"../example/images/base64\");\n+\n+Page({\n+\n+  /**\n+   * ҳ��ĳ�ʼ���\n+   */\n+  data: {\n+    isEnd: false,\n+    messages: [{\n+      name: \"ϰ��ƽ\",\n+      last: \"��ã�\"\n+    }, {\n+      name: \"���ǿ\",\n+      last: \"��ã�\"\n+    }, {\n+      name: \"ϰ��ƽ\",\n+      last: \"��ã�\"\n+    }, {\n+      name: \"���ǿ\",\n+      last: \"��ã�\"\n+    }, {\n+      name: \"ϰ��ƽ\",\n+      last: \"��ã�\"\n+    }, {\n+      name: \"���ǿ\",\n+      last: \"��ã�\"\n+    }, {\n+      name: \"ϰ��ƽ\",\n+      last: \"��ã�\"\n+    }]\n+  },\n+\n+  /**\n+   * �������ں���--����ҳ�����\n+   */\n+  onLoad: function (options) {\n+    this.setData({\n+      icon20: base64.icon20,\n+      icon60: base64.icon60\n+    });\n+  },\n+\n+  /**\n+   * �������ں���--����ҳ������Ⱦ���\n+   */\n+  onReady: function () {\n+\n+  },\n+\n+  /**\n+   * �������ں���--����ҳ����ʾ\n+   */\n+  onShow: function () {\n+\n+  },\n+\n+  /**\n+   * �������ں���--����ҳ������\n+   */\n+  onHide: function () {\n+\n+  },\n+\n+  /**\n+   * �������ں���--����ҳ��ж��\n+   */\n+  onUnload: function () {\n+\n+  },\n+\n+  /**\n+   * ҳ������¼�������--�����û��������\n+   */\n+  onPullDownRefresh: function () {\n+\n+  },\n+\n+  /**\n+   * ҳ����������¼��Ĵ�����\n+   */\n+  onReachBottom: function () {\n+\n+  },\n+\n+  /**\n+   * �û�������ϽǷ���\n+   */\n+  onShareAppMessage: function () {\n+\n+  },\n+\n+  onEnd: function () {\n+    console.log(\"onEnd\")\n+    var that = this;\n+    var data = that.data;\n+    that.setData({\n+      isEnd: true /*,\n+      messages: data.messages.concat([{\n+        name: \"Tom\",\n+        last: \"Hello!\"\n+      }, {\n+        name: \"john\",\n+        last: \"yes.\"\n+      }]) */\n+    });\n+\n+  }\n+}) \n\\ No newline at end of file"
+  }, {
+    "sha" : "b09ebbbeee4215b7ed85fbb7e240eaa49038a522",
+    "filename" : "1517010101/pages/comp/scroll.wxml",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/84047750f6c0c3a2d2919fcc0033b474f523d26c/1517010101/pages/comp/scroll.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/84047750f6c0c3a2d2919fcc0033b474f523d26c/1517010101/pages/comp/scroll.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010101/pages/comp/scroll.wxml?ref=84047750f6c0c3a2d2919fcc0033b474f523d26c",
+    "patch" : "@@ -0,0 +1,27 @@\n+<!--pages/comp/scroll.wxml-->\n+<scroll-view class=\"page\" bindtouchend='onEnd'>\n+    <view class=\"page__hd\">\n+        <view class=\"page__title\">Panel</view>\n+        <view class=\"page__desc\">���</view>\n+    </view>\n+    <view class=\"page__bd\">\n+        <view class=\"weui-panel weui-panel_access\">\n+            <view class=\"weui-panel__hd\"></view>\n+            <view class=\"weui-panel__bd\">\n+                <navigator url=\"\" class=\"weui-media-box weui-media-box_appmsg\" hover-class=\"weui-cell_active\" wx:for=\"{{messages}}\">\n+                    <view class=\"weui-media-box__hd weui-media-box__hd_in-appmsg\">\n+                        <image class=\"weui-media-box__thumb\" src=\"{{icon60}}\" />\n+                    </view>\n+                    <view class=\"weui-media-box__bd weui-media-box__bd_in-appmsg\">\n+                        <view class=\"weui-media-box__title\">{{index}} {{item.name}}</view>\n+                        <view class=\"weui-media-box__desc\">{{item.last}}</view>\n+                    </view>\n+                </navigator>\n+            </view>\n+        </view>\n+        <view class='weui-loadmore' wx:if=\"{{isEnd}}\">\n+          <view class='weui-loading'></view>\n+          <view class='weui-loadmore__tips'>���ڼ��ء���</view>\n+        </view>\n+    </view>\n+</scroll-view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "14343d69a5a0a9ec10e92b636f2274c1d7ce8ed5",
+    "filename" : "1517010101/pages/comp/scroll.wxss",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/84047750f6c0c3a2d2919fcc0033b474f523d26c/1517010101/pages/comp/scroll.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/84047750f6c0c3a2d2919fcc0033b474f523d26c/1517010101/pages/comp/scroll.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010101/pages/comp/scroll.wxss?ref=84047750f6c0c3a2d2919fcc0033b474f523d26c",
+    "patch" : "@@ -0,0 +1 @@\n+/* pages/comp/scroll.wxss */\n\\ No newline at end of file"
+  } ],
+  "sha" : "84047750f6c0c3a2d2919fcc0033b474f523d26c",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/84047750f6c0c3a2d2919fcc0033b474f523d26c",
+  "parents" : [ {
+    "sha" : "0d9e3b4ec6a7f73c899242f4e120a5c1507b570a",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/0d9e3b4ec6a7f73c899242f4e120a5c1507b570a",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/0d9e3b4ec6a7f73c899242f4e120a5c1507b570a"
+  } ]
+}

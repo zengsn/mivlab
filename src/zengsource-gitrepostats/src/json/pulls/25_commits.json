@@ -1,0 +1,74 @@
+[ {
+  "sha" : "2a385ebd9f5ef73dd686163540fa0da22c149465",
+  "commit" : {
+    "author" : {
+      "name" : "unknown",
+      "email" : "599669133@qq.com",
+      "date" : "2017-09-20T02:23:04Z"
+    },
+    "committer" : {
+      "name" : "unknown",
+      "email" : "599669133@qq.com",
+      "date" : "2017-09-20T02:23:04Z"
+    },
+    "message" : "test2",
+    "tree" : {
+      "sha" : "d846ec0a511b8e1412173797f31effa1aaf3cacd",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/d846ec0a511b8e1412173797f31effa1aaf3cacd"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/2a385ebd9f5ef73dd686163540fa0da22c149465",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/2a385ebd9f5ef73dd686163540fa0da22c149465",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/2a385ebd9f5ef73dd686163540fa0da22c149465",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/2a385ebd9f5ef73dd686163540fa0da22c149465/comments",
+  "author" : {
+    "login" : "linmaoquan",
+    "id" : 32116398,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/32116398?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/linmaoquan",
+    "html_url" : "https://github.com/linmaoquan",
+    "followers_url" : "https://api.github.com/users/linmaoquan/followers",
+    "following_url" : "https://api.github.com/users/linmaoquan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/linmaoquan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/linmaoquan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/linmaoquan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/linmaoquan/orgs",
+    "repos_url" : "https://api.github.com/users/linmaoquan/repos",
+    "events_url" : "https://api.github.com/users/linmaoquan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/linmaoquan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "linmaoquan",
+    "id" : 32116398,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/32116398?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/linmaoquan",
+    "html_url" : "https://github.com/linmaoquan",
+    "followers_url" : "https://api.github.com/users/linmaoquan/followers",
+    "following_url" : "https://api.github.com/users/linmaoquan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/linmaoquan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/linmaoquan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/linmaoquan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/linmaoquan/orgs",
+    "repos_url" : "https://api.github.com/users/linmaoquan/repos",
+    "events_url" : "https://api.github.com/users/linmaoquan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/linmaoquan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "35067d5ac111bbf8850aa91c03faf9a6a578a76d",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/35067d5ac111bbf8850aa91c03faf9a6a578a76d",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/35067d5ac111bbf8850aa91c03faf9a6a578a76d"
+  } ]
+} ]

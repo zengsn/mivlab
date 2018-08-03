@@ -1,0 +1,224 @@
+[ {
+  "sha" : "ec9b4afb72a52cf307405f972350f17b1d7e2f26",
+  "commit" : {
+    "author" : {
+      "name" : "surpershuai",
+      "email" : "iujuohuh@qq.com",
+      "date" : "2017-11-01T07:49:11Z"
+    },
+    "committer" : {
+      "name" : "surpershuai",
+      "email" : "iujuohuh@qq.com",
+      "date" : "2017-11-01T07:49:11Z"
+    },
+    "message" : "#84 #100 最后一次作业",
+    "tree" : {
+      "sha" : "ad5c143526adf6b40178468613c9c201cec476a6",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/ad5c143526adf6b40178468613c9c201cec476a6"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/ec9b4afb72a52cf307405f972350f17b1d7e2f26",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ec9b4afb72a52cf307405f972350f17b1d7e2f26",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/ec9b4afb72a52cf307405f972350f17b1d7e2f26",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ec9b4afb72a52cf307405f972350f17b1d7e2f26/comments",
+  "author" : {
+    "login" : "surpershuai",
+    "id" : 31909399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909399?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/surpershuai",
+    "html_url" : "https://github.com/surpershuai",
+    "followers_url" : "https://api.github.com/users/surpershuai/followers",
+    "following_url" : "https://api.github.com/users/surpershuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/surpershuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/surpershuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/surpershuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/surpershuai/orgs",
+    "repos_url" : "https://api.github.com/users/surpershuai/repos",
+    "events_url" : "https://api.github.com/users/surpershuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/surpershuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "surpershuai",
+    "id" : 31909399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909399?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/surpershuai",
+    "html_url" : "https://github.com/surpershuai",
+    "followers_url" : "https://api.github.com/users/surpershuai/followers",
+    "following_url" : "https://api.github.com/users/surpershuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/surpershuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/surpershuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/surpershuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/surpershuai/orgs",
+    "repos_url" : "https://api.github.com/users/surpershuai/repos",
+    "events_url" : "https://api.github.com/users/surpershuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/surpershuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/5b00559a1a0c0581e84250c35a8510106fea1bc9"
+  } ]
+}, {
+  "sha" : "ebfb38b7ef47591c896d8aa6d6c626486ab7764c",
+  "commit" : {
+    "author" : {
+      "name" : "surpershuai",
+      "email" : "iujuohuh@qq.com",
+      "date" : "2017-11-01T07:57:33Z"
+    },
+    "committer" : {
+      "name" : "surpershuai",
+      "email" : "iujuohuh@qq.com",
+      "date" : "2017-11-01T07:57:33Z"
+    },
+    "message" : "#84 最后一次作业",
+    "tree" : {
+      "sha" : "f342c55fba281bbe56df0c46429c57d277ef6236",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/f342c55fba281bbe56df0c46429c57d277ef6236"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/ebfb38b7ef47591c896d8aa6d6c626486ab7764c",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ebfb38b7ef47591c896d8aa6d6c626486ab7764c",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/ebfb38b7ef47591c896d8aa6d6c626486ab7764c",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ebfb38b7ef47591c896d8aa6d6c626486ab7764c/comments",
+  "author" : {
+    "login" : "surpershuai",
+    "id" : 31909399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909399?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/surpershuai",
+    "html_url" : "https://github.com/surpershuai",
+    "followers_url" : "https://api.github.com/users/surpershuai/followers",
+    "following_url" : "https://api.github.com/users/surpershuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/surpershuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/surpershuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/surpershuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/surpershuai/orgs",
+    "repos_url" : "https://api.github.com/users/surpershuai/repos",
+    "events_url" : "https://api.github.com/users/surpershuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/surpershuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "surpershuai",
+    "id" : 31909399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909399?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/surpershuai",
+    "html_url" : "https://github.com/surpershuai",
+    "followers_url" : "https://api.github.com/users/surpershuai/followers",
+    "following_url" : "https://api.github.com/users/surpershuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/surpershuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/surpershuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/surpershuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/surpershuai/orgs",
+    "repos_url" : "https://api.github.com/users/surpershuai/repos",
+    "events_url" : "https://api.github.com/users/surpershuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/surpershuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "ec9b4afb72a52cf307405f972350f17b1d7e2f26",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ec9b4afb72a52cf307405f972350f17b1d7e2f26",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/ec9b4afb72a52cf307405f972350f17b1d7e2f26"
+  } ]
+}, {
+  "sha" : "a7097ff7a7e83a11a204fd0fe40e4d28c38dca9a",
+  "commit" : {
+    "author" : {
+      "name" : "surpershuai",
+      "email" : "iujuohuh@qq.com",
+      "date" : "2017-11-01T08:20:51Z"
+    },
+    "committer" : {
+      "name" : "surpershuai",
+      "email" : "iujuohuh@qq.com",
+      "date" : "2017-11-01T08:20:51Z"
+    },
+    "message" : "Merge branch 'master' of https://github.com/surpershuai/wechat-miniprogram-hzc-2017",
+    "tree" : {
+      "sha" : "f342c55fba281bbe56df0c46429c57d277ef6236",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/f342c55fba281bbe56df0c46429c57d277ef6236"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/a7097ff7a7e83a11a204fd0fe40e4d28c38dca9a",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a7097ff7a7e83a11a204fd0fe40e4d28c38dca9a",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/a7097ff7a7e83a11a204fd0fe40e4d28c38dca9a",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a7097ff7a7e83a11a204fd0fe40e4d28c38dca9a/comments",
+  "author" : {
+    "login" : "surpershuai",
+    "id" : 31909399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909399?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/surpershuai",
+    "html_url" : "https://github.com/surpershuai",
+    "followers_url" : "https://api.github.com/users/surpershuai/followers",
+    "following_url" : "https://api.github.com/users/surpershuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/surpershuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/surpershuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/surpershuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/surpershuai/orgs",
+    "repos_url" : "https://api.github.com/users/surpershuai/repos",
+    "events_url" : "https://api.github.com/users/surpershuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/surpershuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "surpershuai",
+    "id" : 31909399,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909399?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/surpershuai",
+    "html_url" : "https://github.com/surpershuai",
+    "followers_url" : "https://api.github.com/users/surpershuai/followers",
+    "following_url" : "https://api.github.com/users/surpershuai/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/surpershuai/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/surpershuai/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/surpershuai/subscriptions",
+    "organizations_url" : "https://api.github.com/users/surpershuai/orgs",
+    "repos_url" : "https://api.github.com/users/surpershuai/repos",
+    "events_url" : "https://api.github.com/users/surpershuai/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/surpershuai/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "ebfb38b7ef47591c896d8aa6d6c626486ab7764c",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/ebfb38b7ef47591c896d8aa6d6c626486ab7764c",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/ebfb38b7ef47591c896d8aa6d6c626486ab7764c"
+  }, {
+    "sha" : "330aa2247ce44f135f604cb43aad8df5bb8bb603",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/330aa2247ce44f135f604cb43aad8df5bb8bb603",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/330aa2247ce44f135f604cb43aad8df5bb8bb603"
+  } ]
+} ]

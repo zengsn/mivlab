@@ -1,0 +1,55 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 19,
+    "additions" : 0,
+    "deletions" : 19
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/a0f11f1f7c74f9e91e571773a1a63df9bb6bfd0d",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-11-01T03:39:36Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-11-01T03:39:36Z"
+    },
+    "message" : "删除不要的东西",
+    "tree" : {
+      "sha" : "38f7b7cf2c901499c90d835ce4193ec62e1a02e0",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/38f7b7cf2c901499c90d835ce4193ec62e1a02e0"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/a0f11f1f7c74f9e91e571773a1a63df9bb6bfd0d",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a0f11f1f7c74f9e91e571773a1a63df9bb6bfd0d/comments",
+  "files" : [ {
+    "sha" : "dbadbb810fdcf53e3c4d79a476fef9d8067d2167",
+    "filename" : "1517130215/刘康泓小程序/utils/util.js",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 19,
+    "changes" : 19,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/18487ad98fbed4560c3bc3440bcaa760cc4428fa/1517130215/%E5%88%98%E5%BA%B7%E6%B3%93%E5%B0%8F%E7%A8%8B%E5%BA%8F/utils/util.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/18487ad98fbed4560c3bc3440bcaa760cc4428fa/1517130215/%E5%88%98%E5%BA%B7%E6%B3%93%E5%B0%8F%E7%A8%8B%E5%BA%8F/utils/util.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130215/%E5%88%98%E5%BA%B7%E6%B3%93%E5%B0%8F%E7%A8%8B%E5%BA%8F/utils/util.js?ref=18487ad98fbed4560c3bc3440bcaa760cc4428fa",
+    "patch" : "@@ -1,19 +0,0 @@\n-const formatTime = date => {\n-  const year = date.getFullYear()\n-  const month = date.getMonth() + 1\n-  const day = date.getDate()\n-  const hour = date.getHours()\n-  const minute = date.getMinutes()\n-  const second = date.getSeconds()\n-\n-  return [year, month, day].map(formatNumber).join('/') + ' ' + [hour, minute, second].map(formatNumber).join(':')\n-}\n-\n-const formatNumber = n => {\n-  n = n.toString()\n-  return n[1] ? n : '0' + n\n-}\n-\n-module.exports = {\n-  formatTime: formatTime\n-}"
+  } ],
+  "sha" : "a0f11f1f7c74f9e91e571773a1a63df9bb6bfd0d",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a0f11f1f7c74f9e91e571773a1a63df9bb6bfd0d",
+  "parents" : [ {
+    "sha" : "18487ad98fbed4560c3bc3440bcaa760cc4428fa",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/18487ad98fbed4560c3bc3440bcaa760cc4428fa",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/18487ad98fbed4560c3bc3440bcaa760cc4428fa"
+  } ]
+}

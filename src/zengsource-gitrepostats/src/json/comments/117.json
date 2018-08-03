@@ -1,0 +1,29 @@
+[ {
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/comments/341025492",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/pull/117#issuecomment-341025492",
+  "issue_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/117",
+  "id" : 341025492,
+  "user" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "created_at" : "2017-11-01T07:53:36Z",
+  "updated_at" : "2017-11-01T07:53:36Z",
+  "author_association" : "CONTRIBUTOR",
+  "body" : "把所有不是你写的代码删掉 ，主要是 example 里面的"
+} ]

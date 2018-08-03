@@ -1,0 +1,220 @@
+[ {
+  "sha" : "9e7b2ce8655b9bc8e1e27409da13856889002aee",
+  "commit" : {
+    "author" : {
+      "name" : "liangfenghan",
+      "email" : "497695176@qq.com",
+      "date" : "2017-11-01T03:01:09Z"
+    },
+    "committer" : {
+      "name" : "liangfenghan",
+      "email" : "497695176@qq.com",
+      "date" : "2017-11-01T03:01:09Z"
+    },
+    "message" : "#84 梁风函的期末作业",
+    "tree" : {
+      "sha" : "d6f2542639906c577543df6c490296e791968e0e",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/d6f2542639906c577543df6c490296e791968e0e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/9e7b2ce8655b9bc8e1e27409da13856889002aee",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9e7b2ce8655b9bc8e1e27409da13856889002aee",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9e7b2ce8655b9bc8e1e27409da13856889002aee",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9e7b2ce8655b9bc8e1e27409da13856889002aee/comments",
+  "author" : {
+    "login" : "liangfenghan",
+    "id" : 31909691,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909691?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liangfenghan",
+    "html_url" : "https://github.com/liangfenghan",
+    "followers_url" : "https://api.github.com/users/liangfenghan/followers",
+    "following_url" : "https://api.github.com/users/liangfenghan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liangfenghan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liangfenghan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liangfenghan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liangfenghan/orgs",
+    "repos_url" : "https://api.github.com/users/liangfenghan/repos",
+    "events_url" : "https://api.github.com/users/liangfenghan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liangfenghan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "liangfenghan",
+    "id" : 31909691,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909691?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liangfenghan",
+    "html_url" : "https://github.com/liangfenghan",
+    "followers_url" : "https://api.github.com/users/liangfenghan/followers",
+    "following_url" : "https://api.github.com/users/liangfenghan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liangfenghan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liangfenghan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liangfenghan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liangfenghan/orgs",
+    "repos_url" : "https://api.github.com/users/liangfenghan/repos",
+    "events_url" : "https://api.github.com/users/liangfenghan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liangfenghan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "a946e44378dc5d4fe1c9235f6527fd52e0bc810c",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a946e44378dc5d4fe1c9235f6527fd52e0bc810c",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/a946e44378dc5d4fe1c9235f6527fd52e0bc810c"
+  } ]
+}, {
+  "sha" : "9859a4d9bf4610719300b1e265d06f299825052e",
+  "commit" : {
+    "author" : {
+      "name" : "liangfenghan",
+      "email" : "497695176@qq.com",
+      "date" : "2017-11-01T03:14:55Z"
+    },
+    "committer" : {
+      "name" : "liangfenghan",
+      "email" : "497695176@qq.com",
+      "date" : "2017-11-01T03:14:55Z"
+    },
+    "message" : "sc",
+    "tree" : {
+      "sha" : "6a4040848fee9e05105220004b957c297c3313d7",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/6a4040848fee9e05105220004b957c297c3313d7"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/9859a4d9bf4610719300b1e265d06f299825052e",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9859a4d9bf4610719300b1e265d06f299825052e",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9859a4d9bf4610719300b1e265d06f299825052e",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9859a4d9bf4610719300b1e265d06f299825052e/comments",
+  "author" : {
+    "login" : "liangfenghan",
+    "id" : 31909691,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909691?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liangfenghan",
+    "html_url" : "https://github.com/liangfenghan",
+    "followers_url" : "https://api.github.com/users/liangfenghan/followers",
+    "following_url" : "https://api.github.com/users/liangfenghan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liangfenghan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liangfenghan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liangfenghan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liangfenghan/orgs",
+    "repos_url" : "https://api.github.com/users/liangfenghan/repos",
+    "events_url" : "https://api.github.com/users/liangfenghan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liangfenghan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "liangfenghan",
+    "id" : 31909691,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909691?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liangfenghan",
+    "html_url" : "https://github.com/liangfenghan",
+    "followers_url" : "https://api.github.com/users/liangfenghan/followers",
+    "following_url" : "https://api.github.com/users/liangfenghan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liangfenghan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liangfenghan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liangfenghan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liangfenghan/orgs",
+    "repos_url" : "https://api.github.com/users/liangfenghan/repos",
+    "events_url" : "https://api.github.com/users/liangfenghan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liangfenghan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9e7b2ce8655b9bc8e1e27409da13856889002aee",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9e7b2ce8655b9bc8e1e27409da13856889002aee",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9e7b2ce8655b9bc8e1e27409da13856889002aee"
+  } ]
+}, {
+  "sha" : "98c7181fa68dc855756d038b555299caecfc549c",
+  "commit" : {
+    "author" : {
+      "name" : "liangfenghan",
+      "email" : "497695176@qq.com",
+      "date" : "2017-11-01T03:22:59Z"
+    },
+    "committer" : {
+      "name" : "liangfenghan",
+      "email" : "497695176@qq.com",
+      "date" : "2017-11-01T03:22:59Z"
+    },
+    "message" : "sc1",
+    "tree" : {
+      "sha" : "7fe07a33dc8bb01f7186b4dd58c4b9ef06099227",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/7fe07a33dc8bb01f7186b4dd58c4b9ef06099227"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/98c7181fa68dc855756d038b555299caecfc549c",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/98c7181fa68dc855756d038b555299caecfc549c",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/98c7181fa68dc855756d038b555299caecfc549c",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/98c7181fa68dc855756d038b555299caecfc549c/comments",
+  "author" : {
+    "login" : "liangfenghan",
+    "id" : 31909691,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909691?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liangfenghan",
+    "html_url" : "https://github.com/liangfenghan",
+    "followers_url" : "https://api.github.com/users/liangfenghan/followers",
+    "following_url" : "https://api.github.com/users/liangfenghan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liangfenghan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liangfenghan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liangfenghan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liangfenghan/orgs",
+    "repos_url" : "https://api.github.com/users/liangfenghan/repos",
+    "events_url" : "https://api.github.com/users/liangfenghan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liangfenghan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "liangfenghan",
+    "id" : 31909691,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909691?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/liangfenghan",
+    "html_url" : "https://github.com/liangfenghan",
+    "followers_url" : "https://api.github.com/users/liangfenghan/followers",
+    "following_url" : "https://api.github.com/users/liangfenghan/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/liangfenghan/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/liangfenghan/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/liangfenghan/subscriptions",
+    "organizations_url" : "https://api.github.com/users/liangfenghan/orgs",
+    "repos_url" : "https://api.github.com/users/liangfenghan/repos",
+    "events_url" : "https://api.github.com/users/liangfenghan/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/liangfenghan/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "9859a4d9bf4610719300b1e265d06f299825052e",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9859a4d9bf4610719300b1e265d06f299825052e",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9859a4d9bf4610719300b1e265d06f299825052e"
+  } ]
+} ]

@@ -1,0 +1,74 @@
+[ {
+  "sha" : "e8a651310e09cc4d03734b49654fc79080aa163e",
+  "commit" : {
+    "author" : {
+      "name" : "CCCCJQ",
+      "email" : "747821951@qq.com",
+      "date" : "2017-11-01T09:33:23Z"
+    },
+    "committer" : {
+      "name" : "CCCCJQ",
+      "email" : "747821951@qq.com",
+      "date" : "2017-11-01T09:33:23Z"
+    },
+    "message" : "840000",
+    "tree" : {
+      "sha" : "defe08b416e172f06da11d73ee42ec3119569754",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/defe08b416e172f06da11d73ee42ec3119569754"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/e8a651310e09cc4d03734b49654fc79080aa163e",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e8a651310e09cc4d03734b49654fc79080aa163e",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/e8a651310e09cc4d03734b49654fc79080aa163e",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e8a651310e09cc4d03734b49654fc79080aa163e/comments",
+  "author" : {
+    "login" : "CCCCJQ",
+    "id" : 31909645,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909645?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/CCCCJQ",
+    "html_url" : "https://github.com/CCCCJQ",
+    "followers_url" : "https://api.github.com/users/CCCCJQ/followers",
+    "following_url" : "https://api.github.com/users/CCCCJQ/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/CCCCJQ/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/CCCCJQ/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/CCCCJQ/subscriptions",
+    "organizations_url" : "https://api.github.com/users/CCCCJQ/orgs",
+    "repos_url" : "https://api.github.com/users/CCCCJQ/repos",
+    "events_url" : "https://api.github.com/users/CCCCJQ/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/CCCCJQ/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "CCCCJQ",
+    "id" : 31909645,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909645?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/CCCCJQ",
+    "html_url" : "https://github.com/CCCCJQ",
+    "followers_url" : "https://api.github.com/users/CCCCJQ/followers",
+    "following_url" : "https://api.github.com/users/CCCCJQ/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/CCCCJQ/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/CCCCJQ/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/CCCCJQ/subscriptions",
+    "organizations_url" : "https://api.github.com/users/CCCCJQ/orgs",
+    "repos_url" : "https://api.github.com/users/CCCCJQ/repos",
+    "events_url" : "https://api.github.com/users/CCCCJQ/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/CCCCJQ/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "acf4e67dc79eb0c73aa0bd08594d25d2b42f5691",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/acf4e67dc79eb0c73aa0bd08594d25d2b42f5691",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/acf4e67dc79eb0c73aa0bd08594d25d2b42f5691"
+  } ]
+} ]

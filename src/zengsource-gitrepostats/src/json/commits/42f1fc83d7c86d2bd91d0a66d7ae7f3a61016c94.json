@@ -1,0 +1,102 @@
+{
+  "committer" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 46,
+    "additions" : 46,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+  "commit" : {
+    "author" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-27T03:38:53Z"
+    },
+    "committer" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-27T03:38:53Z"
+    },
+    "message" : "#47 第二次实验练习CSS",
+    "tree" : {
+      "sha" : "1f214bcb584fd58d587a6c98ef1000f02ccac67e",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/1f214bcb584fd58d587a6c98ef1000f02ccac67e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94/comments",
+  "files" : [ {
+    "sha" : "b818f1a126454b141587075c256cd2d844344a2b",
+    "filename" : "1517060321/style.css",
+    "status" : "added",
+    "additions" : 9,
+    "deletions" : 0,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94/1517060321/style.css",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94/1517060321/style.css",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/style.css?ref=42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+    "patch" : "@@ -0,0 +1,9 @@\n+p {\n+   \n+   size:40px; \n+   color: blue;\n+}\n+\n+.table-a {\n+\tborder:1px solid #F00\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "c0f93df70746d725bd3bfd14a9a3b114417b7e6a",
+    "filename" : "1517060321/刘朝捷.html",
+    "status" : "added",
+    "additions" : 37,
+    "deletions" : 0,
+    "changes" : 37,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94/1517060321/%E5%88%98%E6%9C%9D%E6%8D%B7.html",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94/1517060321/%E5%88%98%E6%9C%9D%E6%8D%B7.html",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/%E5%88%98%E6%9C%9D%E6%8D%B7.html?ref=42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+    "patch" : "@@ -0,0 +1,37 @@\n+<!DOCTYPE html>\n+<html>\n+<head>\n+\t<title>HELLO SPRITE.</title>\n+<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n+<style type=\"text/css\">\n+\n+</style>\n+</head>\n+<body>\n+<p>\n+WHAT'S UP.\n+</p>\n+\n+<div style=\"color: red\">实验</div>\n+\n+<div class=\"table-a\"> \n+<table width=\"400\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"> \n+<tr> \n+<td width=\"105\">站名</td> \n+<td width=\"181\">网址</td> \n+<td width=\"112\">说明</td> \n+</tr> \n+<tr> \n+<td>DIVCSS5</td> \n+<td>www.divcss5.com</td> \n+<td>CSS学习</td> \n+</tr> \n+<tr> \n+<td>CSS5</td> \n+<td>www.css5.com.cn</td> \n+<td>CSS切图</td> \n+</tr> \n+</table> \n+</div> \n+</body>\n+</html>\n\\ No newline at end of file"
+  } ],
+  "sha" : "42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+  "parents" : [ {
+    "sha" : "1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/1e74e2db241cb1fd8bced80f89f96cce8dd11f48"
+  } ]
+}

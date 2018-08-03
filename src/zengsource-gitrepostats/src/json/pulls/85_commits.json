@@ -1,0 +1,293 @@
+[ {
+  "sha" : "774e15b7f2080f96ab671824de95b73eafd1835b",
+  "commit" : {
+    "author" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-18T01:07:39Z"
+    },
+    "committer" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-18T01:07:39Z"
+    },
+    "message" : "#3",
+    "tree" : {
+      "sha" : "323884183ca71a9dead550fa5d1175351ecb60c8",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/323884183ca71a9dead550fa5d1175351ecb60c8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/774e15b7f2080f96ab671824de95b73eafd1835b",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/774e15b7f2080f96ab671824de95b73eafd1835b",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/774e15b7f2080f96ab671824de95b73eafd1835b",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/774e15b7f2080f96ab671824de95b73eafd1835b/comments",
+  "author" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "4275af0ebd957dc2c64cb9184bd8cdfeb8990456",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/4275af0ebd957dc2c64cb9184bd8cdfeb8990456",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/4275af0ebd957dc2c64cb9184bd8cdfeb8990456"
+  } ]
+}, {
+  "sha" : "37876de83d9693f6d698e5b1682faefc7e7aa4c4",
+  "commit" : {
+    "author" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-18T02:09:00Z"
+    },
+    "committer" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-18T02:09:00Z"
+    },
+    "message" : "第4次实验",
+    "tree" : {
+      "sha" : "010cb5643da839e8df5566322cdb743361d1a397",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/010cb5643da839e8df5566322cdb743361d1a397"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/37876de83d9693f6d698e5b1682faefc7e7aa4c4",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/37876de83d9693f6d698e5b1682faefc7e7aa4c4",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/37876de83d9693f6d698e5b1682faefc7e7aa4c4",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/37876de83d9693f6d698e5b1682faefc7e7aa4c4/comments",
+  "author" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "774e15b7f2080f96ab671824de95b73eafd1835b",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/774e15b7f2080f96ab671824de95b73eafd1835b",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/774e15b7f2080f96ab671824de95b73eafd1835b"
+  } ]
+}, {
+  "sha" : "d6b3f1768d1fe58897d0aa169f00750008de78d9",
+  "commit" : {
+    "author" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-18T03:39:13Z"
+    },
+    "committer" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-18T03:39:13Z"
+    },
+    "message" : "第五次试验",
+    "tree" : {
+      "sha" : "76e682e871373fec403e9959cbedfd94b60757d3",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/76e682e871373fec403e9959cbedfd94b60757d3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/d6b3f1768d1fe58897d0aa169f00750008de78d9",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d6b3f1768d1fe58897d0aa169f00750008de78d9",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d6b3f1768d1fe58897d0aa169f00750008de78d9",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d6b3f1768d1fe58897d0aa169f00750008de78d9/comments",
+  "author" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "37876de83d9693f6d698e5b1682faefc7e7aa4c4",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/37876de83d9693f6d698e5b1682faefc7e7aa4c4",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/37876de83d9693f6d698e5b1682faefc7e7aa4c4"
+  } ]
+}, {
+  "sha" : "c47c41d39892acba591333298ee9bb4db062c8a9",
+  "commit" : {
+    "author" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-25T02:12:40Z"
+    },
+    "committer" : {
+      "name" : "Mashaku",
+      "email" : "1023235387@qq.com",
+      "date" : "2017-10-25T02:12:40Z"
+    },
+    "message" : "大作业",
+    "tree" : {
+      "sha" : "75f087d9d7fe7c891cc8dd942bf703e83b04ca30",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/75f087d9d7fe7c891cc8dd942bf703e83b04ca30"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/c47c41d39892acba591333298ee9bb4db062c8a9",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/c47c41d39892acba591333298ee9bb4db062c8a9",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/c47c41d39892acba591333298ee9bb4db062c8a9",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/c47c41d39892acba591333298ee9bb4db062c8a9/comments",
+  "author" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Mashaku",
+    "id" : 31909391,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909391?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Mashaku",
+    "html_url" : "https://github.com/Mashaku",
+    "followers_url" : "https://api.github.com/users/Mashaku/followers",
+    "following_url" : "https://api.github.com/users/Mashaku/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Mashaku/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Mashaku/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Mashaku/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Mashaku/orgs",
+    "repos_url" : "https://api.github.com/users/Mashaku/repos",
+    "events_url" : "https://api.github.com/users/Mashaku/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Mashaku/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "d6b3f1768d1fe58897d0aa169f00750008de78d9",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/d6b3f1768d1fe58897d0aa169f00750008de78d9",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d6b3f1768d1fe58897d0aa169f00750008de78d9"
+  } ]
+} ]

@@ -1,0 +1,396 @@
+{
+  "committer" : {
+    "login" : "azx2438201",
+    "id" : 26477866,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477866?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/azx2438201",
+    "html_url" : "https://github.com/azx2438201",
+    "followers_url" : "https://api.github.com/users/azx2438201/followers",
+    "following_url" : "https://api.github.com/users/azx2438201/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/azx2438201/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/azx2438201/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/azx2438201/subscriptions",
+    "organizations_url" : "https://api.github.com/users/azx2438201/orgs",
+    "repos_url" : "https://api.github.com/users/azx2438201/repos",
+    "events_url" : "https://api.github.com/users/azx2438201/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/azx2438201/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 1566,
+    "additions" : 1566,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "azx2438201",
+    "id" : 26477866,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477866?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/azx2438201",
+    "html_url" : "https://github.com/azx2438201",
+    "followers_url" : "https://api.github.com/users/azx2438201/followers",
+    "following_url" : "https://api.github.com/users/azx2438201/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/azx2438201/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/azx2438201/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/azx2438201/subscriptions",
+    "organizations_url" : "https://api.github.com/users/azx2438201/orgs",
+    "repos_url" : "https://api.github.com/users/azx2438201/repos",
+    "events_url" : "https://api.github.com/users/azx2438201/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/azx2438201/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+  "commit" : {
+    "author" : {
+      "name" : "azx2438201",
+      "email" : "986707900@qq.com",
+      "date" : "2017-11-01T03:34:31Z"
+    },
+    "committer" : {
+      "name" : "azx2438201",
+      "email" : "986707900@qq.com",
+      "date" : "2017-11-01T03:34:31Z"
+    },
+    "message" : "#84 #100 期末作业：微信小闹钟",
+    "tree" : {
+      "sha" : "97fae86a62b0d80ec37e7d9be75c9189a83de958",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/97fae86a62b0d80ec37e7d9be75c9189a83de958"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/comments",
+  "files" : [ {
+    "sha" : "8dada3edaf50dbc082c9a125058f25def75e625a",
+    "filename" : "1517010108/wechatApp-master/LICENSE",
+    "status" : "added",
+    "additions" : 201,
+    "deletions" : 0,
+    "changes" : 201,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/LICENSE",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/LICENSE",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/LICENSE?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,201 @@\n+                                 Apache License\n+                           Version 2.0, January 2004\n+                        http://www.apache.org/licenses/\n+\n+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n+\n+   1. Definitions.\n+\n+      \"License\" shall mean the terms and conditions for use, reproduction,\n+      and distribution as defined by Sections 1 through 9 of this document.\n+\n+      \"Licensor\" shall mean the copyright owner or entity authorized by\n+      the copyright owner that is granting the License.\n+\n+      \"Legal Entity\" shall mean the union of the acting entity and all\n+      other entities that control, are controlled by, or are under common\n+      control with that entity. For the purposes of this definition,\n+      \"control\" means (i) the power, direct or indirect, to cause the\n+      direction or management of such entity, whether by contract or\n+      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n+      outstanding shares, or (iii) beneficial ownership of such entity.\n+\n+      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n+      exercising permissions granted by this License.\n+\n+      \"Source\" form shall mean the preferred form for making modifications,\n+      including but not limited to software source code, documentation\n+      source, and configuration files.\n+\n+      \"Object\" form shall mean any form resulting from mechanical\n+      transformation or translation of a Source form, including but\n+      not limited to compiled object code, generated documentation,\n+      and conversions to other media types.\n+\n+      \"Work\" shall mean the work of authorship, whether in Source or\n+      Object form, made available under the License, as indicated by a\n+      copyright notice that is included in or attached to the work\n+      (an example is provided in the Appendix below).\n+\n+      \"Derivative Works\" shall mean any work, whether in Source or Object\n+      form, that is based on (or derived from) the Work and for which the\n+      editorial revisions, annotations, elaborations, or other modifications\n+      represent, as a whole, an original work of authorship. For the purposes\n+      of this License, Derivative Works shall not include works that remain\n+      separable from, or merely link (or bind by name) to the interfaces of,\n+      the Work and Derivative Works thereof.\n+\n+      \"Contribution\" shall mean any work of authorship, including\n+      the original version of the Work and any modifications or additions\n+      to that Work or Derivative Works thereof, that is intentionally\n+      submitted to Licensor for inclusion in the Work by the copyright owner\n+      or by an individual or Legal Entity authorized to submit on behalf of\n+      the copyright owner. For the purposes of this definition, \"submitted\"\n+      means any form of electronic, verbal, or written communication sent\n+      to the Licensor or its representatives, including but not limited to\n+      communication on electronic mailing lists, source code control systems,\n+      and issue tracking systems that are managed by, or on behalf of, the\n+      Licensor for the purpose of discussing and improving the Work, but\n+      excluding communication that is conspicuously marked or otherwise\n+      designated in writing by the copyright owner as \"Not a Contribution.\"\n+\n+      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n+      on behalf of whom a Contribution has been received by Licensor and\n+      subsequently incorporated within the Work.\n+\n+   2. Grant of Copyright License. Subject to the terms and conditions of\n+      this License, each Contributor hereby grants to You a perpetual,\n+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n+      copyright license to reproduce, prepare Derivative Works of,\n+      publicly display, publicly perform, sublicense, and distribute the\n+      Work and such Derivative Works in Source or Object form.\n+\n+   3. Grant of Patent License. Subject to the terms and conditions of\n+      this License, each Contributor hereby grants to You a perpetual,\n+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n+      (except as stated in this section) patent license to make, have made,\n+      use, offer to sell, sell, import, and otherwise transfer the Work,\n+      where such license applies only to those patent claims licensable\n+      by such Contributor that are necessarily infringed by their\n+      Contribution(s) alone or by combination of their Contribution(s)\n+      with the Work to which such Contribution(s) was submitted. If You\n+      institute patent litigation against any entity (including a\n+      cross-claim or counterclaim in a lawsuit) alleging that the Work\n+      or a Contribution incorporated within the Work constitutes direct\n+      or contributory patent infringement, then any patent licenses\n+      granted to You under this License for that Work shall terminate\n+      as of the date such litigation is filed.\n+\n+   4. Redistribution. You may reproduce and distribute copies of the\n+      Work or Derivative Works thereof in any medium, with or without\n+      modifications, and in Source or Object form, provided that You\n+      meet the following conditions:\n+\n+      (a) You must give any other recipients of the Work or\n+          Derivative Works a copy of this License; and\n+\n+      (b) You must cause any modified files to carry prominent notices\n+          stating that You changed the files; and\n+\n+      (c) You must retain, in the Source form of any Derivative Works\n+          that You distribute, all copyright, patent, trademark, and\n+          attribution notices from the Source form of the Work,\n+          excluding those notices that do not pertain to any part of\n+          the Derivative Works; and\n+\n+      (d) If the Work includes a \"NOTICE\" text file as part of its\n+          distribution, then any Derivative Works that You distribute must\n+          include a readable copy of the attribution notices contained\n+          within such NOTICE file, excluding those notices that do not\n+          pertain to any part of the Derivative Works, in at least one\n+          of the following places: within a NOTICE text file distributed\n+          as part of the Derivative Works; within the Source form or\n+          documentation, if provided along with the Derivative Works; or,\n+          within a display generated by the Derivative Works, if and\n+          wherever such third-party notices normally appear. The contents\n+          of the NOTICE file are for informational purposes only and\n+          do not modify the License. You may add Your own attribution\n+          notices within Derivative Works that You distribute, alongside\n+          or as an addendum to the NOTICE text from the Work, provided\n+          that such additional attribution notices cannot be construed\n+          as modifying the License.\n+\n+      You may add Your own copyright statement to Your modifications and\n+      may provide additional or different license terms and conditions\n+      for use, reproduction, or distribution of Your modifications, or\n+      for any such Derivative Works as a whole, provided Your use,\n+      reproduction, and distribution of the Work otherwise complies with\n+      the conditions stated in this License.\n+\n+   5. Submission of Contributions. Unless You explicitly state otherwise,\n+      any Contribution intentionally submitted for inclusion in the Work\n+      by You to the Licensor shall be under the terms and conditions of\n+      this License, without any additional terms or conditions.\n+      Notwithstanding the above, nothing herein shall supersede or modify\n+      the terms of any separate license agreement you may have executed\n+      with Licensor regarding such Contributions.\n+\n+   6. Trademarks. This License does not grant permission to use the trade\n+      names, trademarks, service marks, or product names of the Licensor,\n+      except as required for reasonable and customary use in describing the\n+      origin of the Work and reproducing the content of the NOTICE file.\n+\n+   7. Disclaimer of Warranty. Unless required by applicable law or\n+      agreed to in writing, Licensor provides the Work (and each\n+      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n+      implied, including, without limitation, any warranties or conditions\n+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n+      PARTICULAR PURPOSE. You are solely responsible for determining the\n+      appropriateness of using or redistributing the Work and assume any\n+      risks associated with Your exercise of permissions under this License.\n+\n+   8. Limitation of Liability. In no event and under no legal theory,\n+      whether in tort (including negligence), contract, or otherwise,\n+      unless required by applicable law (such as deliberate and grossly\n+      negligent acts) or agreed to in writing, shall any Contributor be\n+      liable to You for damages, including any direct, indirect, special,\n+      incidental, or consequential damages of any character arising as a\n+      result of this License or out of the use or inability to use the\n+      Work (including but not limited to damages for loss of goodwill,\n+      work stoppage, computer failure or malfunction, or any and all\n+      other commercial damages or losses), even if such Contributor\n+      has been advised of the possibility of such damages.\n+\n+   9. Accepting Warranty or Additional Liability. While redistributing\n+      the Work or Derivative Works thereof, You may choose to offer,\n+      and charge a fee for, acceptance of support, warranty, indemnity,\n+      or other liability obligations and/or rights consistent with this\n+      License. However, in accepting such obligations, You may act only\n+      on Your own behalf and on Your sole responsibility, not on behalf\n+      of any other Contributor, and only if You agree to indemnify,\n+      defend, and hold each Contributor harmless for any liability\n+      incurred by, or claims asserted against, such Contributor by reason\n+      of your accepting any such warranty or additional liability.\n+\n+   END OF TERMS AND CONDITIONS\n+\n+   APPENDIX: How to apply the Apache License to your work.\n+\n+      To apply the Apache License to your work, attach the following\n+      boilerplate notice, with the fields enclosed by brackets \"{}\"\n+      replaced with your own identifying information. (Don't include\n+      the brackets!)  The text should be enclosed in the appropriate\n+      comment syntax for the file format. We also recommend that a\n+      file or class name and description of purpose be included on the\n+      same \"printed page\" as the copyright notice for easier\n+      identification within third-party archives.\n+\n+   Copyright {yyyy} {name of copyright owner}\n+\n+   Licensed under the Apache License, Version 2.0 (the \"License\");\n+   you may not use this file except in compliance with the License.\n+   You may obtain a copy of the License at\n+\n+       http://www.apache.org/licenses/LICENSE-2.0\n+\n+   Unless required by applicable law or agreed to in writing, software\n+   distributed under the License is distributed on an \"AS IS\" BASIS,\n+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n+   See the License for the specific language governing permissions and\n+   limitations under the License."
+  }, {
+    "sha" : "693bfc953d78c2ebe8065cc46d9c93d2b20225b6",
+    "filename" : "1517010108/wechatApp-master/app.js",
+    "status" : "added",
+    "additions" : 100,
+    "deletions" : 0,
+    "changes" : 100,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/app.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/app.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/app.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,100 @@\n+//app.js\n+App({\n+  Session:null,\n+\n+  onLaunch: function () {\n+    //调用API从本地缓存中获取数据\n+    var that=this;\n+    var logs = wx.getStorageSync('logs') || []\n+    logs.unshift(Date.now())\n+    wx.setStorageSync('logs', logs)\n+\n+    wx.login({\n+      success:function(res){\n+        if(res.code){\n+          //发起网络请求\n+          wx.request({\n+            url: 'https://infoaas.com/data/hzc.json', \n+            data:{\n+              code:res.code\n+            },\n+            success:function(json){\n+              //本地缓存session\n+              wx.setStorage({\n+                key:\"session\",\n+                data:json.data.session\n+              }); \n+              wx.getStorage({\n+                key: 'session',\n+                success: function(res) {\n+                    that.Session = res.data\n+                } \n+              })\n+\n+              wx.getUserInfo({\n+                success: function(res) {\n+                  var userInfo = res.userInfo\n+                  var nickName = userInfo.nickName\n+                  var avatarUrl = userInfo.avatarUrl\n+                  var gender = userInfo.gender //性别 0：未知、1：男、2：女 \n+                  var province = userInfo.province\n+                  var city = userInfo.city\n+                  var country = userInfo.country\n+                  console.log(res.userInfo)\n+                  //把用户信息给后台发送过去\n+                  wx.request({\n+                    url:'https://infoaas.com/data/hzc.json',\n+                  \n+                    method:'get',\n+                    data: {\n+                     nick_name:nickName ,\n+                     gender: gender,\n+                     head_img:avatarUrl,\n+                     country:country,\n+                     province:province,\n+                     city:city\n+                    },\n+                    header: {\n+                        'content-type': 'application/json'\n+                    },\n+                    success: function(res) {\n+                      console.log(res.data)\n+                    }\n+                  })\n+                }\n+              })\n+            }\n+          })\n+        }else{\n+          console.log(\"获取用户登录态失败！\" + res.errMsg);\n+        }\n+      }\n+    });  \n+  },\n+  getUserInfo:function(cb){\n+    var that = this;\n+   \n+    if(this.globalData.userInfo){\n+      typeof cb == \"function\" && cb(this.globalData.userInfo)\n+    }else{\n+      //调用登录接口\n+      wx.login({\n+        success: function () {\n+          wx.getUserInfo({\n+            success: function (res) {\n+              that.globalData.userInfo = res.userInfo;\n+              typeof cb == \"function\" && cb(that.globalData.userInfo);\n+\n+              \n+\n+            }\n+          })\n+        }\n+      })\n+    }\n+  },\n+  globalData:{\n+    userInfo:null\n+  }\n+})\n+"
+  }, {
+    "sha" : "129ec574f11aba6272de7b4cac174b181cb49197",
+    "filename" : "1517010108/wechatApp-master/app.json",
+    "status" : "added",
+    "additions" : 25,
+    "deletions" : 0,
+    "changes" : 25,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/app.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/app.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/app.json?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,25 @@\n+{\n+  \"pages\":[\n+    \"pages/clock/clock\",\n+    \"pages/index/index\"\n+],\n+  \"window\":{\n+    \"backgroundTextStyle\":\"light\",\n+    \"navigationBarBackgroundColor\": \"#1b1b1f\",\n+    \"navigationBarTitleText\": \"首页\",\n+    \"navigationBarTextStyle\":\"#fff\"\n+  },\n+  \"tabBar\": {\n+    \"list\": [{\n+      \"pagePath\": \"pages/clock/clock\",\n+      \"text\": \"闹钟\"     \n+    }, {\n+      \"pagePath\": \"pages/index/index\",\n+      \"text\": \"语音闹钟(不完善)\"   \n+    }],\n+    \"backgroundColor\":\"#f8f8f8\",\n+    \"borderStyle\":\"white\",\n+    \"selectedColor\":\"#12bd10\"\n+  }\n+  \n+}"
+  }, {
+    "sha" : "23312e67ee4234861e1471b82cafd95cf79175d0",
+    "filename" : "1517010108/wechatApp-master/app.wxss",
+    "status" : "added",
+    "additions" : 15,
+    "deletions" : 0,
+    "changes" : 15,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/app.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/app.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/app.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,15 @@\n+/**app.wxss**/\n+.container {\n+  height: 100%;\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding: 200rpx 0;\n+  box-sizing: border-box;\n+} \n+page{\n+    width:100%;\n+    height:100%;\n+    background:#f1f0f6;\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "034899759fcea8acf87c1ca8630a55a10e2d784e",
+    "filename" : "1517010108/wechatApp-master/image/renwu.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/image/renwu.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/image/renwu.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/image/renwu.jpg?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62"
+  }, {
+    "sha" : "1eefaf346c9397fd170b816a2c959c62b85c6948",
+    "filename" : "1517010108/wechatApp-master/image/timg.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/image/timg.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/image/timg.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/image/timg.jpg?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62"
+  }, {
+    "sha" : "310e51e1110b7c19c7ab613b1fe705e4fa20ac52",
+    "filename" : "1517010108/wechatApp-master/pages/.DS_Store",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/.DS_Store",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/.DS_Store",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/.DS_Store?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62"
+  }, {
+    "sha" : "491a3c57afefa2153c14e1a7a98ff4b705d00eb2",
+    "filename" : "1517010108/wechatApp-master/pages/clock/clock.js",
+    "status" : "added",
+    "additions" : 184,
+    "deletions" : 0,
+    "changes" : 184,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/clock/clock.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,184 @@\n+var util = require('../../utils/util.js')\n+var app = getApp();\n+Page({\n+  data: {\n+    reminder:[\n+      {\n+        name:'clock',\n+        imgo:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509443062529&di=e76b4b280fde667e58ae4d733b1b6771&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F21%2F12%2F16pic_2112052_b.jpg',\n+        content_state_left:{data1:'7:00',data2:'闹钟'},\n+        content_state_center:{\n+          remind1:'主人,该起床了',\n+          remind2:'每天'\n+        }  \n+      },{\n+        name:'dinner',\n+        imgo:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509443062529&di=e76b4b280fde667e58ae4d733b1b6771&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F21%2F12%2F16pic_2112052_b.jpg',\n+        content_state_left:{data1:'8:00',data2:'闹钟'},\n+        content_state_center:{\n+          remind1:'主人，吃早餐了',\n+          remind2:'每天'\n+          }\n+      },{\n+        name:'drink',\n+        imgo:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509443062529&di=e76b4b280fde667e58ae4d733b1b6771&imgtype=0&src=http%3A%2F%2Fpic2.16pic.com%2F00%2F21%2F12%2F16pic_2112052_b.jpg',\n+        content_state_left:{data1:'8:30',data2:'闹钟'},\n+        content_state_center:{\n+          remind1:'主人，上课了',\n+          remind2:'每天'\n+        }\n+      }\n+    ],\n+    sendicon:'icon-audio',\n+    arrow:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509443034486&di=94407855732b27db259a944ccf39942f&imgtype=0&src=http%3A%2F%2Fwww.feizl.com%2Fupload2007%2F2012_12%2F121229020751719.jpg',\n+    voice:{\n+    }\n+  },\n+  //语音与输入切换\n+  changeico:function(){\n+    \n+    if(this.data.sendicon=='icon-audio'){\n+        this.setData({\n+          sendicon:'icon-jianpan',\n+          ipt:false\n+        })\n+    }else{\n+        this.setData({\n+          sendicon:'icon-audio',\n+          ipt:true\n+        })\n+    }\n+  },\n+  onReady:function(){\n+    console.log(\"取去到的：\"+app.Session)\n+    var _that=this;\n+    var compare=null;\n+    wx.request({\n+      url: 'https://infoaas.com/data/hzc.json',\n+      \n+      method:'get',\n+      data: {\n+        session:app.Session\n+      },\n+      header:{\n+          \"Content-Type\":\"application/json\"\n+      },\n+      success: function(res) {\n+        var arr=[];\n+        var Millisecond=[];//毫秒\n+        var pxh=[];//排序后\n+        var data = res.data;\n+        console.log(data);\n+        for(var i=0;i<3;i++){\n+          arr.push(data[i].remind_date+' '+data[i].remind_time)\n+        }\n+        console.log(arr)\n+        for(var i=0;i<arr.length;i++){\n+          Millisecond.push(new Date(arr[i]).getTime()); //得到毫秒数\n+        }\n+        Millisecond.sort(function(a,b){                 //sort排序\n+            return a-b;            \n+        });       \n+\n+        console.log(Millisecond);\n+        for(var i=0;i<Millisecond.length; i++){\n+          pxh.push(util.getLocalTime(Millisecond[i]).slice(9,17))\n+        }\n+        //console.log(util.getLocalTime(1293072805))1480392000000\n+        \n+\n+        _that.setData({\n+          ['reminder[0].content_state_left.data1']: pxh[0],\n+          ['reminder[0].content_state_left.data2']: '闹钟',\n+          ['reminder[0].content_state_center.remind1']: data[0].remind_content,\n+          ['reminder[0].content_state_center.remind2']: '每天',\n+\n+          ['reminder[1].content_state_left.data1']: pxh[1],\n+          ['reminder[1].content_state_left.data2']: '闹钟',\n+          ['reminder[1].content_state_center.remind1']: data[1].remind_content,\n+          ['reminder[1].content_state_center.remind2']: '每天',\n+\n+          ['reminder[2].content_state_left.data1']: pxh[2],\n+          ['reminder[2].content_state_left.data2']: '闹钟',\n+          ['reminder[2].content_state_center.remind1']: data[1].remind_content,\n+          ['reminder[2].content_state_center.remind2']: '每天',\n+        })\n+      }\n+    });\n+  },\n+   toast1:function() {\n+    wx.navigateTo({\n+      url: '../breakfast/breakfast'\n+    })\n+   },\n+   toast2:function() {\n+    wx.navigateTo({\n+      url: '../work/work'\n+    })\n+   },\n+   water_one:function() {\n+    wx.navigateTo({\n+      url: '../water_one/water_one'\n+    })\n+   },\n+   toastz:function() {\n+    wx.navigateTo({\n+      url: '../lunch/lunch'\n+    })\n+   },\n+   toastw:function() {\n+    wx.navigateTo({\n+      url: '../dinner/dinner'\n+    })\n+   },\n+   water_two:function() {\n+    wx.navigateTo({\n+      url: '../water_two/water_two'\n+    })\n+   },\n+   water_three:function() {\n+    wx.navigateTo({\n+      url: '../water_three/water_three'\n+    })\n+   },\n+   water_four:function() {\n+    wx.navigateTo({\n+      url: '../water_four/water_four'\n+    })\n+   },\n+   water_five:function() {\n+    wx.navigateTo({\n+      url: '../water_five/water_five'\n+    })\n+   },\n+   water_six:function() {\n+    wx.navigateTo({\n+      url: '../water_six/water_six'\n+    })\n+   },\n+   water_seven:function() {\n+    wx.navigateTo({\n+      url: '../water_seven/water_seven'\n+    })\n+   },\n+   water_eight:function() {\n+    wx.navigateTo({\n+      url: '../water_eight/water_eight'\n+    })\n+   },\n+   send_quotation:function() {\n+    wx.navigateTo({\n+      url: '../send_quotation/send_quotation'\n+    })\n+   },\n+   face_bow:function() {\n+    wx.navigateTo({\n+      url: '../face_bow/face_bow'\n+    })\n+   },\n+   Customer:function() {\n+    wx.navigateTo({\n+      url: '../Customer/Customer'\n+    })\n+   }\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "9d202813ac52efc50212130f2154a6650eac3697",
+    "filename" : "1517010108/wechatApp-master/pages/clock/clock.json",
+    "status" : "added",
+    "additions" : 3,
+    "deletions" : 0,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/clock/clock.json?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,3 @@\n+{\n+    \"navigationBarTitleText\": \"微信小闹钟\"\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "6307ccd48353d0715817095716a550d073a032f5",
+    "filename" : "1517010108/wechatApp-master/pages/clock/clock.wxml",
+    "status" : "added",
+    "additions" : 44,
+    "deletions" : 0,
+    "changes" : 44,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/clock/clock.wxml?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,44 @@\n+<page>\n+<view class=\"main\">\n+   <text class=\"clock\">闹钟提醒</text>\n+   <scroll-view scroll-y=\"true\" class=\"content\">\n+      <block wx:for-items=\"{{reminder}}\" wx:for-item=\"reminder_list\">\n+        <view class=\"content_state\">\n+            <image class=\"img\" src=\"{{reminder_list.imgo}}\" >\n+            </image>\n+            <view class=\"content_state_left\">\n+                <text class=\"data\">{{reminder_list.content_state_left.data1}}</text>\n+                <text class=\"alarm_clock\">{{reminder_list.content_state_left.data2}}</text>\n+            </view>\n+             <view class=\"content_state_center\">\n+                <text class=\"remind\">{{reminder_list.content_state_center.remind1}}</text>\n+                <text class=\"every\">{{reminder_list.content_state_center.remind2}}</text>\n+            </view> \n+             <view class=\"content_state_right\">\n+                <image class=\"arrow\" src=\"{{arrow}}\"></image>\n+             </view>           \n+        </view>\n+      </block>\n+   </scroll-view>\n+   \n+   <scroll-view scroll-y=\"true\" class=\"footer\">\n+        <image class=\"voice\" src=\"{{voice.imgo}}\"></image>\n+        <view class=\"longen\">\n+            <text class=\"voice_o\"></text>\n+            <text class=\"voice_t\"></text>\n+            <text class=\"text\"></text>\n+        </view>\n+        <view class='send'>\n+            <text class=' iconfont {{sendicon}}' bindtap=\"changeico\"></text>\n+            <view class='cotent' >\n+                <input wx:if=\"{{ipt}}\" bindchange='speakchange'/>\n+                <button type=\"default\" bindtouchstart=\"audiostart\"\n+                bindtouchend=\"audioend\" class=\"btn\" wx:if=\"{{!ipt}}\">\n+                按住说话\n+                </button>\n+            </view>\n+            <image src=\"{{jia}}\" bindtap=\"dosend\" class=\"go\"></image>\n+        </view>  \n+   </scroll-view> \n+</view>\n+</page>\n\\ No newline at end of file"
+  }, {
+    "sha" : "c6265980cae149c48aedcdbf99264b02b37f3081",
+    "filename" : "1517010108/wechatApp-master/pages/clock/clock.wxss",
+    "status" : "added",
+    "additions" : 180,
+    "deletions" : 0,
+    "changes" : 180,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/clock.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/clock/clock.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,180 @@\n+@import 'iconfont.wxss';\n+.main{\n+    width:90%;\n+    margin:0 auto;\n+}\n+.clock{\n+    font-size:40rpx;\n+    font-family:'微软雅黑';\n+    color:#161616;\n+    margin-top:40rpx;\n+    display:inline-block;\n+}\n+.content{\n+    width:100%;\n+    height:430rpx;\n+    border:1px solid #c2c2c2;\n+    border-bottom:none;\n+    border-radius:10rpx;\n+    margin-top:30rpx;\n+    background:#f7f7f7;\n+}\n+.remind{\n+    width:100%;\n+    height:200rpx;\n+    display:inline-block;\n+}\n+.content_state{\n+    width:100%;\n+    height:80rpx;\n+    padding:30rpx 20rpx;    \n+    border-bottom:1px solid #c2c2c2;\n+}\n+.img{\n+    float:left;\n+    width:80rpx;\n+    height:80rpx;\n+}\n+.content_state_left{\n+    float:left;\n+    width:140rpx;\n+    height:100rpx;\n+    margin-left:20rpx;\n+    color:#565656;\n+    font-family:'微软雅黑';\n+    font-size:30rpx;\n+}\n+.data{\n+    display:inline-block;\n+    margin-top:-5rpx;\n+}\n+.alarm_clock{\n+    display:inline-block;\n+    margin-top:-5rpx;\n+}\n+.content_state_center{\n+    float:left;\n+    width:350rpx;\n+    height:140rpx;\n+    margin-left:20rpx;\n+    font-family:'微软雅黑';\n+    margin-top:-3rpx;\n+}\n+.content_state_center .remind,.every{\n+    display:block;\n+    width:340rpx;\n+    height:60rpx;\n+}\n+.content_state_center .remind{\n+    margin-top:7rpx;\n+    font-size:30rpx;\n+    color:#1b1b1b;\n+}\n+.content_state_center .every{\n+    color:#565656;\n+    font-size:25rpx;\n+    margin-top:-12rpx;\n+}\n+.arrow{\n+    width:30rpx;\n+    height:45rpx;\n+    margin-top:25rpx;\n+    margin-left:-16rpx;\n+}\n+.footer{\n+    width:100%;\n+    height:555rpx;\n+    margin-top:20rpx;\n+    border:1px solid #c2c2c2;\n+    border-radius:10rpx;\n+}\n+.voice{\n+    position:absolute;\n+    top:20rpx;\n+    left:20rpx;\n+    width:80rpx;\n+    height:80rpx;\n+    \n+}\n+.longen {\n+    display:inline-block;\n+    position:absolute;\n+    top:25rpx;\n+    left:120rpx;\n+    width:450rpx;\n+    height:150rpx;\n+    border:1rpx solid #c2c2c2; \n+    border-radius: 8rpx;  \n+} \n+.longen .text{\n+    display:inline-block;   \n+    width:100%;\n+    height:100%;\n+    word-wrap:break-word; \n+    word-break:break-all; \n+    overflow: hidden;\n+}\n+.longen .voice_o{\n+    display:inline-block;\n+    position:absolute;\n+    left:-30rpx;\n+    top:15rpx;\n+    border-width:15rpx;\n+    border-style:solid dashed dashed;\n+    border-color:transparent #c2c2c2 transparent transparent;\n+    font-size:0; \n+    line-height:0;\n+}\n+.longen .voice_t{ \n+    position:absolute;\n+    left:-28rpx;\n+    top:15rpx;\n+    display:inline-block;\n+    border-width:15rpx;\n+    border-style:solid dashed dashed;\n+    border-color:transparent #f1f0f6 transparent transparent;\n+    font-size:0; \n+    line-height:0;\n+}\n+.send{\n+    position: absolute;\n+    bottom: 0;\n+    background-color:#f4f4f4;\n+    width: 100%;\n+    line-height: 90rpx;\n+    padding:0 5% ;\n+    border: #c2c2c2 solid 1px;\n+    border-left:none;\n+    border-right:none; \n+    border-bottom:none; \n+    border-radius:6rpx;\n+}\n+.cotent{\n+    display:inline-block;\n+    width: 70%;\n+    margin-left:4%;\n+    margin-top: 35rpx; \n+    border-radius:6rpx;\n+    background-color:white;\n+    width:400rpx;\n+}\n+.btn{\n+    line-height: 60rpx;\n+    width:400rpx;\n+}\n+.go{\n+    width:60rpx;\n+    height:60rpx;\n+    margin-left:30rpx;\n+}\n+.fasong{\n+    width:25%;\n+    float:left;\n+    text-align:center;\n+}\n+.fasongbtn{\n+    font-size:20rpx;\n+    width:70%; \n+    height:80rpx;\n+    line-height:80rpx\n+}"
+  }, {
+    "sha" : "afd1d42a0cf9fc10b2a2d8fbcfe91f4db6d78a18",
+    "filename" : "1517010108/wechatApp-master/pages/clock/iconfont.wxss",
+    "status" : "added",
+    "additions" : 21,
+    "deletions" : 0,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/iconfont.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/clock/iconfont.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/clock/iconfont.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,21 @@\n+\n+@font-face {\n+  font-family: \"iconfont\";\n+  src: url('//at.alicdn.com/t/font_vo10yre1aillerk9.eot?t=1479703427946'); /* IE9*/\n+  src: url('//at.alicdn.com/t/font_vo10yre1aillerk9.eot?t=1479703427946#iefix') format('embedded-opentype'), /* IE6-IE8 */\n+  url('//at.alicdn.com/t/font_vo10yre1aillerk9.woff?t=1479703427946') format('woff'), /* chrome, firefox */\n+  url('//at.alicdn.com/t/font_vo10yre1aillerk9.ttf?t=1479703427946') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/\n+  url('//at.alicdn.com/t/font_vo10yre1aillerk9.svg?t=1479703427946#iconfont') format('svg'); /* iOS 4.1- */\n+}\n+.iconfont {\n+  font-family:\"iconfont\" !important;\n+  font-size:35px;\n+  font-style:normal;\n+  -webkit-font-smoothing: antialiased;\n+  -webkit-text-stroke-width: 0.2px;\n+  -moz-osx-font-smoothing: grayscale;\n+}\n+\n+.icon-jianpan:before { content: \"\\e634\"; }\n+\n+.icon-audio:before { content: \"\\e670\"; }"
+  }, {
+    "sha" : "67fe8a8fac5b02180d48e90dee84016ecdb88294",
+    "filename" : "1517010108/wechatApp-master/pages/index/iconfont.wxss",
+    "status" : "added",
+    "additions" : 21,
+    "deletions" : 0,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/iconfont.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/iconfont.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/index/iconfont.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,21 @@\n+\n+@font-face {font-family: \"iconfont\";\n+  src: url('//at.alicdn.com/t/font_vo10yre1aillerk9.eot?t=1479703427946'); /* IE9*/\n+  src: url('//at.alicdn.com/t/font_vo10yre1aillerk9.eot?t=1479703427946#iefix') format('embedded-opentype'), /* IE6-IE8 */\n+  url('//at.alicdn.com/t/font_vo10yre1aillerk9.woff?t=1479703427946') format('woff'), /* chrome, firefox */\n+  url('//at.alicdn.com/t/font_vo10yre1aillerk9.ttf?t=1479703427946') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/\n+  url('//at.alicdn.com/t/font_vo10yre1aillerk9.svg?t=1479703427946#iconfont') format('svg'); /* iOS 4.1- */\n+}\n+\n+.iconfont {\n+  font-family:\"iconfont\" !important;\n+  font-size:40px;\n+  font-style:normal;\n+  -webkit-font-smoothing: antialiased;\n+  -webkit-text-stroke-width: 0.2px;\n+  -moz-osx-font-smoothing: grayscale;\n+}\n+\n+.icon-jianpan:before { content: \"\\e634\"; }\n+\n+.icon-audio:before { content: \"\\e670\"; }"
+  }, {
+    "sha" : "f871d35b78e31036d782ee6d7805bcf43731ac8d",
+    "filename" : "1517010108/wechatApp-master/pages/index/index.js",
+    "status" : "added",
+    "additions" : 343,
+    "deletions" : 0,
+    "changes" : 343,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/index/index.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,343 @@\n+var app = getApp();\n+var sp='';\n+var tem='';\n+var ajax=[];\n+var speakarr=[\n+        {name:\"me\",   say:\"今天一起去看电影吧\",path:'',model:''},\n+        {name:\"other\",say:\"不要\",path:'',model:''}\n+ ];\n+\n+//专为闹闹钟确定设计的变量\n+var alertData={\n+    remind_date:'',\n+    remind_time:'',\n+    remind_content:''\n+};\n+\n+//为闹钟计算存在的全局变量\n+var alertJs={\n+    id_notice:'',\n+    prior_notice:'',\n+    repeat_notice:''\n+};\n+\n+Page({\n+  //页面初始化数据\n+  data: { \n+      prior_notice: ['不提醒','5分钟', '10分钟', '15分钟'],\n+      prior_notice_index:0,\n+      Repeat_notice: [ '不重复','2次', '3次'],\n+      Repeat_notice_index:0,\n+      head_other: 'http://v1.qzone.cc/avatar/201407/01/12/53/53b23ebb14c27312.jpg%21200x200.jpg',\n+      head_me: 'http://p1.gexing.com/G1/M00/C7/73/rBACE1IgR_PBIieMAAAfAWtb1fA891_200x200_3.jpg',\n+      speak:speakarr,\n+      sendicon:'icon-audio',\n+      ipt:true,\n+      clear:'',\n+      scrollTop:'10000',\n+      alert:'http://p1.bqimg.com/580164/ad0d89583b4c13d3t.jpg',\n+      select:'http://p1.bqimg.com/580164/a8bd6a89f2cc98aat.jpg',\n+      clockSave:\"确定\"\n+  },\n+//提前时间下拉框\n+  bindNoticeChange: function(e) {\n+    alertJs.prior_notice=e.detail.value;\n+    console.log('picker发送选择改变，携带值为', e.detail.value)\n+    this.setData({\n+      prior_notice_index: e.detail.value\n+    })\n+  },\n+\n+  //重复次数下拉框\n+  bindRepeatChange: function(e) {\n+    alertJs.repeat_notice=e.detail.value;\n+    console.log('picker发送选择改变，携带值为', e.detail.value)\n+    this.setData({\n+     Repeat_notice_index: e.detail.value\n+    })\n+  },\n+\n+  //调用自己微信头像\n+  bindViewTap: function() {\n+    wx.navigateTo({\n+      url: '../logs/logs'\n+    })\n+  },\n+  onLoad: function () {\n+    var that = this\n+    app.getUserInfo(function(userInfo){\n+      that.setData({\n+        userInfo:userInfo\n+      })\n+    })\n+  },\n+\n+\n+//语音与输入切换\n+  changeico:function(){\n+    if(this.data.sendicon=='icon-audio'){\n+        this.setData({\n+          sendicon:'icon-jianpan',\n+          ipt:false\n+        })\n+    }else{\n+        this.setData({\n+          sendicon:'icon-audio',\n+          ipt:true\n+        })\n+    }\n+  },\n+\n+//输入文字时，将文字取出，放置全局变量中\n+  speakchange:function(e){\n+    sp = e.detail.value;\n+  },\n+\n+//点击发送，推入new的data中的speakarr中，并且setData\n+  dosend:function(){\n+    var _that=this;\n+    if(sp!=\"\"){\n+        var count = speakarr.length;\n+        var newsp={name:'me',   say:sp,  path:''};\n+        speakarr.push(newsp);\n+        this.setData({clear:'  ',scrollTop:'1000000'});//如果不改变clearclear，那么下边clear他不会执行\n+        this.setData({speak:speakarr, clear:' '});\n+        this.setData({scrollTop:'10000000'});\n+       \n+\n+\n+        wx.request({\n+          url:  'https://infoaas.com/data/hzc.json',\n+          method:'get',\n+          data: {\n+            content: sp,\n+            session:app.Session\n+\n+          },\n+          header: {\n+              'content-type': 'application/json'\n+          },\n+          success: function(res) {\n+              var str='';\n+              var says='';\n+              if(res.data.status!=0){\n+                console.log(res.data.info)\n+                  alertJs.id_notice=res.data.info.id;\n+                  alertData.remind_date=res.data.info.remind_date;\n+                  alertData.remind_time=res.data.info.remind_time;  \n+                  alertData.remind_content= res.data.info.remind_content;              \n+                  str=\"知道了！\";\n+                  says={name:\"other\",say:str,path:'',model:'ok'};\n+              }else{\n+                str=\"你说啥？\";\n+                says={name:\"other\",say:str,path:'',model:''};\n+              }\n+            \n+             var newrsp=says;\n+             speakarr.push(newrsp);\n+             sp='';\n+             _that.setData({speak:speakarr});\n+             _that.setData({scrollTop:'100000000'});\n+          }\n+        })\n+\n+        \n+\n+\n+\n+    }else{\n+      this.setData({ clear:' '});\n+       wx.showToast({\n+        title: '请输入文字',\n+        icon: 'success',\n+        duration: 1500\n+      });\n+    }\n+    \n+  },\n+  \n+  formSubmit: function(e) {\n+    //console.log('form数据为：', e.detail.value)\n+    var _that =this;\n+    \n+\n+    if(_that.data.clockSave!=\"已完成\"){\n+          wx.request({\n+          \n+            url: 'https://infoaas.com/data/hzc.json',\n+              method:'get',\n+              data: {\n+                        session:app.Session,\n+                        \"touser\": \"\",  \n+                        \"template_id\": \"jbCnftdaCc58ngsi9-FMqgfkPWecZ2jL_9uSHiCH4Ts\", \n+                        \"page\": \"\",          \n+                        \"form_id\": e.detail.formId,         \n+                        \"data\": {\n+                            \"keyword1\": {\n+                                \"value\": \"339208499\", \n+                                \"color\": \"#173177\"\n+                            }, \n+                            \"keyword2\": {\n+                                \"value\": \"2017年11月11日 12:30\", \n+                                \"color\": \"#173177\"\n+                            }, \n+                            \"keyword3\": {\n+                                \"value\": \"惠州经济职业技术学院\", \n+                                \"color\": \"#173177\"\n+                            } , \n+                            \"keyword4\": {\n+                                \"value\": \"惠州市惠城区马安镇\", \n+                                \"color\": \"#173177\"\n+                            } \n+                        },\n+\n+                      \n+              },\n+              header: {\n+                  'content-type': 'application/json'\n+              },\n+              success: function(res) {\n+                console.log(res);\n+              //下边代码为：发给后台，并出现完成的闹钟框\n+                //传给后台\n+                  var priorArr=[\n+                    {key:'',value:0},\n+                    {key:0,value:0},\n+                    {key:1,value:5},\n+                    {key:2,value:10},\n+                    {key:3,value:15}\n+                  ];\n+                  var repeatArr=[\n+                    {key:'',value:0},\n+                    {key:0,value:0},\n+                    {key:1,value:2},\n+                    {key:2,value:3}\n+                  ];\n+\n+                  var prior='';\n+                  var repeat='';\n+\n+                  for(var i=0; i<priorArr.length; i++){\n+                      if(alertJs.prior_notice==priorArr[i].key){\n+                          prior=priorArr[i].value;\n+                      }\n+                  }\n+\n+                  for(var i=0; i<repeatArr.length; i++){\n+                      if(alertJs.prior_notice==repeatArr[i].key){\n+                          repeat=repeatArr[i].value;\n+                      }\n+                  }\n+\n+                  console.log(\"您提前的时间是：\"+prior+\"您重复的次数是：\"+repeat);\n+                  \n+\n+                  console.log(\"给后台传的数据：\"+\n+                      \"----闹钟id:\"+alertJs.id_notice+\n+                      \"，session:\"+app.Session+\n+                        \"，重复次数:\"+repeat+\n+                        \"，延迟时间：\"+prior\n+                  \n+                  );\n+\n+                  wx.request({\n+                    url:'https://infoaas.com/data/hzc.json', \n+                    method:'get',\n+                    data: {\n+                      id: alertJs.id_notice,\n+                      session:app.Session,\n+                      remind_repeat:repeat,\n+                      advance_notice:prior\n+                    },\n+                    header: {\n+                        'content-type': 'application/json'\n+                    },\n+                    success: function(res) {\n+                      console.log(\"发给后台闹钟，返回的是:\"+res.data)\n+                    }\n+                  })\n+\n+                  //出现闹钟框\n+                  var str={\n+                    remind_date:alertData.remind_date,\n+                    remind_time:alertData.remind_time,\n+                    remind_content:alertData.remind_content\n+                  };\n+                  var newrsp={name:\"other\",say:str,path:'',model:'alert'};\n+                  speakarr.push(newrsp);\n+                  _that.setData({speak:speakarr});\n+                  _that.setData({scrollTop:'10000000000'});\n+                  _that.setData({clockSave:'已完成'});\n+              }\n+          })\n+    }else{\n+         wx.showToast({\n+            title: '闹钟已设好',\n+            icon: 'success',\n+            duration: 1500\n+          });\n+    }\n+     \n+  },\n+\n+  //录音开始\n+  audiostart:function(){\n+    wx.showToast({\n+       title: '正在录音...',\n+       icon: 'loading',\n+       duration: 10000\n+    });\n+    //微信录音开始接口\n+    var that = this;\n+    wx.startRecord({\n+      success: function(res) {\n+        tem = res.tempFilePath ;\n+        wx.saveFile({\n+          tempFilePath: tem,\n+          success: function(res) {\n+            var savedFilePath = res.savedFilePath;\n+            tem = savedFilePath;\n+            console.log(tem);\n+            var length = speakarr.length;\n+            speakarr[length-1] = {name:'me',   say:\"(((　　　\", path:tem, model:''};\n+            console.log(speakarr);\n+            that.setData({scrollTop:'1000000'});\n+            that.setData({speak:speakarr});\n+            that.setData({scrollTop:'10000000'});\n+          }\n+        })\n+      }\n+    })\n+\n+  },\n+  \n+\n+  //录音结束\n+  audioend:function(){\n+    //弹窗消失\n+    wx.hideToast({\n+      title: '正在录音...',\n+      icon: 'loading'\n+    });\n+    wx.stopRecord();\n+   //用于对话框显示\n+    var newsp={name:'me',   say:\"(((\",path:''};\n+    speakarr.push(newsp);\n+    \n+  },\n+\n+\n+  //点击录音\n+  play:function(e){\n+     var path=e.currentTarget.dataset.path;\n+     if(path!=\"\"){\n+         wx.playVoice({\n+            filePath: path\n+          })\n+     }\n+    \n+  }\n+  \n+})\n+\n+"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517010108/wechatApp-master/pages/index/index.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/index/index.json?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1 @@\n+{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "47340db014c8b4598d7313d07cb4b4b4ae190f57",
+    "filename" : "1517010108/wechatApp-master/pages/index/index.wxml",
+    "status" : "added",
+    "additions" : 61,
+    "deletions" : 0,
+    "changes" : 61,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/index/index.wxml?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,61 @@\n+\n+ <scroll-view  class='talk'  scroll-y=\"true\" scroll-top=\"{{scrollTop}}\">\n+    <!--对话框-->\n+    <view wx:for=\"{{speak}}\" class=\"people\" >\n+        <view  class='other'  wx:if=\"{{item.name=='other'}}\" >\n+            <view   wx:if=\"{{item.model=='ok'}}\" >\n+                <view>\n+                    <image class='headimg_other'   src=\"{{head_other}}\"></image>\n+                    <view class='speak_other' bindtap=\"play\" data-play=\"{{item.say}}\">\n+                        主人，我已经收到您的指令。您需要以下设置吗？\n+                        <picker bindchange=\"bindNoticeChange\" value=\"{{prior_notice_index}}\" range=\"{{prior_notice}}\">\n+                            提前：<view class=\"picker\">{{prior_notice[prior_notice_index]}}<image src=\"{{select}}\" class='select'></image></view>\n+                        </picker>\n+                        <picker bindchange=\"bindRepeatChange\" value=\"{{Repeat_notice_index}}\" range=\"{{Repeat_notice}}\">\n+                            重复：<view class=\"picker\">{{Repeat_notice[Repeat_notice_index]}}<image src=\"{{select}}\" class='select'></image></view>\n+                        </picker>\n+                        <form  bindsubmit=\"formSubmit\" report-submit=\"true\">\n+                            <button formType=\"submit\"  class=\"model\" >{{clockSave}}</button>\n+                         </form>\n+                    </view>\n+                </view>\n+                \n+            </view>\n+            <view   wx:if=\"{{item.model==''}}\" >\n+                <image class='headimg_other'   src=\"{{head_other}}\"></image>\n+                 <text class='speak_other' bindtap=\"play\" data-play=\"{{item.say}}\">{{item.say}}</text>\n+            </view>\n+             <view   wx:if=\"{{item.model=='alert'}}\" >\n+                <image class='headimg_other'   src=\"{{head_other}}\"></image>\n+                 <view class='speak_other' bindtap=\"play\" data-play=\"{{item.say}}\" style=\"width:400rpx; padding-left:40rpx\">\n+                       <view  style='overflow:hidden'> \n+                            <image src=\"{{alert}}\" style=\"width:100rpx; height:100rpx; float:left\"></image>   \n+                            <view style=\"float:left;  padding-left:20rpx; margin-top:20rpx\">\n+                                    <view>{{item.say.remind_time}}</view>\n+                                    <view>{{item.say.remind_date}}</view>\n+                            </view>\n+                       </view>\n+                       <view ><view>{{item.say.remind_content}}</view></view>\n+                 </view>\n+            </view>\n+        </view>\n+\n+        <view class='me' wx:if=\"{{item.name=='me'}}\">\n+            <image class='headimg_me'   src=\"{{userInfo.avatarUrl}}\"></image>\n+            <text class='speak_me' bindtap=\"play\" data-play=\"{{item.say}}\"  data-path=\"{{item.path}}\">{{item.say}}</text>\n+            <view style='clear:both'></view>\n+        </view>\n+    </view>\n+  </scroll-view>\n+  <!--发送消息-->\n+\n+    <view class='send'>\n+       <view class=' iconfont {{sendicon}}  icon' bindtap=\"changeico\" ></view>\n+       <view class='cotent' >\n+            <input wx:if=\"{{ipt}}\" class=\"ipt\"  bindchange='speakchange' value=\"{{clear}}\"/>\n+            <button type=\"default\"   bindtouchstart=\"audiostart\"  bindtouchend=\"audioend\" class=\"btn\" wx:if=\"{{!ipt}}\" > 按住说话 </button>\n+       </view>\n+       <view class=\"fasong\">\n+         <button type=\"default\" wx:if=\"{{ipt}}\"  bindtap=\"dosend\" class=\"fasongbtn\">发送</button>      \n+       </view>\n+    </view>"
+  }, {
+    "sha" : "e521a9a2136ad8a6425a52a87010ef8369ea15ac",
+    "filename" : "1517010108/wechatApp-master/pages/index/index.wxss",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/index.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/index/index.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,42 @@\n+\n+@import 'iconfont.wxss';\n+\n+\n+.talk{\n+  background-color: #f1f0f6; \n+  height: 1000rpx;\n+  margin: auto;\n+  padding: 10rpx 2%  10rpx 2%;\n+  box-sizing: border-box;\n+}\n+\n+.people{margin:20rpx 0 }\n+\n+.headimg_other{ width:100rpx; height: 100rpx; background-color: #eeeeee; float: left; }\n+.speak_other{ background-color:white; padding: 20rpx 10rpx; border-radius:10rpx; margin-left: 20rpx; max-width: 400rpx; display: inline-block;  }\n+\n+.headimg_me{ width: 100rpx; height: 100rpx; background-color: #eeeeee; float: right; }\n+.speak_me{ background-color:#a0e75a; color: white;  padding: 20rpx 10rpx; border-radius:10rpx;  float: right; margin-right: 20rpx;  max-width: 400rpx; }\n+\n+\n+.send{height: 118rpx; line-height: 80rpx ;  background-color:#f4f4f4; \n+ width: 100%;  padding: 20rpx 5%; box-sizing: border-box;   \n+  border: #e0e0e0 solid 1px; border-left:none; border-right:none; \n+  position: fixed;\n+  bottom: 0;\n+   }\n+\n+.icon{float: left; width:20% ; text-align: center; }\n+\n+.cotent{  border-radius:2rpx; background-color:white; float: left;  width:55% ; text-align: center;}\n+.ipt{height: 80rpx; line-height: 80rpx  }\n+.btn{height: 80rpx; line-height: 80rpx}\n+\n+.fasong{   width:25% ; float: left; text-align: center; }\n+.fasongbtn{font-size:20rpx; width: 70%; height: 80rpx; line-height: 80rpx}\n+\n+.model{line-height: 60rpx; width: 200rpx; margin: 0; margin-left: 120rpx; margin-top: 20rpx}\n+\n+.select{width: 60rpx; height: 60rpx; margin-top: -20rpx; position: relative; top:18rpx}\n+\n+.picker{background-color:#f1f0f6; display: inline-block; height: 48rpx; border-radius: 4rpx  }\n\\ No newline at end of file"
+  }, {
+    "sha" : "7c2746131e3021f043dc0fcaaf1166af30d30f1a",
+    "filename" : "1517010108/wechatApp-master/pages/index/indexbac.js",
+    "status" : "added",
+    "additions" : 185,
+    "deletions" : 0,
+    "changes" : 185,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/indexbac.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/index/indexbac.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/index/indexbac.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,185 @@\n+var app = getApp();\n+var luyin=[];\n+var sp='';\n+var tem='';\n+var speakarr=[\n+        {i:0,name:\"me\",   say:\"今天一起去看电影吧\", stime:'2016'},\n+        {i:1,name:\"other\",say:\"不要\" ,             stime:'2017'},\n+        {i:2,name:\"me\",   say:\"我请你呢\",           stime:'2018'},\n+        {i:3,name:\"other\",say:\"还是我请你吧\" ,             stime:'2019'},\n+ ];\n+\n+\n+Page({\n+  //页面初始化数据\n+  data: { \n+      head_other: 'http://v1.qzone.cc/avatar/201407/01/12/53/53b23ebb14c27312.jpg%21200x200.jpg',\n+      head_me: 'http://p1.gexing.com/G1/M00/C7/73/rBACE1IgR_PBIieMAAAfAWtb1fA891_200x200_3.jpg',\n+      speak:speakarr,\n+      sendicon:'icon-audio',\n+      ipt:true\n+  },\n+\n+  //调用自己微信头像\n+  bindViewTap: function() {\n+    wx.navigateTo({\n+      url: '../logs/logs'\n+    })\n+  },\n+  onLoad: function () {\n+    var that = this\n+    app.getUserInfo(function(userInfo){\n+      that.setData({\n+        userInfo:userInfo\n+      })\n+    })\n+  },\n+\n+\n+//语音与输入切换\n+  changeico:function(){\n+    if(this.data.sendicon=='icon-audio'){\n+        this.setData({\n+          sendicon:'icon-jianpan',\n+          ipt:false\n+        })\n+    }else{\n+        this.setData({\n+          sendicon:'icon-audio',\n+          ipt:true\n+        })\n+    }\n+  },\n+\n+//输入文字时，将文字取出，放置全局变量中\n+  speakchange:function(e){\n+    sp= e.detail.value;\n+  },\n+\n+//点击发送，推入new的data中的speakarr中，并且setData\n+\n+  dosend:function(){\n+    if(sp!=\"\"){\n+        var count = speakarr.length;\n+        var newsp={i:count,name:'me',   say:sp,           stime:'2018'};\n+        speakarr.push(newsp);\n+        this.setData({speak:speakarr});\n+    }else{\n+       wx.showToast({\n+        title: '请输入文字',\n+        icon: 'success',\n+        duration: 1500\n+      });\n+    }\n+    \n+  },\n+\n+  //录音开始\n+  audiostart:function(){\n+    wx.showToast({\n+       title: '正在录音...',\n+       icon: 'loading',\n+       duration: 10000\n+    });\n+\n+    //开始录音\n+    wx.startRecord({\n+      success: function(res) {\n+        //临时录音文件\n+        var tempFilePath = res.tempFilePath;\n+        console.log(\"我是最开始的临时文件：\"+tempFilePath) ;\n+        tem=tempFilePath;\n+        \n+        //保存录音文件\n+        wx.saveFile({\n+          tempFilePath: tempFilePath,\n+          success: function(res) {\n+            var savedFilePath = res.savedFilePath\n+          }\n+        })\n+\n+        \n+\n+      }\n+    })\n+  },\n+  \n+\n+  //录音结束\n+  audioend:function(){\n+    //弹窗消失\n+    wx.hideToast({\n+      title: '正在录音...',\n+      icon: 'loading'\n+    });\n+    wx.stopRecord();\n+    var count = speakarr.length;\n+   \n+    //用于对话框显示\n+    var newsp={i:count,name:'me',   say:\"(((　　　　　　\",       stime:'2019'};\n+    speakarr.push(newsp);\n+    \n+    \n+    \n+    //用于对话框与录音绑定\n+    wx.getSavedFileList({\n+      success: function(res) {\n+\n+      var arr=res.fileList;\n+      for(var i=0; i<arr.length; i++){//i为5,7,9,1,3\n+          for (var j=i+1; j<arr.length; j++) {//j为7,9,1,3\n+              if(arr[i]['createTime']>arr[j]['createTime']){//开始判断：\n+                  /*下边的作用是互换位置：小的挪到前边，大的挪到后边*/\n+                  var temp=arr[i];//a-先将大（即i）的存储在临时变量（即temp）里\n+                  arr[i]=arr[j];//b-将小的（即j）的值赋予上一个变量（即i）\n+                  arr[j]=temp;//c-将大的值（此时是临时变量temp）赋予小的\n+              }\n+          }\n+      }\n+      luyin[count-1] =  arr[arr.length-1].filePath;\n+      }\n+    })\n+    \n+\n+    this.setData({speak:speakarr});\n+\n+    \n+  },\n+\n+\n+  //点击录音\n+  play:function(e){\n+    \n+    var count = speakarr.length;\n+    var isSpeak=e.currentTarget.dataset.play;\n+    var index=Number(e.currentTarget.dataset.index);\n+    \n+\n+\n+ \n+\n+\n+    if(isSpeak==\"(((　　　　　　\"&&count!=index+1){\n+      console.log(\"进入历史录音播放器:\"+luyin[index])\n+        //播放录音\n+        wx.playVoice({\n+          filePath: luyin[index],\n+          complete: function(){\n+            \n+          }\n+        })\n+    }else if(isSpeak==\"(((　　　　　　\"&&count==index+1){\n+       console.log(\"进入临时录音播放器:\"+tem)\n+        //播放录音\n+        wx.playVoice({\n+          filePath: tem\n+        })\n+    }\n+\n+\n+\n+  }\n+  \n+})\n+\n+"
+  }, {
+    "sha" : "c201bfe4ca95070b5ce3bad8d3206aae9e494e6a",
+    "filename" : "1517010108/wechatApp-master/pages/logs/logs.js",
+    "status" : "added",
+    "additions" : 14,
+    "deletions" : 0,
+    "changes" : 14,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/logs/logs.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,14 @@\n+//logs.js\n+var util = require('../../utils/util.js')\n+Page({\n+  data: {\n+    logs: []\n+  },\n+  onLoad: function () {\n+    this.setData({\n+      logs: (wx.getStorageSync('logs') || []).map(function (log) {\n+        return util.formatTime(new Date(log))\n+      })\n+    })\n+  }\n+})"
+  }, {
+    "sha" : "66dcbc7b346bbc19fb31d9557aebd2229efe02ca",
+    "filename" : "1517010108/wechatApp-master/pages/logs/logs.json",
+    "status" : "added",
+    "additions" : 3,
+    "deletions" : 0,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/logs/logs.json?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,3 @@\n+{\n+    \"navigationBarTitleText\": \"查看启动日志\"\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "0e2e86fc90eda4d850fdc2832a792d0b2ac8f2bb",
+    "filename" : "1517010108/wechatApp-master/pages/logs/logs.wxml",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/logs/logs.wxml?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,6 @@\n+<!--logs.wxml-->\n+<view class=\"container log-list\">\n+  <block wx:for=\"{{logs}}\" wx:for-item=\"log\" wx:key=\"*this\">\n+    <text class=\"log-item\">{{index + 1}}. {{log}}</text>\n+  </block>\n+</view>"
+  }, {
+    "sha" : "94d4b88a27dcea1fbaa6da8fc19c6a8821983924",
+    "filename" : "1517010108/wechatApp-master/pages/logs/logs.wxss",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/logs/logs.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/logs/logs.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,8 @@\n+.log-list {\n+  display: flex;\n+  flex-direction: column;\n+  padding: 40rpx;\n+}\n+.log-item {\n+  margin: 10rpx;\n+}"
+  }, {
+    "sha" : "21300acf359519b93ad29a66ee8827b7b8d816e6",
+    "filename" : "1517010108/wechatApp-master/pages/second/index.js",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/second/index.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,13 @@\n+\n+Page({\n+  data: {\n+    array: ['5分钟', '10分钟', '15分钟', '20分钟'],\n+    index:0\n+  },\n+  bindPickerChange: function(e) {\n+    console.log('picker发送选择改变，携带值为', e.detail.value)\n+    this.setData({\n+      index: e.detail.value\n+    })\n+  }\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517010108/wechatApp-master/pages/second/index.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/second/index.json?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1 @@\n+{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "a21ebb3d7206618d070c71164f07874b78706e5e",
+    "filename" : "1517010108/wechatApp-master/pages/second/index.wxml",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/second/index.wxml?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,7 @@\n+<view class=\"section\">\n+  <picker bindchange=\"bindPickerChange\" value=\"{{index}}\" range=\"{{array}}\">\n+    <view class=\"picker\">\n+      {{array[index]}}\n+    </view>\n+  </picker>\n+</view>"
+  }, {
+    "sha" : "d970ba3e4b11abf32be15d6db49d2dd15250d8cb",
+    "filename" : "1517010108/wechatApp-master/pages/second/index.wxss",
+    "status" : "added",
+    "additions" : 7,
+    "deletions" : 0,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/pages/second/index.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/pages/second/index.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,7 @@\n+.talk{height: 200px; background-color: #f2f2f2; width: 90%; margin: auto; \n+display:flex;\n+flex-direction:column;\n+align-items:center;\n+justify-content:space-between;\n+padding:200rpx 0;\n+box-sizing:border-box;}\n\\ No newline at end of file"
+  }, {
+    "sha" : "a630898e6266f1dfea1296bf3d9c0bdfb2a45204",
+    "filename" : "1517010108/wechatApp-master/project.config.json",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/project.config.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/project.config.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/project.config.json?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,27 @@\n+{\n+\t\"description\": \"项目配置文件。\",\n+\t\"setting\": {\n+\t\t\"urlCheck\": true,\n+\t\t\"es6\": true,\n+\t\t\"postcss\": true,\n+\t\t\"minified\": true\n+\t},\n+\t\"compileType\": \"weapp\",\n+\t\"libVersion\": \"1.5.4\",\n+\t\"appid\": \"wxf4356351d6dcc796\",\n+\t\"projectname\": \"%E5%B0%8F%E9%97%B9%E9%92%9F\",\n+\t\"condition\": {\n+\t\t\"weapp\": {\n+\t\t\t\"current\": -1,\n+\t\t\t\"list\": []\n+\t\t},\n+\t\t\"search\": {\n+\t\t\t\"current\": -1,\n+\t\t\t\"list\": []\n+\t\t},\n+\t\t\"conversation\": {\n+\t\t\t\"current\": -1,\n+\t\t\t\"list\": []\n+\t\t}\n+\t}\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "aac35413f138440412265907ae3abc75347c846e",
+    "filename" : "1517010108/wechatApp-master/total.wxss",
+    "status" : "added",
+    "additions" : 48,
+    "deletions" : 0,
+    "changes" : 48,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/total.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/total.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/total.wxss?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,48 @@\n+.contains{\n+    width:95%;\n+    height:700rpx;\n+    background:#fff;\n+    margin:20rpx auto;\n+    border-bottom:1px solid #ccc;\n+}\n+.status{\n+    display: inline-block;\n+    font-family:'微软雅黑';\n+    margin:35rpx 35rpx 15rpx 35rpx;\n+}\n+.clock{\n+    display:block;\n+    font-family:'微软雅黑';\n+    color:#607fa7;\n+    font-size:28rpx;\n+    margin:0 35rpx 0 35rpx;\n+}\n+.contains_imgo{\n+    display:inline-block;\n+    margin:15rpx 0 0 35rpx;\n+}\n+.footer{\n+    position:relative;\n+    width:95%;\n+    background:#fff;\n+    margin:0rpx auto;\n+    margin-top:-20rpx;\n+    padding-bottom:35rpx;\n+}\n+.share{\n+    position:absolute;\n+    display:inline-block;\n+    width:45rpx;\n+    height:45rpx;\n+    right:15rpx;\n+    bottom:25rpx;\n+}\n+.content{\n+    display:inline-block;\n+    width:85%;\n+    font-family:'微软雅黑';\n+    font-size:34rpx;\n+    padding-left:25rpx;\n+    padding-top:25rpx;  \n+    padding-bottom:25rpx; \n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "dba9adad788b95f542442ab2ac0000fa25fda846",
+    "filename" : "1517010108/wechatApp-master/utils/util.js",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/utils/util.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62/1517010108/wechatApp-master/utils/util.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/wechatApp-master/utils/util.js?ref=7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+    "patch" : "@@ -0,0 +1,6 @@\n+function getLocalTime(nS) {     \n+    return new Date(parseInt(nS)/1000).toLocaleString();\n+}     \n+module.exports = {\n+  getLocalTime: getLocalTime\n+}"
+  } ],
+  "sha" : "7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7758bab22a6fd9d7b2a4f7fb005e3b8930a7bb62",
+  "parents" : [ {
+    "sha" : "9245ce48e9527ff5a459a26ca2e1ed45bd86b0e0",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9245ce48e9527ff5a459a26ca2e1ed45bd86b0e0",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9245ce48e9527ff5a459a26ca2e1ed45bd86b0e0"
+  } ]
+}

@@ -1,0 +1,529 @@
+{
+  "committer" : {
+    "login" : "1517060322",
+    "id" : 31676746,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31676746?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1517060322",
+    "html_url" : "https://github.com/1517060322",
+    "followers_url" : "https://api.github.com/users/1517060322/followers",
+    "following_url" : "https://api.github.com/users/1517060322/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1517060322/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1517060322/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1517060322/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1517060322/orgs",
+    "repos_url" : "https://api.github.com/users/1517060322/repos",
+    "events_url" : "https://api.github.com/users/1517060322/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1517060322/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 2438,
+    "additions" : 0,
+    "deletions" : 2438
+  },
+  "author" : {
+    "login" : "1517060322",
+    "id" : 31676746,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31676746?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1517060322",
+    "html_url" : "https://github.com/1517060322",
+    "followers_url" : "https://api.github.com/users/1517060322/followers",
+    "following_url" : "https://api.github.com/users/1517060322/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1517060322/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1517060322/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1517060322/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1517060322/orgs",
+    "repos_url" : "https://api.github.com/users/1517060322/repos",
+    "events_url" : "https://api.github.com/users/1517060322/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1517060322/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/f7675baf3ce11814f0692684bda6d583b95627b2",
+  "commit" : {
+    "author" : {
+      "name" : "1517060322",
+      "email" : "513021407@qq.com",
+      "date" : "2017-11-01T02:27:18Z"
+    },
+    "committer" : {
+      "name" : "1517060322",
+      "email" : "513021407@qq.com",
+      "date" : "2017-11-01T02:27:18Z"
+    },
+    "message" : "#84 删除不需要的文件",
+    "tree" : {
+      "sha" : "3539e191e317bf2030833ab296f100531feb5e84",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/3539e191e317bf2030833ab296f100531feb5e84"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/f7675baf3ce11814f0692684bda6d583b95627b2",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/f7675baf3ce11814f0692684bda6d583b95627b2/comments",
+  "files" : [ {
+    "sha" : "e5dfd95bbc197b2be8041d9d1469ee5da513d58c",
+    "filename" : "1517060322/luo/style/.DS_Store",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/.DS_Store",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/.DS_Store",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/.DS_Store?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/fn.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/fn.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/fn.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/fn.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/mixin/setArrow.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/mixin/setArrow.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/mixin/setArrow.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/mixin/setArrow.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/mixin/setOnepx.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/mixin/setOnepx.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/mixin/setOnepx.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/mixin/setOnepx.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/mixin/text.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/mixin/text.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/mixin/text.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/mixin/text.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "2b668a969e21688dd07e3aa88ebbd6f9cdb5a8a6",
+    "filename" : "1517060322/luo/style/base/reset.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 7,
+    "changes" : 7,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/reset.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/reset.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/reset.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,7 +0,0 @@\n-page {\n-  line-height: 1.6;\n-  font-family: -apple-system-font, \"Helvetica Neue\", sans-serif;\n-}\n-icon {\n-  vertical-align: middle;\n-}"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/color.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/color.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/color.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/color.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/global.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/global.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/global.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/global.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/weui-button.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-button.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-button.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/weui-button.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/weui-cell.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-cell.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-cell.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/weui-cell.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/weui-dialog.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-dialog.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-dialog.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/weui-dialog.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/weui-grid.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-grid.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-grid.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/weui-grid.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/weui-msg.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-msg.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-msg.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/weui-msg.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "filename" : "1517060322/luo/style/base/variable/weui-progress.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-progress.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/base/variable/weui-progress.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/base/variable/weui-progress.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d"
+  }, {
+    "sha" : "01e78ede5bdf19f42c900d6266eafc1acb4e43b4",
+    "filename" : "1517060322/luo/style/weui.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1040,
+    "changes" : 1040,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/weui.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/weui.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/weui.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,1040 +0,0 @@\n-page {\n-  line-height: 1.6;\n-  font-family: -apple-system-font, \"Helvetica Neue\", sans-serif;\n-}\n-icon {\n-  vertical-align: middle;\n-}\n-.weui-cells {\n-  position: relative;\n-  margin-top: 1.17647059em;\n-  background-color: #FFFFFF;\n-  line-height: 1.41176471;\n-  font-size: 17px;\n-}\n-.weui-cells:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-cells:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-cells__title {\n-  margin-top: .77em;\n-  margin-bottom: .3em;\n-  padding-left: 15px;\n-  padding-right: 15px;\n-  color: #999999;\n-  font-size: 14px;\n-}\n-.weui-cells_after-title {\n-  margin-top: 0;\n-}\n-.weui-cells__tips {\n-  margin-top: .3em;\n-  color: #999999;\n-  padding-left: 15px;\n-  padding-right: 15px;\n-  font-size: 14px;\n-}\n-.weui-cell {\n-  padding: 10px 15px;\n-  position: relative;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-cell:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-  left: 15px;\n-}\n-.weui-cell:first-child:before {\n-  display: none;\n-}\n-.weui-cell_active {\n-  background-color: #ECECEC;\n-}\n-.weui-cell_primary {\n-  -webkit-box-align: start;\n-  -webkit-align-items: flex-start;\n-          align-items: flex-start;\n-}\n-.weui-cell__bd {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-cell__ft {\n-  text-align: right;\n-  color: #999999;\n-}\n-.weui-cell_access {\n-  color: inherit;\n-}\n-.weui-cell__ft_in-access {\n-  padding-right: 13px;\n-  position: relative;\n-}\n-.weui-cell__ft_in-access:after {\n-  content: \" \";\n-  display: inline-block;\n-  height: 6px;\n-  width: 6px;\n-  border-width: 2px 2px 0 0;\n-  border-color: #C8C8CD;\n-  border-style: solid;\n-  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-          transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-  position: relative;\n-  top: -2px;\n-  position: absolute;\n-  top: 50%;\n-  margin-top: -4px;\n-  right: 2px;\n-}\n-.weui-cell_link {\n-  color: #586C94;\n-  font-size: 14px;\n-}\n-.weui-cell_link:active {\n-  background-color: #ECECEC;\n-}\n-.weui-cell_link:first-child:before {\n-  display: block;\n-}\n-.weui-icon-radio {\n-  margin-left: 3.2px;\n-  margin-right: 3.2px;\n-}\n-.weui-icon-checkbox_circle,\n-.weui-icon-checkbox_success {\n-  margin-left: 4.6px;\n-  margin-right: 4.6px;\n-}\n-.weui-check__label:active {\n-  background-color: #ECECEC;\n-}\n-.weui-check {\n-  position: absolute;\n-  left: -9999px;\n-}\n-.weui-check__hd_in-checkbox {\n-  padding-right: 0.35em;\n-}\n-.weui-cell__ft_in-radio {\n-  padding-left: 0.35em;\n-}\n-.weui-cell_input {\n-  padding-top: 0;\n-  padding-bottom: 0;\n-}\n-.weui-label {\n-  width: 105px;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-input {\n-  height: 2.58823529em;\n-  min-height: 2.58823529em;\n-  line-height: 2.58823529em;\n-}\n-.weui-toptips {\n-  position: fixed;\n-  -webkit-transform: translateZ(0);\n-          transform: translateZ(0);\n-  top: 0;\n-  left: 0;\n-  right: 0;\n-  padding: 5px;\n-  font-size: 14px;\n-  text-align: center;\n-  color: #FFFFFF;\n-  z-index: 5000;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-toptips_warn {\n-  background-color: #E64340;\n-}\n-.weui-textarea {\n-  display: block;\n-  width: 100%;\n-}\n-.weui-textarea-counter {\n-  color: #B2B2B2;\n-  text-align: right;\n-}\n-.weui-textarea-counter_warn {\n-  color: #E64340;\n-}\n-.weui-cell_warn {\n-  color: #E64340;\n-}\n-.weui-form-preview {\n-  position: relative;\n-  background-color: #FFFFFF;\n-}\n-.weui-form-preview:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-form-preview:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-form-preview__value {\n-  font-size: 14px;\n-}\n-.weui-form-preview__value_in-hd {\n-  font-size: 26px;\n-}\n-.weui-form-preview__hd {\n-  position: relative;\n-  padding: 10px 15px;\n-  text-align: right;\n-  line-height: 2.5em;\n-}\n-.weui-form-preview__hd:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-  left: 15px;\n-}\n-.weui-form-preview__bd {\n-  padding: 10px 15px;\n-  font-size: .9em;\n-  text-align: right;\n-  color: #999999;\n-  line-height: 2;\n-}\n-.weui-form-preview__ft {\n-  position: relative;\n-  line-height: 50px;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-}\n-.weui-form-preview__ft:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D5D5D6;\n-  color: #D5D5D6;\n-}\n-.weui-form-preview__item {\n-  overflow: hidden;\n-}\n-.weui-form-preview__label {\n-  float: left;\n-  margin-right: 1em;\n-  min-width: 4em;\n-  color: #999999;\n-  text-align: justify;\n-  text-align-last: justify;\n-}\n-.weui-form-preview__value {\n-  display: block;\n-  overflow: hidden;\n-  word-break: normal;\n-  word-wrap: break-word;\n-}\n-.weui-form-preview__btn {\n-  position: relative;\n-  display: block;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  color: #3CC51F;\n-  text-align: center;\n-}\n-.weui-form-preview__btn:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  width: 1px;\n-  bottom: 0;\n-  border-left: 1rpx solid #D5D5D6;\n-  color: #D5D5D6;\n-}\n-.weui-form-preview__btn:first-child:after {\n-  display: none;\n-}\n-.weui-form-preview__btn_active {\n-  background-color: #EEEEEE;\n-}\n-.weui-form-preview__btn_default {\n-  color: #999999;\n-}\n-.weui-form-preview__btn_primary {\n-  color: #0BB20C;\n-}\n-.weui-cell_select {\n-  padding: 0;\n-}\n-.weui-select {\n-  position: relative;\n-  padding-left: 15px;\n-  padding-right: 30px;\n-  height: 2.58823529em;\n-  min-height: 2.58823529em;\n-  line-height: 2.58823529em;\n-  border-right: 1rpx solid #D9D9D9;\n-}\n-.weui-select:before {\n-  content: \" \";\n-  display: inline-block;\n-  height: 6px;\n-  width: 6px;\n-  border-width: 2px 2px 0 0;\n-  border-color: #C8C8CD;\n-  border-style: solid;\n-  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-          transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-  position: relative;\n-  top: -2px;\n-  position: absolute;\n-  top: 50%;\n-  right: 15px;\n-  margin-top: -4px;\n-}\n-.weui-select_in-select-after {\n-  padding-left: 0;\n-}\n-.weui-cell__hd_in-select-after,\n-.weui-cell__bd_in-select-before {\n-  padding-left: 15px;\n-}\n-.weui-cell_vcode {\n-  padding-right: 0;\n-}\n-.weui-vcode-img {\n-  margin-left: 5px;\n-  height: 2.58823529em;\n-  vertical-align: middle;\n-}\n-.weui-vcode-btn {\n-  display: inline-block;\n-  height: 2.58823529em;\n-  margin-left: 5px;\n-  padding: 0 0.6em 0 0.7em;\n-  border-left: 1px solid #E5E5E5;\n-  line-height: 2.58823529em;\n-  vertical-align: middle;\n-  font-size: 17px;\n-  color: #3CC51F;\n-  white-space: nowrap;\n-}\n-.weui-vcode-btn:active {\n-  color: #52a341;\n-}\n-.weui-cell_switch {\n-  padding-top: 6px;\n-  padding-bottom: 6px;\n-}\n-.weui-uploader__hd {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  padding-bottom: 10px;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-uploader__title {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-uploader__info {\n-  color: #B2B2B2;\n-}\n-.weui-uploader__bd {\n-  margin-bottom: -4px;\n-  margin-right: -9px;\n-  overflow: hidden;\n-}\n-.weui-uploader__file {\n-  float: left;\n-  margin-right: 9px;\n-  margin-bottom: 9px;\n-}\n-.weui-uploader__img {\n-  display: block;\n-  width: 79px;\n-  height: 79px;\n-}\n-.weui-uploader__file_status {\n-  position: relative;\n-}\n-.weui-uploader__file_status:before {\n-  content: \" \";\n-  position: absolute;\n-  top: 0;\n-  right: 0;\n-  bottom: 0;\n-  left: 0;\n-  background-color: rgba(0, 0, 0, 0.5);\n-}\n-.weui-uploader__file-content {\n-  position: absolute;\n-  top: 50%;\n-  left: 50%;\n-  -webkit-transform: translate(-50%, -50%);\n-          transform: translate(-50%, -50%);\n-  color: #FFFFFF;\n-}\n-.weui-uploader__input-box {\n-  float: left;\n-  position: relative;\n-  margin-right: 9px;\n-  margin-bottom: 9px;\n-  width: 77px;\n-  height: 77px;\n-  border: 1px solid #D9D9D9;\n-}\n-.weui-uploader__input-box:before,\n-.weui-uploader__input-box:after {\n-  content: \" \";\n-  position: absolute;\n-  top: 50%;\n-  left: 50%;\n-  -webkit-transform: translate(-50%, -50%);\n-          transform: translate(-50%, -50%);\n-  background-color: #D9D9D9;\n-}\n-.weui-uploader__input-box:before {\n-  width: 2px;\n-  height: 39.5px;\n-}\n-.weui-uploader__input-box:after {\n-  width: 39.5px;\n-  height: 2px;\n-}\n-.weui-uploader__input-box:active {\n-  border-color: #999999;\n-}\n-.weui-uploader__input-box:active:before,\n-.weui-uploader__input-box:active:after {\n-  background-color: #999999;\n-}\n-.weui-uploader__input {\n-  position: absolute;\n-  z-index: 1;\n-  top: 0;\n-  left: 0;\n-  width: 100%;\n-  height: 100%;\n-  opacity: 0;\n-}\n-.weui-article {\n-  padding: 20px 15px;\n-  font-size: 15px;\n-}\n-.weui-article__section {\n-  margin-bottom: 1.5em;\n-}\n-.weui-article__h1 {\n-  font-size: 18px;\n-  font-weight: 400;\n-  margin-bottom: .9em;\n-}\n-.weui-article__h2 {\n-  font-size: 16px;\n-  font-weight: 400;\n-  margin-bottom: .34em;\n-}\n-.weui-article__h3 {\n-  font-weight: 400;\n-  font-size: 15px;\n-  margin-bottom: .34em;\n-}\n-.weui-article__p {\n-  margin: 0 0 .8em;\n-}\n-.weui-msg {\n-  padding-top: 36px;\n-  text-align: center;\n-}\n-.weui-msg__link {\n-  display: inline;\n-  color: #586C94;\n-}\n-.weui-msg__icon-area {\n-  margin-bottom: 30px;\n-}\n-.weui-msg__text-area {\n-  margin-bottom: 25px;\n-  padding: 0 20px;\n-}\n-.weui-msg__title {\n-  margin-bottom: 5px;\n-  font-weight: 400;\n-  font-size: 20px;\n-}\n-.weui-msg__desc {\n-  font-size: 14px;\n-  color: #999999;\n-}\n-.weui-msg__opr-area {\n-  margin-bottom: 25px;\n-}\n-.weui-msg__extra-area {\n-  margin-bottom: 15px;\n-  font-size: 14px;\n-  color: #999999;\n-}\n-@media screen and (min-height: 438px) {\n-  .weui-msg__extra-area {\n-    position: fixed;\n-    left: 0;\n-    bottom: 0;\n-    width: 100%;\n-    text-align: center;\n-  }\n-}\n-.weui-flex {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-}\n-.weui-flex__item {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-btn {\n-  margin-top: 15px;\n-}\n-.weui-btn:first-child {\n-  margin-top: 0;\n-}\n-.weui-btn-area {\n-  margin: 1.17647059em 15px 0.3em;\n-}\n-.weui-agree {\n-  display: block;\n-  padding: .5em 15px;\n-  font-size: 13px;\n-}\n-.weui-agree__text {\n-  color: #999999;\n-}\n-.weui-agree__link {\n-  display: inline;\n-  color: #586C94;\n-}\n-.weui-agree__checkbox {\n-  position: absolute;\n-  left: -9999px;\n-}\n-.weui-agree__checkbox-icon {\n-  position: relative;\n-  top: 2px;\n-  display: inline-block;\n-  border: 1px solid #D1D1D1;\n-  background-color: #FFFFFF;\n-  border-radius: 3px;\n-  width: 11px;\n-  height: 11px;\n-}\n-.weui-agree__checkbox-icon-check {\n-  position: absolute;\n-  top: 1px;\n-  left: 1px;\n-}\n-.weui-footer {\n-  color: #999999;\n-  font-size: 14px;\n-  text-align: center;\n-}\n-.weui-footer_fixed-bottom {\n-  position: fixed;\n-  bottom: .52em;\n-  left: 0;\n-  right: 0;\n-}\n-.weui-footer__links {\n-  font-size: 0;\n-}\n-.weui-footer__link {\n-  display: inline-block;\n-  vertical-align: top;\n-  margin: 0 .62em;\n-  position: relative;\n-  font-size: 14px;\n-  color: #586C94;\n-}\n-.weui-footer__link:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  width: 1px;\n-  bottom: 0;\n-  border-left: 1rpx solid #C7C7C7;\n-  color: #C7C7C7;\n-  left: -0.65em;\n-  top: .36em;\n-  bottom: .36em;\n-}\n-.weui-footer__link:first-child:before {\n-  display: none;\n-}\n-.weui-footer__text {\n-  padding: 0 .34em;\n-  font-size: 12px;\n-}\n-.weui-grids {\n-  border-top: 1rpx solid #D9D9D9;\n-  border-left: 1rpx solid #D9D9D9;\n-  overflow: hidden;\n-}\n-.weui-grid {\n-  position: relative;\n-  float: left;\n-  padding: 20px 10px;\n-  width: 33.33333333%;\n-  box-sizing: border-box;\n-  border-right: 1rpx solid #D9D9D9;\n-  border-bottom: 1rpx solid #D9D9D9;\n-}\n-.weui-grid_active {\n-  background-color: #ECECEC;\n-}\n-.weui-grid__icon {\n-  display: block;\n-  width: 28px;\n-  height: 28px;\n-  margin: 0 auto;\n-}\n-.weui-grid__label {\n-  margin-top: 5px;\n-  display: block;\n-  text-align: center;\n-  color: #000000;\n-  font-size: 14px;\n-  white-space: nowrap;\n-  text-overflow: ellipsis;\n-  overflow: hidden;\n-}\n-.weui-loading {\n-  margin: 0 5px;\n-  width: 20px;\n-  height: 20px;\n-  display: inline-block;\n-  vertical-align: middle;\n-  -webkit-animation: weuiLoading 1s steps(12, end) infinite;\n-          animation: weuiLoading 1s steps(12, end) infinite;\n-  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgxMDB2MTAwSDB6Ii8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTlFOUU5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTMwKSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iIzk4OTY5NyIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxMDUuOTggNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjOUI5OTlBIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDYwIDc1Ljk4IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0EzQTFBMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA2NSA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNBQkE5QUEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDU4LjY2IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0IyQjJCMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgNTQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjQkFCOEI5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCA1MCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDMkMwQzEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE1MCA0NS45OCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDQkNCQ0IiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTEyMCA0MS4zNCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNEMkQyRDIiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDM1IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0RBREFEQSIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgtNjAgMjQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTJFMkUyIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAtNS45OCA2NSkiLz48L3N2Zz4=) no-repeat;\n-  background-size: 100%;\n-}\n-.weui-loading.weui-loading_transparent {\n-  background-image: url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 100 100'%3E%3Cpath fill='none' d='M0 0h100v100H0z'/%3E%3Crect xmlns='http://www.w3.org/2000/svg' width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.56)' rx='5' ry='5' transform='translate(0 -30)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.5)' rx='5' ry='5' transform='rotate(30 105.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.43)' rx='5' ry='5' transform='rotate(60 75.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.38)' rx='5' ry='5' transform='rotate(90 65 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.32)' rx='5' ry='5' transform='rotate(120 58.66 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.28)' rx='5' ry='5' transform='rotate(150 54.02 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.25)' rx='5' ry='5' transform='rotate(180 50 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.2)' rx='5' ry='5' transform='rotate(-150 45.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.17)' rx='5' ry='5' transform='rotate(-120 41.34 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.14)' rx='5' ry='5' transform='rotate(-90 35 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.1)' rx='5' ry='5' transform='rotate(-60 24.02 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.03)' rx='5' ry='5' transform='rotate(-30 -5.98 65)'/%3E%3C/svg%3E\");\n-}\n-@-webkit-keyframes weuiLoading {\n-  0% {\n-    -webkit-transform: rotate3d(0, 0, 1, 0deg);\n-            transform: rotate3d(0, 0, 1, 0deg);\n-  }\n-  100% {\n-    -webkit-transform: rotate3d(0, 0, 1, 360deg);\n-            transform: rotate3d(0, 0, 1, 360deg);\n-  }\n-}\n-@keyframes weuiLoading {\n-  0% {\n-    -webkit-transform: rotate3d(0, 0, 1, 0deg);\n-            transform: rotate3d(0, 0, 1, 0deg);\n-  }\n-  100% {\n-    -webkit-transform: rotate3d(0, 0, 1, 360deg);\n-            transform: rotate3d(0, 0, 1, 360deg);\n-  }\n-}\n-.weui-badge {\n-  display: inline-block;\n-  padding: .15em .4em;\n-  min-width: 8px;\n-  border-radius: 18px;\n-  background-color: #E64340;\n-  color: #FFFFFF;\n-  line-height: 1.2;\n-  text-align: center;\n-  font-size: 12px;\n-  vertical-align: middle;\n-}\n-.weui-badge_dot {\n-  padding: .4em;\n-  min-width: 0;\n-}\n-.weui-loadmore {\n-  width: 65%;\n-  margin: 1.5em auto;\n-  line-height: 1.6em;\n-  font-size: 14px;\n-  text-align: center;\n-}\n-.weui-loadmore__tips {\n-  display: inline-block;\n-  vertical-align: middle;\n-}\n-.weui-loadmore_line {\n-  border-top: 1px solid #E5E5E5;\n-  margin-top: 2.4em;\n-}\n-.weui-loadmore__tips_in-line {\n-  position: relative;\n-  top: -0.9em;\n-  padding: 0 .55em;\n-  background-color: #FFFFFF;\n-  color: #999999;\n-}\n-.weui-loadmore__tips_in-dot {\n-  position: relative;\n-  padding: 0 .16em;\n-  width: 4px;\n-  height: 1.6em;\n-}\n-.weui-loadmore__tips_in-dot:before {\n-  content: \" \";\n-  position: absolute;\n-  top: 50%;\n-  left: 50%;\n-  margin-top: -1px;\n-  margin-left: -2px;\n-  width: 4px;\n-  height: 4px;\n-  border-radius: 50%;\n-  background-color: #E5E5E5;\n-}\n-.weui-panel {\n-  background-color: #FFFFFF;\n-  margin-top: 10px;\n-  position: relative;\n-  overflow: hidden;\n-}\n-.weui-panel:first-child {\n-  margin-top: 0;\n-}\n-.weui-panel:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-}\n-.weui-panel:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-}\n-.weui-panel__hd {\n-  padding: 14px 15px 10px;\n-  color: #999999;\n-  font-size: 13px;\n-  position: relative;\n-}\n-.weui-panel__hd:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-  left: 15px;\n-}\n-.weui-media-box {\n-  padding: 15px;\n-  position: relative;\n-}\n-.weui-media-box:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-  left: 15px;\n-}\n-.weui-media-box:first-child:before {\n-  display: none;\n-}\n-.weui-media-box__title {\n-  font-weight: 400;\n-  font-size: 17px;\n-  width: auto;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  white-space: nowrap;\n-  word-wrap: normal;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-media-box__desc {\n-  color: #999999;\n-  font-size: 13px;\n-  line-height: 1.2;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  display: -webkit-box;\n-  -webkit-box-orient: vertical;\n-  -webkit-line-clamp: 2;\n-}\n-.weui-media-box__info {\n-  margin-top: 15px;\n-  padding-bottom: 5px;\n-  font-size: 13px;\n-  color: #CECECE;\n-  line-height: 1em;\n-  list-style: none;\n-  overflow: hidden;\n-}\n-.weui-media-box__info__meta {\n-  float: left;\n-  padding-right: 1em;\n-}\n-.weui-media-box__info__meta_extra {\n-  padding-left: 1em;\n-  border-left: 1px solid #CECECE;\n-}\n-.weui-media-box__title_in-text {\n-  margin-bottom: 8px;\n-}\n-.weui-media-box_appmsg {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-media-box__thumb {\n-  width: 100%;\n-  height: 100%;\n-  vertical-align: top;\n-}\n-.weui-media-box__hd_in-appmsg {\n-  margin-right: .8em;\n-  width: 60px;\n-  height: 60px;\n-  line-height: 60px;\n-  text-align: center;\n-}\n-.weui-media-box__bd_in-appmsg {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  min-width: 0;\n-}\n-.weui-media-box_small-appmsg {\n-  padding: 0;\n-}\n-.weui-cells_in-small-appmsg {\n-  margin-top: 0;\n-}\n-.weui-cells_in-small-appmsg:before {\n-  display: none;\n-}\n-.weui-progress {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-progress__bar {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-progress__opr {\n-  margin-left: 15px;\n-  font-size: 0;\n-}\n-.weui-navbar {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  position: absolute;\n-  z-index: 500;\n-  top: 0;\n-  width: 100%;\n-  border-bottom: 1rpx solid #CCCCCC;\n-}\n-.weui-navbar__item {\n-  position: relative;\n-  display: block;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  padding: 13px 0;\n-  text-align: center;\n-  font-size: 0;\n-}\n-.weui-navbar__item.weui-bar__item_on {\n-  color: #1AAD19;\n-}\n-.weui-navbar__slider {\n-  position: absolute;\n-  content: \" \";\n-  left: 0;\n-  bottom: 0;\n-  width: 6em;\n-  height: 3px;\n-  background-color: #1AAD19;\n-  -webkit-transition: -webkit-transform .3s;\n-  transition: -webkit-transform .3s;\n-  transition: transform .3s;\n-  transition: transform .3s, -webkit-transform .3s;\n-}\n-.weui-navbar__title {\n-  display: inline-block;\n-  font-size: 15px;\n-  max-width: 8em;\n-  width: auto;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  white-space: nowrap;\n-  word-wrap: normal;\n-}\n-.weui-tab {\n-  position: relative;\n-  height: 100%;\n-}\n-.weui-tab__panel {\n-  box-sizing: border-box;\n-  height: 100%;\n-  padding-top: 50px;\n-  overflow: auto;\n-  -webkit-overflow-scrolling: touch;\n-}\n-.weui-search-bar {\n-  position: relative;\n-  padding: 8px 10px;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  box-sizing: border-box;\n-  background-color: #EFEFF4;\n-  border-top: 1rpx solid #D7D6DC;\n-  border-bottom: 1rpx solid #D7D6DC;\n-}\n-.weui-icon-search {\n-  margin-right: 8px;\n-  font-size: inherit;\n-}\n-.weui-icon-search_in-box {\n-  position: absolute;\n-  left: 10px;\n-  top: 7px;\n-}\n-.weui-search-bar__text {\n-  display: inline-block;\n-  font-size: 14px;\n-  vertical-align: middle;\n-}\n-.weui-search-bar__form {\n-  position: relative;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: auto;\n-          flex: auto;\n-  border-radius: 5px;\n-  background: #FFFFFF;\n-  border: 1rpx solid #E6E6EA;\n-}\n-.weui-search-bar__box {\n-  position: relative;\n-  padding-left: 30px;\n-  padding-right: 30px;\n-  width: 100%;\n-  box-sizing: border-box;\n-  z-index: 1;\n-}\n-.weui-search-bar__input {\n-  height: 28px;\n-  line-height: 28px;\n-  font-size: 14px;\n-}\n-.weui-icon-clear {\n-  position: absolute;\n-  top: 0;\n-  right: 0;\n-  padding: 7px 8px;\n-  font-size: 0;\n-}\n-.weui-search-bar__label {\n-  position: absolute;\n-  top: 0;\n-  right: 0;\n-  bottom: 0;\n-  left: 0;\n-  z-index: 2;\n-  border-radius: 3px;\n-  text-align: center;\n-  color: #9B9B9B;\n-  background: #FFFFFF;\n-  line-height: 28px;\n-}\n-.weui-search-bar__cancel-btn {\n-  margin-left: 10px;\n-  line-height: 28px;\n-  color: #09BB07;\n-  white-space: nowrap;\n-}"
+  }, {
+    "sha" : "ff2a6a3e6a3bacda0574ce82ec3ff37a70caeb0e",
+    "filename" : "1517060322/luo/style/widget/weui-agree/weui-agree.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 31,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-agree/weui-agree.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-agree/weui-agree.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-agree/weui-agree.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,31 +0,0 @@\n-.weui-agree {\n-  display: block;\n-  padding: .5em 15px;\n-  font-size: 13px;\n-}\n-.weui-agree__text {\n-  color: #999999;\n-}\n-.weui-agree__link {\n-  display: inline;\n-  color: #586C94;\n-}\n-.weui-agree__checkbox {\n-  position: absolute;\n-  left: -9999px;\n-}\n-.weui-agree__checkbox-icon {\n-  position: relative;\n-  top: 2px;\n-  display: inline-block;\n-  border: 1px solid #D1D1D1;\n-  background-color: #FFFFFF;\n-  border-radius: 3px;\n-  width: 11px;\n-  height: 11px;\n-}\n-.weui-agree__checkbox-icon-check {\n-  position: absolute;\n-  top: 1px;\n-  left: 1px;\n-}"
+  }, {
+    "sha" : "566599a062c60ce048f8c87a7329eea7fef11029",
+    "filename" : "1517060322/luo/style/widget/weui-animate/weui-animate.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 88,
+    "changes" : 88,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-animate/weui-animate.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-animate/weui-animate.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-animate/weui-animate.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,88 +0,0 @@\n-@-webkit-keyframes slideUp {\n-  from {\n-    -webkit-transform: translate3d(0, 100%, 0);\n-            transform: translate3d(0, 100%, 0);\n-  }\n-  to {\n-    -webkit-transform: translate3d(0, 0, 0);\n-            transform: translate3d(0, 0, 0);\n-  }\n-}\n-@keyframes slideUp {\n-  from {\n-    -webkit-transform: translate3d(0, 100%, 0);\n-            transform: translate3d(0, 100%, 0);\n-  }\n-  to {\n-    -webkit-transform: translate3d(0, 0, 0);\n-            transform: translate3d(0, 0, 0);\n-  }\n-}\n-.weui-animate-slide-up {\n-  -webkit-animation: slideUp ease .3s forwards;\n-          animation: slideUp ease .3s forwards;\n-}\n-@-webkit-keyframes slideDown {\n-  from {\n-    -webkit-transform: translate3d(0, 0, 0);\n-            transform: translate3d(0, 0, 0);\n-  }\n-  to {\n-    -webkit-transform: translate3d(0, 100%, 0);\n-            transform: translate3d(0, 100%, 0);\n-  }\n-}\n-@keyframes slideDown {\n-  from {\n-    -webkit-transform: translate3d(0, 0, 0);\n-            transform: translate3d(0, 0, 0);\n-  }\n-  to {\n-    -webkit-transform: translate3d(0, 100%, 0);\n-            transform: translate3d(0, 100%, 0);\n-  }\n-}\n-.weui-animate-slide-down {\n-  -webkit-animation: slideDown ease .3s forwards;\n-          animation: slideDown ease .3s forwards;\n-}\n-@-webkit-keyframes fadeIn {\n-  from {\n-    opacity: 0;\n-  }\n-  to {\n-    opacity: 1;\n-  }\n-}\n-@keyframes fadeIn {\n-  from {\n-    opacity: 0;\n-  }\n-  to {\n-    opacity: 1;\n-  }\n-}\n-.weui-animate-fade-in {\n-  -webkit-animation: fadeIn ease .3s forwards;\n-          animation: fadeIn ease .3s forwards;\n-}\n-@-webkit-keyframes fadeOut {\n-  from {\n-    opacity: 1;\n-  }\n-  to {\n-    opacity: 0;\n-  }\n-}\n-@keyframes fadeOut {\n-  from {\n-    opacity: 1;\n-  }\n-  to {\n-    opacity: 0;\n-  }\n-}\n-.weui-animate-fade-out {\n-  -webkit-animation: fadeOut ease .3s forwards;\n-          animation: fadeOut ease .3s forwards;\n-}"
+  }, {
+    "sha" : "2eee2ce88700b3cdbd850735290ba541a650ce06",
+    "filename" : "1517060322/luo/style/widget/weui-button/weui-button.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 9,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-button/weui-button.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-button/weui-button.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-button/weui-button.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,9 +0,0 @@\n-.weui-btn {\n-  margin-top: 15px;\n-}\n-.weui-btn:first-child {\n-  margin-top: 0;\n-}\n-.weui-btn-area {\n-  margin: 1.17647059em 15px 0.3em;\n-}"
+  }, {
+    "sha" : "d33375273fb7cd6ff05944946e339d36eab24f40",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-access.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 34,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-access.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-access.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-access.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,34 +0,0 @@\n-.weui-cell_access {\n-  color: inherit;\n-}\n-.weui-cell__ft_in-access {\n-  padding-right: 13px;\n-  position: relative;\n-}\n-.weui-cell__ft_in-access:after {\n-  content: \" \";\n-  display: inline-block;\n-  height: 6px;\n-  width: 6px;\n-  border-width: 2px 2px 0 0;\n-  border-color: #C8C8CD;\n-  border-style: solid;\n-  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-          transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-  position: relative;\n-  top: -2px;\n-  position: absolute;\n-  top: 50%;\n-  margin-top: -4px;\n-  right: 2px;\n-}\n-.weui-cell_link {\n-  color: #586C94;\n-  font-size: 14px;\n-}\n-.weui-cell_link:active {\n-  background-color: #ECECEC;\n-}\n-.weui-cell_link:first-child:before {\n-  display: block;\n-}"
+  }, {
+    "sha" : "c877e4c45d65f05c3d7374add5bf67e7ff0bf04a",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-cell.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 86,
+    "changes" : 86,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-cell.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-cell.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-cell.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,86 +0,0 @@\n-.weui-cells {\n-  position: relative;\n-  margin-top: 1.17647059em;\n-  background-color: #FFFFFF;\n-  line-height: 1.41176471;\n-  font-size: 17px;\n-}\n-.weui-cells:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-cells:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-cells__title {\n-  margin-top: .77em;\n-  margin-bottom: .3em;\n-  padding-left: 15px;\n-  padding-right: 15px;\n-  color: #999999;\n-  font-size: 14px;\n-}\n-.weui-cells_after-title {\n-  margin-top: 0;\n-}\n-.weui-cells__tips {\n-  margin-top: .3em;\n-  color: #999999;\n-  padding-left: 15px;\n-  padding-right: 15px;\n-  font-size: 14px;\n-}\n-.weui-cell {\n-  padding: 10px 15px;\n-  position: relative;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-cell:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-  left: 15px;\n-}\n-.weui-cell:first-child:before {\n-  display: none;\n-}\n-.weui-cell_active {\n-  background-color: #ECECEC;\n-}\n-.weui-cell_primary {\n-  -webkit-box-align: start;\n-  -webkit-align-items: flex-start;\n-          align-items: flex-start;\n-}\n-.weui-cell__bd {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-cell__ft {\n-  text-align: right;\n-  color: #999999;\n-}"
+  }, {
+    "sha" : "1302acd0e798d701ad93389e07b8e0cee89f5123",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-check.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 22,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-check.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-check.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-check.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,22 +0,0 @@\n-.weui-icon-radio {\n-  margin-left: 3.2px;\n-  margin-right: 3.2px;\n-}\n-.weui-icon-checkbox_circle,\n-.weui-icon-checkbox_success {\n-  margin-left: 4.6px;\n-  margin-right: 4.6px;\n-}\n-.weui-check__label:active {\n-  background-color: #ECECEC;\n-}\n-.weui-check {\n-  position: absolute;\n-  left: -9999px;\n-}\n-.weui-check__hd_in-checkbox {\n-  padding-right: 0.35em;\n-}\n-.weui-cell__ft_in-radio {\n-  padding-left: 0.35em;\n-}"
+  }, {
+    "sha" : "5a94dccbd1a8df4a80bf68c6e8ad28db4f6e6994",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-form.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 224,
+    "changes" : 224,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-form.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,224 +0,0 @@\n-.weui-cell_input {\n-  padding-top: 0;\n-  padding-bottom: 0;\n-}\n-.weui-label {\n-  width: 105px;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-input {\n-  height: 2.58823529em;\n-  min-height: 2.58823529em;\n-  line-height: 2.58823529em;\n-}\n-.weui-toptips {\n-  position: fixed;\n-  -webkit-transform: translateZ(0);\n-          transform: translateZ(0);\n-  top: 0;\n-  left: 0;\n-  right: 0;\n-  padding: 5px;\n-  font-size: 14px;\n-  text-align: center;\n-  color: #FFFFFF;\n-  z-index: 5000;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-toptips_warn {\n-  background-color: #E64340;\n-}\n-.weui-textarea {\n-  display: block;\n-  width: 100%;\n-}\n-.weui-textarea-counter {\n-  color: #B2B2B2;\n-  text-align: right;\n-}\n-.weui-textarea-counter_warn {\n-  color: #E64340;\n-}\n-.weui-cell_warn {\n-  color: #E64340;\n-}\n-.weui-form-preview {\n-  position: relative;\n-  background-color: #FFFFFF;\n-}\n-.weui-form-preview:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-form-preview:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-form-preview__value {\n-  font-size: 14px;\n-}\n-.weui-form-preview__value_in-hd {\n-  font-size: 26px;\n-}\n-.weui-form-preview__hd {\n-  position: relative;\n-  padding: 10px 15px;\n-  text-align: right;\n-  line-height: 2.5em;\n-}\n-.weui-form-preview__hd:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-  left: 15px;\n-}\n-.weui-form-preview__bd {\n-  padding: 10px 15px;\n-  font-size: .9em;\n-  text-align: right;\n-  color: #999999;\n-  line-height: 2;\n-}\n-.weui-form-preview__ft {\n-  position: relative;\n-  line-height: 50px;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-}\n-.weui-form-preview__ft:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D5D5D6;\n-  color: #D5D5D6;\n-}\n-.weui-form-preview__item {\n-  overflow: hidden;\n-}\n-.weui-form-preview__label {\n-  float: left;\n-  margin-right: 1em;\n-  min-width: 4em;\n-  color: #999999;\n-  text-align: justify;\n-  text-align-last: justify;\n-}\n-.weui-form-preview__value {\n-  display: block;\n-  overflow: hidden;\n-  word-break: normal;\n-  word-wrap: break-word;\n-}\n-.weui-form-preview__btn {\n-  position: relative;\n-  display: block;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  color: #3CC51F;\n-  text-align: center;\n-}\n-.weui-form-preview__btn:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  width: 1px;\n-  bottom: 0;\n-  border-left: 1rpx solid #D5D5D6;\n-  color: #D5D5D6;\n-}\n-.weui-form-preview__btn:first-child:after {\n-  display: none;\n-}\n-.weui-form-preview__btn_active {\n-  background-color: #EEEEEE;\n-}\n-.weui-form-preview__btn_default {\n-  color: #999999;\n-}\n-.weui-form-preview__btn_primary {\n-  color: #0BB20C;\n-}\n-.weui-cell_select {\n-  padding: 0;\n-}\n-.weui-select {\n-  position: relative;\n-  padding-left: 15px;\n-  padding-right: 30px;\n-  height: 2.58823529em;\n-  min-height: 2.58823529em;\n-  line-height: 2.58823529em;\n-  border-right: 1rpx solid #D9D9D9;\n-}\n-.weui-select:before {\n-  content: \" \";\n-  display: inline-block;\n-  height: 6px;\n-  width: 6px;\n-  border-width: 2px 2px 0 0;\n-  border-color: #C8C8CD;\n-  border-style: solid;\n-  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-          transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-  position: relative;\n-  top: -2px;\n-  position: absolute;\n-  top: 50%;\n-  right: 15px;\n-  margin-top: -4px;\n-}\n-.weui-select_in-select-after {\n-  padding-left: 0;\n-}\n-.weui-cell__hd_in-select-after,\n-.weui-cell__bd_in-select-before {\n-  padding-left: 15px;\n-}\n-.weui-cell_vcode {\n-  padding-right: 0;\n-}\n-.weui-vcode-img {\n-  margin-left: 5px;\n-  height: 2.58823529em;\n-  vertical-align: middle;\n-}\n-.weui-vcode-btn {\n-  display: inline-block;\n-  height: 2.58823529em;\n-  margin-left: 5px;\n-  padding: 0 0.6em 0 0.7em;\n-  border-left: 1px solid #E5E5E5;\n-  line-height: 2.58823529em;\n-  vertical-align: middle;\n-  font-size: 17px;\n-  color: #3CC51F;\n-  white-space: nowrap;\n-}\n-.weui-vcode-btn:active {\n-  color: #52a341;\n-}"
+  }, {
+    "sha" : "d229906475d188b9b9d36649ce02cda03fc0fd04",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-form/weui-form-preview.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 119,
+    "changes" : 119,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-form-preview.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-form-preview.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-form/weui-form-preview.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,119 +0,0 @@\n-.weui-form-preview {\n-  position: relative;\n-  background-color: #FFFFFF;\n-}\n-.weui-form-preview:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-form-preview:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-}\n-.weui-form-preview__value {\n-  font-size: 14px;\n-}\n-.weui-form-preview__value_in-hd {\n-  font-size: 26px;\n-}\n-.weui-form-preview__hd {\n-  position: relative;\n-  padding: 10px 15px;\n-  text-align: right;\n-  line-height: 2.5em;\n-}\n-.weui-form-preview__hd:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #D9D9D9;\n-  color: #D9D9D9;\n-  left: 15px;\n-}\n-.weui-form-preview__bd {\n-  padding: 10px 15px;\n-  font-size: .9em;\n-  text-align: right;\n-  color: #999999;\n-  line-height: 2;\n-}\n-.weui-form-preview__ft {\n-  position: relative;\n-  line-height: 50px;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-}\n-.weui-form-preview__ft:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #D5D5D6;\n-  color: #D5D5D6;\n-}\n-.weui-form-preview__item {\n-  overflow: hidden;\n-}\n-.weui-form-preview__label {\n-  float: left;\n-  margin-right: 1em;\n-  min-width: 4em;\n-  color: #999999;\n-  text-align: justify;\n-  text-align-last: justify;\n-}\n-.weui-form-preview__value {\n-  display: block;\n-  overflow: hidden;\n-  word-break: normal;\n-  word-wrap: break-word;\n-}\n-.weui-form-preview__btn {\n-  position: relative;\n-  display: block;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  color: #3CC51F;\n-  text-align: center;\n-}\n-.weui-form-preview__btn:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  width: 1px;\n-  bottom: 0;\n-  border-left: 1rpx solid #D5D5D6;\n-  color: #D5D5D6;\n-}\n-.weui-form-preview__btn:first-child:after {\n-  display: none;\n-}\n-.weui-form-preview__btn_active {\n-  background-color: #EEEEEE;\n-}\n-.weui-form-preview__btn_default {\n-  color: #999999;\n-}\n-.weui-form-preview__btn_primary {\n-  color: #0BB20C;\n-}"
+  }, {
+    "sha" : "b9195e8c24b6a2f633bf32e2d5ac5ff2db7e1305",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-form/weui-form_common.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 46,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-form_common.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-form_common.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-form/weui-form_common.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,46 +0,0 @@\n-.weui-cell_input {\n-  padding-top: 0;\n-  padding-bottom: 0;\n-}\n-.weui-label {\n-  width: 105px;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-input {\n-  height: 2.58823529em;\n-  min-height: 2.58823529em;\n-  line-height: 2.58823529em;\n-}\n-.weui-toptips {\n-  position: fixed;\n-  -webkit-transform: translateZ(0);\n-          transform: translateZ(0);\n-  top: 0;\n-  left: 0;\n-  right: 0;\n-  padding: 5px;\n-  font-size: 14px;\n-  text-align: center;\n-  color: #FFFFFF;\n-  z-index: 5000;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-toptips_warn {\n-  background-color: #E64340;\n-}\n-.weui-textarea {\n-  display: block;\n-  width: 100%;\n-}\n-.weui-textarea-counter {\n-  color: #B2B2B2;\n-  text-align: right;\n-}\n-.weui-textarea-counter_warn {\n-  color: #E64340;\n-}\n-.weui-cell_warn {\n-  color: #E64340;\n-}"
+  }, {
+    "sha" : "6cb48f759ed3b4564ff0b755eb24e2508885605a",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-form/weui-select.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 36,
+    "changes" : 36,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-select.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-select.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-form/weui-select.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,36 +0,0 @@\n-.weui-cell_select {\n-  padding: 0;\n-}\n-.weui-select {\n-  position: relative;\n-  padding-left: 15px;\n-  padding-right: 30px;\n-  height: 2.58823529em;\n-  min-height: 2.58823529em;\n-  line-height: 2.58823529em;\n-  border-right: 1rpx solid #D9D9D9;\n-}\n-.weui-select:before {\n-  content: \" \";\n-  display: inline-block;\n-  height: 6px;\n-  width: 6px;\n-  border-width: 2px 2px 0 0;\n-  border-color: #C8C8CD;\n-  border-style: solid;\n-  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-          transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);\n-  position: relative;\n-  top: -2px;\n-  position: absolute;\n-  top: 50%;\n-  right: 15px;\n-  margin-top: -4px;\n-}\n-.weui-select_in-select-after {\n-  padding-left: 0;\n-}\n-.weui-cell__hd_in-select-after,\n-.weui-cell__bd_in-select-before {\n-  padding-left: 15px;\n-}"
+  }, {
+    "sha" : "430848c8871a4d80172bf9f3eb5a6a05de0ccdd6",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-form/weui-vcode.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 23,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-vcode.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-form/weui-vcode.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-form/weui-vcode.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,23 +0,0 @@\n-.weui-cell_vcode {\n-  padding-right: 0;\n-}\n-.weui-vcode-img {\n-  margin-left: 5px;\n-  height: 2.58823529em;\n-  vertical-align: middle;\n-}\n-.weui-vcode-btn {\n-  display: inline-block;\n-  height: 2.58823529em;\n-  margin-left: 5px;\n-  padding: 0 0.6em 0 0.7em;\n-  border-left: 1px solid #E5E5E5;\n-  line-height: 2.58823529em;\n-  vertical-align: middle;\n-  font-size: 17px;\n-  color: #3CC51F;\n-  white-space: nowrap;\n-}\n-.weui-vcode-btn:active {\n-  color: #52a341;\n-}"
+  }, {
+    "sha" : "e8769484b537a67e46d7384978c10b25a25eda08",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-switch.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 4,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-switch.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-switch.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-switch.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,4 +0,0 @@\n-.weui-cell_switch {\n-  padding-top: 6px;\n-  padding-bottom: 6px;\n-}"
+  }, {
+    "sha" : "9300d34c8f7bf2cde0658da6578c1c791171fc26",
+    "filename" : "1517060322/luo/style/widget/weui-cell/weui-uploader.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 95,
+    "changes" : 95,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-uploader.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-cell/weui-uploader.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-cell/weui-uploader.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,95 +0,0 @@\n-.weui-uploader__hd {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  padding-bottom: 10px;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-uploader__title {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-uploader__info {\n-  color: #B2B2B2;\n-}\n-.weui-uploader__bd {\n-  margin-bottom: -4px;\n-  margin-right: -9px;\n-  overflow: hidden;\n-}\n-.weui-uploader__file {\n-  float: left;\n-  margin-right: 9px;\n-  margin-bottom: 9px;\n-}\n-.weui-uploader__img {\n-  display: block;\n-  width: 79px;\n-  height: 79px;\n-}\n-.weui-uploader__file_status {\n-  position: relative;\n-}\n-.weui-uploader__file_status:before {\n-  content: \" \";\n-  position: absolute;\n-  top: 0;\n-  right: 0;\n-  bottom: 0;\n-  left: 0;\n-  background-color: rgba(0, 0, 0, 0.5);\n-}\n-.weui-uploader__file-content {\n-  position: absolute;\n-  top: 50%;\n-  left: 50%;\n-  -webkit-transform: translate(-50%, -50%);\n-          transform: translate(-50%, -50%);\n-  color: #FFFFFF;\n-}\n-.weui-uploader__input-box {\n-  float: left;\n-  position: relative;\n-  margin-right: 9px;\n-  margin-bottom: 9px;\n-  width: 77px;\n-  height: 77px;\n-  border: 1px solid #D9D9D9;\n-}\n-.weui-uploader__input-box:before,\n-.weui-uploader__input-box:after {\n-  content: \" \";\n-  position: absolute;\n-  top: 50%;\n-  left: 50%;\n-  -webkit-transform: translate(-50%, -50%);\n-          transform: translate(-50%, -50%);\n-  background-color: #D9D9D9;\n-}\n-.weui-uploader__input-box:before {\n-  width: 2px;\n-  height: 39.5px;\n-}\n-.weui-uploader__input-box:after {\n-  width: 39.5px;\n-  height: 2px;\n-}\n-.weui-uploader__input-box:active {\n-  border-color: #999999;\n-}\n-.weui-uploader__input-box:active:before,\n-.weui-uploader__input-box:active:after {\n-  background-color: #999999;\n-}\n-.weui-uploader__input {\n-  position: absolute;\n-  z-index: 1;\n-  top: 0;\n-  left: 0;\n-  width: 100%;\n-  height: 100%;\n-  opacity: 0;\n-}"
+  }, {
+    "sha" : "a4fc144e0d06731119e7089662e0d1952a403e25",
+    "filename" : "1517060322/luo/style/widget/weui-flex/weui-flex.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 10,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-flex/weui-flex.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-flex/weui-flex.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-flex/weui-flex.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,10 +0,0 @@\n-.weui-flex {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-}\n-.weui-flex__item {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}"
+  }, {
+    "sha" : "271bdec75c42a782b42e729735fa242d1290ed08",
+    "filename" : "1517060322/luo/style/widget/weui-footer/weui-footer.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 42,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-footer/weui-footer.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-footer/weui-footer.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-footer/weui-footer.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,42 +0,0 @@\n-.weui-footer {\n-  color: #999999;\n-  font-size: 14px;\n-  text-align: center;\n-}\n-.weui-footer_fixed-bottom {\n-  position: fixed;\n-  bottom: .52em;\n-  left: 0;\n-  right: 0;\n-}\n-.weui-footer__links {\n-  font-size: 0;\n-}\n-.weui-footer__link {\n-  display: inline-block;\n-  vertical-align: top;\n-  margin: 0 .62em;\n-  position: relative;\n-  font-size: 14px;\n-  color: #586C94;\n-}\n-.weui-footer__link:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  width: 1px;\n-  bottom: 0;\n-  border-left: 1rpx solid #C7C7C7;\n-  color: #C7C7C7;\n-  left: -0.65em;\n-  top: .36em;\n-  bottom: .36em;\n-}\n-.weui-footer__link:first-child:before {\n-  display: none;\n-}\n-.weui-footer__text {\n-  padding: 0 .34em;\n-  font-size: 12px;\n-}"
+  }, {
+    "sha" : "d8f7b91adb7a5b1cdd2b38c8e97b3b686f9bf6f8",
+    "filename" : "1517060322/luo/style/widget/weui-grid/weui-grid.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 33,
+    "changes" : 33,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-grid/weui-grid.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-grid/weui-grid.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-grid/weui-grid.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,33 +0,0 @@\n-.weui-grids {\n-  border-top: 1rpx solid #D9D9D9;\n-  border-left: 1rpx solid #D9D9D9;\n-  overflow: hidden;\n-}\n-.weui-grid {\n-  position: relative;\n-  float: left;\n-  padding: 20px 10px;\n-  width: 33.33333333%;\n-  box-sizing: border-box;\n-  border-right: 1rpx solid #D9D9D9;\n-  border-bottom: 1rpx solid #D9D9D9;\n-}\n-.weui-grid_active {\n-  background-color: #ECECEC;\n-}\n-.weui-grid__icon {\n-  display: block;\n-  width: 28px;\n-  height: 28px;\n-  margin: 0 auto;\n-}\n-.weui-grid__label {\n-  margin-top: 5px;\n-  display: block;\n-  text-align: center;\n-  color: #000000;\n-  font-size: 14px;\n-  white-space: nowrap;\n-  text-overflow: ellipsis;\n-  overflow: hidden;\n-}"
+  }, {
+    "sha" : "3fec60310ac18aacb0ca2b80e110b5fd95922ed7",
+    "filename" : "1517060322/luo/style/widget/weui-loading/weui-loading.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 34,
+    "changes" : 34,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-loading/weui-loading.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-loading/weui-loading.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-loading/weui-loading.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,34 +0,0 @@\n-.weui-loading {\n-  margin: 0 5px;\n-  width: 20px;\n-  height: 20px;\n-  display: inline-block;\n-  vertical-align: middle;\n-  -webkit-animation: weuiLoading 1s steps(12, end) infinite;\n-          animation: weuiLoading 1s steps(12, end) infinite;\n-  background: transparent url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgxMDB2MTAwSDB6Ii8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTlFOUU5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTMwKSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iIzk4OTY5NyIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgzMCAxMDUuOTggNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjOUI5OTlBIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDYwIDc1Ljk4IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0EzQTFBMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSg5MCA2NSA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNBQkE5QUEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDU4LjY2IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0IyQjJCMiIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgNTQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjQkFCOEI5IiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKDE4MCA1MCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDMkMwQzEiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE1MCA0NS45OCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNDQkNCQ0IiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTEyMCA0MS4zNCA2NSkiLz48cmVjdCB3aWR0aD0iNyIgaGVpZ2h0PSIyMCIgeD0iNDYuNSIgeT0iNDAiIGZpbGw9IiNEMkQyRDIiIHJ4PSI1IiByeT0iNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTkwIDM1IDY1KSIvPjxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjIwIiB4PSI0Ni41IiB5PSI0MCIgZmlsbD0iI0RBREFEQSIgcng9IjUiIHJ5PSI1IiB0cmFuc2Zvcm09InJvdGF0ZSgtNjAgMjQuMDIgNjUpIi8+PHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMjAiIHg9IjQ2LjUiIHk9IjQwIiBmaWxsPSIjRTJFMkUyIiByeD0iNSIgcnk9IjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAtNS45OCA2NSkiLz48L3N2Zz4=) no-repeat;\n-  background-size: 100%;\n-}\n-.weui-loading.weui-loading_transparent {\n-  background-image: url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 100 100'%3E%3Cpath fill='none' d='M0 0h100v100H0z'/%3E%3Crect xmlns='http://www.w3.org/2000/svg' width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.56)' rx='5' ry='5' transform='translate(0 -30)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.5)' rx='5' ry='5' transform='rotate(30 105.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.43)' rx='5' ry='5' transform='rotate(60 75.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.38)' rx='5' ry='5' transform='rotate(90 65 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.32)' rx='5' ry='5' transform='rotate(120 58.66 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.28)' rx='5' ry='5' transform='rotate(150 54.02 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.25)' rx='5' ry='5' transform='rotate(180 50 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.2)' rx='5' ry='5' transform='rotate(-150 45.98 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.17)' rx='5' ry='5' transform='rotate(-120 41.34 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.14)' rx='5' ry='5' transform='rotate(-90 35 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.1)' rx='5' ry='5' transform='rotate(-60 24.02 65)'/%3E%3Crect width='7' height='20' x='46.5' y='40' fill='rgba(255,255,255,.03)' rx='5' ry='5' transform='rotate(-30 -5.98 65)'/%3E%3C/svg%3E\");\n-}\n-@-webkit-keyframes weuiLoading {\n-  0% {\n-    -webkit-transform: rotate3d(0, 0, 1, 0deg);\n-            transform: rotate3d(0, 0, 1, 0deg);\n-  }\n-  100% {\n-    -webkit-transform: rotate3d(0, 0, 1, 360deg);\n-            transform: rotate3d(0, 0, 1, 360deg);\n-  }\n-}\n-@keyframes weuiLoading {\n-  0% {\n-    -webkit-transform: rotate3d(0, 0, 1, 0deg);\n-            transform: rotate3d(0, 0, 1, 0deg);\n-  }\n-  100% {\n-    -webkit-transform: rotate3d(0, 0, 1, 360deg);\n-            transform: rotate3d(0, 0, 1, 360deg);\n-  }\n-}"
+  }, {
+    "sha" : "b2147819f83039c0bf2d9ad9fa965d0d30424429",
+    "filename" : "1517060322/luo/style/widget/weui-media-box/weui-media-box.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 94,
+    "changes" : 94,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-media-box/weui-media-box.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-media-box/weui-media-box.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-media-box/weui-media-box.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,94 +0,0 @@\n-.weui-media-box {\n-  padding: 15px;\n-  position: relative;\n-}\n-.weui-media-box:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-  left: 15px;\n-}\n-.weui-media-box:first-child:before {\n-  display: none;\n-}\n-.weui-media-box__title {\n-  font-weight: 400;\n-  font-size: 17px;\n-  width: auto;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  white-space: nowrap;\n-  word-wrap: normal;\n-  word-wrap: break-word;\n-  word-break: break-all;\n-}\n-.weui-media-box__desc {\n-  color: #999999;\n-  font-size: 13px;\n-  line-height: 1.2;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  display: -webkit-box;\n-  -webkit-box-orient: vertical;\n-  -webkit-line-clamp: 2;\n-}\n-.weui-media-box__info {\n-  margin-top: 15px;\n-  padding-bottom: 5px;\n-  font-size: 13px;\n-  color: #CECECE;\n-  line-height: 1em;\n-  list-style: none;\n-  overflow: hidden;\n-}\n-.weui-media-box__info__meta {\n-  float: left;\n-  padding-right: 1em;\n-}\n-.weui-media-box__info__meta_extra {\n-  padding-left: 1em;\n-  border-left: 1px solid #CECECE;\n-}\n-.weui-media-box__title_in-text {\n-  margin-bottom: 8px;\n-}\n-.weui-media-box_appmsg {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-media-box__thumb {\n-  width: 100%;\n-  height: 100%;\n-  vertical-align: top;\n-}\n-.weui-media-box__hd_in-appmsg {\n-  margin-right: .8em;\n-  width: 60px;\n-  height: 60px;\n-  line-height: 60px;\n-  text-align: center;\n-}\n-.weui-media-box__bd_in-appmsg {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  min-width: 0;\n-}\n-.weui-media-box_small-appmsg {\n-  padding: 0;\n-}\n-.weui-cells_in-small-appmsg {\n-  margin-top: 0;\n-}\n-.weui-cells_in-small-appmsg:before {\n-  display: none;\n-}"
+  }, {
+    "sha" : "2aa36400087e69c2167ed7222f6eb2c0cfb7ff5f",
+    "filename" : "1517060322/luo/style/widget/weui-page/weui-article.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 25,
+    "changes" : 25,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-page/weui-article.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-page/weui-article.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-page/weui-article.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,25 +0,0 @@\n-.weui-article {\n-  padding: 20px 15px;\n-  font-size: 15px;\n-}\n-.weui-article__section {\n-  margin-bottom: 1.5em;\n-}\n-.weui-article__h1 {\n-  font-size: 18px;\n-  font-weight: 400;\n-  margin-bottom: .9em;\n-}\n-.weui-article__h2 {\n-  font-size: 16px;\n-  font-weight: 400;\n-  margin-bottom: .34em;\n-}\n-.weui-article__h3 {\n-  font-weight: 400;\n-  font-size: 15px;\n-  margin-bottom: .34em;\n-}\n-.weui-article__p {\n-  margin: 0 0 .8em;\n-}"
+  }, {
+    "sha" : "c5765fa36a0d59736605dc071e4fa45e91dbc4cd",
+    "filename" : "1517060322/luo/style/widget/weui-page/weui-msg.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 41,
+    "changes" : 41,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-page/weui-msg.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-page/weui-msg.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-page/weui-msg.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,41 +0,0 @@\n-.weui-msg {\n-  padding-top: 36px;\n-  text-align: center;\n-}\n-.weui-msg__link {\n-  display: inline;\n-  color: #586C94;\n-}\n-.weui-msg__icon-area {\n-  margin-bottom: 30px;\n-}\n-.weui-msg__text-area {\n-  margin-bottom: 25px;\n-  padding: 0 20px;\n-}\n-.weui-msg__title {\n-  margin-bottom: 5px;\n-  font-weight: 400;\n-  font-size: 20px;\n-}\n-.weui-msg__desc {\n-  font-size: 14px;\n-  color: #999999;\n-}\n-.weui-msg__opr-area {\n-  margin-bottom: 25px;\n-}\n-.weui-msg__extra-area {\n-  margin-bottom: 15px;\n-  font-size: 14px;\n-  color: #999999;\n-}\n-@media screen and (min-height: 438px) {\n-  .weui-msg__extra-area {\n-    position: fixed;\n-    left: 0;\n-    bottom: 0;\n-    width: 100%;\n-    text-align: center;\n-  }\n-}"
+  }, {
+    "sha" : "1429b03b7963a587a189bd826916d6c14c259204",
+    "filename" : "1517060322/luo/style/widget/weui-panel/weui-panel.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 46,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-panel/weui-panel.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-panel/weui-panel.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-panel/weui-panel.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,46 +0,0 @@\n-.weui-panel {\n-  background-color: #FFFFFF;\n-  margin-top: 10px;\n-  position: relative;\n-  overflow: hidden;\n-}\n-.weui-panel:first-child {\n-  margin-top: 0;\n-}\n-.weui-panel:before {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  top: 0;\n-  right: 0;\n-  height: 1px;\n-  border-top: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-}\n-.weui-panel:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-}\n-.weui-panel__hd {\n-  padding: 14px 15px 10px;\n-  color: #999999;\n-  font-size: 13px;\n-  position: relative;\n-}\n-.weui-panel__hd:after {\n-  content: \" \";\n-  position: absolute;\n-  left: 0;\n-  bottom: 0;\n-  right: 0;\n-  height: 1px;\n-  border-bottom: 1rpx solid #E5E5E5;\n-  color: #E5E5E5;\n-  left: 15px;\n-}"
+  }, {
+    "sha" : "cb47ad3d4fe746e75567be3255c3a5af4b4b04b3",
+    "filename" : "1517060322/luo/style/widget/weui-progress/weui-progress.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 17,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-progress/weui-progress.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-progress/weui-progress.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-progress/weui-progress.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,17 +0,0 @@\n-.weui-progress {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  -webkit-box-align: center;\n-  -webkit-align-items: center;\n-          align-items: center;\n-}\n-.weui-progress__bar {\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-}\n-.weui-progress__opr {\n-  margin-left: 15px;\n-  font-size: 0;\n-}"
+  }, {
+    "sha" : "10bf43df1437a7a8139f5d39a6436b9576d3e5dc",
+    "filename" : "1517060322/luo/style/widget/weui-searchbar/weui-searchbar.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 73,
+    "changes" : 73,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-searchbar/weui-searchbar.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-searchbar/weui-searchbar.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-searchbar/weui-searchbar.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,73 +0,0 @@\n-.weui-search-bar {\n-  position: relative;\n-  padding: 8px 10px;\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  box-sizing: border-box;\n-  background-color: #EFEFF4;\n-  border-top: 1rpx solid #D7D6DC;\n-  border-bottom: 1rpx solid #D7D6DC;\n-}\n-.weui-icon-search {\n-  margin-right: 8px;\n-  font-size: inherit;\n-}\n-.weui-icon-search_in-box {\n-  position: absolute;\n-  left: 10px;\n-  top: 7px;\n-}\n-.weui-search-bar__text {\n-  display: inline-block;\n-  font-size: 14px;\n-  vertical-align: middle;\n-}\n-.weui-search-bar__form {\n-  position: relative;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: auto;\n-          flex: auto;\n-  border-radius: 5px;\n-  background: #FFFFFF;\n-  border: 1rpx solid #E6E6EA;\n-}\n-.weui-search-bar__box {\n-  position: relative;\n-  padding-left: 30px;\n-  padding-right: 30px;\n-  width: 100%;\n-  box-sizing: border-box;\n-  z-index: 1;\n-}\n-.weui-search-bar__input {\n-  height: 28px;\n-  line-height: 28px;\n-  font-size: 14px;\n-}\n-.weui-icon-clear {\n-  position: absolute;\n-  top: 0;\n-  right: 0;\n-  padding: 7px 8px;\n-  font-size: 0;\n-}\n-.weui-search-bar__label {\n-  position: absolute;\n-  top: 0;\n-  right: 0;\n-  bottom: 0;\n-  left: 0;\n-  z-index: 2;\n-  border-radius: 3px;\n-  text-align: center;\n-  color: #9B9B9B;\n-  background: #FFFFFF;\n-  line-height: 28px;\n-}\n-.weui-search-bar__cancel-btn {\n-  margin-left: 10px;\n-  line-height: 28px;\n-  color: #09BB07;\n-  white-space: nowrap;\n-}"
+  }, {
+    "sha" : "2a98ce24813589024a52ce3dd7c3e69e14005bad",
+    "filename" : "1517060322/luo/style/widget/weui-tab/weui-navbar.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 46,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tab/weui-navbar.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tab/weui-navbar.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-tab/weui-navbar.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,46 +0,0 @@\n-.weui-navbar {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  position: absolute;\n-  z-index: 500;\n-  top: 0;\n-  width: 100%;\n-  border-bottom: 1rpx solid #CCCCCC;\n-}\n-.weui-navbar__item {\n-  position: relative;\n-  display: block;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  padding: 13px 0;\n-  text-align: center;\n-  font-size: 0;\n-}\n-.weui-navbar__item.weui-bar__item_on {\n-  color: #1AAD19;\n-}\n-.weui-navbar__slider {\n-  position: absolute;\n-  content: \" \";\n-  left: 0;\n-  bottom: 0;\n-  width: 6em;\n-  height: 3px;\n-  background-color: #1AAD19;\n-  -webkit-transition: -webkit-transform .3s;\n-  transition: -webkit-transform .3s;\n-  transition: transform .3s;\n-  transition: transform .3s, -webkit-transform .3s;\n-}\n-.weui-navbar__title {\n-  display: inline-block;\n-  font-size: 15px;\n-  max-width: 8em;\n-  width: auto;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  white-space: nowrap;\n-  word-wrap: normal;\n-}"
+  }, {
+    "sha" : "fe44e1d49bf53ac84872ebdcc21c23044a4b75d9",
+    "filename" : "1517060322/luo/style/widget/weui-tab/weui-tab.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 57,
+    "changes" : 57,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tab/weui-tab.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tab/weui-tab.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-tab/weui-tab.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,57 +0,0 @@\n-.weui-navbar {\n-  display: -webkit-box;\n-  display: -webkit-flex;\n-  display: flex;\n-  position: absolute;\n-  z-index: 500;\n-  top: 0;\n-  width: 100%;\n-  border-bottom: 1rpx solid #CCCCCC;\n-}\n-.weui-navbar__item {\n-  position: relative;\n-  display: block;\n-  -webkit-box-flex: 1;\n-  -webkit-flex: 1;\n-          flex: 1;\n-  padding: 13px 0;\n-  text-align: center;\n-  font-size: 0;\n-}\n-.weui-navbar__item.weui-bar__item_on {\n-  color: #1AAD19;\n-}\n-.weui-navbar__slider {\n-  position: absolute;\n-  content: \" \";\n-  left: 0;\n-  bottom: 0;\n-  width: 6em;\n-  height: 3px;\n-  background-color: #1AAD19;\n-  -webkit-transition: -webkit-transform .3s;\n-  transition: -webkit-transform .3s;\n-  transition: transform .3s;\n-  transition: transform .3s, -webkit-transform .3s;\n-}\n-.weui-navbar__title {\n-  display: inline-block;\n-  font-size: 15px;\n-  max-width: 8em;\n-  width: auto;\n-  overflow: hidden;\n-  text-overflow: ellipsis;\n-  white-space: nowrap;\n-  word-wrap: normal;\n-}\n-.weui-tab {\n-  position: relative;\n-  height: 100%;\n-}\n-.weui-tab__panel {\n-  box-sizing: border-box;\n-  height: 100%;\n-  padding-top: 50px;\n-  overflow: auto;\n-  -webkit-overflow-scrolling: touch;\n-}"
+  }, {
+    "sha" : "f6c5a35cd5327253a6688323eaa5975734edd75f",
+    "filename" : "1517060322/luo/style/widget/weui-tips/weui-badge.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 16,
+    "changes" : 16,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tips/weui-badge.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tips/weui-badge.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-tips/weui-badge.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,16 +0,0 @@\n-.weui-badge {\n-  display: inline-block;\n-  padding: .15em .4em;\n-  min-width: 8px;\n-  border-radius: 18px;\n-  background-color: #E64340;\n-  color: #FFFFFF;\n-  line-height: 1.2;\n-  text-align: center;\n-  font-size: 12px;\n-  vertical-align: middle;\n-}\n-.weui-badge_dot {\n-  padding: .4em;\n-  min-width: 0;\n-}"
+  }, {
+    "sha" : "0271d3a0af746a42e49ae56b97ff8486a7809c19",
+    "filename" : "1517060322/luo/style/widget/weui-tips/weui-loadmore.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 40,
+    "changes" : 40,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tips/weui-loadmore.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6d5978c83b1be1ae63477975618a7df99e849d9d/1517060322/luo/style/widget/weui-tips/weui-loadmore.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060322/luo/style/widget/weui-tips/weui-loadmore.wxss?ref=6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "patch" : "@@ -1,40 +0,0 @@\n-.weui-loadmore {\n-  width: 65%;\n-  margin: 1.5em auto;\n-  line-height: 1.6em;\n-  font-size: 14px;\n-  text-align: center;\n-}\n-.weui-loadmore__tips {\n-  display: inline-block;\n-  vertical-align: middle;\n-}\n-.weui-loadmore_line {\n-  border-top: 1px solid #E5E5E5;\n-  margin-top: 2.4em;\n-}\n-.weui-loadmore__tips_in-line {\n-  position: relative;\n-  top: -0.9em;\n-  padding: 0 .55em;\n-  background-color: #FFFFFF;\n-  color: #999999;\n-}\n-.weui-loadmore__tips_in-dot {\n-  position: relative;\n-  padding: 0 .16em;\n-  width: 4px;\n-  height: 1.6em;\n-}\n-.weui-loadmore__tips_in-dot:before {\n-  content: \" \";\n-  position: absolute;\n-  top: 50%;\n-  left: 50%;\n-  margin-top: -1px;\n-  margin-left: -2px;\n-  width: 4px;\n-  height: 4px;\n-  border-radius: 50%;\n-  background-color: #E5E5E5;\n-}"
+  } ],
+  "sha" : "f7675baf3ce11814f0692684bda6d583b95627b2",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/f7675baf3ce11814f0692684bda6d583b95627b2",
+  "parents" : [ {
+    "sha" : "6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/6d5978c83b1be1ae63477975618a7df99e849d9d",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/6d5978c83b1be1ae63477975618a7df99e849d9d"
+  } ]
+}

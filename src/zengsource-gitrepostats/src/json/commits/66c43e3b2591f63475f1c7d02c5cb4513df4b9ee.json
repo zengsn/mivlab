@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 6,
+    "additions" : 5,
+    "deletions" : 1
+  },
+  "author" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+  "commit" : {
+    "author" : {
+      "name" : "zengsn",
+      "email" : "shaoning.zeng@gmail.com",
+      "date" : "2017-10-11T01:17:52Z"
+    },
+    "committer" : {
+      "name" : "zengsn",
+      "email" : "shaoning.zeng@gmail.com",
+      "date" : "2017-10-11T01:17:52Z"
+    },
+    "message" : "练习例子：List + View",
+    "tree" : {
+      "sha" : "ba2f09fdb812d3735ae06ee6f7b009b7119a854f",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/ba2f09fdb812d3735ae06ee6f7b009b7119a854f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee/comments",
+  "files" : [ {
+    "sha" : "27e23906982985ea3b26832377667fc0bf3f2c09",
+    "filename" : "12345678/index/index.wxml",
+    "status" : "modified",
+    "additions" : 5,
+    "deletions" : 1,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee/12345678/index/index.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee/12345678/index/index.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/12345678/index/index.wxml?ref=66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+    "patch" : "@@ -7,7 +7,11 @@\n       <text class=\"userinfo-nickname\">{{userInfo.nickName}}</text>\n     </block>\n   </view>\n+  <view bindtap=\"changeColor\" class=\"{{textClass}}\">\n+    <text>这是一个微信小程序演示版本。</text>\n+  </view>\n   <view class=\"usermotto\">\n-    <text class=\"user-motto\">{{motto}}</text>\n+    <navigator url=\"/pages/comp/view?title=view\" hover-class=\"navigator-hover\">view</navigator>\n+    <navigator url=\"/pages/comp/scroll?title=scroll\" hover-class=\"navigator-hover\">scroll-view</navigator>\n   </view>\n </view>"
+  } ],
+  "sha" : "66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/66c43e3b2591f63475f1c7d02c5cb4513df4b9ee",
+  "parents" : [ {
+    "sha" : "000e1ba175d2734ab07498ba12720b18531a9be5",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/000e1ba175d2734ab07498ba12720b18531a9be5",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/000e1ba175d2734ab07498ba12720b18531a9be5"
+  } ]
+}

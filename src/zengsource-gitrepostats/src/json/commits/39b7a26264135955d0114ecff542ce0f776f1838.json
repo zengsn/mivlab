@@ -1,0 +1,624 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 593,
+    "additions" : 593,
+    "deletions" : 0
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/39b7a26264135955d0114ecff542ce0f776f1838",
+  "commit" : {
+    "author" : {
+      "name" : "1517060340",
+      "email" : "l",
+      "date" : "2017-11-01T03:58:37Z"
+    },
+    "committer" : {
+      "name" : "1517060340",
+      "email" : "l",
+      "date" : "2017-11-01T03:58:37Z"
+    },
+    "message" : "#84 期末作业",
+    "tree" : {
+      "sha" : "3946d4798a615c431370dfe0e91e34e1cbad5926",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/3946d4798a615c431370dfe0e91e34e1cbad5926"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/39b7a26264135955d0114ecff542ce0f776f1838",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/39b7a26264135955d0114ecff542ce0f776f1838/comments",
+  "files" : [ {
+    "sha" : "b54519049218b9dc04991f8632a5cfd0a1378bdb",
+    "filename" : "1517060340/QQ/app.js",
+    "status" : "added",
+    "additions" : 39,
+    "deletions" : 0,
+    "changes" : 39,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/app.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/app.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/app.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,39 @@\n+//app.js\n+App({\n+  onLaunch: function () {\n+    // 展示本地存储能力\n+    var logs = wx.getStorageSync('logs') || []\n+    logs.unshift(Date.now())\n+    wx.setStorageSync('logs', logs)\n+\n+    // 登录\n+    wx.login({\n+      success: res => {\n+        // 发送 res.code 到后台换取 openId, sessionKey, unionId\n+      }\n+    })\n+    // 获取用户信息\n+    wx.getSetting({\n+      success: res => {\n+        if (res.authSetting['scope.userInfo']) {\n+          // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框\n+          wx.getUserInfo({\n+            success: res => {\n+              // 可以将 res 发送给后台解码出 unionId\n+              this.globalData.userInfo = res.userInfo\n+\n+              // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回\n+              // 所以此处加入 callback 以防止这种情况\n+              if (this.userInfoReadyCallback) {\n+                this.userInfoReadyCallback(res)\n+              }\n+            }\n+          })\n+        }\n+      }\n+    })\n+  },\n+  globalData: {\n+    userInfo: null\n+  }\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "21a152a5bdc1615db07a48d493e0a50dae118a13",
+    "filename" : "1517060340/QQ/app.json",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/app.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/app.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/app.json?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,42 @@\n+{\n+  \"pages\": [\n+    \"pages/index/index\",\n+    \"pages/comp/scroll\",\n+    \"pages/form/form\",\n+    \"pages/example/article/article\",\n+    \"pages/example/qqweq/qqweq\",\n+    \"pages/fm/fm\"\n+    \n+  ],\n+  \"window\": {\n+    \"backgroundTextStyle\": \"light\",\n+    \"navigationBarBackgroundColor\": \"#00e5ee\",\n+    \"navigationBarTitleText\": \"郑镇民\",\n+    \"navigationBarTextStyle\": \"while\"\n+  },\n+  \"tabBar\": {\n+    \"color\": \"#ffffff\",\n+    \"backgroundColor\": \"#00e5ee\",\n+   \n+    \"list\": [\n+      {\n+        \"selectedIconPath\": \"pages/image/14.jpg\",\n+        \"iconPath\": \"pages/image/13.jpg\",\n+        \"pagePath\": \"pages/index/index\",\n+        \"text\": \"首页\"\n+      },\n+      {\n+        \"pagePath\": \"pages/comp/scroll\",\n+        \"selectedIconPath\": \"pages/image/14.jpg\",\n+        \"iconPath\": \"pages/image/13.jpg\",\n+        \"text\": \"职业\"\n+      },\n+      {\n+        \"pagePath\": \"pages/form/form\",\n+        \"selectedIconPath\": \"pages/image/14.jpg\",\n+        \"iconPath\": \"pages/image/13.jpg\",\n+        \"text\": \"提交\"\n+      }\n+    ]\n+  }\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "bf4f7aedec95a045746922b434f28039ade97f4b",
+    "filename" : "1517060340/QQ/app.wxss",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/app.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/app.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/app.wxss?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,12 @@\n+/**app.wxss**/\n+@import 'style/weui.wxss';\n+.container {\n+  height: 100%;\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding: 200rpx 0;\n+  box-sizing: border-box;\n+\n+} "
+  }, {
+    "sha" : "716d83561f187d49c9ca1593199a05059e847533",
+    "filename" : "1517060340/QQ/pages/comp/scroll.js",
+    "status" : "added",
+    "additions" : 113,
+    "deletions" : 0,
+    "changes" : 113,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/comp/scroll.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/comp/scroll.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/comp/scroll.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,113 @@\n+// pages/comp/scroll.js\n+var base64 = require(\"../example/images/base64\");\n+\n+Page({\n+\n+  /**\n+   * 页面的初始数据\n+   */\n+  data: {\n+    isEnd: true,\n+    messages: [{\n+      image:\"/pages/image/t0.jpg\",\n+      name: \"坦克\",\n+      last: \"GhostKnight\"\n+    }, {\n+        image: \"/pages/image/t1.jpg\",\n+        name: \"射手\",\n+        last: \"Gunner\"\n+    }, {\n+        image: \"/pages/image/t2.jpg\",\n+        name: \"法师\",\n+        last: \"Fighter\"\n+    }, {\n+        image: \"/pages/image/t3.png\",\n+        name: \"辅助\",\n+        last: \"Mage\"\n+    }, {\n+        image: \"/pages/image/t4.jpg\",\n+        name: \"刺客\",\n+        last: \"Priest\"\n+    }, {\n+        image: \"/pages/image/t5.jpg\",\n+        name: \"战士\",\n+        last: \"Night elf angel\"\n+    }]\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面加载\n+   */\n+  onLoad: function (options) {\n+    this.setData({\n+      icon20: base64.icon20,\n+      icon60: base64.icon60\n+    });\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面初次渲染完成\n+   */\n+  onReady: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面显示\n+   */\n+  onShow: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面隐藏\n+   */\n+  onHide: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面卸载\n+   */\n+  onUnload: function () {\n+\n+  },\n+\n+  /**\n+   * 页面相关事件处理函数--监听用户下拉动作\n+   */\n+  onPullDownRefresh: function () {\n+\n+  },\n+\n+  /**\n+   * 页面上拉触底事件的处理函数\n+   */\n+  onReachBottom: function () {\n+\n+  },\n+\n+  /**\n+   * 用户点击右上角分享\n+   */\n+  onShareAppMessage: function () {\n+\n+  },\n+\n+  onEnd: function () {\n+    \n+    var that = this;\n+    var data = that.data;\n+    that.setData({\n+      isEnd: true /*,\n+      messages: data.messages.concat([{\n+        name: \"Tom\",\n+        last: \"Hello!\"\n+      }, {\n+        name: \"john\",\n+        last: \"yes.\"\n+      }]) */\n+    });\n+\n+  }\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "a0f0f479cada19a21aaca7a811c167ed698534fb",
+    "filename" : "1517060340/QQ/pages/comp/scroll.wxml",
+    "status" : "added",
+    "additions" : 23,
+    "deletions" : 0,
+    "changes" : 23,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/comp/scroll.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/comp/scroll.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/comp/scroll.wxml?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,23 @@\n+<!--pages/comp/scroll.wxml-->\n+<scroll-view class=\"page\" bindtouchend='onEnd' >\n+    <view class=\"page__bd\">\n+        <view class=\"weui-panel weui-panel_access\">\n+            <view class=\"weui-panel__hd\"></view>\n+            <view class=\"weui-panel__bd\">\n+                <navigator url=\"/pages/fm\" class=\"weui-media-box weui-media-box_appmsg\" hover-class=\"weui-cell_active\" wx:for=\"{{messages}}\">\n+                    <view class=\"weui-media-box__hd weui-media-box__hd_in-appmsg\">\n+                        <image class=\"weui-media-box__thumb\" src=\"{{item.image}}\" />\n+                    </view>\n+                    <view class=\"weui-media-box__bd weui-media-box__bd_in-appmsg\">\n+                        <view class=\"weui-media-box__title\"> {{item.name}}</view>\n+                        <view class=\"weui-media-box__desc\">{{item.last}}</view>\n+                    </view>\n+                </navigator>\n+            </view>\n+        </view>\n+        <view class='weui-loadmore' wx:if=\"{{isEnd}}\">\n+          <view class='weui-loading'></view>\n+          <view class='weui-loadmore__tips'>正在加载……</view>\n+        </view>\n+    </view>\n+</scroll-view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "67a27e0f764386aa0cfdd6d9494ba55ba2cf174b",
+    "filename" : "1517060340/QQ/pages/comp/scroll.wxss",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/comp/scroll.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/comp/scroll.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/comp/scroll.wxss?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1 @@\n+/* pages/comp/scroll.wxss */"
+  }, {
+    "sha" : "f16cc1a8255aae310cbd340c85f98ff26a7bfb2d",
+    "filename" : "1517060340/QQ/pages/example/article/article.js",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/article/article.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1 @@\n+Page({});\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517060340/QQ/pages/example/article/article.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/article/article.json?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1 @@\n+{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "9fe53581c9e2784a680598e3ae2bd96c36d397cf",
+    "filename" : "1517060340/QQ/pages/example/article/article.wxml",
+    "status" : "added",
+    "additions" : 138,
+    "deletions" : 0,
+    "changes" : 138,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/article/article.wxml?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,138 @@\n+<view class=\"page\">\n+    <view class=\"page__hd\">\n+        <view class=\"page__title\">曹操：战士、吸血</view>\n+    </view>\n+    <view class=\"page__bd\">\n+        <view class=\"weui-article\">\n+            <view class=\"weui-article__section\">\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">曹操：战士、吸血</view>\n+                    <view class=\"weui-article__p\">\n+曹操作为三国季首发英雄，曹操作为一代帝王，在历史上极富盛名，被成为三国枭雄。在王者荣耀中被赋予了强大的吸血能力，独特的大招能在瞬间吸血，不俗的攻击和防御，往往让他成为后期的王者，无论是对线还是团战，曹操相当不错。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/1.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">夏侯惇：战士、吸血</view>\n+                    <view class=\"weui-article__p\">夏侯惇在历史上是曹操的兄弟，曹魏开过功臣，深受曹操的重用。在王者荣耀中夏侯惇竟然和曹操相同，都是带有吸血效果的战士。但是技能效果十分独特，全部技能都带有强化效果，不是增加伤害就是吸血，大招竟然是增加击飞高度和控制时长，很让人匪夷所思。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/2.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">诸葛亮：法师、团控、先手</view>\n+                    <view class=\"weui-article__p\">诸葛亮是三国时期蜀国的政治军事家，被后人敬奉为忠臣和智者的化身。在王者荣耀中赋予了曹操强大的团控能力，诸葛亮大家不陌生，在封测就已经出现的英雄，作为冒险模式的BOSS与玩家见面，2技能和大招都带有控制效果，被动能增加友军抗性。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/3.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">周瑜：法师、远程、消耗</view>\n+                    <view class=\"weui-article__p\">周瑜为东汉末年名将，征战沙场无数，外表帅气，还是痴情的汉子。在王者荣耀中他是一名远程消耗法师，技能效果跟LOL的火男相同，使用火焰来控制敌人。被动是对敌人造成引燃标记，1技能释放火焰进行伤害和眩晕，2技能陨石坠落，大招释放火柱。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/4.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">一骑当千\n+关羽：</view>\n+                    <view class=\"weui-article__p\">出装分析\n+出装思路：对于关羽来说速度即是力量，鞋子是首选，关羽是比较怕控制的英雄，抵抗之靴能够增加自身抗性，再配合二技能净化，解控能力不亚于庄周。 \n+第二件出爆裂之甲，除了堆血量还有物理攻击加成，受到伤害时能提高最多10%移速和伤害，非常不错。 \n+第三件不祥征兆，能增加关羽大量的物理防御和生命值，受到敌人攻击时也能很好的限制敌人输出，让敌人难以跟上关羽的步伐。 \n+接着是核心输出装备破甲弓，顺风的话可以在第三件出，当然这里也可以选择暗影战斧替换，两件装备都提供物理输出、穿透和冷却缩减，建议优先选择破甲弓，能够最大限度强化关羽的输出。 \n+接下来就是肉装撑血了，常用防御两件套魔女斗篷和反伤甲，也可以考虑复活甲增加容错率，或者凶一点出破军一刀砍死一个。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/5.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">千金重弩\n+孙尚香</view>\n+                    <view class=\"weui-article__p\">出装分析\n+出装思路：孙尚香的伤害主要来源于一技能，因此在出装方面以暴击伤害为主攻速为辅，小打野刀出门，第一件追击刀锋，帮助孙尚香在前期快速清野发育；第二件鞋子，抵抗或影忍，攻速鞋不推荐。第3~4件出无尽+泣血，大幅度提升伤害和续航能力；第五件宗师之力，孙尚香的核心装备之一，配合一技能效果，两炮送对手回高地；最后一件可以选择破甲弓，大后期打野刀可以换成复活甲。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/6.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">仁德义枪\n+刘备</view>\n+                    <view class=\"weui-article__p\">出装思路：打野刀出门，第一件追击刀锋叠攻速提升打野速度；第二件先出一把小吸血刀增加续航能力；第三件鞋子，影刃或者抵抗，看对面阵容；第四件暗影战斧，战士的核心装备；这四件出来之后刘备装备就基本成型了。 \n+接下来几件装备就要根据局势来选择了，首先升级小吸血刀，升级成什么这里就有讲究了：\n+●如果对方是一些无恢复型坦克又比较肉，比如张飞、东皇太一这类，那这把小吸血刀就可以升级成末世；\n+●如果对方都是脆皮阵容，就升级成吸血刀来保证自身的吸血能力；\n+●当然如果有貂蝉、蔡文姬、程咬金、曹操这类吸血恢复快的英雄，则要换成制裁之刃。 \n+最后两件根据队友打团的积极度来选择，一般推荐出半肉，冰痕+魔女，因为野团队友意识一般都比较差，往往拖到大后期，所以选择半肉出装可以更好的保护自己输出。当然如何大顺风，或者队友配合意识强的话，可以凶一点，出破甲弓+破军，来秒对手后排。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/7.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">逆流之时\n+孙膑</view>\n+                    <view class=\"weui-article__p\">中单出装思路：中单孙膑的出装思路和大部分法师差不多，前期核心装备面具+鞋子+回响，鞋子可以选择冷静减CD，也可以选择疾步增加机动性，丢个一技能就跑...丢个一技能就跑...相当恶心！ \n+接下来帽子+冰杖，大幅度增加伤害和控制能力，哪个先出看阵容，己方控制不足或者对面跑得快，就先出冰杖，反之先出帽子。 \n+最后补上法穿杖，一技能伤害就逆天了，这里简单说下重点孙膑对线思路，前期尽量以发育为主，中单孙膑和辅助孙膑不一样，前期不能瞎逛，因为孙膑清线慢前期瞎跑的话，很容易经济跟不上后期就废了，所以一般是被动地去支援队友。 \n+打团时候因为孙膑爆发不足，所以在敌方突进过来时候尽量开启技能撤退牵制，在团战开启之前利用手长的优势消耗对手，并利用13技能限制敌方的走位和进攻。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/8.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">傀儡师\n+庞统</view>\n+                    <view class=\"weui-article__p\">出装思路：前期暗影战斧自然是刺客的首选装备了，要输出有输出要肉有肉还有减CD。刺客的主要任务是gank，鞋子自然是必要的，庞统主要靠技能秀全场，鞋子首选冷静之靴减CD效果好。接着出冰痕之握，庞统打一套要释放多个技能，所以需要点蓝量，并且冰痕之握还提供血量护甲和减CD，是不错的选择。在中后期护甲和血量都差不多了，接下来就是暴力点的装备了，破甲弓和破军，残暴到不行，熟练的操作一套带走庞统本身也不会受到伤害。暴力装都比较脆，来件复活甲是非常好的选择。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/9.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">原第九使徒“爆龙王”巴卡尔</view>\n+                    <view class=\"weui-article__p\">吐息火焰者（RexBacar tyrannosaurus）\n+“爆龙王”巴卡尔是群龙之王，刚进入魔界时，他曾凭强大而神秘的力量被封为第九使徒。发现赫尔德阴谋的他不愿意屈从在赫尔德铁腕之下，便开始有计划地制造混乱以打乱赫尔德的部署。赫尔德震怒之下使用诡计将巴卡尔从使徒中除名，并将制造者卢克封为第九使徒，同时集结其他八名使徒之力和巴卡尔展开了一场激烈的战斗，这场战斗就是史上记载的“龙之战争”。战败的巴卡尔利用寂静城从魔界逃离到新的世界——天界。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/10.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">第十使徒“混沌之神”奥兹玛</view>\n+                    <view class=\"weui-article__p\">死而复生者（Ozma chaos）\n+混沌之鬼神·奥兹玛曾经是辅佐佩罗斯帝国名将——卡赞的帝国最强法师。亦是卡赞的挚友。听闻卡赞的反叛，便接受了帝国的命令前往镇压。却在交战中与卡赞一起被突然出现的帝国军队逮捕。在牢狱中，了解了这一切都是惊恐于他们两人权力扩大的帝国皇帝的阴谋。失去了家人与恋人莉兹的奥兹玛接受了死神的提案，以自己的灵魂为代价换来了灭亡世界之力。之后，因为奥兹玛所施加的“血之诅咒”，人与人之间的信任消亡，世界陷入一片混沌。在这样的混乱中，出现了拥有能够分辨伪装者能力的人。他们击退了伪装者，成为了圣职者的始祖。最后，奥兹玛在“黑色圣战”中为圣职者所击败，被封印至异空间中。现在，随着阿拉德大陆出现了转移的时空裂缝，他又再窥伺着重返现世的机会。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/11.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">第十一使徒“圣者”米歇尔</view>\n+                    <view class=\"weui-article__p\">拥有两张面孔且面带泪痕者（Crying eyes hilder）\n+知晓真相者（Michael the sage）\n+引领暗黑圣战走向胜利的“五圣者”之一。\n+最初得到启示的圣者。\n+圣职者的始祖。\n+传说他不受时间的影响，一直保持着少年的姿态。\n+领导暗黑圣战走向胜利后，便消失在和平的世界中。\n+他也是圣职者武术——神格拳(神击)的创始者。\n+根据圣职者二次觉醒剧情，米歇尔已死于冒险家之手。\n+                    </view>\n+                    <view class=\"weui-article__p\">\n+                        <image class=\"weui-article__img\" src=\"/pages/image/12.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n+                    </view>\n+                </view>\n+                \n+            </view>\n+        </view>\n+    </view>\n+</view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "fa064c61d74a0178eefaf7deb7a1d96945dae8ec",
+    "filename" : "1517060340/QQ/pages/example/article/article.wxss",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/article/article.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/article/article.wxss?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,6 @@\n+page{\n+    background-color: #FFFFFF;\n+}\n+image{\n+    margin: 4px 0;\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "97e51d0ac0cd6a5fc89d0f43c410d23627e63ccc",
+    "filename" : "1517060340/QQ/pages/example/images/base64.js",
+    "status" : "added",
+    "additions" : 4,
+    "deletions" : 0,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/base64.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/base64.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/base64.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,4 @@\n+module.exports = {\n+    icon20: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=\",\n+    icon60: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAeFBMVEUAwAD///+U5ZTc9twOww7G8MYwzDCH4YcfyR9x23Hw+/DY9dhm2WZG0kbT9NP0/PTL8sux7LFe115T1VM+zz7i+OIXxhes6qxr2mvA8MCe6J6M4oz6/frr+us5zjn2/fa67rqB4IF13XWn6ad83nxa1loqyirn+eccHxx4AAAC/klEQVRo3u2W2ZKiQBBF8wpCNSCyLwri7v//4bRIFVXoTBBB+DAReV5sG6lTXDITiGEYhmEYhmEYhmEYhmEY5v9i5fsZGRx9PyGDne8f6K9cfd+mKXe1yNG/0CcqYE86AkBMBh66f20deBc7wA/1WFiTwvSEpBMA2JJOBsSLxe/4QEEaJRrASP8EVF8Q74GbmevKg0saa0B8QbwBdjRyADYxIhqxAZ++IKYtciPXLQVG+imw+oo4Bu56rjEJ4GYsvPmKOAB+xlz7L5aevqUXuePWVhvWJ4eWiwUQ67mK51qPj4dFDMlRLBZTqF3SDvmr4BwtkECu5gHWPkmDfQh02WLxXuvbvC8ku8F57GsI5e0CmUwLz1kq3kD17R1In5816rGvQ5VMk5FEtIiWislTffuDpl/k/PzscdQsv8r9qWq4LRWX6tQYtTxvI3XyrwdyQxChXioOngH3dLgOFjk0all56XRi/wDFQrGQU3Os5t0wJu1GNtNKHdPqYaGYQuRDfbfDf26AGLYSyGS3ZAK4S8XuoAlxGSdYMKwqZKM9XJMtyqXi7HX/CiAZS6d8bSVUz5J36mEMFDTlAFQzxOT1dzLRljjB6+++ejFqka+mXIe6F59mw22OuOw1F4T6lg/9VjL1rLDoI9Xzl1MSYDNHnPQnt3D1EE7PrXjye/3pVpr1Z45hMUdcACc5NVQI0bOdS1WA0wuz73e7/5TNqBPhQXPEFGJNV2zNqWI7QKBd2Gn6AiBko02zuAOXeWIXjV0jNqdKegaE/kJQ6Bfs4aju04lMLkA2T5wBSYPKDGF3RKhFYEa6A1L1LG2yacmsaZ6YPOSAMKNsO+N5dNTfkc5Aqe26uxHpx7ZirvgCwJpWq/lmX1hA7LyabQ34tt5RiJKXSwQ+0KU0V5xg+hZrd4Bn1n4EID+WkQdgLfRNtvil9SPfwy+WQ7PFBWQz6dGWZBLkeJFXZGCfLUjCgGgqXo5TuSu3cugdcTv/HjqnBTEMwzAMwzAMwzAMwzAMw/zf/AFbXiOA6frlMAAAAABJRU5ErkJggg==\"\n+};\n\\ No newline at end of file"
+  }, {
+    "sha" : "8e65c75147cd033ca2f5f0c46ca330b33805867e",
+    "filename" : "1517060340/QQ/pages/example/images/icon_footer.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_footer.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_footer.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_footer.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "8e65c75147cd033ca2f5f0c46ca330b33805867e",
+    "filename" : "1517060340/QQ/pages/example/images/icon_footer_link.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_footer_link.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_footer_link.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_footer_link.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "d2bf4a5f36be547f43c41d22f697f0fe173bce1e",
+    "filename" : "1517060340/QQ/pages/example/images/icon_intro.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_intro.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_intro.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_intro.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "8c037434226b1495e59f4a0a71b3240ebae37f3b",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_feedback.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_feedback.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_feedback.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_feedback.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "9d2addb22fd2df24399756ccff14f2210b132101",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_form.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_form.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_form.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_form.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "b4fe0f6cba28cc47f3304f7a47ad00d69c22fa8e",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_nav.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_nav.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_nav.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_nav.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "6efea86492f838d5c0bf715a936faf72c584a195",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_search.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_search.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_search.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_search.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "7c46cf9a8ef600b355d5d08e5652874b7ee54e8f",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_special.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_special.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_special.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_special.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "1d07c1f2df7554e6f2279601af467dfebae25056",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_widget.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_widget.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_widget.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_widget.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "f32f62081188bab5a20face7acb3b82e2e7d957f",
+    "filename" : "1517060340/QQ/pages/example/images/icon_nav_z-index.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_z-index.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_nav_z-index.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_nav_z-index.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "20b30ab5ed685386e1b8ea3c2ca4eb2e544b4fa7",
+    "filename" : "1517060340/QQ/pages/example/images/icon_tabbar.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_tabbar.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/icon_tabbar.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/icon_tabbar.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "0810604faa4e47ff47a15a38e92c45dd5206c116",
+    "filename" : "1517060340/QQ/pages/example/images/logo.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/logo.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/logo.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/logo.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "ba941704c707a34437396d22c4ab7ae7c9761655",
+    "filename" : "1517060340/QQ/pages/example/images/pic_160.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/pic_160.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/pic_160.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/pic_160.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "c240812c2822576c4ea0c0ecc1545ddbd5ec2ae8",
+    "filename" : "1517060340/QQ/pages/example/images/pic_article.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/pic_article.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/pic_article.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/pic_article.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "de54b38a31e766d4cd1102ad9155a57ea92b3f73",
+    "filename" : "1517060340/QQ/pages/example/images/vcode.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/vcode.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/images/vcode.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/images/vcode.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "f16cc1a8255aae310cbd340c85f98ff26a7bfb2d",
+    "filename" : "1517060340/QQ/pages/example/qqweq/qqweq.js",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/qqweq/qqweq.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1 @@\n+Page({});\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517060340/QQ/pages/example/qqweq/qqweq.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/qqweq/qqweq.json?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1 @@\n+{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "895ee29116cdfc8a8305db42ac96fd49d9f577fe",
+    "filename" : "1517060340/QQ/pages/example/qqweq/qqweq.wxml",
+    "status" : "added",
+    "additions" : 42,
+    "deletions" : 0,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/qqweq/qqweq.wxml?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,42 @@\n+<view class=\"page\">\n+    <view class=\"page__hd\">\n+        <view class=\"page__title\">王者峡谷</view>\n+        \n+    </view>\n+    <view class=\"page__bd\">\n+        <view class=\"weui-article\">\n+            <view class=\"weui-article__section\">\n+             <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">墨家机关道</view>\n+                </view>\n+             <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">猩红石像</view>\n+                </view>\n+             <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">蔚蓝石像</view>\n+                </view>\n+             <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">魔种红鹰</view>\n+                </view>\n+                 <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">魔种蓝鹰</view>\n+                </view>\n+                   <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">魔种野猪</view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">魔种猎豹</view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">河道蜥蜴</view>\n+                </view>\n+                <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">黑暗暴君</view>\n+                </view>\n+                 <view class=\"weui-article__section\">\n+                    <view class=\"weui-article__h3\">暗影主宰</view>\n+                </view>\n+            </view>\n+        </view>\n+    </view>\n+</view>"
+  }, {
+    "sha" : "fa064c61d74a0178eefaf7deb7a1d96945dae8ec",
+    "filename" : "1517060340/QQ/pages/example/qqweq/qqweq.wxss",
+    "status" : "added",
+    "additions" : 6,
+    "deletions" : 0,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/example/qqweq/qqweq.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/example/qqweq/qqweq.wxss?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,6 @@\n+page{\n+    background-color: #FFFFFF;\n+}\n+image{\n+    margin: 4px 0;\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "19f951017c941ef586a945f47b7516992ce14e9c",
+    "filename" : "1517060340/QQ/pages/fm/fm.js",
+    "status" : "added",
+    "additions" : 66,
+    "deletions" : 0,
+    "changes" : 66,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/fm/fm.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/fm/fm.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/fm/fm.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,66 @@\n+// pages/fm.js\n+Page({\n+\n+  /**\n+   * 页面的初始数据\n+   */\n+  data: {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面加载\n+   */\n+  onLoad: function (options) {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面初次渲染完成\n+   */\n+  onReady: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面显示\n+   */\n+  onShow: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面隐藏\n+   */\n+  onHide: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面卸载\n+   */\n+  onUnload: function () {\n+\n+  },\n+\n+  /**\n+   * 页面相关事件处理函数--监听用户下拉动作\n+   */\n+  onPullDownRefresh: function () {\n+\n+  },\n+\n+  /**\n+   * 页面上拉触底事件的处理函数\n+   */\n+  onReachBottom: function () {\n+\n+  },\n+\n+  /**\n+   * 用户点击右上角分享\n+   */\n+  onShareAppMessage: function () {\n+\n+  }\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "e45d9f17e480c06c2665a4925855e6266a1dce4a",
+    "filename" : "1517060340/QQ/pages/fm/fm.wxml",
+    "status" : "added",
+    "additions" : 3,
+    "deletions" : 0,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/fm/fm.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/fm/fm.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/fm/fm.wxml?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,3 @@\n+<view>\n+<image src='/pages/image/b1.jpg' style='width:320px; height: 567px'></image>\n+</view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "89e9b8cd4b21c07a35d47a66935d7ff1f6922174",
+    "filename" : "1517060340/QQ/pages/image/1.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/1.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/1.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/1.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "1a34ecd07caaeebe0e7f0c182cb04180d68dce9c",
+    "filename" : "1517060340/QQ/pages/image/12 - 副本.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/12%20-%20%E5%89%AF%E6%9C%AC.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/12%20-%20%E5%89%AF%E6%9C%AC.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/12%20-%20%E5%89%AF%E6%9C%AC.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "1a34ecd07caaeebe0e7f0c182cb04180d68dce9c",
+    "filename" : "1517060340/QQ/pages/image/13.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/13.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/13.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/13.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "72ef838e55a176badf99eeddd40ca13e1e84cea2",
+    "filename" : "1517060340/QQ/pages/image/14.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/14.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/14.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/14.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "cb7bde2debd4cf7c6fe7ec0df190a40e8b044103",
+    "filename" : "1517060340/QQ/pages/image/2.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/2.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/2.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "b604ff3cd50e50f75c3e405243b61e40cf3a23b0",
+    "filename" : "1517060340/QQ/pages/image/3.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/3.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/3.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/3.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "dfabc31f97b1c069f98b60c57d935014f03c271d",
+    "filename" : "1517060340/QQ/pages/image/4.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/4.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/4.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/4.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "e1616165986a3e6eaba7afaaf6891a8e519c8be6",
+    "filename" : "1517060340/QQ/pages/image/5.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/5.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/5.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/5.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "71f192186f67ab703420cdab892bd80be6928145",
+    "filename" : "1517060340/QQ/pages/image/6.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/6.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/6.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/6.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "79736bac7a217b9fd2aa24839be9e82c61db9029",
+    "filename" : "1517060340/QQ/pages/image/7.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/7.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/7.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/7.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "518e07c0ff0953f4eba7c374d2217d2ef6c05596",
+    "filename" : "1517060340/QQ/pages/image/8.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/8.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/8.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/8.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "0d2b6853172f8f03e0d4d027873f5fb1a43f12d9",
+    "filename" : "1517060340/QQ/pages/image/9.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/9.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/9.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/9.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "45e769079661be066138d8c1b7a0e0b8da5cc2b6",
+    "filename" : "1517060340/QQ/pages/image/b1.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/b1.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/b1.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/b1.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "957ad3af9a7eb00a57a68833054aee6913ea7f2b",
+    "filename" : "1517060340/QQ/pages/image/t0.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t0.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t0.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t0.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "fd86326f27e0c8d215c1e56308f5efd590335d19",
+    "filename" : "1517060340/QQ/pages/image/t1.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t1.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t1.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t1.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "693eff9b47d9ce8dffbae1b0addcf7b0be1fc532",
+    "filename" : "1517060340/QQ/pages/image/t2.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t2.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t2.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "844610bb1cbebcb3bf24928092b7a39b35e199d5",
+    "filename" : "1517060340/QQ/pages/image/t3.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t3.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t3.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t3.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "08a7056d1d679c5ca436f6de8bbafe7e37a487c0",
+    "filename" : "1517060340/QQ/pages/image/t4.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t4.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t4.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t4.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "32d4fa52e79038dd55f5166c59060cb26a435b4c",
+    "filename" : "1517060340/QQ/pages/image/t5.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t5.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t5.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t5.jpg?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "59a3c78678e845f7cfd4566a0bbbafbb9f4025c2",
+    "filename" : "1517060340/QQ/pages/image/t6.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t6.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t6.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t6.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "2ae2b41ec05036710dc584b51b0e64cd4ea2d268",
+    "filename" : "1517060340/QQ/pages/image/t7.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t7.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/image/t7.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/image/t7.png?ref=39b7a26264135955d0114ecff542ce0f776f1838"
+  }, {
+    "sha" : "1401a259db95647ec3f6a04e70c20c617a5b8825",
+    "filename" : "1517060340/QQ/pages/index/index.js",
+    "status" : "added",
+    "additions" : 54,
+    "deletions" : 0,
+    "changes" : 54,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/index/index.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/index/index.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/index/index.js?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,54 @@\n+//index.js\n+//获取应用实例\n+const app = getApp()\n+\n+Page({\n+  data: {\n+    motto: 'linwusheng',\n+    userInfo: {},\n+    hasUserInfo: false,\n+    canIUse: wx.canIUse('button.open-type.getUserInfo')\n+  },\n+  //事件处理函数\n+  bindViewTap: function() {\n+    wx.navigateTo({\n+      url: '../logs/logs'\n+    })\n+  },\n+  onLoad: function () {\n+    if (app.globalData.userInfo) {\n+      this.setData({\n+        userInfo: app.globalData.userInfo,\n+        hasUserInfo: true\n+      })\n+    } else if (this.data.canIUse){\n+      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回\n+      // 所以此处加入 callback 以防止这种情况\n+      app.userInfoReadyCallback = res => {\n+        this.setData({\n+          userInfo: res.userInfo,\n+          hasUserInfo: true\n+        })\n+      }\n+    } else {\n+      // 在没有 open-type=getUserInfo 版本的兼容处理\n+      wx.getUserInfo({\n+        success: res => {\n+          app.globalData.userInfo = res.userInfo\n+          this.setData({\n+            userInfo: res.userInfo,\n+            hasUserInfo: true\n+          })\n+        }\n+      })\n+    }\n+  },\n+  getUserInfo: function(e) {\n+    console.log(e)\n+    app.globalData.userInfo = e.detail.userInfo\n+    this.setData({\n+      userInfo: e.detail.userInfo,\n+      hasUserInfo: true\n+    })\n+  }\n+})"
+  }, {
+    "sha" : "2966d871ef8572d486cbc0d656869387a6088950",
+    "filename" : "1517060340/QQ/pages/index/index.wxml",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/index/index.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/index/index.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/index/index.wxml?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,31 @@\n+<!--index.wxml-->\n+\n+<view class=\"page\">\n+    <view class=\"page__hd\">\n+        <view class=\"page__title\">Dungeon & Fighter</view>\n+        <view class=\"page__desc\">三国英雄</view>\n+    </view>\n+    <view class=\"page__bd\">\n+        <view class=\"weui-cells__title\">孙尚香</view>\n+        <view class=\"weui-cells weui-cells_after-title\">\n+            <navigator url=\"/pages/fm/fm\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n+                <view class=\"weui-cell__bd\">孙尚香</view>\n+                <view class=\"weui-cell__ft weui-cell__ft_in-access\">打开</view>\n+            </navigator>\n+            </view>\n+            <view class=\"weui-cells__title\">王者峡谷</view>\n+            <view class=\"weui-cells weui-cells_after-title\">\n+            <navigator url=\"/pages/example/qqweq/qqweq\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n+                <view class=\"weui-cell__bd\">王者峡谷</view>\n+                <view class=\"weui-cell__ft weui-cell__ft_in-access\">打开</view>\n+            </navigator>\n+        </view>\n+        <view class=\"weui-cells__title\">三国英雄</view>\n+        <view class=\"weui-cells weui-cells_after-title\">\n+            <navigator url=\"/pages/example/article/article\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n+                <view class=\"weui-cell__bd\">三国英雄</view>\n+                <view class=\"weui-cell__ft weui-cell__ft_in-access\">打开</view>\n+            </navigator>\n+        </view>\n+    </view>\n+</view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "d2e1d9adc53e1e8fb581c091fa69ceaad8534573",
+    "filename" : "1517060340/QQ/pages/index/index.wxss",
+    "status" : "added",
+    "additions" : 9,
+    "deletions" : 0,
+    "changes" : 9,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/index/index.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39b7a26264135955d0114ecff542ce0f776f1838/1517060340/QQ/pages/index/index.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060340/QQ/pages/index/index.wxss?ref=39b7a26264135955d0114ecff542ce0f776f1838",
+    "patch" : "@@ -0,0 +1,9 @@\n+/**index.wxss**/\n+.page__title{\n+  display: flex;\n+  justify-content: center;\n+}\n+.page__desc{\n+  display: flex;\n+  justify-content: center;\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "39b7a26264135955d0114ecff542ce0f776f1838",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/39b7a26264135955d0114ecff542ce0f776f1838",
+  "parents" : [ {
+    "sha" : "793ddcf63b769601db585203af511ae6ebbf4681",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/793ddcf63b769601db585203af511ae6ebbf4681",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/793ddcf63b769601db585203af511ae6ebbf4681"
+  } ]
+}

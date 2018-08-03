@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 10,
+    "additions" : 10,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+  "commit" : {
+    "author" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-20T03:32:08Z"
+    },
+    "committer" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-20T03:32:08Z"
+    },
+    "message" : "#26 HTML开发实验代码",
+    "tree" : {
+      "sha" : "9ba98888b97a442fc655f5d2def193876421640d",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/9ba98888b97a442fc655f5d2def193876421640d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1e74e2db241cb1fd8bced80f89f96cce8dd11f48/comments",
+  "files" : [ {
+    "sha" : "824db812cf188d9768941ad9d3f3a3b3f9e7d2c5",
+    "filename" : "1517060321/lcj.html",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/1e74e2db241cb1fd8bced80f89f96cce8dd11f48/1517060321/lcj.html",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/1e74e2db241cb1fd8bced80f89f96cce8dd11f48/1517060321/lcj.html",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/lcj.html?ref=1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+    "patch" : "@@ -0,0 +1,10 @@\n+<html>\n+<title>1517060321</title>\n+<body>\n+<p>Sprite</p>\n+<img src=\"http://img.25pp.com/uploadfile/soft/images/2011/1026/20111026071243579.jpg\"></img>\n+\n+<a href=\"http://www.qq.com/\">QQ</a>\n+\n+</body>\n+</html>\n\\ No newline at end of file"
+  } ],
+  "sha" : "1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+  "parents" : [ {
+    "sha" : "5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/5c4349185808d163b0122b7a8eed4ef1e9cfaf96"
+  } ]
+}

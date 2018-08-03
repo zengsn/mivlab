@@ -1,0 +1,88 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 124,
+    "additions" : 124,
+    "deletions" : 0
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/e9881128076ebf9308db7e49e58d3c3053407769",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-10-18T02:04:10Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-10-18T02:04:10Z"
+    },
+    "message" : "#82 第4次实验",
+    "tree" : {
+      "sha" : "1cd7b9ffbeff13efdad28796b880c6fa48515dad",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/1cd7b9ffbeff13efdad28796b880c6fa48515dad"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/e9881128076ebf9308db7e49e58d3c3053407769",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e9881128076ebf9308db7e49e58d3c3053407769/comments",
+  "files" : [ {
+    "sha" : "0d40c031752be12c8d10386b10fd84bc2fa4dc40",
+    "filename" : "1517060342/form/form.js",
+    "status" : "added",
+    "additions" : 91,
+    "deletions" : 0,
+    "changes" : 91,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060342/form/form.js?ref=e9881128076ebf9308db7e49e58d3c3053407769",
+    "patch" : "@@ -0,0 +1,91 @@\n+// pages/form/form.js\n+Page({\n+\n+  /**\n+   * 页面的初始数据          \n+   */\n+  data: {\n+    text: \"Hello\"\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面加载\n+   */\n+  onLoad: function (options) {\n+    var that = this;\n+    wx.getStorage({\n+      key: 'formData',\n+      success: function (res) {\n+        console.log(res.data)\n+        that.setData({\n+          text: res.data.text,\n+          paragh: res.data.paragh\n+        });\n+      }\n+    })\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面初次渲染完成\n+   */\n+  onReady: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面显示\n+   */\n+  onShow: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面隐藏\n+   */\n+  onHide: function () {\n+\n+  },\n+\n+  /**\n+   * 生命周期函数--监听页面卸载\n+   */\n+  onUnload: function () {\n+\n+  },\n+\n+  /**\n+   * 页面相关事件处理函数--监听用户下拉动作\n+   */\n+  onPullDownRefresh: function () {\n+\n+  },\n+\n+  /**\n+   * 页面上拉触底事件的处理函数\n+   */\n+  onReachBottom: function () {\n+\n+  },\n+\n+  /**\n+   * 用户点击右上角分享\n+   */\n+  onShareAppMessage: function () {\n+\n+  },\n+\n+  doSubmit: function (e) {\n+    console.dir(e)\n+    var that = this;\n+    var text = e.detail.value.text;\n+    var paragh = e.detail.value.paragh;\n+\n+    wx.setStorage({\n+      key: \"formData\",\n+      data: {\n+        text: text,\n+        paragh: paragh\n+      }\n+    })\n+  }\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517060342/form/form.json",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060342/form/form.json?ref=e9881128076ebf9308db7e49e58d3c3053407769",
+    "patch" : "@@ -0,0 +1 @@\n+{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "259eedb2f017d809b6a3f7d6492c34f995628246",
+    "filename" : "1517060342/form/form.wxml",
+    "status" : "added",
+    "additions" : 31,
+    "deletions" : 0,
+    "changes" : 31,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060342/form/form.wxml?ref=e9881128076ebf9308db7e49e58d3c3053407769",
+    "patch" : "@@ -0,0 +1,31 @@\n+<!--pages/form/form.wxml-->\n+<view class=\"page\" xmlns:wx=\"http://www.w3.org/1999/xhtml\">\n+    <form bindsubmit=\"doSubmit\"> \n+    <view class=\"page__bd\">\n+        <view class=\"weui-toptips weui-toptips_warn\" wx:if=\"{{paragh}}\">{{text + \", \" + paragh}}</view><!--错误提示信息-->\n+\n+        <view class=\"weui-cells__title\">标题</view>\n+        <view class=\"weui-cells weui-cells_after-title\">\n+            <view class=\"weui-cell weui-cell_input\">\n+                <view class=\"weui-cell__bd\">\n+                    <input class=\"weui-input\" placeholder=\"请输入文本\" name=\"text\" value=\"{{text}}\"/>\n+                </view>\n+            </view>\n+        </view>\n+\n+        <view class=\"weui-cells__title\">内容</view>\n+        <view class=\"weui-cells weui-cells_after-title\">\n+            <view class=\"weui-cell\">\n+                <view class=\"weui-cell__bd\">\n+                    <textarea name=\"paragh\" class=\"weui-textarea\" placeholder=\"请输入文本\" style=\"height: 3.3em\" value=\"{{paragh}}\"/>\n+                    <view class=\"weui-textarea-counter\">0/200</view>\n+                </view>\n+            </view>\n+        </view>\n+\n+        <view class=\"weui-btn-area\">\n+            <button class=\"weui-btn\" type=\"primary\" formType=\"submit\">确定</button>\n+        </view>\n+    </view>\n+    </form>\n+</view>"
+  }, {
+    "sha" : "773650c317958e82f8ce4c760215acb0f889f1ba",
+    "filename" : "1517060342/form/form.wxss",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e9881128076ebf9308db7e49e58d3c3053407769/1517060342/form/form.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060342/form/form.wxss?ref=e9881128076ebf9308db7e49e58d3c3053407769",
+    "patch" : "@@ -0,0 +1 @@\n+/* pages/form/form.wxss */\n\\ No newline at end of file"
+  } ],
+  "sha" : "e9881128076ebf9308db7e49e58d3c3053407769",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e9881128076ebf9308db7e49e58d3c3053407769",
+  "parents" : [ {
+    "sha" : "b1418937cc19962dbf71cd2b16c5c3f6f74b555a",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/b1418937cc19962dbf71cd2b16c5c3f6f74b555a",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/b1418937cc19962dbf71cd2b16c5c3f6f74b555a"
+  } ]
+}

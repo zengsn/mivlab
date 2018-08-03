@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "azx2438201",
+    "id" : 26477866,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477866?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/azx2438201",
+    "html_url" : "https://github.com/azx2438201",
+    "followers_url" : "https://api.github.com/users/azx2438201/followers",
+    "following_url" : "https://api.github.com/users/azx2438201/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/azx2438201/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/azx2438201/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/azx2438201/subscriptions",
+    "organizations_url" : "https://api.github.com/users/azx2438201/orgs",
+    "repos_url" : "https://api.github.com/users/azx2438201/repos",
+    "events_url" : "https://api.github.com/users/azx2438201/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/azx2438201/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 22,
+    "additions" : 22,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "azx2438201",
+    "id" : 26477866,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/26477866?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/azx2438201",
+    "html_url" : "https://github.com/azx2438201",
+    "followers_url" : "https://api.github.com/users/azx2438201/followers",
+    "following_url" : "https://api.github.com/users/azx2438201/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/azx2438201/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/azx2438201/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/azx2438201/subscriptions",
+    "organizations_url" : "https://api.github.com/users/azx2438201/orgs",
+    "repos_url" : "https://api.github.com/users/azx2438201/repos",
+    "events_url" : "https://api.github.com/users/azx2438201/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/azx2438201/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/da831ebee43997423d8846f94a4142102137b407",
+  "commit" : {
+    "author" : {
+      "name" : "azx2438201",
+      "email" : "986707900@qq.com",
+      "date" : "2017-09-20T03:39:31Z"
+    },
+    "committer" : {
+      "name" : "azx2438201",
+      "email" : "986707900@qq.com",
+      "date" : "2017-09-20T03:39:31Z"
+    },
+    "message" : "#26 第一次作业",
+    "tree" : {
+      "sha" : "24366ae0b9c726d02230a0cff8978263e931dbc8",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/24366ae0b9c726d02230a0cff8978263e931dbc8"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/da831ebee43997423d8846f94a4142102137b407",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/da831ebee43997423d8846f94a4142102137b407/comments",
+  "files" : [ {
+    "sha" : "6455fd2be4ab41b104d14f55016ae824c8ca20f9",
+    "filename" : "1517010108/1517010108.html",
+    "status" : "added",
+    "additions" : 22,
+    "deletions" : 0,
+    "changes" : 22,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/da831ebee43997423d8846f94a4142102137b407/1517010108/1517010108.html",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/da831ebee43997423d8846f94a4142102137b407/1517010108/1517010108.html",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517010108/1517010108.html?ref=da831ebee43997423d8846f94a4142102137b407",
+    "patch" : "@@ -0,0 +1,22 @@\n+<!DOCTYPE html>\r\n+<html>\r\n+\t<head>\r\n+\t\t<meta charset=\"utf-8\" />\r\n+\t\t<title>我的学号是1517010108</title>\r\n+\t\t<div id=\"logo\"><img src=\"img/yijialogo.png\" /></div>\r\n+\t\t<p>一加</p>\t\t\r\n+\t<table border=\"1\">\r\n+\t\t<tr>\r\n+\t\t\t<th>手机</th>\r\n+\t\t\t<th>价格</th>\r\n+\t\t</tr>\r\n+\t\t<tr>\r\n+\t\t\t<td>一加5</td>\r\n+\t\t\t<td>2699</td>\r\n+\t\t</tr>\r\n+\t</table>\r\n+\t</head>\r\n+\t<body>\r\n+\t\t\r\n+\t</body>\r\n+</html>\r"
+  } ],
+  "sha" : "da831ebee43997423d8846f94a4142102137b407",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/da831ebee43997423d8846f94a4142102137b407",
+  "parents" : [ {
+    "sha" : "89ac9c4db524f1918aada50d7202ef384d583775",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/89ac9c4db524f1918aada50d7202ef384d583775",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/89ac9c4db524f1918aada50d7202ef384d583775"
+  } ]
+}

@@ -1,0 +1,1871 @@
+[ {
+  "pullCount" : 0,
+  "number" : "xiaochenyu",
+  "login" : "invalid-email-address",
+  "issueCount" : 0
+}, {
+  "pullCount" : 4,
+  "number" : "1517060333",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 69,
+  "commitCount" : 1,
+  "additionCount" : 2955,
+  "login" : "hao523577579",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 149,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 69,
+    "commitCount" : 1,
+    "additionCount" : 2955,
+    "time" : "2017-11-01T03:51:16Z",
+    "title" : "#84 期末作业",
+    "commentCount" : 0
+  }, {
+    "number" : 13,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 0,
+    "commitCount" : 0,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:53:46Z",
+    "title" : "第一次提交",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 6,
+  "number" : "1517060319",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 102,
+    "title" : "茶文化",
+    "body" : "了解茶文化的相关知识~",
+    "events" : [ {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:37:44Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:26:34Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:37:42Z"
+    }, {
+      "actor" : "zengsn",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:56:02Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 54,
+  "commitCount" : 11,
+  "additionCount" : 1021,
+  "login" : "lylsy0428",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 125,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 38,
+    "commitCount" : 3,
+    "additionCount" : 544,
+    "time" : "2017-11-01T01:27:17Z",
+    "title" : "#84 #102 期末作业",
+    "commentCount" : 0
+  }, {
+    "number" : 88,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 8,
+    "commitCount" : 4,
+    "additionCount" : 278,
+    "time" : "2017-10-18T02:08:04Z",
+    "title" : "#82 第4次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 78,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 1,
+    "additionCount" : 139,
+    "time" : "2017-10-11T07:35:44Z",
+    "title" : "#71 第3次实验-实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 58,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 45,
+    "time" : "2017-09-27T03:38:40Z",
+    "title" : "#47 第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 28,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 15,
+    "time" : "2017-09-20T03:26:22Z",
+    "title" : "#26 HTML第一次开发实验代码",
+    "commentCount" : 0
+  }, {
+    "number" : 21,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:10:22Z",
+    "title" : "test",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 4,
+  "number" : "1517060328",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 122,
+    "title" : "wjy",
+    "body" : "wjy",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 48,
+  "commitCount" : 11,
+  "additionCount" : 935,
+  "login" : "wenjianyangwen",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 91,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 43,
+    "commitCount" : 7,
+    "additionCount" : 863,
+    "time" : "2017-10-18T02:18:13Z",
+    "title" : "第3次作业",
+    "commentCount" : 0
+  }, {
+    "number" : 67,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 46,
+    "time" : "2017-09-27T04:47:50Z",
+    "title" : "#47第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 48,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 3,
+    "additionCount" : 26,
+    "time" : "2017-09-27T03:00:28Z",
+    "title" : "第一次实训",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 4,
+  "number" : "1517060341",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 118,
+    "title" : "火影忍者",
+    "body" : "",
+    "events" : [ {
+      "actor" : "zfyyy",
+      "name" : "referenced",
+      "time" : "2017-11-01T02:53:10Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 52,
+  "commitCount" : 6,
+  "additionCount" : 586,
+  "login" : "zfyyy",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 138,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 48,
+    "commitCount" : 3,
+    "additionCount" : 572,
+    "time" : "2017-11-01T02:57:18Z",
+    "title" : "火影忍者",
+    "commentCount" : 0
+  }, {
+    "number" : 43,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 3,
+    "additionCount" : 14,
+    "time" : "2017-09-20T03:48:33Z",
+    "title" : "1517060341",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 0,
+  "number" : "1517060329",
+  "login" : "ZhangHao15",
+  "issueCount" : 0
+}, {
+  "pullCount" : 1,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 39,
+  "commitCount" : 1,
+  "additionCount" : 685,
+  "login" : "zhuangshilin",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 153,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 39,
+    "commitCount" : 1,
+    "additionCount" : 685,
+    "time" : "2017-11-01T07:52:37Z",
+    "title" : "#84 最后一次作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 0,
+  "number" : null,
+  "issue" : {
+    "number" : 137,
+    "title" : "美国男子篮球东部联赛",
+    "body" : "",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "login" : "wwwcccjjj",
+  "issueCount" : 1
+}, {
+  "pullCount" : 6,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 84,
+    "title" : "综合实验：实现期末大作业",
+    "body" : "# 大作业要求\r\n\r\n1. 先在Issues中创建一个Issue，说明自己要做的选题；  \r\n\r\nhttps://github.com/hzuapps/wechat-miniprogram-hzc-2017/issues/ \r\n（点击右上角绿色按钮 New issue，Title中写上题目，Write描述简单功能）\r\n\r\n2. 根据自选题目，开发一个至少有2个界面的微信小程序。  \r\n（一）设置小程序底部导航按钮3个（带图标）。  \r\n（二）第1个界面（首页）实现可滚动列表界面。  \r\n（三）第2个界面（发现）用List和Navigator控件实现功能菜单。  \r\n（四）第3个界面（设置）用Form实现表单的提交，显示网络服务器上存储的JSON内容。  \r\n\r\n## 评分标准\r\n1） 小程序界面内容与个人自选主题相关。（20分）  \r\n2） 导航按钮要有图标，且有高亮颜色区分。（20分）  \r\n3） 列表界面的内容（数组）要能够覆盖整个屏幕高度，实现动态加载加分。（20分）  \r\n4） 功能菜单界面至少要有3项，且点击之后能够跳转到其他页面。（20分）  \r\n5） 表单界面点击按钮之后应该弹出结果提示（20分）。  \r\n\r\n## 提交代码\r\n\r\n```  \r\ngit add 学号/final/*\r\ngit commit -m \"#84 #你的Issue号 期末作业\"\r\n例如：git commit -m \"#84 #100 期末作业：开发一个仿微信小程序\"\r\ngit push\r\n```  \r\n\r\n在网站上发送Pull Request。\r\n\r\n## 提示\r\n\r\n### 示例代码\r\n\r\nhttps://github.com/hzuapps/wechat-miniprogram-hzc-2017/tree/master/12345678 \r\n\r\n（一定要改成自己题目的内容）\r\n\r\n### 网络连接要先配置域名： \r\n1. raw.githubusercontent.com  \r\n2. infoaas.com  \r\n\r\n### 网络内容：\r\nhttps://infoaas.com/data/hzc.json \r\n",
+    "events" : [ {
+      "actor" : "linwusheng",
+      "name" : "referenced",
+      "time" : "2017-10-25T01:09:26Z"
+    }, {
+      "actor" : "qiu-bohong",
+      "name" : "referenced",
+      "time" : "2017-10-25T01:30:09Z"
+    }, {
+      "actor" : "huanglingwen",
+      "name" : "referenced",
+      "time" : "2017-10-25T02:12:46Z"
+    }, {
+      "actor" : "huanglingwen",
+      "name" : "referenced",
+      "time" : "2017-10-25T02:12:46Z"
+    }, {
+      "actor" : "liangfenghan",
+      "name" : "referenced",
+      "time" : "2017-10-25T02:21:01Z"
+    }, {
+      "actor" : "1229754154",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:30:37Z"
+    }, {
+      "actor" : "2521598730",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:31:42Z"
+    }, {
+      "actor" : "jackKiZhu",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:36:38Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:37:44Z"
+    }, {
+      "actor" : "wenjianyangwen",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:49:31Z"
+    }, {
+      "actor" : "xiaoyanhui123",
+      "name" : "referenced",
+      "time" : "2017-10-25T09:32:03Z"
+    }, {
+      "actor" : "1229754154",
+      "name" : "referenced",
+      "time" : "2017-11-01T00:42:19Z"
+    }, {
+      "actor" : "hao523577579",
+      "name" : "referenced",
+      "time" : "2017-11-01T00:42:40Z"
+    }, {
+      "actor" : "jackKiZhu",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:00:54Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:04:37Z"
+    }, {
+      "actor" : "jackKiZhu",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:14:21Z"
+    }, {
+      "actor" : "703224193",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:14:33Z"
+    }, {
+      "actor" : "zengsn",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:17:25Z"
+    }, {
+      "actor" : "hao523577579",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:18:44Z"
+    }, {
+      "actor" : "hao523577579",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:25:32Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:26:34Z"
+    }, {
+      "actor" : "Xiejiantao",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:27:07Z"
+    }, {
+      "actor" : "1517060322",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:28:20Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:32:09Z"
+    }, {
+      "actor" : "13192350024",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:32:15Z"
+    }, {
+      "actor" : "lylsy0428",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:37:42Z"
+    }, {
+      "actor" : "Sprite24",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:43:58Z"
+    }, {
+      "actor" : "870971217",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:44:51Z"
+    }, {
+      "actor" : "467232084",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:51:55Z"
+    }, {
+      "actor" : "zengsn",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:56:02Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 16,
+  "changedFileCount" : 25,
+  "commitCount" : 9,
+  "additionCount" : 630,
+  "login" : "zengsn",
+  "issueCount" : 6,
+  "pulls" : [ {
+    "number" : 97,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 5,
+    "commitCount" : 1,
+    "additionCount" : 139,
+    "time" : "2017-10-18T02:59:27Z",
+    "title" : "网络连接示例代码",
+    "commentCount" : 0
+  }, {
+    "number" : 86,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 1,
+    "additionCount" : 128,
+    "time" : "2017-10-18T01:21:03Z",
+    "title" : "练习例子 - 创建表单",
+    "commentCount" : 0
+  }, {
+    "number" : 70,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 9,
+    "commitCount" : 2,
+    "additionCount" : 250,
+    "time" : "2017-10-11T02:57:09Z",
+    "title" : "练习例子：scroll-view",
+    "commentCount" : 0
+  }, {
+    "number" : 69,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 15,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 18,
+    "time" : "2017-10-11T01:20:18Z",
+    "title" : "练习例子：List + View",
+    "commentCount" : 0
+  }, {
+    "number" : 68,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 1,
+    "changedFileCount" : 1,
+    "commitCount" : 2,
+    "additionCount" : 5,
+    "time" : "2017-10-11T01:18:51Z",
+    "title" : " 练习例子：List + View",
+    "commentCount" : 0
+  }, {
+    "number" : 1,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 5,
+    "commitCount" : 2,
+    "additionCount" : 90,
+    "time" : "2017-09-20T00:57:19Z",
+    "title" : "实验一：演示怎么提交",
+    "commentCount" : 1
+  } ],
+  "commentCount" : 1
+}, {
+  "pullCount" : 1,
+  "number" : "1517060340",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 56,
+  "commitCount" : 1,
+  "additionCount" : 593,
+  "login" : "1517060340",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 152,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 56,
+    "commitCount" : 1,
+    "additionCount" : 593,
+    "time" : "2017-11-01T03:59:30Z",
+    "title" : "#84 期末作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 0,
+  "number" : "demo.txt",
+  "login" : "Your Name",
+  "issueCount" : 0
+}, {
+  "pullCount" : 2,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 158,
+    "title" : "最后一次作业",
+    "body" : "吴崇杰1517060329  #159 ",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 91,
+  "commitCount" : 2,
+  "additionCount" : 762,
+  "login" : "wuchongjie",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 159,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 47,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-11-01T14:00:34Z",
+    "title" : "#84 期末作业：开发一个仿微信小程序",
+    "commentCount" : 0
+  }, {
+    "number" : 157,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 44,
+    "commitCount" : 1,
+    "additionCount" : 762,
+    "time" : "2017-11-01T10:48:00Z",
+    "title" : "no.1",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 3,
+  "number" : "1516090218",
+  "reviewCommentCount" : 0,
+  "issue" : { },
+  "deletionCount" : 30,
+  "changedFileCount" : 8,
+  "commitCount" : 6,
+  "additionCount" : 75,
+  "login" : "huanglingwen",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 54,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 30,
+    "changedFileCount" : 5,
+    "commitCount" : 2,
+    "additionCount" : 36,
+    "time" : "2017-09-27T03:34:48Z",
+    "title" : "18第二次试验 练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 44,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 2,
+    "additionCount" : 39,
+    "time" : "2017-09-20T03:50:18Z",
+    "title" : "1516090218",
+    "commentCount" : 0
+  }, {
+    "number" : 17,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 0,
+    "commitCount" : 2,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:02:21Z",
+    "title" : "实验HHHHH",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 0,
+  "number" : "1517060303",
+  "login" : "unknown",
+  "issueCount" : 0
+}, {
+  "pullCount" : 5,
+  "number" : "1517060302",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 108,
+    "title" : "动漫探长",
+    "body" : "介绍好看的动漫",
+    "events" : [ {
+      "actor" : "zengsn",
+      "name" : "referenced",
+      "time" : "2017-11-01T02:03:09Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 73,
+  "commitCount" : 9,
+  "additionCount" : 1484,
+  "login" : "870971217",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 96,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 66,
+    "commitCount" : 4,
+    "additionCount" : 1286,
+    "time" : "2017-10-18T02:36:14Z",
+    "title" : "#82 第4次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 81,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 1,
+    "additionCount" : 138,
+    "time" : "2017-10-17T11:06:28Z",
+    "title" : "#71 第3次实验-实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 51,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 40,
+    "time" : "2017-09-27T03:29:12Z",
+    "title" : "#47 第二次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 31,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 2,
+    "additionCount" : 20,
+    "time" : "2017-09-20T03:35:12Z",
+    "title" : "第一次网页作业",
+    "commentCount" : 0
+  }, {
+    "number" : 7,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:29:05Z",
+    "title" : "第一次试验",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 1,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 51,
+  "commitCount" : 1,
+  "additionCount" : 718,
+  "login" : "H-FITS",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 150,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 51,
+    "commitCount" : 1,
+    "additionCount" : 718,
+    "time" : "2017-11-01T03:52:30Z",
+    "title" : "#84 期末作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 6,
+  "number" : "1517060322",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 2,
+  "changedFileCount" : 43,
+  "commitCount" : 14,
+  "additionCount" : 1169,
+  "login" : "1517060322",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 134,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 36,
+    "commitCount" : 8,
+    "additionCount" : 983,
+    "time" : "2017-11-01T02:30:36Z",
+    "title" : "aa",
+    "commentCount" : 1
+  }, {
+    "number" : 76,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 3,
+    "additionCount" : 138,
+    "time" : "2017-10-11T06:10:34Z",
+    "title" : "#71 第三次实验-实现页面滚动",
+    "commentCount" : 0
+  }, {
+    "number" : 56,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 2,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 37,
+    "time" : "2017-09-27T03:36:02Z",
+    "title" : "#22 第二次试验 练习css",
+    "commentCount" : 0
+  }, {
+    "number" : 29,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 11,
+    "time" : "2017-09-20T03:30:07Z",
+    "title" : "罗子杰的第一次作业",
+    "commentCount" : 0
+  }, {
+    "number" : 2,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:10:15Z",
+    "title" : "#1 我的第一次实验",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 1
+}, {
+  "pullCount" : 0,
+  "number" : null,
+  "issue" : { },
+  "login" : "1517060326",
+  "issueCount" : 1
+}, {
+  "pullCount" : 1,
+  "number" : "1517060308",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 31,
+  "commitCount" : 3,
+  "additionCount" : 713,
+  "login" : "surpershuai",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 154,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 31,
+    "commitCount" : 3,
+    "additionCount" : 713,
+    "time" : "2017-11-01T08:29:29Z",
+    "title" : "#84",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 3,
+  "number" : "1517060316",
+  "reviewCommentCount" : 0,
+  "issue" : { },
+  "deletionCount" : 0,
+  "changedFileCount" : 4,
+  "commitCount" : 3,
+  "additionCount" : 54,
+  "login" : "linmaoquan",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 64,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 46,
+    "time" : "2017-09-27T03:55:55Z",
+    "title" : "#47  第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 37,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 8,
+    "time" : "2017-09-20T03:37:26Z",
+    "title" : "#26 HTML开发实验代码",
+    "commentCount" : 0
+  }, {
+    "number" : 25,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:23:59Z",
+    "title" : "test2",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 3,
+  "number" : "1517060305",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 59,
+  "commitCount" : 5,
+  "additionCount" : 1088,
+  "login" : "1517060305",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 133,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 55,
+    "commitCount" : 3,
+    "additionCount" : 1075,
+    "time" : "2017-11-01T02:19:17Z",
+    "title" : "#84 #100    qimozuoye",
+    "commentCount" : 0
+  }, {
+    "number" : 45,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 13,
+    "time" : "2017-09-20T03:51:01Z",
+    "title" : "#26英雄联盟",
+    "commentCount" : 0
+  }, {
+    "number" : 24,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:18:49Z",
+    "title" : "功率放大",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 5,
+  "number" : "1517060318",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 128,
+  "commitCount" : 9,
+  "additionCount" : 1691,
+  "login" : "linwusheng",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 92,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 117,
+    "commitCount" : 4,
+    "additionCount" : 1506,
+    "time" : "2017-10-18T02:25:38Z",
+    "title" : "#82 第4次实验 linwusheng",
+    "commentCount" : 1
+  }, {
+    "number" : 77,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 1,
+    "additionCount" : 138,
+    "time" : "2017-10-11T07:11:22Z",
+    "title" : "#71 第3次实验-实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 53,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 32,
+    "time" : "2017-09-27T03:32:14Z",
+    "title" : "#47 林武胜第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 36,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 15,
+    "time" : "2017-09-20T03:37:20Z",
+    "title" : "#26 HTML开发实验代码-交作业",
+    "commentCount" : 0
+  }, {
+    "number" : 6,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 2,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:24:55Z",
+    "title" : "linwusheng",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 1
+}, {
+  "pullCount" : 6,
+  "number" : "1517060324",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 136,
+    "title" : "王者荣耀查询",
+    "body" : "",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 72,
+  "commitCount" : 12,
+  "additionCount" : 1338,
+  "login" : "qiu-bohong",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 139,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 26,
+    "commitCount" : 2,
+    "additionCount" : 233,
+    "time" : "2017-11-01T02:58:51Z",
+    "title" : "加上有图的界面",
+    "commentCount" : 0
+  }, {
+    "number" : 90,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 35,
+    "commitCount" : 5,
+    "additionCount" : 890,
+    "time" : "2017-10-18T02:12:42Z",
+    "title" : "#82 第四次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 75,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 1,
+    "additionCount" : 151,
+    "time" : "2017-10-11T04:29:00Z",
+    "title" : "#71 第3次实验--实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 60,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 50,
+    "time" : "2017-09-27T03:44:45Z",
+    "title" : "#47第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 33,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 14,
+    "time" : "2017-09-20T03:36:16Z",
+    "title" : "html作业",
+    "commentCount" : 0
+  }, {
+    "number" : 5,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 2,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:22:07Z",
+    "title" : "第一次作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 1,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 62,
+  "commitCount" : 2,
+  "additionCount" : 745,
+  "login" : "PPPPPYH",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 156,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 62,
+    "commitCount" : 2,
+    "additionCount" : 745,
+    "time" : "2017-11-01T09:52:09Z",
+    "title" : "#84000",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 4,
+  "number" : "1517060309",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 308,
+  "commitCount" : 9,
+  "additionCount" : 5944,
+  "login" : "chenzhenxiong",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 94,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 306,
+    "commitCount" : 7,
+    "additionCount" : 5931,
+    "time" : "2017-10-18T02:30:16Z",
+    "title" : "第三次作业",
+    "commentCount" : 0
+  }, {
+    "number" : 42,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 13,
+    "time" : "2017-09-20T03:48:02Z",
+    "title" : "#26图片",
+    "commentCount" : 0
+  }, {
+    "number" : 16,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:01:20Z",
+    "title" : "22",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 2,
+  "number" : "1517060336",
+  "reviewCommentCount" : 0,
+  "issue" : { },
+  "deletionCount" : 0,
+  "changedFileCount" : 3,
+  "commitCount" : 1,
+  "additionCount" : 0,
+  "login" : "ZWTZHANG",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 4,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:20:56Z",
+    "title" : "dsfds",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 0,
+  "number" : "1517130215",
+  "login" : "ST",
+  "issueCount" : 0
+}, {
+  "pullCount" : 2,
+  "number" : "1517060303",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 143,
+    "title" : "海贼王简介",
+    "body" : "",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 40,
+  "commitCount" : 1,
+  "additionCount" : 676,
+  "login" : "CCCCJQ",
+  "issueCount" : 2,
+  "pulls" : [ {
+    "number" : 155,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 40,
+    "commitCount" : 1,
+    "additionCount" : 676,
+    "time" : "2017-11-01T09:41:53Z",
+    "title" : "840000",
+    "commentCount" : 0
+  }, {
+    "number" : 11,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 0,
+    "commitCount" : 0,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:42:03Z",
+    "title" : "cjq",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 1,
+  "number" : "WeChatApp",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 43,
+  "commitCount" : 5,
+  "additionCount" : 706,
+  "login" : "ruan3zzk",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 141,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 43,
+    "commitCount" : 5,
+    "additionCount" : 706,
+    "time" : "2017-11-01T03:01:26Z",
+    "title" : "期末作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 3,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 45,
+  "commitCount" : 4,
+  "additionCount" : 765,
+  "login" : "703224193",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 121,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 41,
+    "commitCount" : 1,
+    "additionCount" : 693,
+    "time" : "2017-11-01T01:16:25Z",
+    "title" : "#84 期末作业",
+    "commentCount" : 0
+  }, {
+    "number" : 62,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 2,
+    "additionCount" : 72,
+    "time" : "2017-09-27T03:54:25Z",
+    "title" : "a",
+    "commentCount" : 0
+  }, {
+    "number" : 22,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:16:40Z",
+    "title" : "我是",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 4,
+  "number" : "1517060332",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 49,
+  "commitCount" : 7,
+  "additionCount" : 1010,
+  "login" : "xiaoyanhui123",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 117,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 45,
+    "commitCount" : 4,
+    "additionCount" : 969,
+    "time" : "2017-10-25T09:33:28Z",
+    "title" : "#84000 #100 期末作业：开发一个仿微信小程序",
+    "commentCount" : 1
+  }, {
+    "number" : 65,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 30,
+    "time" : "2017-09-27T03:56:12Z",
+    "title" : "#47 第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 40,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 11,
+    "time" : "2017-09-20T03:45:34Z",
+    "title" : "html",
+    "commentCount" : 0
+  }, {
+    "number" : 10,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:40:21Z",
+    "title" : "第一次实验",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 1
+}, {
+  "pullCount" : 2,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 58,
+  "commitCount" : 5,
+  "additionCount" : 895,
+  "login" : "467232084",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 148,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 58,
+    "commitCount" : 5,
+    "additionCount" : 895,
+    "time" : "2017-11-01T03:47:37Z",
+    "title" : "期末作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 6,
+  "number" : "1517060321",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 124,
+    "title" : "国潮咨询",
+    "body" : "",
+    "events" : [ {
+      "actor" : "Sprite24",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:43:58Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 87,
+  "commitCount" : 8,
+  "additionCount" : 1576,
+  "login" : "Sprite24",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 130,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 67,
+    "commitCount" : 2,
+    "additionCount" : 987,
+    "time" : "2017-11-01T01:55:39Z",
+    "title" : "国潮资讯期末小作业",
+    "commentCount" : 0
+  }, {
+    "number" : 98,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 8,
+    "commitCount" : 2,
+    "additionCount" : 278,
+    "time" : "2017-10-18T03:17:52Z",
+    "title" : "#82 第4次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 79,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 6,
+    "commitCount" : 1,
+    "additionCount" : 160,
+    "time" : "2017-10-11T12:11:34Z",
+    "title" : "#71 第三次试验-实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 57,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 46,
+    "time" : "2017-09-27T03:36:32Z",
+    "title" : "#47 第二次实验练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 30,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 10,
+    "time" : "2017-09-20T03:30:43Z",
+    "title" : "#26 HTML开发实验代码",
+    "commentCount" : 0
+  }, {
+    "number" : 8,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 1,
+    "additionCount" : 95,
+    "time" : "2017-09-20T01:38:02Z",
+    "title" : "第一次提交",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 5,
+  "number" : "1517060329",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 128,
+    "title" : "第五次",
+    "body" : "five",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 77,
+  "commitCount" : 3,
+  "additionCount" : 1154,
+  "login" : "liangfenghan",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 142,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 77,
+    "commitCount" : 3,
+    "additionCount" : 1154,
+    "time" : "2017-11-01T03:04:12Z",
+    "title" : "#84 梁风函的期末作业",
+    "commentCount" : 0
+  }, {
+    "number" : 23,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 0,
+    "commitCount" : 0,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:17:07Z",
+    "title" : "试一下咯",
+    "commentCount" : 0
+  }, {
+    "number" : 9,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 0,
+    "commitCount" : 0,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:39:56Z",
+    "title" : "151015",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 5,
+  "number" : "1517010101",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 123,
+    "title" : "点餐小程序",
+    "body" : "展示菜单页面，数据均为静态数据",
+    "events" : [ {
+      "actor" : "13192350024",
+      "name" : "referenced",
+      "time" : "2017-11-01T01:32:15Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 3,
+  "changedFileCount" : 32,
+  "commitCount" : 11,
+  "additionCount" : 940,
+  "login" : "13192350024",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 119,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 23,
+    "commitCount" : 4,
+    "additionCount" : 732,
+    "time" : "2017-10-31T10:25:29Z",
+    "title" : "#82 第4次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 80,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 3,
+    "changedFileCount" : 5,
+    "commitCount" : 4,
+    "additionCount" : 140,
+    "time" : "2017-10-15T08:57:43Z",
+    "title" : "#71 第3次实验-实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 50,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 45,
+    "time" : "2017-09-27T03:05:09Z",
+    "title" : "#47 第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 32,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 23,
+    "time" : "2017-09-20T03:35:16Z",
+    "title" : "#第一次作业（HTML）",
+    "commentCount" : 0
+  }, {
+    "number" : 14,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:59:42Z",
+    "title" : "第一个作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 6,
+  "number" : "1517060308",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 69,
+  "commitCount" : 10,
+  "additionCount" : 1045,
+  "login" : "Mashaku",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 146,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 33,
+    "commitCount" : 1,
+    "additionCount" : 4,
+    "time" : "2017-11-01T03:26:09Z",
+    "title" : "#84 #Mashaku 期末作业图片",
+    "commentCount" : 0
+  }, {
+    "number" : 132,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 31,
+    "commitCount" : 6,
+    "additionCount" : 971,
+    "time" : "2017-11-01T02:08:51Z",
+    "title" : "#84 删除文件2",
+    "commentCount" : 0
+  }, {
+    "number" : 61,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 54,
+    "time" : "2017-09-27T03:44:58Z",
+    "title" : "#47第2次试验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 35,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 16,
+    "time" : "2017-09-20T03:37:10Z",
+    "title" : "html作业",
+    "commentCount" : 0
+  }, {
+    "number" : 3,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T01:13:35Z",
+    "title" : "第一次作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 4,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 110,
+    "title" : "动物世界",
+    "body" : "第一个页面：昆虫的种类\r\n第二个页面：昆虫的详细介绍\r\n第三个页面：表单提交",
+    "events" : [ {
+      "actor" : "1229754154",
+      "name" : "referenced",
+      "time" : "2017-11-01T00:42:19Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 126,
+  "commitCount" : 8,
+  "additionCount" : 2221,
+  "login" : "1229754154",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 135,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 122,
+    "commitCount" : 5,
+    "additionCount" : 2178,
+    "time" : "2017-11-01T02:30:54Z",
+    "title" : "动物世界",
+    "commentCount" : 0
+  }, {
+    "number" : 66,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 2,
+    "additionCount" : 43,
+    "time" : "2017-09-27T03:58:12Z",
+    "title" : "q",
+    "commentCount" : 0
+  }, {
+    "number" : 19,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:05:52Z",
+    "title" : "带大飒飒",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 1,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 111,
+    "title" : "海底世界",
+    "body" : "第一个页面：鱼的种类\r\n第二个页面：鱼的简介",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 4,
+  "commitCount" : 3,
+  "additionCount" : 63,
+  "login" : "1877196395",
+  "issueCount" : 2,
+  "pulls" : [ {
+    "number" : 59,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 3,
+    "additionCount" : 63,
+    "time" : "2017-09-27T03:39:06Z",
+    "title" : "#47 第二次实验 邱佳锋",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 2,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 48,
+  "commitCount" : 4,
+  "additionCount" : 646,
+  "login" : "Xiejiantao",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 145,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 48,
+    "commitCount" : 4,
+    "additionCount" : 646,
+    "time" : "2017-11-01T03:24:56Z",
+    "title" : "期末作业",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 0,
+  "number" : null,
+  "issue" : {
+    "number" : 115,
+    "title" : "big homework",
+    "body" : "111",
+    "events" : [ ],
+    "labels" : [ ]
+  },
+  "login" : "1517060311",
+  "issueCount" : 2
+}, {
+  "pullCount" : 6,
+  "number" : "1517060342",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 113,
+    "title" : "绝地求生游戏盒子",
+    "body" : "登录界面，登录成功进入主功能列表\r\n主功能列表分3导航，分别为：排行榜、游戏相关资讯、留言板。\r\n",
+    "events" : [ {
+      "actor" : "jackKiZhu",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:36:38Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 242,
+  "changedFileCount" : 149,
+  "commitCount" : 11,
+  "additionCount" : 1648,
+  "login" : "jackKiZhu",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 120,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 234,
+    "changedFileCount" : 41,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-11-01T01:16:17Z",
+    "title" : "#84 删除不要的文件2",
+    "commentCount" : 0
+  }, {
+    "number" : 89,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 103,
+    "commitCount" : 6,
+    "additionCount" : 1525,
+    "time" : "2017-10-18T02:11:13Z",
+    "title" : "#82 第4次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 49,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 8,
+    "changedFileCount" : 3,
+    "commitCount" : 2,
+    "additionCount" : 37,
+    "time" : "2017-09-27T03:02:52Z",
+    "title" : "#47 第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 27,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 8,
+    "time" : "2017-09-20T03:19:06Z",
+    "title" : "#26 HTML开发实验代码",
+    "commentCount" : 0
+  }, {
+    "number" : 12,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 78,
+    "time" : "2017-09-20T01:44:38Z",
+    "title" : "第一次试验",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 3,
+  "number" : "1517010108",
+  "reviewCommentCount" : 0,
+  "deletionCount" : 0,
+  "changedFileCount" : 52,
+  "commitCount" : 8,
+  "additionCount" : 2169,
+  "login" : "azx2438201",
+  "issueCount" : 0,
+  "pulls" : [ {
+    "number" : 147,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 47,
+    "commitCount" : 5,
+    "additionCount" : 2125,
+    "time" : "2017-11-01T03:36:08Z",
+    "title" : "qimozuoye",
+    "commentCount" : 0
+  }, {
+    "number" : 38,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 3,
+    "commitCount" : 2,
+    "additionCount" : 44,
+    "time" : "2017-09-20T03:40:50Z",
+    "title" : "谷明月的第一次作业",
+    "commentCount" : 0
+  }, {
+    "number" : 15,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 2,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:00:53Z",
+    "title" : "123",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+}, {
+  "pullCount" : 2,
+  "number" : "1517060310",
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 131,
+    "title" : "汽车",
+    "body" : "",
+    "events" : [ {
+      "actor" : "ChengZhiBin",
+      "name" : "referenced",
+      "time" : "2017-11-01T02:05:35Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 0,
+  "changedFileCount" : 47,
+  "commitCount" : 7,
+  "additionCount" : 899,
+  "login" : "ChengZhiBin",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 101,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 46,
+    "commitCount" : 6,
+    "additionCount" : 899,
+    "time" : "2017-10-18T04:17:04Z",
+    "title" : "第1次实验 截图",
+    "commentCount" : 2
+  }, {
+    "number" : 20,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 0,
+    "time" : "2017-09-20T02:05:55Z",
+    "title" : "#123",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 2
+}, {
+  "pullCount" : 5,
+  "number" : null,
+  "reviewCommentCount" : 0,
+  "issue" : {
+    "number" : 112,
+    "title" : "新闻资讯小程序",
+    "body" : "首页：资讯头天\r\n发现：新闻详情\r\n设置：表单",
+    "events" : [ {
+      "actor" : "2521598730",
+      "name" : "referenced",
+      "time" : "2017-10-25T03:31:42Z"
+    } ],
+    "labels" : [ ]
+  },
+  "deletionCount" : 24,
+  "changedFileCount" : 59,
+  "commitCount" : 7,
+  "additionCount" : 1158,
+  "login" : "2521598730",
+  "issueCount" : 1,
+  "pulls" : [ {
+    "number" : 93,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 49,
+    "commitCount" : 2,
+    "additionCount" : 843,
+    "time" : "2017-10-18T02:28:40Z",
+    "title" : "#82 第4次实验",
+    "commentCount" : 0
+  }, {
+    "number" : 72,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 4,
+    "commitCount" : 1,
+    "additionCount" : 248,
+    "time" : "2017-10-11T03:49:39Z",
+    "title" : "#71 第3次试验-实现滚动界面",
+    "commentCount" : 0
+  }, {
+    "number" : 52,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 24,
+    "changedFileCount" : 4,
+    "commitCount" : 2,
+    "additionCount" : 43,
+    "time" : "2017-09-27T03:30:30Z",
+    "title" : "#47 第2次实验~练习CSS",
+    "commentCount" : 0
+  }, {
+    "number" : 39,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 23,
+    "time" : "2017-09-20T03:42:44Z",
+    "title" : "第一次作业",
+    "commentCount" : 0
+  }, {
+    "number" : 18,
+    "reviewCommentCount" : 0,
+    "deletionCount" : 0,
+    "changedFileCount" : 1,
+    "commitCount" : 1,
+    "additionCount" : 1,
+    "time" : "2017-09-20T02:04:45Z",
+    "title" : "第一次",
+    "commentCount" : 0
+  } ],
+  "commentCount" : 0
+} ]

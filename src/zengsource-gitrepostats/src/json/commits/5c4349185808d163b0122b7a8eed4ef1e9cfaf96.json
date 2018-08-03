@@ -1,0 +1,113 @@
+{
+  "committer" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 95,
+    "additions" : 95,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+  "commit" : {
+    "author" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-13T03:55:55Z"
+    },
+    "committer" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-13T03:55:55Z"
+    },
+    "message" : "第一次提交",
+    "tree" : {
+      "sha" : "c6e121536ecb2e25c33824d4941ec6154a10ca3f",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/c6e121536ecb2e25c33824d4941ec6154a10ca3f"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/comments",
+  "files" : [ {
+    "sha" : "f026b2e666e916664092a8814b8d426f9ffc949e",
+    "filename" : "1517060321/index.js",
+    "status" : "added",
+    "additions" : 54,
+    "deletions" : 0,
+    "changes" : 54,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/1517060321/index.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/1517060321/index.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/index.js?ref=5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+    "patch" : "@@ -0,0 +1,54 @@\n+//index.js\n+//获取应用实例\n+const app = getApp()\n+\n+Page({\n+  data: {\n+    motto: '上帝与你同在',\n+    userInfo: {},\n+    hasUserInfo: false,\n+    canIUse: wx.canIUse('button.open-type.getUserInfo')\n+  },\n+  //事件处理函数\n+  bindViewTap: function() {\n+    wx.navigateTo({\n+      url: '../logs/logs'\n+    })\n+  },\n+  onLoad: function () {\n+    if (app.globalData.userInfo) {\n+      this.setData({\n+        userInfo: app.globalData.userInfo,\n+        hasUserInfo: true\n+      })\n+    } else if (this.data.canIUse){\n+      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回\n+      // 所以此处加入 callback 以防止这种情况\n+      app.userInfoReadyCallback = res => {\n+        this.setData({\n+          userInfo: res.userInfo,\n+          hasUserInfo: true\n+        })\n+      }\n+    } else {\n+      // 在没有 open-type=getUserInfo 版本的兼容处理\n+      wx.getUserInfo({\n+        success: res => {\n+          app.globalData.userInfo = res.userInfo\n+          this.setData({\n+            userInfo: res.userInfo,\n+            hasUserInfo: true\n+          })\n+        }\n+      })\n+    }\n+  },\n+  getUserInfo: function(e) {\n+    console.log(e)\n+    app.globalData.userInfo = e.detail.userInfo\n+    this.setData({\n+      userInfo: e.detail.userInfo,\n+      hasUserInfo: true\n+    })\n+  }\n+})"
+  }, {
+    "sha" : "4d2e09c642669f446702df0f01e91317ac491eb8",
+    "filename" : "1517060321/index.wxml",
+    "status" : "added",
+    "additions" : 17,
+    "deletions" : 0,
+    "changes" : 17,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/1517060321/index.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/1517060321/index.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/index.wxml?ref=5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+    "patch" : "@@ -0,0 +1,17 @@\n+<!--index.wxml-->\n+<view class=\"container\">\n+  <view class=\"userinfo\">\n+    <button wx:if=\"{{!hasUserInfo && canIUse}}\" open-type=\"getUserInfo\" bindgetuserinfo=\"getUserInfo\"> 获取头像昵称 </button>\n+    <block wx:else>\n+      <image bindtap=\"bindViewTap\" class=\"userinfo-avatar\" src=\"{{userInfo.avatarUrl}}\" background-size=\"cover\"></image>\n+      <text class=\"userinfo-nickname\">{{userInfo.nickName}}</text>\n+    </block>\n+  </view>\n+  <view class=\"a\">\n+ \n+  <text>Keep going.</text>\n+   </view>\n+  <view class=\"usermotto\">\n+    <text class=\"user-motto\">{{motto}}</text>\n+  </view>\n+</view>"
+  }, {
+    "sha" : "a06dcfc0644a71d74d3e098b99c4663dccd1be1d",
+    "filename" : "1517060321/index.wxss",
+    "status" : "added",
+    "additions" : 24,
+    "deletions" : 0,
+    "changes" : 24,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/1517060321/index.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/5c4349185808d163b0122b7a8eed4ef1e9cfaf96/1517060321/index.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/index.wxss?ref=5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+    "patch" : "@@ -0,0 +1,24 @@\n+/**index.wxss**/\n+.userinfo {\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+}\n+\n+.userinfo-avatar {\n+  width: 128rpx;\n+  height: 128rpx;\n+  margin: 20rpx;\n+  border-radius: 50%;\n+}\n+\n+.userinfo-nickname {\n+  color: #43CD80;\n+}\n+\n+.usermotto {\n+  margin-top: 200px;\n+}\n+.a{\n+  color: #43CD80;\n+}\n\\ No newline at end of file"
+  } ],
+  "sha" : "5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5c4349185808d163b0122b7a8eed4ef1e9cfaf96",
+  "parents" : [ {
+    "sha" : "5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/5b00559a1a0c0581e84250c35a8510106fea1bc9"
+  } ]
+}

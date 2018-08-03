@@ -1,0 +1,90 @@
+{
+  "committer" : {
+    "login" : "ruan3zzk",
+    "id" : 31909408,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909408?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ruan3zzk",
+    "html_url" : "https://github.com/ruan3zzk",
+    "followers_url" : "https://api.github.com/users/ruan3zzk/followers",
+    "following_url" : "https://api.github.com/users/ruan3zzk/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ruan3zzk/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ruan3zzk/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ruan3zzk/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ruan3zzk/orgs",
+    "repos_url" : "https://api.github.com/users/ruan3zzk/repos",
+    "events_url" : "https://api.github.com/users/ruan3zzk/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ruan3zzk/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 0,
+    "additions" : 0,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "ruan3zzk",
+    "id" : 31909408,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909408?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/ruan3zzk",
+    "html_url" : "https://github.com/ruan3zzk",
+    "followers_url" : "https://api.github.com/users/ruan3zzk/followers",
+    "following_url" : "https://api.github.com/users/ruan3zzk/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/ruan3zzk/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/ruan3zzk/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/ruan3zzk/subscriptions",
+    "organizations_url" : "https://api.github.com/users/ruan3zzk/orgs",
+    "repos_url" : "https://api.github.com/users/ruan3zzk/repos",
+    "events_url" : "https://api.github.com/users/ruan3zzk/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/ruan3zzk/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/089188182eaaa3e03c644f9a60ae2b299eb34a36",
+  "commit" : {
+    "author" : {
+      "name" : "ruan3zzk",
+      "email" : "2539608778@qq.com",
+      "date" : "2017-11-01T02:59:39Z"
+    },
+    "committer" : {
+      "name" : "ruan3zzk",
+      "email" : "2539608778@qq.com",
+      "date" : "2017-11-01T02:59:39Z"
+    },
+    "message" : "#84 期末作业",
+    "tree" : {
+      "sha" : "4d74afbe1650fdb49e1ff52204eaef0a6a8c3c63",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/4d74afbe1650fdb49e1ff52204eaef0a6a8c3c63"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/089188182eaaa3e03c644f9a60ae2b299eb34a36",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/089188182eaaa3e03c644f9a60ae2b299eb34a36/comments",
+  "files" : [ {
+    "sha" : "6f9110a2b40c995e49b1f66a23598833674389cd",
+    "filename" : "1517060334/WeChatApp/Downloads.lnk",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/882d9074935cb77ccf813cc7f96332e528e1f509/1517060334/WeChatApp/Downloads.lnk",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/882d9074935cb77ccf813cc7f96332e528e1f509/1517060334/WeChatApp/Downloads.lnk",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060334/WeChatApp/Downloads.lnk?ref=882d9074935cb77ccf813cc7f96332e528e1f509"
+  } ],
+  "sha" : "089188182eaaa3e03c644f9a60ae2b299eb34a36",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/089188182eaaa3e03c644f9a60ae2b299eb34a36",
+  "parents" : [ {
+    "sha" : "882d9074935cb77ccf813cc7f96332e528e1f509",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/882d9074935cb77ccf813cc7f96332e528e1f509",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/882d9074935cb77ccf813cc7f96332e528e1f509"
+  } ]
+}

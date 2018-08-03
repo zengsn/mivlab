@@ -1,0 +1,27 @@
+[ {
+  "id" : 1320035167,
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/events/1320035167",
+  "actor" : {
+    "login" : "1229754154",
+    "id" : 31909381,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909381?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1229754154",
+    "html_url" : "https://github.com/1229754154",
+    "followers_url" : "https://api.github.com/users/1229754154/followers",
+    "following_url" : "https://api.github.com/users/1229754154/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1229754154/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1229754154/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1229754154/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1229754154/orgs",
+    "repos_url" : "https://api.github.com/users/1229754154/repos",
+    "events_url" : "https://api.github.com/users/1229754154/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1229754154/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "event" : "referenced",
+  "commit_id" : "48d55b2efd5432daf3716f16320b54d0fc6ff55d",
+  "commit_url" : "https://api.github.com/repos/1229754154/wechat-miniprogram-hzc-2017/commits/48d55b2efd5432daf3716f16320b54d0fc6ff55d",
+  "created_at" : "2017-11-01T00:42:19Z"
+} ]

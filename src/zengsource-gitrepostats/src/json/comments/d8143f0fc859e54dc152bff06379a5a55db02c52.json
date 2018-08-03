@@ -1,0 +1,32 @@
+[ {
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/comments/24899491",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/d8143f0fc859e54dc152bff06379a5a55db02c52#commitcomment-24899491",
+  "id" : 24899491,
+  "user" : {
+    "login" : "1517060322",
+    "id" : 31676746,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31676746?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/1517060322",
+    "html_url" : "https://github.com/1517060322",
+    "followers_url" : "https://api.github.com/users/1517060322/followers",
+    "following_url" : "https://api.github.com/users/1517060322/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/1517060322/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/1517060322/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/1517060322/subscriptions",
+    "organizations_url" : "https://api.github.com/users/1517060322/orgs",
+    "repos_url" : "https://api.github.com/users/1517060322/repos",
+    "events_url" : "https://api.github.com/users/1517060322/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/1517060322/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "position" : null,
+  "line" : null,
+  "path" : null,
+  "commit_id" : "d8143f0fc859e54dc152bff06379a5a55db02c52",
+  "created_at" : "2017-10-11T06:09:39Z",
+  "updated_at" : "2017-10-11T06:09:39Z",
+  "author_association" : "CONTRIBUTOR",
+  "body" : "#71 第三次实验-实现页面滚动"
+} ]

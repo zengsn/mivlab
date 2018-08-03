@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "870971217",
+    "id" : 31909417,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909417?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/870971217",
+    "html_url" : "https://github.com/870971217",
+    "followers_url" : "https://api.github.com/users/870971217/followers",
+    "following_url" : "https://api.github.com/users/870971217/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/870971217/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/870971217/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/870971217/subscriptions",
+    "organizations_url" : "https://api.github.com/users/870971217/orgs",
+    "repos_url" : "https://api.github.com/users/870971217/repos",
+    "events_url" : "https://api.github.com/users/870971217/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/870971217/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 20,
+    "additions" : 20,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "870971217",
+    "id" : 31909417,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909417?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/870971217",
+    "html_url" : "https://github.com/870971217",
+    "followers_url" : "https://api.github.com/users/870971217/followers",
+    "following_url" : "https://api.github.com/users/870971217/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/870971217/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/870971217/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/870971217/subscriptions",
+    "organizations_url" : "https://api.github.com/users/870971217/orgs",
+    "repos_url" : "https://api.github.com/users/870971217/repos",
+    "events_url" : "https://api.github.com/users/870971217/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/870971217/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/a525b84e8d00c1866d6c8c281f149496f719980a",
+  "commit" : {
+    "author" : {
+      "name" : "870971217@qq.com",
+      "email" : "870971217@qq.com",
+      "date" : "2017-09-20T03:34:17Z"
+    },
+    "committer" : {
+      "name" : "870971217@qq.com",
+      "email" : "870971217@qq.com",
+      "date" : "2017-09-20T03:34:17Z"
+    },
+    "message" : "#26 HTML开发实验代码",
+    "tree" : {
+      "sha" : "53231ddfe4ac95c266d7044e55e65cd65d5a0fb2",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/53231ddfe4ac95c266d7044e55e65cd65d5a0fb2"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/a525b84e8d00c1866d6c8c281f149496f719980a",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a525b84e8d00c1866d6c8c281f149496f719980a/comments",
+  "files" : [ {
+    "sha" : "d48dae10872b92d233a2acf3509760a9c4e7377f",
+    "filename" : "1517060302/1517060302.html",
+    "status" : "added",
+    "additions" : 20,
+    "deletions" : 0,
+    "changes" : 20,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/a525b84e8d00c1866d6c8c281f149496f719980a/1517060302/1517060302.html",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/a525b84e8d00c1866d6c8c281f149496f719980a/1517060302/1517060302.html",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060302/1517060302.html?ref=a525b84e8d00c1866d6c8c281f149496f719980a",
+    "patch" : "@@ -0,0 +1,20 @@\n+<html>\n+<head>\n+1517060302\n+\n+</head>\n+\n+<body>\n+\n+<a href=\"http://www.baidu.com\">�ٶ�</a>\n+\n+ͼƬ��<div><img=src=http://www.runoob.com/tags/tag-img.html></div>\n+\n+<b>15���3��³�02</b>\n+<p>1517060302</p>\n+\n+\n+</body>\n+\n+\n+</html>\n\\ No newline at end of file"
+  } ],
+  "sha" : "a525b84e8d00c1866d6c8c281f149496f719980a",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a525b84e8d00c1866d6c8c281f149496f719980a",
+  "parents" : [ {
+    "sha" : "45173a22a7d9f273adf537af0c029ded3bd74c79",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/45173a22a7d9f273adf537af0c029ded3bd74c79",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/45173a22a7d9f273adf537af0c029ded3bd74c79"
+  } ]
+}

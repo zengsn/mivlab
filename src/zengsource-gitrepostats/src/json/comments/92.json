@@ -1,0 +1,29 @@
+[ {
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/comments/339182920",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/pull/92#issuecomment-339182920",
+  "issue_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/92",
+  "id" : 339182920,
+  "user" : {
+    "login" : "linwusheng",
+    "id" : 31909397,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909397?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/linwusheng",
+    "html_url" : "https://github.com/linwusheng",
+    "followers_url" : "https://api.github.com/users/linwusheng/followers",
+    "following_url" : "https://api.github.com/users/linwusheng/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/linwusheng/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/linwusheng/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/linwusheng/subscriptions",
+    "organizations_url" : "https://api.github.com/users/linwusheng/orgs",
+    "repos_url" : "https://api.github.com/users/linwusheng/repos",
+    "events_url" : "https://api.github.com/users/linwusheng/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/linwusheng/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "created_at" : "2017-10-25T01:13:15Z",
+  "updated_at" : "2017-10-25T01:13:15Z",
+  "author_association" : "NONE",
+  "body" : "#84 linwusheng 期末作业：开发一个仿DNF微信小程序"
+} ]

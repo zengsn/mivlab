@@ -1,0 +1,149 @@
+[ {
+  "sha" : "7d5145307af2c2dafc055bb4ed65f3bde14d3efe",
+  "commit" : {
+    "author" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-18T02:24:26Z"
+    },
+    "committer" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-18T02:24:26Z"
+    },
+    "message" : "#82 第4次实验",
+    "tree" : {
+      "sha" : "7cd30e8deca3104e33cd2fe484d24fd2c061a2ca",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/7cd30e8deca3104e33cd2fe484d24fd2c061a2ca"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/7d5145307af2c2dafc055bb4ed65f3bde14d3efe",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7d5145307af2c2dafc055bb4ed65f3bde14d3efe",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/7d5145307af2c2dafc055bb4ed65f3bde14d3efe",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7d5145307af2c2dafc055bb4ed65f3bde14d3efe/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "39df3bc380ab2419c929aa8b400021cd5f63bb77",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/39df3bc380ab2419c929aa8b400021cd5f63bb77",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/39df3bc380ab2419c929aa8b400021cd5f63bb77"
+  } ]
+}, {
+  "sha" : "25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b",
+  "commit" : {
+    "author" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-18T03:44:59Z"
+    },
+    "committer" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-18T03:44:59Z"
+    },
+    "message" : "#83 第5次实验",
+    "tree" : {
+      "sha" : "016e5cc3566e66e3dda8f33a44ec139b40b1d268",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/016e5cc3566e66e3dda8f33a44ec139b40b1d268"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "7d5145307af2c2dafc055bb4ed65f3bde14d3efe",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7d5145307af2c2dafc055bb4ed65f3bde14d3efe",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/7d5145307af2c2dafc055bb4ed65f3bde14d3efe"
+  } ]
+}, {
+  "sha" : "9395762676616fe8b7b0b601b09041ed214c709b",
+  "commit" : {
+    "author" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-18T03:48:24Z"
+    },
+    "committer" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-18T03:48:24Z"
+    },
+    "message" : "#83 第5次实验",
+    "tree" : {
+      "sha" : "7e6be213ce3d18d83026f99b6fbf8c311e80056c",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/7e6be213ce3d18d83026f99b6fbf8c311e80056c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/9395762676616fe8b7b0b601b09041ed214c709b",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9395762676616fe8b7b0b601b09041ed214c709b",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9395762676616fe8b7b0b601b09041ed214c709b",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9395762676616fe8b7b0b601b09041ed214c709b/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/25e1ebd4305b1091a7f57cf83be0b0f8ee13d82b"
+  } ]
+}, {
+  "sha" : "e38656f497e52bbaf6b905c9c5609dd047ad6cf0",
+  "commit" : {
+    "author" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-25T01:10:07Z"
+    },
+    "committer" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-25T01:10:07Z"
+    },
+    "message" : "#84 linwusheng 期末作业：开发一个仿DNF微信小程序",
+    "tree" : {
+      "sha" : "43f7c25370fd91f46d30bd0c7fd2187036166915",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/43f7c25370fd91f46d30bd0c7fd2187036166915"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/e38656f497e52bbaf6b905c9c5609dd047ad6cf0",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e38656f497e52bbaf6b905c9c5609dd047ad6cf0",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/e38656f497e52bbaf6b905c9c5609dd047ad6cf0",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e38656f497e52bbaf6b905c9c5609dd047ad6cf0/comments",
+  "author" : null,
+  "committer" : null,
+  "parents" : [ {
+    "sha" : "9395762676616fe8b7b0b601b09041ed214c709b",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/9395762676616fe8b7b0b601b09041ed214c709b",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/9395762676616fe8b7b0b601b09041ed214c709b"
+  } ]
+} ]

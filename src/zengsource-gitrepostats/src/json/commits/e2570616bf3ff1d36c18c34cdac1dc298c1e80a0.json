@@ -1,0 +1,185 @@
+{
+  "committer" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 60,
+    "additions" : 60,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+  "commit" : {
+    "author" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-11-01T01:21:38Z"
+    },
+    "committer" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-11-01T01:21:38Z"
+    },
+    "message" : "a",
+    "tree" : {
+      "sha" : "7dc8bda03245a05e905c7e9bd2e30609625ffc45",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/7dc8bda03245a05e905c7e9bd2e30609625ffc45"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/comments",
+  "files" : [ {
+    "sha" : "2a6a769520114a7ac18b08eabc5a7d2849a21b39",
+    "filename" : "1517060321/Sprite/README.md",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/README.md",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/README.md",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/README.md?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+    "patch" : "@@ -0,0 +1 @@\n+# Sprite"
+  }, {
+    "sha" : "508670bd508273416cbd2718ce11fa76e0fe7b54",
+    "filename" : "1517060321/Sprite/jpg/b1.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b1.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b1.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/jpg/b1.jpg?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0"
+  }, {
+    "sha" : "5f5c9f9238fe8b083446d21953372f96a403fcfa",
+    "filename" : "1517060321/Sprite/jpg/b2.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b2.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b2.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/jpg/b2.jpg?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0"
+  }, {
+    "sha" : "d1e29df7c6d2263c59a3fe39913b693ebc0042e6",
+    "filename" : "1517060321/Sprite/jpg/b3.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b3.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b3.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/jpg/b3.jpg?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0"
+  }, {
+    "sha" : "287e8a25d9d6adc277f5ec0eed60a4696784e778",
+    "filename" : "1517060321/Sprite/jpg/b4.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b4.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/b4.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/jpg/b4.jpg?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0"
+  }, {
+    "sha" : "0e4f8f9e7aa59b59e0dbcfcef35bb893da72fc5b",
+    "filename" : "1517060321/Sprite/jpg/c.jpg",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/c.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/jpg/c.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/jpg/c.jpg?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0"
+  }, {
+    "sha" : "fcc939b45ab2ed2010b43e1eb6f7e6d065cea82e",
+    "filename" : "1517060321/Sprite/json/1.json",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/1.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/1.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/json/1.json?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+    "patch" : "@@ -0,0 +1,5 @@\n+{\n+\"title\":\"WEICOME!暗地莞！\",\n+\"body\":\"UNDERGUAN暗地莞品牌联展经过一年的酝酿，10月份再度开启。这一年我们做了很多新尝试，参与了不同的活动，收获颇丰。在这一年的末端，我们选择10月28-29日在工农8号交出一份2017年的成绩单，一个属于UNDERGUAN的发布会。\",\n+\"image\":\"c.jpg\"\n+}"
+  }, {
+    "sha" : "c3b7b987a2110a9ee50ad3a46693628f3f2fdfb8",
+    "filename" : "1517060321/Sprite/json/2.json",
+    "status" : "added",
+    "additions" : 5,
+    "deletions" : 0,
+    "changes" : 5,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/2.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/2.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/json/2.json?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+    "patch" : "@@ -0,0 +1,5 @@\n+{\n+\"title\":SUPERTOFU\n+\"body\":SUPERTOFU ( 简称 SPTF）由豆腐于2011年创立，品牌风格一直以简约为主，在百搭休闲的衣着搭配基础上，增加衣服的实用性和功能性对于衣服的布料选择和剪裁工艺到包装要求都十分严格。\n+\"image\":doufu.jpg\n+}"
+  }, {
+    "sha" : "8a3075e5ad5c06c72d68fd5fa6b7bc1bff55add8",
+    "filename" : "1517060321/Sprite/json/Demo.json",
+    "status" : "added",
+    "additions" : 3,
+    "deletions" : 0,
+    "changes" : 3,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/Demo.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/Demo.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/json/Demo.json?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+    "patch" : "@@ -0,0 +1,3 @@\n+{\n+  \"name\": \"国潮资讯\"\n+}"
+  }, {
+    "sha" : "84de69d0da76376da64aa98c9c360b9678af2c9c",
+    "filename" : "1517060321/Sprite/json/list.json",
+    "status" : "added",
+    "additions" : 46,
+    "deletions" : 0,
+    "changes" : 46,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/list.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0/1517060321/Sprite/json/list.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060321/Sprite/json/list.json?ref=e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+    "patch" : "@@ -0,0 +1,46 @@\n+[{\n+      \"id\":1,\n+      \"image\":\"/pages/scoll/a.jpg\",\n+      \"name\": \"暗地莞\",\n+      \"last\": \"WELCOME！\"\n+      \n+    }, {\n+          \"id\":2,\n+         \"image\": \"/pages/scoll/a.jpg\",\n+        \"name\": \"Supertofu\",\n+      \"last\": \"豆腐\"\n+      \n+    }, {\n+          \"id\":3,\n+        \"image\":\"/pages/scoll/b.jpg\",\n+        \"name\": \"Royeom\",\n+        \"last\": \"瑞盈\"\n+      \n+      \n+    }, {\n+          \"id\":4,\n+         \"image\": \"/pages/scoll/b.jpg\",\n+        \"name\": \"YUAN\",\n+        \"last\": \"yuan線上商店\"\n+      \n+    }, {\n+            \"id\":5,\n+         \"image\": \"/pages/scoll/d.jpg\",\n+        \"name\": \"Reocha\",\n+        \"last\": \"热呈\"\n+      \n+    }, {\n+            \"id\":6,\n+         \"image\": \"/pages/scoll/d.jpg\",\n+        \"name\": \"Vermicelli\",\n+        \"last\": \"VMCL\"\n+        \n+    }, \n+    {\n+            \"id\":7,\n+       \"image\": \"/pages/scoll/a.jpg\",\n+      \"name\": \"Dakyam\",\n+      \"last\": \"达野\"\n+    \n+\n+    }]"
+  } ],
+  "sha" : "e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/e2570616bf3ff1d36c18c34cdac1dc298c1e80a0",
+  "parents" : [ {
+    "sha" : "b0c2fb4d5f29533aa2141c437c4630d98d4a4c61",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/b0c2fb4d5f29533aa2141c437c4630d98d4a4c61",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/b0c2fb4d5f29533aa2141c437c4630d98d4a4c61"
+  } ]
+}

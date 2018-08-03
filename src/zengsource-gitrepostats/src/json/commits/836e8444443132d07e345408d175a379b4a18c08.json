@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "jackKiZhu",
+    "id" : 31909387,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909387?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/jackKiZhu",
+    "html_url" : "https://github.com/jackKiZhu",
+    "followers_url" : "https://api.github.com/users/jackKiZhu/followers",
+    "following_url" : "https://api.github.com/users/jackKiZhu/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/jackKiZhu/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/jackKiZhu/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/jackKiZhu/subscriptions",
+    "organizations_url" : "https://api.github.com/users/jackKiZhu/orgs",
+    "repos_url" : "https://api.github.com/users/jackKiZhu/repos",
+    "events_url" : "https://api.github.com/users/jackKiZhu/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/jackKiZhu/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 8,
+    "additions" : 8,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "jackKiZhu",
+    "id" : 31909387,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909387?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/jackKiZhu",
+    "html_url" : "https://github.com/jackKiZhu",
+    "followers_url" : "https://api.github.com/users/jackKiZhu/followers",
+    "following_url" : "https://api.github.com/users/jackKiZhu/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/jackKiZhu/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/jackKiZhu/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/jackKiZhu/subscriptions",
+    "organizations_url" : "https://api.github.com/users/jackKiZhu/orgs",
+    "repos_url" : "https://api.github.com/users/jackKiZhu/repos",
+    "events_url" : "https://api.github.com/users/jackKiZhu/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/jackKiZhu/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/836e8444443132d07e345408d175a379b4a18c08",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "178480849@qq.com",
+      "date" : "2017-09-20T03:15:45Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "178480849@qq.com",
+      "date" : "2017-09-20T03:15:45Z"
+    },
+    "message" : "#26 HTML开发实验代码",
+    "tree" : {
+      "sha" : "e1547a5d85b85cf15da0e729b19378134592603d",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/e1547a5d85b85cf15da0e729b19378134592603d"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/836e8444443132d07e345408d175a379b4a18c08",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/836e8444443132d07e345408d175a379b4a18c08/comments",
+  "files" : [ {
+    "sha" : "ff03ec9aee7cef122469758ef4c41742d5830657",
+    "filename" : "1517060342/frist.html",
+    "status" : "added",
+    "additions" : 8,
+    "deletions" : 0,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/836e8444443132d07e345408d175a379b4a18c08/1517060342/frist.html",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/836e8444443132d07e345408d175a379b4a18c08/1517060342/frist.html",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060342/frist.html?ref=836e8444443132d07e345408d175a379b4a18c08",
+    "patch" : "@@ -0,0 +1,8 @@\n+<html>\n+<title>1517060342</title>\n+<body>\n+<p>����</p>\n+<img src=https://www.baidu.com/img/bd_logo1.png>\n+<a href=\"http://www.baidu.com\" style=\"color:red;\">�ٶ�</a>\n+</body>\n+</html>\n\\ No newline at end of file"
+  } ],
+  "sha" : "836e8444443132d07e345408d175a379b4a18c08",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/836e8444443132d07e345408d175a379b4a18c08",
+  "parents" : [ {
+    "sha" : "703901e3dc084ccedc7dac77b72c456876cce4ba",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/703901e3dc084ccedc7dac77b72c456876cce4ba",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/703901e3dc084ccedc7dac77b72c456876cce4ba"
+  } ]
+}

@@ -1,0 +1,27 @@
+[ {
+  "id" : 1309046821,
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/events/1309046821",
+  "actor" : {
+    "login" : "jackKiZhu",
+    "id" : 31909387,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909387?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/jackKiZhu",
+    "html_url" : "https://github.com/jackKiZhu",
+    "followers_url" : "https://api.github.com/users/jackKiZhu/followers",
+    "following_url" : "https://api.github.com/users/jackKiZhu/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/jackKiZhu/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/jackKiZhu/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/jackKiZhu/subscriptions",
+    "organizations_url" : "https://api.github.com/users/jackKiZhu/orgs",
+    "repos_url" : "https://api.github.com/users/jackKiZhu/repos",
+    "events_url" : "https://api.github.com/users/jackKiZhu/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/jackKiZhu/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "event" : "referenced",
+  "commit_id" : "3cb1f9055133687b0e3818dc504f158d2e28c216",
+  "commit_url" : "https://api.github.com/repos/jackKiZhu/wechat-miniprogram-hzc-2017/commits/3cb1f9055133687b0e3818dc504f158d2e28c216",
+  "created_at" : "2017-10-25T03:36:38Z"
+} ]

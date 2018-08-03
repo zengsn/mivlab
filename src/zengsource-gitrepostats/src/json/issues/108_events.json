@@ -1,0 +1,57 @@
+[ {
+  "id" : 1309012864,
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/events/1309012864",
+  "actor" : {
+    "login" : "870971217",
+    "id" : 31909417,
+    "avatar_url" : "https://avatars3.githubusercontent.com/u/31909417?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/870971217",
+    "html_url" : "https://github.com/870971217",
+    "followers_url" : "https://api.github.com/users/870971217/followers",
+    "following_url" : "https://api.github.com/users/870971217/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/870971217/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/870971217/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/870971217/subscriptions",
+    "organizations_url" : "https://api.github.com/users/870971217/orgs",
+    "repos_url" : "https://api.github.com/users/870971217/repos",
+    "events_url" : "https://api.github.com/users/870971217/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/870971217/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "event" : "renamed",
+  "commit_id" : null,
+  "commit_url" : null,
+  "created_at" : "2017-10-25T02:51:26Z",
+  "rename" : {
+    "from" : "澄海美食探",
+    "to" : "动漫探长"
+  }
+}, {
+  "id" : 1320112595,
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/issues/events/1320112595",
+  "actor" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "event" : "referenced",
+  "commit_id" : "a946e44378dc5d4fe1c9235f6527fd52e0bc810c",
+  "commit_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/a946e44378dc5d4fe1c9235f6527fd52e0bc810c",
+  "created_at" : "2017-11-01T02:03:09Z"
+} ]

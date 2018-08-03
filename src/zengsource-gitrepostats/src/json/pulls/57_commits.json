@@ -1,0 +1,74 @@
+[ {
+  "sha" : "42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+  "commit" : {
+    "author" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-27T03:38:53Z"
+    },
+    "committer" : {
+      "name" : "Sprite24",
+      "email" : "562150399@qq.com",
+      "date" : "2017-09-27T03:38:53Z"
+    },
+    "message" : "#47 第二次实验练习CSS",
+    "tree" : {
+      "sha" : "1f214bcb584fd58d587a6c98ef1000f02ccac67e",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/1f214bcb584fd58d587a6c98ef1000f02ccac67e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/42f1fc83d7c86d2bd91d0a66d7ae7f3a61016c94/comments",
+  "author" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "Sprite24",
+    "id" : 31909734,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909734?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/Sprite24",
+    "html_url" : "https://github.com/Sprite24",
+    "followers_url" : "https://api.github.com/users/Sprite24/followers",
+    "following_url" : "https://api.github.com/users/Sprite24/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/Sprite24/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/Sprite24/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/Sprite24/subscriptions",
+    "organizations_url" : "https://api.github.com/users/Sprite24/orgs",
+    "repos_url" : "https://api.github.com/users/Sprite24/repos",
+    "events_url" : "https://api.github.com/users/Sprite24/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/Sprite24/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1e74e2db241cb1fd8bced80f89f96cce8dd11f48",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/1e74e2db241cb1fd8bced80f89f96cce8dd11f48"
+  } ]
+} ]

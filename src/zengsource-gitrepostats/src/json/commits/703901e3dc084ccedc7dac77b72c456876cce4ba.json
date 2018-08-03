@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "jackKiZhu",
+    "id" : 31909387,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909387?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/jackKiZhu",
+    "html_url" : "https://github.com/jackKiZhu",
+    "followers_url" : "https://api.github.com/users/jackKiZhu/followers",
+    "following_url" : "https://api.github.com/users/jackKiZhu/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/jackKiZhu/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/jackKiZhu/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/jackKiZhu/subscriptions",
+    "organizations_url" : "https://api.github.com/users/jackKiZhu/orgs",
+    "repos_url" : "https://api.github.com/users/jackKiZhu/repos",
+    "events_url" : "https://api.github.com/users/jackKiZhu/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/jackKiZhu/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 78,
+    "additions" : 78,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "jackKiZhu",
+    "id" : 31909387,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909387?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/jackKiZhu",
+    "html_url" : "https://github.com/jackKiZhu",
+    "followers_url" : "https://api.github.com/users/jackKiZhu/followers",
+    "following_url" : "https://api.github.com/users/jackKiZhu/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/jackKiZhu/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/jackKiZhu/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/jackKiZhu/subscriptions",
+    "organizations_url" : "https://api.github.com/users/jackKiZhu/orgs",
+    "repos_url" : "https://api.github.com/users/jackKiZhu/repos",
+    "events_url" : "https://api.github.com/users/jackKiZhu/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/jackKiZhu/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/703901e3dc084ccedc7dac77b72c456876cce4ba",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "178480849@qq.com",
+      "date" : "2017-09-20T01:40:55Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "178480849@qq.com",
+      "date" : "2017-09-20T01:40:55Z"
+    },
+    "message" : "第一次试验",
+    "tree" : {
+      "sha" : "a285c2e0c715e0aec9cd89f94055ba332af38ed4",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/a285c2e0c715e0aec9cd89f94055ba332af38ed4"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/703901e3dc084ccedc7dac77b72c456876cce4ba",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/703901e3dc084ccedc7dac77b72c456876cce4ba/comments",
+  "files" : [ {
+    "sha" : "29f75f6c1119787c3c9ce9ce09bd36d21539f369",
+    "filename" : "1517060342/index.js",
+    "status" : "added",
+    "additions" : 78,
+    "deletions" : 0,
+    "changes" : 78,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/703901e3dc084ccedc7dac77b72c456876cce4ba/1517060342/index.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/703901e3dc084ccedc7dac77b72c456876cce4ba/1517060342/index.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060342/index.js?ref=703901e3dc084ccedc7dac77b72c456876cce4ba",
+    "patch" : "@@ -0,0 +1,78 @@\n+const path = require('path')\n+const tools = require('../js/84b183688a46c9e2626d3e6f83365e13.js')\n+// nw & foreground variables\n+const Win = nw.Window.get()\n+global.Win = Win\n+global.appConfig = tools.getAppConfig()\n+// global.appConfig.isDev = false\n+global.appConfig.isGamma = true\n+global.appVersion = nw.App.manifest.version\n+\n+global.contentDocument = document\n+global.contentDocumentBody = document.body\n+global.contentWindow = window\n+\n+global.windowMap = new Map\n+global.windowMap.set('LOGIN', global.Win)\n+\n+global.reload = () => {\n+  for (key in require.cache) {\n+    require.cache[key] = undefined\n+  }\n+\n+  location.reload()\n+}\n+\n+// enter background\n+\n+function init() {\n+  // to prevent drag image or html\n+  document.body.addEventListener('dragover', function(e){\n+    e.preventDefault();\n+    e.stopPropagation();\n+  }, false);\n+  document.body.addEventListener('drop', function(e){\n+    e.preventDefault();\n+    e.stopPropagation();\n+  }, false);\n+\n+  require('../js/29cbb96f0d87ca0a3ee63c5dbbd8107c.js')\n+\n+  // 打开 inspect 窗口\n+  if (nw.App.argv.indexOf('inspect') !== -1) {\n+    tools.openInspectWin()\n+  }\n+\n+  // 阻止右键打开菜单\n+  !global.appConfig.isDev && !global.appConfig.isGamma && window.addEventListener('contextmenu', (event) => {\n+    event.preventDefault()\n+  })\n+\n+  // 禁用滚轮缩放\n+  document.addEventListener('mousewheel', (event) => {\n+    if(event.ctrlKey)\n+      event.preventDefault()\n+  })\n+\n+  Win.on('new-win-policy', (frame, url, policy) => {\n+    policy.ignore()\n+  })\n+\n+  Win.on('close', () => {\n+    global.windowMap.forEach((win) => {\n+      win.close()\n+    })\n+    global.windowMap.clear()\n+\n+    tools.quit()\n+  })\n+}\n+\n+\n+// 检查是否需要更新\n+tools.checkUpdateApp()\n+  .then(()=>{\n+    init()\n+  })\n+\n+"
+  } ],
+  "sha" : "703901e3dc084ccedc7dac77b72c456876cce4ba",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/703901e3dc084ccedc7dac77b72c456876cce4ba",
+  "parents" : [ {
+    "sha" : "5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/5b00559a1a0c0581e84250c35a8510106fea1bc9",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/5b00559a1a0c0581e84250c35a8510106fea1bc9"
+  } ]
+}

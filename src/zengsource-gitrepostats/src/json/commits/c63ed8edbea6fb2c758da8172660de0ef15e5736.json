@@ -1,0 +1,337 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 254,
+    "additions" : 0,
+    "deletions" : 254
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/c63ed8edbea6fb2c758da8172660de0ef15e5736",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-11-01T03:17:32Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "ST",
+      "date" : "2017-11-01T03:17:32Z"
+    },
+    "message" : "#84",
+    "tree" : {
+      "sha" : "732db2144aa32144583bef72b194c0e5dd0b8001",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/732db2144aa32144583bef72b194c0e5dd0b8001"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/c63ed8edbea6fb2c758da8172660de0ef15e5736",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/c63ed8edbea6fb2c758da8172660de0ef15e5736/comments",
+  "files" : [ {
+    "sha" : "f16cc1a8255aae310cbd340c85f98ff26a7bfb2d",
+    "filename" : "1517130222/谢健涛/pages/example/article/article.js",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.js?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1 +0,0 @@\n-Page({});\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517130222/谢健涛/pages/example/article/article.json",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.json?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1 +0,0 @@\n-{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "c81b8c64f39ad25b5f17b5a3b10d3d3a749aaed3",
+    "filename" : "1517130222/谢健涛/pages/example/article/article.wxml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 106,
+    "changes" : 106,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.wxml?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,106 +0,0 @@\n-<view class=\"page\">\n-    <view class=\"page__hd\">\n-        <view class=\"page__title\">探险家：射手、吸血</view>\n-    </view>\n-    <view class=\"page__bd\">\n-        <view class=\"weui-article\">\n-            <view class=\"weui-article__section\">\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">探险家：射手、吸血</view>\n-                    <view class=\"weui-article__p\">探险家·伊泽瑞尔是《英雄联盟》中的一名英雄。一名非常灵活飘逸的英雄，双加成的技能使他不但可以走AD路线，也能作为法师走AP路线。勇敢的年轻探险家伊泽瑞尔已经探索过符文之地上的一些最为偏远和荒废的地区。在对古代恕瑞玛被掩埋的废墟进行探索时，他发现了一个拥有难以置信的神秘力量的护符。可能是做给某个飞升者穿戴的，这个巨大的护符紧套在他的手臂上，将他的原生魔法技术增幅到一个足以让他获得“英雄”名号的程度，让他十分尴尬。\n-                        <image class=\"weui-article__img\" src=\"/pages/image/1.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">宝石骑士：辅助、保护</view>\n-                    <view class=\"weui-article__p\">塔里克曾是德玛西亚的一名军官，他生性浪漫，英俊迷人，却在一个夜里为了游览附近的神庙而离开了自己的驻地，导致他的手下遭人偷袭而全军覆没，他在无尽的悔恨中踏上了流放的旅途，他一路颠沛，来到了巨神峰脚下，只希望能在山巅找到救赎，他强忍着心中的内疚，艰难的攀上了峰顶，却与来自巨神峰的守护者不期而遇，在经受了考验之后，塔里克发现自己得到了守护之力的加持，并从此担上了保护瓦洛兰的重任。在游戏中，塔里克是个坦克型辅助，他身怀异能，靠着自己灵活而有效的技能，在战场上来去自如。[\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/2.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">荒漠屠夫：、战士、先手</view>\n-                    <view class=\"weui-article__p\">荒漠屠夫·雷克顿是竞技网游《英雄联盟》中的一名英雄，常常出现在上单的位置上，是一名高伤害、高机动性的半肉战士英雄。[\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/3.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">沙漠死神：战士、先手、开团</view>\n-                    <view class=\"weui-article__p\">沙漠死神内瑟斯，俗称狗头，是竞技网游《英雄联盟》中的一位英雄，来自远古的恕瑞玛文明。内瑟斯是非常早期推出的一个非常全面的坦克英雄，技能拥有爆发、控制、削弱、回复等效果，能够胜任上单位置，但是由于前期太过弱势，对线期间容易被压制，因此坐上了冷板凳的位置。内瑟斯拥有吞噬灵魂、摄魂痛击、枯萎、灵魂烈焰和死神降临等技能，一个发育良好的狗头在后期无论是输出还是防御都是噩梦般的存在。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/4.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">发条魔灵：法师、消耗：</view>\n-                    <view class=\"weui-article__p\">奥莉安娜打法多样。主升指令：攻击（Q ）可能会决定你这场是DPS。主升指令：杂音（W）， 中立。主升指令：防卫（E）， 可能会决定你这场是辅助。奥莉安娜可以中单，也可以走双人路。走双人路最好和高爆发英雄、控制类英雄一路，和带治疗的辅助英雄搭档也不错。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/5.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">盲僧。瞎子</view>\n-                    <view class=\"weui-article__p\">李青是一个近战战士型英雄，拥有很高的机动性和爆发力，单挑和小规模团战能力很强，同时李青也是非常优秀的打野英雄，非常擅长野区的遭遇战和Gank，是非常致命的英雄人物。李青的缺点是比较依赖技能的命中率和连招成功率，需要大量的练习才能掌握。[\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/6.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">赵信。菊花信</view>\n-                    <view class=\"weui-article__p\">属于德玛西亚阵营，赵信是光盾王朝的私人管家。而在游戏中的赵信则是一个爆发能力极高的战士英雄，他也是一名优秀的团战发起者，能够以迅雷不及掩耳的速度突破对方的防线，对对方的核心英雄造成致命威胁，但是赵信也有着装备没成型之前过于脆弱，没有逃生手段等等劣势。[\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/7.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">时光老人。时光倒流</view>\n-                    <view class=\"weui-article__p\">基兰是个另类的AP英雄，他只有一个输出技能，输出手段比较匮乏，但他的技能强度非常之大，能给团队提供巨大的增益效果，他不是一个能拯救世界的英雄，但搭配一些合理的阵容可以起到意想不到的效果。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/8.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">黑暗之女，辛德拉</view>\n-                    <view class=\"weui-article__p\">暗黑元首生来就具有无边的魔法潜能，除了爱好以自己的意志来运用这难以置信的能量外，就再无所好。随着每一天的过去，她的魔力天赋也变得更加有效且更具毁灭性。暗黑元首拒绝任何平衡或克制的观念，只想保持她对能量的控制权，即使它意味着那些想要制止她的当局会废掉她。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/9.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">铸星龙王。消耗</view>\n-                    <view class=\"weui-article__p\">在遭到巨神族算计而沦为仆从之后，古老的星空始祖奥瑞利安·索尔被迫以他们的名义征战了千年，战火所及遍布宇宙，毁灭了无数星球和身居其上的种族，但是现在，他已经感受到他们的控制有所削弱， 于是他来到了符文之地，抹除那些胆敢奴役铸星龙王的人，以夺取自由。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/10.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">疾风剑豪，yasuo</view>\n-                    <view class=\"weui-article__p\">英雄联盟第117位新英雄Yasuo（亚索）疾风剑豪亚索他是一位近战爆发AD刺客，双突进的技能设置，使得他在中单游刃有余，并且大招在队友的配合下，在团战中能够发挥至关重要的作用。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/11.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">影流之主</view>\n-                    <view class=\"weui-article__p\">劫是一名以消耗能量为主的近战刺客，他拥有超高的技能爆发，在线上也具备十足的威胁力。他的定位和之前的刺客英雄泰隆很像，但相比泰隆劫有着更为强大的后期。\n-                    </view>\n-                    <view class=\"weui-article__p\">\n-                        <image class=\"weui-article__img\" src=\"/pages/image/12.jpg\" mode=\"aspectFit\" style=\"height: 180px\" />\n-                    </view>\n-                </view>\n-                \n-            </view>\n-        </view>\n-    </view>\n-</view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "fa064c61d74a0178eefaf7deb7a1d96945dae8ec",
+    "filename" : "1517130222/谢健涛/pages/example/article/article.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 6,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/article/article.wxss?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,6 +0,0 @@\n-page{\n-    background-color: #FFFFFF;\n-}\n-image{\n-    margin: 4px 0;\n-}\n\\ No newline at end of file"
+  }, {
+    "sha" : "97e51d0ac0cd6a5fc89d0f43c410d23627e63ccc",
+    "filename" : "1517130222/谢健涛/pages/example/images/base64.js",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 4,
+    "changes" : 4,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/base64.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/base64.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/base64.js?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,4 +0,0 @@\n-module.exports = {\n-    icon20: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=\",\n-    icon60: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAeFBMVEUAwAD///+U5ZTc9twOww7G8MYwzDCH4YcfyR9x23Hw+/DY9dhm2WZG0kbT9NP0/PTL8sux7LFe115T1VM+zz7i+OIXxhes6qxr2mvA8MCe6J6M4oz6/frr+us5zjn2/fa67rqB4IF13XWn6ad83nxa1loqyirn+eccHxx4AAAC/klEQVRo3u2W2ZKiQBBF8wpCNSCyLwri7v//4bRIFVXoTBBB+DAReV5sG6lTXDITiGEYhmEYhmEYhmEYhmEY5v9i5fsZGRx9PyGDne8f6K9cfd+mKXe1yNG/0CcqYE86AkBMBh66f20deBc7wA/1WFiTwvSEpBMA2JJOBsSLxe/4QEEaJRrASP8EVF8Q74GbmevKg0saa0B8QbwBdjRyADYxIhqxAZ++IKYtciPXLQVG+imw+oo4Bu56rjEJ4GYsvPmKOAB+xlz7L5aevqUXuePWVhvWJ4eWiwUQ67mK51qPj4dFDMlRLBZTqF3SDvmr4BwtkECu5gHWPkmDfQh02WLxXuvbvC8ku8F57GsI5e0CmUwLz1kq3kD17R1In5816rGvQ5VMk5FEtIiWislTffuDpl/k/PzscdQsv8r9qWq4LRWX6tQYtTxvI3XyrwdyQxChXioOngH3dLgOFjk0all56XRi/wDFQrGQU3Os5t0wJu1GNtNKHdPqYaGYQuRDfbfDf26AGLYSyGS3ZAK4S8XuoAlxGSdYMKwqZKM9XJMtyqXi7HX/CiAZS6d8bSVUz5J36mEMFDTlAFQzxOT1dzLRljjB6+++ejFqka+mXIe6F59mw22OuOw1F4T6lg/9VjL1rLDoI9Xzl1MSYDNHnPQnt3D1EE7PrXjye/3pVpr1Z45hMUdcACc5NVQI0bOdS1WA0wuz73e7/5TNqBPhQXPEFGJNV2zNqWI7QKBd2Gn6AiBko02zuAOXeWIXjV0jNqdKegaE/kJQ6Bfs4aju04lMLkA2T5wBSYPKDGF3RKhFYEa6A1L1LG2yacmsaZ6YPOSAMKNsO+N5dNTfkc5Aqe26uxHpx7ZirvgCwJpWq/lmX1hA7LyabQ34tt5RiJKXSwQ+0KU0V5xg+hZrd4Bn1n4EID+WkQdgLfRNtvil9SPfwy+WQ7PFBWQz6dGWZBLkeJFXZGCfLUjCgGgqXo5TuSu3cugdcTv/HjqnBTEMwzAMwzAMwzAMwzAMw/zf/AFbXiOA6frlMAAAAABJRU5ErkJggg==\"\n-};\n\\ No newline at end of file"
+  }, {
+    "sha" : "8e65c75147cd033ca2f5f0c46ca330b33805867e",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_footer.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_footer.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_footer.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_footer.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "8e65c75147cd033ca2f5f0c46ca330b33805867e",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_footer_link.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_footer_link.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_footer_link.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_footer_link.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "d2bf4a5f36be547f43c41d22f697f0fe173bce1e",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_intro.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_intro.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_intro.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_intro.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "8c037434226b1495e59f4a0a71b3240ebae37f3b",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_feedback.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_feedback.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_feedback.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_feedback.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "9d2addb22fd2df24399756ccff14f2210b132101",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_form.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_form.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_form.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_form.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "b4fe0f6cba28cc47f3304f7a47ad00d69c22fa8e",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_nav.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_nav.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_nav.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_nav.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "6efea86492f838d5c0bf715a936faf72c584a195",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_search.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_search.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_search.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_search.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "7c46cf9a8ef600b355d5d08e5652874b7ee54e8f",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_special.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_special.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_special.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_special.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "1d07c1f2df7554e6f2279601af467dfebae25056",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_widget.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_widget.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_widget.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_widget.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "f32f62081188bab5a20face7acb3b82e2e7d957f",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_nav_z-index.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_z-index.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_z-index.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_nav_z-index.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "20b30ab5ed685386e1b8ea3c2ca4eb2e544b4fa7",
+    "filename" : "1517130222/谢健涛/pages/example/images/icon_tabbar.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_tabbar.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_tabbar.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/icon_tabbar.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "0810604faa4e47ff47a15a38e92c45dd5206c116",
+    "filename" : "1517130222/谢健涛/pages/example/images/logo.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/logo.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/logo.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/logo.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "ba941704c707a34437396d22c4ab7ae7c9761655",
+    "filename" : "1517130222/谢健涛/pages/example/images/pic_160.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/pic_160.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/pic_160.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/pic_160.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "c240812c2822576c4ea0c0ecc1545ddbd5ec2ae8",
+    "filename" : "1517130222/谢健涛/pages/example/images/pic_article.png",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/pic_article.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/pic_article.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/pic_article.png?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "de54b38a31e766d4cd1102ad9155a57ea92b3f73",
+    "filename" : "1517130222/谢健涛/pages/example/images/vcode.jpg",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/vcode.jpg",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/vcode.jpg",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/images/vcode.jpg?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  }, {
+    "sha" : "4818b5a31591c273953a37cadcc11eacf0d19955",
+    "filename" : "1517130222/谢健涛/pages/example/list/list.js",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 8,
+    "changes" : 8,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.js?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,8 +0,0 @@\n-var base64 = require(\"../images/base64\");\n-Page({\n-    onLoad: function(){\n-        this.setData({\n-            icon: base64.icon20\n-        });\n-    }\n-});\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517130222/谢健涛/pages/example/list/list.json",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.json?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1 +0,0 @@\n-{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "eb9d2ac03cf10c62ee109c04eb671e47396e8561",
+    "filename" : "1517130222/谢健涛/pages/example/list/list.wxml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 76,
+    "changes" : 76,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.wxml?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,76 +0,0 @@\n-<view class=\"page\">\n-    <view class=\"page__hd\">\n-        <view class=\"page__title\">List</view>\n-        <view class=\"page__desc\">列表</view>\n-    </view>\n-    <view class=\"page__bd\">\n-        <view class=\"weui-cells__title\">带说明的列表项</view>\n-        <view class=\"weui-cells weui-cells_after-title\">\n-        <navigator url='/pages/index/index'></navigator>\n-            <view class=\"weui-cell\">\n-                <view class=\"weui-cell__bd\">标题文字</view>\n-                <view class=\"weui-cell__ft\">说明文字</view>\n-            </view>\n-        </view>\n-\n-        <view class=\"weui-cells__title\">带图标、说明的列表项</view>\n-        <view class=\"weui-cells weui-cells_after-title\">\n-            <view class=\"weui-cell\">\n-                <view class=\"weui-cell__hd\">\n-                    <image src=\"{{icon}}\" style=\"margin-right: 5px;vertical-align: middle;width:20px; height: 20px;\"></image>\n-                </view>\n-                <view class=\"weui-cell__bd\">标题文字</view>\n-                <view class=\"weui-cell__ft\">说明文字</view>\n-            </view>\n-            <view class=\"weui-cell\">\n-                <view class=\"weui-cell__hd\">\n-                    <image src=\"{{icon}}\" style=\"margin-right: 5px;vertical-align: middle;width:20px; height: 20px;\"></image>\n-                </view>\n-                <view class=\"weui-cell__bd\">标题文字</view>\n-                <view class=\"weui-cell__ft\">说明文字</view>\n-            </view>\n-        </view>\n-\n-        <view class=\"weui-cells__title\">带跳转的列表项</view>\n-        <view class=\"weui-cells weui-cells_after-title\">\n-            <navigator url=\"/pages/index/index\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n-                <view class=\"weui-cell__bd\">cell standard</view>\n-                <view class=\"weui-cell__ft weui-cell__ft_in-access\"></view>\n-            </navigator>\n-            <navigator url=\"\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n-                <view class=\"weui-cell__bd\">cell standard</view>\n-                <view class=\"weui-cell__ft weui-cell__ft_in-access\"></view>\n-            </navigator>\n-        </view>\n-\n-        <view class=\"weui-cells__title\">带说明、跳转的列表项</view>\n-        <view class=\"weui-cells weui-cells_after-title\">\n-            <navigator url=\"\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n-                <view class=\"weui-cell__bd\">cell standard</view>\n-                <view class=\"weui-cell__ft weui-cell__ft_in-access\">说明文字</view>\n-            </navigator>\n-            <navigator url=\"\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n-                <view class=\"weui-cell__bd\">cell standard</view>\n-                <view class=\"weui-cell__ft weui-cell__ft_in-access\">说明文字</view>\n-            </navigator>\n-        </view>\n-\n-        <view class=\"weui-cells__title\">带图标、说明、跳转的列表项</view>\n-        <view class=\"weui-cells weui-cells_after-title\">\n-            <navigator url=\"\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n-                <view class=\"weui-cell__hd\">\n-                    <image src=\"{{icon}}\" style=\"margin-right: 5px;vertical-align: middle;width:20px; height: 20px;\"></image>\n-                </view>\n-                <view class=\"weui-cell__bd\">cell standard</view>\n-                <view class=\"weui-cell__ft weui-cell__ft_in-access\">说明文字</view>\n-            </navigator>\n-            <navigator url=\"\" class=\"weui-cell weui-cell_access\" hover-class=\"weui-cell_active\">\n-                <view class=\"weui-cell__hd\">\n-                    <image src=\"{{icon}}\" style=\"margin-right: 5px;vertical-align: middle;width:20px; height: 20px;\"></image>\n-                </view>\n-                <view class=\"weui-cell__bd\">cell standard</view>\n-                <view class=\"weui-cell__ft weui-cell__ft_in-access\">说明文字</view>\n-            </navigator>\n-        </view>\n-    </view>\n-</view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "afc9b10824cb1092c8038d54d5b870097eb1562a",
+    "filename" : "1517130222/谢健涛/pages/example/list/list.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/list/list.wxss?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1 +0,0 @@\n-/* pages/example/list/list.wxss */\n\\ No newline at end of file"
+  }, {
+    "sha" : "f16cc1a8255aae310cbd340c85f98ff26a7bfb2d",
+    "filename" : "1517130222/谢健涛/pages/example/qqweq/qqweq.js",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.js?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1 +0,0 @@\n-Page({});\n\\ No newline at end of file"
+  }, {
+    "sha" : "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "filename" : "1517130222/谢健涛/pages/example/qqweq/qqweq.json",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 1,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.json?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1 +0,0 @@\n-{}\n\\ No newline at end of file"
+  }, {
+    "sha" : "d3a73ec38c405711235ddec41e3ca9a2c4b2ea0f",
+    "filename" : "1517130222/谢健涛/pages/example/qqweq/qqweq.wxml",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 42,
+    "changes" : 42,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.wxml?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,42 +0,0 @@\n-<view class=\"page\">\n-    <view class=\"page__hd\">\n-        <view class=\"page__title\">召唤师峡谷</view>\n-        \n-    </view>\n-    <view class=\"page__bd\">\n-        <view class=\"weui-article\">\n-            <view class=\"weui-article__section\">\n-             <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">纳什男爵</view>\n-                </view>\n-             <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">峡谷先锋</view>\n-                </view>\n-             <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">峡谷迅捷蟹</view>\n-                </view>\n-             <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">大型暗影狼-暗影狼 </view>\n-                </view>\n-                 <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">深红峰啄鸟-峰啄鸟</view>\n-                </view>\n-                   <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">绯红印记树怪-绯红树怪</view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">远古石甲虫-石甲虫</view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">魔沼蛙</view>\n-                </view>\n-                <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">苍蓝雕纹魔像-苍蓝哨戒</view>\n-                </view>\n-                 <view class=\"weui-article__section\">\n-                    <view class=\"weui-article__h3\">远古龙</view>\n-                </view>\n-            </view>\n-        </view>\n-    </view>\n-</view>"
+  }, {
+    "sha" : "fa064c61d74a0178eefaf7deb7a1d96945dae8ec",
+    "filename" : "1517130222/谢健涛/pages/example/qqweq/qqweq.wxss",
+    "status" : "removed",
+    "additions" : 0,
+    "deletions" : 6,
+    "changes" : 6,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/c7e3068c944ef8485cce9a0729f5bc7ec5048b43/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517130222/%E8%B0%A2%E5%81%A5%E6%B6%9B/pages/example/qqweq/qqweq.wxss?ref=c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "patch" : "@@ -1,6 +0,0 @@\n-page{\n-    background-color: #FFFFFF;\n-}\n-image{\n-    margin: 4px 0;\n-}\n\\ No newline at end of file"
+  } ],
+  "sha" : "c63ed8edbea6fb2c758da8172660de0ef15e5736",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/c63ed8edbea6fb2c758da8172660de0ef15e5736",
+  "parents" : [ {
+    "sha" : "c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/c7e3068c944ef8485cce9a0729f5bc7ec5048b43",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/c7e3068c944ef8485cce9a0729f5bc7ec5048b43"
+  } ]
+}

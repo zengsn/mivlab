@@ -1,0 +1,87 @@
+{
+  "committer" : null,
+  "stats" : {
+    "total" : 138,
+    "additions" : 138,
+    "deletions" : 0
+  },
+  "author" : null,
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/39df3bc380ab2419c929aa8b400021cd5f63bb77",
+  "commit" : {
+    "author" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-11T07:12:15Z"
+    },
+    "committer" : {
+      "name" : "linwusheng",
+      "email" : "2707664982@qq.com",
+      "date" : "2017-10-11T07:12:15Z"
+    },
+    "message" : "#71 第3次实验-实现滚动界面",
+    "tree" : {
+      "sha" : "6322132ee3099bae6aa46d4180f76a5f2a99694c",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/6322132ee3099bae6aa46d4180f76a5f2a99694c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/39df3bc380ab2419c929aa8b400021cd5f63bb77",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/39df3bc380ab2419c929aa8b400021cd5f63bb77/comments",
+  "files" : [ {
+    "sha" : "d8c82ed856bd62676e64138533890e824a3ecce0",
+    "filename" : "1517060318/2017-10-11/comp/qq2.png",
+    "status" : "added",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/qq2.png",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/qq2.png",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060318/2017-10-11/comp/qq2.png?ref=39df3bc380ab2419c929aa8b400021cd5f63bb77"
+  }, {
+    "sha" : "2f0e777e030a93103ba373fd73d4a3c82912af3e",
+    "filename" : "1517060318/2017-10-11/comp/scroll.js",
+    "status" : "added",
+    "additions" : 110,
+    "deletions" : 0,
+    "changes" : 110,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/scroll.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/scroll.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060318/2017-10-11/comp/scroll.js?ref=39df3bc380ab2419c929aa8b400021cd5f63bb77",
+    "patch" : "@@ -0,0 +1,110 @@\n+// pages/comp/scroll.js\r\n+var base64 = require(\"../example/images/base64\");\r\n+\r\n+Page({\r\n+\r\n+  /**\r\n+   * 页面的初始数据\r\n+   */\r\n+  data: {\r\n+    isEnd: false,\r\n+    messages: [{\r\n+      name: \"林武胜\",\r\n+      last: \"linwusheng\"\r\n+    }, {\r\n+        name: \"林武胜\",\r\n+        last: \"linwusheng\"\r\n+    }, {\r\n+        name: \"林武胜\",\r\n+        last: \"linwusheng\"\r\n+    }, {\r\n+        name: \"林武胜\",\r\n+        last: \"linwusheng\"\r\n+    }, {\r\n+        name: \"林武胜\",\r\n+        last: \"linwusheng\"\r\n+    }, {\r\n+        name: \"林武胜\",\r\n+        last: \"linwusheng\"\r\n+    }, {\r\n+        name: \"林武胜\",\r\n+      last: \"linwusheng\"\r\n+    }]\r\n+  },\r\n+\r\n+  /**\r\n+   * 生命周期函数--监听页面加载\r\n+   */\r\n+  onLoad: function (options) {\r\n+    this.setData({\r\n+      icon20: base64.icon20,\r\n+      icon60: base64.icon60\r\n+    });\r\n+  },\r\n+\r\n+  /**\r\n+   * 生命周期函数--监听页面初次渲染完成\r\n+   */\r\n+  onReady: function () {\r\n+\r\n+  },\r\n+\r\n+  /**\r\n+   * 生命周期函数--监听页面显示\r\n+   */\r\n+  onShow: function () {\r\n+\r\n+  },\r\n+\r\n+  /**\r\n+   * 生命周期函数--监听页面隐藏\r\n+   */\r\n+  onHide: function () {\r\n+\r\n+  },\r\n+\r\n+  /**\r\n+   * 生命周期函数--监听页面卸载\r\n+   */\r\n+  onUnload: function () {\r\n+\r\n+  },\r\n+\r\n+  /**\r\n+   * 页面相关事件处理函数--监听用户下拉动作\r\n+   */\r\n+  onPullDownRefresh: function () {\r\n+\r\n+  },\r\n+\r\n+  /**\r\n+   * 页面上拉触底事件的处理函数\r\n+   */\r\n+  onReachBottom: function () {\r\n+\r\n+  },\r\n+\r\n+  /**\r\n+   * 用户点击右上角分享\r\n+   */\r\n+  onShareAppMessage: function () {\r\n+\r\n+  },\r\n+\r\n+  onEnd: function () {\r\n+    console.log(\"onEnd\")\r\n+    var that = this;\r\n+    var data = that.data;\r\n+    that.setData({\r\n+      isEnd: true /*,\r\n+      messages: data.messages.concat([{\r\n+        name: \"Tom\",\r\n+        last: \"Hello!\"\r\n+      }, {\r\n+        name: \"john\",\r\n+        last: \"yes.\"\r\n+      }]) */\r\n+    });\r\n+\r\n+  }\r\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "571d6defdc9b8dbe7b5f204a104b52264c51efdf",
+    "filename" : "1517060318/2017-10-11/comp/scroll.wxml",
+    "status" : "added",
+    "additions" : 27,
+    "deletions" : 0,
+    "changes" : 27,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/scroll.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/scroll.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060318/2017-10-11/comp/scroll.wxml?ref=39df3bc380ab2419c929aa8b400021cd5f63bb77",
+    "patch" : "@@ -0,0 +1,27 @@\n+<!--pages/comp/scroll.wxml-->\r\n+<scroll-view class=\"page\" bindtouchend='onEnd' >\r\n+    <view class=\"page__hd\">\r\n+        <view class=\"page__title\">Panel</view>\r\n+        <view class=\"page__desc\">面板</view>\r\n+    </view>\r\n+    <view class=\"page__bd\">\r\n+        <view class=\"weui-panel weui-panel_access\">\r\n+            <view class=\"weui-panel__hd\"></view>\r\n+            <view class=\"weui-panel__bd\">\r\n+                <navigator url=\"\" class=\"weui-media-box weui-media-box_appmsg\" hover-class=\"weui-cell_active\" wx:for=\"{{messages}}\">\r\n+                    <view class=\"weui-media-box__hd weui-media-box__hd_in-appmsg\">\r\n+                        <image class=\"weui-media-box__thumb\" src=\"../comp/qq2.png\" />\r\n+                    </view>\r\n+                    <view class=\"weui-media-box__bd weui-media-box__bd_in-appmsg\">\r\n+                        <view class=\"weui-media-box__title\">{{index}} {{item.name}}</view>\r\n+                        <view class=\"weui-media-box__desc\">{{item.last}}</view>\r\n+                    </view>\r\n+                </navigator>\r\n+            </view>\r\n+        </view>\r\n+        <view class='weui-loadmore' wx:if=\"{{isEnd}}\">\r\n+          <view class='weui-loading'></view>\r\n+          <view class='weui-loadmore__tips'>正在加载……</view>\r\n+        </view>\r\n+    </view>\r\n+</scroll-view>\n\\ No newline at end of file"
+  }, {
+    "sha" : "14343d69a5a0a9ec10e92b636f2274c1d7ce8ed5",
+    "filename" : "1517060318/2017-10-11/comp/scroll.wxss",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/scroll.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/39df3bc380ab2419c929aa8b400021cd5f63bb77/1517060318/2017-10-11/comp/scroll.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060318/2017-10-11/comp/scroll.wxss?ref=39df3bc380ab2419c929aa8b400021cd5f63bb77",
+    "patch" : "@@ -0,0 +1 @@\n+/* pages/comp/scroll.wxss */\n\\ No newline at end of file"
+  } ],
+  "sha" : "39df3bc380ab2419c929aa8b400021cd5f63bb77",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/39df3bc380ab2419c929aa8b400021cd5f63bb77",
+  "parents" : [ {
+    "sha" : "2a783ab007672fff3a6b06d09c26730d0946e0cf",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/2a783ab007672fff3a6b06d09c26730d0946e0cf",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/2a783ab007672fff3a6b06d09c26730d0946e0cf"
+  } ]
+}

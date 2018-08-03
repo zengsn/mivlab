@@ -1,0 +1,124 @@
+{
+  "committer" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 89,
+    "additions" : 89,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zengsn",
+    "id" : 627946,
+    "avatar_url" : "https://avatars2.githubusercontent.com/u/627946?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zengsn",
+    "html_url" : "https://github.com/zengsn",
+    "followers_url" : "https://api.github.com/users/zengsn/followers",
+    "following_url" : "https://api.github.com/users/zengsn/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zengsn/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zengsn/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zengsn/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zengsn/orgs",
+    "repos_url" : "https://api.github.com/users/zengsn/repos",
+    "events_url" : "https://api.github.com/users/zengsn/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zengsn/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/2c715eb104334b0851de99352f3fdc8579e428d6",
+  "commit" : {
+    "author" : {
+      "name" : "zengsn",
+      "email" : "shaoning.zeng@gmail.com",
+      "date" : "2017-09-20T00:45:12Z"
+    },
+    "committer" : {
+      "name" : "zengsn",
+      "email" : "shaoning.zeng@gmail.com",
+      "date" : "2017-09-20T00:45:12Z"
+    },
+    "message" : "实验一：演示怎么提交",
+    "tree" : {
+      "sha" : "b12b7e79e693a6022a670aa29fd238781ac1db1c",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/b12b7e79e693a6022a670aa29fd238781ac1db1c"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/2c715eb104334b0851de99352f3fdc8579e428d6",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/2c715eb104334b0851de99352f3fdc8579e428d6/comments",
+  "files" : [ {
+    "sha" : "608a282e726b485731e9b38b19b2ea4c00b9dc93",
+    "filename" : "12345678/index/index.js",
+    "status" : "added",
+    "additions" : 54,
+    "deletions" : 0,
+    "changes" : 54,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/index/index.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/index/index.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/12345678/index/index.js?ref=2c715eb104334b0851de99352f3fdc8579e428d6",
+    "patch" : "@@ -0,0 +1,54 @@\n+//index.js\n+//获取应用实例\n+const app = getApp()\n+\n+Page({\n+  data: {\n+    motto: 'Hello World',\n+    userInfo: {},\n+    hasUserInfo: false,\n+    canIUse: wx.canIUse('button.open-type.getUserInfo')\n+  },\n+  //事件处理函数\n+  bindViewTap: function() {\n+    wx.navigateTo({\n+      url: '../logs/logs'\n+    })\n+  },\n+  onLoad: function () {\n+    if (app.globalData.userInfo) {\n+      this.setData({\n+        userInfo: app.globalData.userInfo,\n+        hasUserInfo: true\n+      })\n+    } else if (this.data.canIUse){\n+      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回\n+      // 所以此处加入 callback 以防止这种情况\n+      app.userInfoReadyCallback = res => {\n+        this.setData({\n+          userInfo: res.userInfo,\n+          hasUserInfo: true\n+        })\n+      }\n+    } else {\n+      // 在没有 open-type=getUserInfo 版本的兼容处理\n+      wx.getUserInfo({\n+        success: res => {\n+          app.globalData.userInfo = res.userInfo\n+          this.setData({\n+            userInfo: res.userInfo,\n+            hasUserInfo: true\n+          })\n+        }\n+      })\n+    }\n+  },\n+  getUserInfo: function(e) {\n+    console.log(e)\n+    app.globalData.userInfo = e.detail.userInfo\n+    this.setData({\n+      userInfo: e.detail.userInfo,\n+      hasUserInfo: true\n+    })\n+  }\n+})"
+  }, {
+    "sha" : "c5d09192c34f6e40791ac3defaa8d034624dcece",
+    "filename" : "12345678/index/index.wxml",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/index/index.wxml",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/index/index.wxml",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/12345678/index/index.wxml?ref=2c715eb104334b0851de99352f3fdc8579e428d6",
+    "patch" : "@@ -0,0 +1,13 @@\n+<!--index.wxml-->\n+<view class=\"container\">\n+  <view class=\"userinfo\">\n+    <button wx:if=\"{{!hasUserInfo && canIUse}}\" open-type=\"getUserInfo\" bindgetuserinfo=\"getUserInfo\"> 获取头像昵称 </button>\n+    <block wx:else>\n+      <image bindtap=\"bindViewTap\" class=\"userinfo-avatar\" src=\"{{userInfo.avatarUrl}}\" background-size=\"cover\"></image>\n+      <text class=\"userinfo-nickname\">{{userInfo.nickName}}</text>\n+    </block>\n+  </view>\n+  <view class=\"usermotto\">\n+    <text class=\"user-motto\">{{motto}}</text>\n+  </view>\n+</view>"
+  }, {
+    "sha" : "ce30de019b216310ab4ef9ae5c3e6c954ee0a1b2",
+    "filename" : "12345678/index/index.wxss",
+    "status" : "added",
+    "additions" : 21,
+    "deletions" : 0,
+    "changes" : 21,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/index/index.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/index/index.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/12345678/index/index.wxss?ref=2c715eb104334b0851de99352f3fdc8579e428d6",
+    "patch" : "@@ -0,0 +1,21 @@\n+/**index.wxss**/\n+.userinfo {\n+  display: flex;\n+  flex-direction: column;\n+  align-items: center;\n+}\n+\n+.userinfo-avatar {\n+  width: 128rpx;\n+  height: 128rpx;\n+  margin: 20rpx;\n+  border-radius: 50%;\n+}\n+\n+.userinfo-nickname {\n+  color: #aaa;\n+}\n+\n+.usermotto {\n+  margin-top: 200px;\n+}\n\\ No newline at end of file"
+  }, {
+    "sha" : "6c5b10694e6e5861d8533c04754414226f536c44",
+    "filename" : "12345678/第一次试验说明.txt",
+    "status" : "added",
+    "additions" : 1,
+    "deletions" : 0,
+    "changes" : 1,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%95%E9%AA%8C%E8%AF%B4%E6%98%8E.txt",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/2c715eb104334b0851de99352f3fdc8579e428d6/12345678/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%95%E9%AA%8C%E8%AF%B4%E6%98%8E.txt",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/12345678/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%95%E9%AA%8C%E8%AF%B4%E6%98%8E.txt?ref=2c715eb104334b0851de99352f3fdc8579e428d6",
+    "patch" : "@@ -0,0 +1 @@\n+��ʾ\n\\ No newline at end of file"
+  } ],
+  "sha" : "2c715eb104334b0851de99352f3fdc8579e428d6",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/2c715eb104334b0851de99352f3fdc8579e428d6",
+  "parents" : [ {
+    "sha" : "76f435233d62288b7b2e7e3b8cb3d14af2ade703",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/76f435233d62288b7b2e7e3b8cb3d14af2ade703",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/76f435233d62288b7b2e7e3b8cb3d14af2ade703"
+  } ]
+}

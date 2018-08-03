@@ -1,0 +1,157 @@
+{
+  "committer" : {
+    "login" : "zfyyy",
+    "id" : 31909392,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909392?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zfyyy",
+    "html_url" : "https://github.com/zfyyy",
+    "followers_url" : "https://api.github.com/users/zfyyy/followers",
+    "following_url" : "https://api.github.com/users/zfyyy/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zfyyy/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zfyyy/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zfyyy/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zfyyy/orgs",
+    "repos_url" : "https://api.github.com/users/zfyyy/repos",
+    "events_url" : "https://api.github.com/users/zfyyy/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zfyyy/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 52,
+    "additions" : 52,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "zfyyy",
+    "id" : 31909392,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31909392?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/zfyyy",
+    "html_url" : "https://github.com/zfyyy",
+    "followers_url" : "https://api.github.com/users/zfyyy/followers",
+    "following_url" : "https://api.github.com/users/zfyyy/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/zfyyy/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/zfyyy/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/zfyyy/subscriptions",
+    "organizations_url" : "https://api.github.com/users/zfyyy/orgs",
+    "repos_url" : "https://api.github.com/users/zfyyy/repos",
+    "events_url" : "https://api.github.com/users/zfyyy/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/zfyyy/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+  "commit" : {
+    "author" : {
+      "name" : "ST",
+      "email" : "947324334@qq.com",
+      "date" : "2017-10-18T03:38:33Z"
+    },
+    "committer" : {
+      "name" : "ST",
+      "email" : "947324334@qq.com",
+      "date" : "2017-10-18T03:38:33Z"
+    },
+    "message" : "作业",
+    "tree" : {
+      "sha" : "7184310efa8897827828c5788c582449bac4d2ac",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/7184310efa8897827828c5788c582449bac4d2ac"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/comments",
+  "files" : [ {
+    "sha" : "3667637eb93e2fdf81d677bdd70d21719caed9b5",
+    "filename" : "1517060341/1/捕获1.PNG",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/1/%E6%8D%95%E8%8E%B71.PNG",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/1/%E6%8D%95%E8%8E%B71.PNG",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/1/%E6%8D%95%E8%8E%B71.PNG?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "previous_filename" : "1517060341/捕获1.PNG"
+  }, {
+    "sha" : "25499bd65b948e21ce1b0e9f7c62e2ce1cb1cf27",
+    "filename" : "1517060341/1/捕获2.PNG",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/1/%E6%8D%95%E8%8E%B72.PNG",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/1/%E6%8D%95%E8%8E%B72.PNG",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/1/%E6%8D%95%E8%8E%B72.PNG?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "previous_filename" : "1517060341/捕获2.PNG"
+  }, {
+    "sha" : "ee84032c9d005bf5d09d7de7d0882384f1501b6d",
+    "filename" : "1517060341/1/捕获3.PNG",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/1/%E6%8D%95%E8%8E%B73.PNG",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/1/%E6%8D%95%E8%8E%B73.PNG",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/1/%E6%8D%95%E8%8E%B73.PNG?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "previous_filename" : "1517060341/捕获3.PNG"
+  }, {
+    "sha" : "c7a336c0aa84914844b9db4c80222ae54134c7e7",
+    "filename" : "1517060341/2/1517060341.html",
+    "status" : "renamed",
+    "additions" : 0,
+    "deletions" : 0,
+    "changes" : 0,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/2/1517060341.html",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/2/1517060341.html",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/2/1517060341.html?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "previous_filename" : "1517060341/1517060341.html"
+  }, {
+    "sha" : "ad182663a2aa5de214913b4aee43680b989c1063",
+    "filename" : "1517060341/3/app.js",
+    "status" : "added",
+    "additions" : 30,
+    "deletions" : 0,
+    "changes" : 30,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/3/app.js",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/3/app.js",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/3/app.js?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "patch" : "@@ -0,0 +1,30 @@\n+//app.js\r\n+App({\r\n+  onLaunch: function () {\r\n+    //调用API从本地缓存中获取数据\r\n+    var logs = wx.getStorageSync('logs') || []\r\n+    logs.unshift(Date.now())\r\n+    wx.setStorageSync('logs', logs)\r\n+  },\r\n+  getUserInfo:function(cb){\r\n+    var that = this\r\n+    if(this.globalData.userInfo){\r\n+      typeof cb == \"function\" && cb(this.globalData.userInfo)\r\n+    }else{\r\n+      //调用登录接口\r\n+      wx.login({\r\n+        success: function () {\r\n+          wx.getUserInfo({\r\n+            success: function (res) {\r\n+              that.globalData.userInfo = res.userInfo\r\n+              typeof cb == \"function\" && cb(that.globalData.userInfo)\r\n+            }\r\n+          })\r\n+        }\r\n+      })\r\n+    }\r\n+  },\r\n+  globalData:{\r\n+    userInfo:null\r\n+  }\r\n+})\n\\ No newline at end of file"
+  }, {
+    "sha" : "9a18cc6da15270c1bbfcd443ed3c6b2efdd28a2e",
+    "filename" : "1517060341/3/app.json",
+    "status" : "added",
+    "additions" : 12,
+    "deletions" : 0,
+    "changes" : 12,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/3/app.json",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/3/app.json",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/3/app.json?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "patch" : "@@ -0,0 +1,12 @@\n+{\r\n+  \"pages\":[\r\n+    \"pages/index/index\",\r\n+    \"pages/logs/logs\"\r\n+  ],\r\n+  \"window\":{\r\n+    \"backgroundTextStyle\":\"light\",\r\n+    \"navigationBarBackgroundColor\": \"#fff\",\r\n+    \"navigationBarTitleText\": \"WeChat\",\r\n+    \"navigationBarTextStyle\":\"black\"\r\n+  }\r\n+}\r"
+  }, {
+    "sha" : "0fef46a6cf83c6f392a5bae8b2c3eb56ce6b9021",
+    "filename" : "1517060341/3/app.wxss",
+    "status" : "added",
+    "additions" : 10,
+    "deletions" : 0,
+    "changes" : 10,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/3/app.wxss",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/70f1442df843ad1d543024f8e27a5ff4a38ec0ad/1517060341/3/app.wxss",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060341/3/app.wxss?ref=70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+    "patch" : "@@ -0,0 +1,10 @@\n+/**app.wxss**/\r\n+.container {\r\n+  height: 100%;\r\n+  display: flex;\r\n+  flex-direction: column;\r\n+  align-items: center;\r\n+  justify-content: space-between;\r\n+  padding: 200rpx 0;\r\n+  box-sizing: border-box;\r\n+} \r"
+  } ],
+  "sha" : "70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/70f1442df843ad1d543024f8e27a5ff4a38ec0ad",
+  "parents" : [ {
+    "sha" : "b9f44a909fa45a50443236798beafc943933f451",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/b9f44a909fa45a50443236798beafc943933f451",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/b9f44a909fa45a50443236798beafc943933f451"
+  } ]
+}

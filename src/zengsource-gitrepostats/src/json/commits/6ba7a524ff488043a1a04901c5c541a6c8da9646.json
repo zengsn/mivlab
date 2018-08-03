@@ -1,0 +1,91 @@
+{
+  "committer" : {
+    "login" : "chenzhenxiong",
+    "id" : 31910218,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31910218?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/chenzhenxiong",
+    "html_url" : "https://github.com/chenzhenxiong",
+    "followers_url" : "https://api.github.com/users/chenzhenxiong/followers",
+    "following_url" : "https://api.github.com/users/chenzhenxiong/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/chenzhenxiong/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/chenzhenxiong/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/chenzhenxiong/subscriptions",
+    "organizations_url" : "https://api.github.com/users/chenzhenxiong/orgs",
+    "repos_url" : "https://api.github.com/users/chenzhenxiong/repos",
+    "events_url" : "https://api.github.com/users/chenzhenxiong/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/chenzhenxiong/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "stats" : {
+    "total" : 13,
+    "additions" : 13,
+    "deletions" : 0
+  },
+  "author" : {
+    "login" : "chenzhenxiong",
+    "id" : 31910218,
+    "avatar_url" : "https://avatars0.githubusercontent.com/u/31910218?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/chenzhenxiong",
+    "html_url" : "https://github.com/chenzhenxiong",
+    "followers_url" : "https://api.github.com/users/chenzhenxiong/followers",
+    "following_url" : "https://api.github.com/users/chenzhenxiong/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/chenzhenxiong/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/chenzhenxiong/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/chenzhenxiong/subscriptions",
+    "organizations_url" : "https://api.github.com/users/chenzhenxiong/orgs",
+    "repos_url" : "https://api.github.com/users/chenzhenxiong/repos",
+    "events_url" : "https://api.github.com/users/chenzhenxiong/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/chenzhenxiong/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/6ba7a524ff488043a1a04901c5c541a6c8da9646",
+  "commit" : {
+    "author" : {
+      "name" : "468256203@qq.com",
+      "email" : "468256203@qq.com",
+      "date" : "2017-09-20T03:43:36Z"
+    },
+    "committer" : {
+      "name" : "468256203@qq.com",
+      "email" : "468256203@qq.com",
+      "date" : "2017-09-20T03:43:36Z"
+    },
+    "message" : "#26图片",
+    "tree" : {
+      "sha" : "8ab7875316023131f14e433be34f6119f5a86dd9",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/8ab7875316023131f14e433be34f6119f5a86dd9"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/6ba7a524ff488043a1a04901c5c541a6c8da9646",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/6ba7a524ff488043a1a04901c5c541a6c8da9646/comments",
+  "files" : [ {
+    "sha" : "64e57a41da98d6cd7bcc890ab925702a72cd8d7a",
+    "filename" : "1517060309/1517060309.txt",
+    "status" : "added",
+    "additions" : 13,
+    "deletions" : 0,
+    "changes" : 13,
+    "blob_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/blob/6ba7a524ff488043a1a04901c5c541a6c8da9646/1517060309/1517060309.txt",
+    "raw_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/raw/6ba7a524ff488043a1a04901c5c541a6c8da9646/1517060309/1517060309.txt",
+    "contents_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/contents/1517060309/1517060309.txt?ref=6ba7a524ff488043a1a04901c5c541a6c8da9646",
+    "patch" : "@@ -0,0 +1,13 @@\n+<��DOCTYPE html>\n+<html>\n+<head>\n+<mate http-equiv=\"Content-Type\" content=\"text/html;charset=utf-8\">\n+<title>1517060309</title>\n+</head>\n+<body>\n+<p>����<b>ͼƬ</b>��</p>\n+<b></b>\n+<img src=\"kaola.jpg\" height=\"400\" width=\"300\">\n+<a href=\"https://tieba.baidu.com/index.html\">ͼƬ��վ��</a>\n+</body>\n+</html>\n\\ No newline at end of file"
+  } ],
+  "sha" : "6ba7a524ff488043a1a04901c5c541a6c8da9646",
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/6ba7a524ff488043a1a04901c5c541a6c8da9646",
+  "parents" : [ {
+    "sha" : "b68400ea5deaa287b71419a2a90dd902813bc9e1",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/b68400ea5deaa287b71419a2a90dd902813bc9e1",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/b68400ea5deaa287b71419a2a90dd902813bc9e1"
+  } ]
+}

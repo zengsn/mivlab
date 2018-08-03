@@ -1,0 +1,512 @@
+[ {
+  "sha" : "7f8a2e4deb18081b6cf02c1cdab36dde5175dce9",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-10-18T02:08:56Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-10-18T02:08:56Z"
+    },
+    "message" : "第3次作业",
+    "tree" : {
+      "sha" : "d0d5fb3ebfa4f6ae3e3820cb02621e908a5ac00a",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/d0d5fb3ebfa4f6ae3e3820cb02621e908a5ac00a"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/7f8a2e4deb18081b6cf02c1cdab36dde5175dce9",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7f8a2e4deb18081b6cf02c1cdab36dde5175dce9",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/7f8a2e4deb18081b6cf02c1cdab36dde5175dce9",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7f8a2e4deb18081b6cf02c1cdab36dde5175dce9/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "291ddcf48d9d67dec02252250c576d1cb9d95b8d",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/291ddcf48d9d67dec02252250c576d1cb9d95b8d",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/291ddcf48d9d67dec02252250c576d1cb9d95b8d"
+  } ]
+}, {
+  "sha" : "97abd51a813067cf0492d6a964778a8b423906e7",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-10-18T03:34:56Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-10-18T03:34:56Z"
+    },
+    "message" : "#82 第4次实验",
+    "tree" : {
+      "sha" : "c8a53f4d76ef2d9cd19de901a268f5937043f1d3",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/c8a53f4d76ef2d9cd19de901a268f5937043f1d3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/97abd51a813067cf0492d6a964778a8b423906e7",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/97abd51a813067cf0492d6a964778a8b423906e7",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/97abd51a813067cf0492d6a964778a8b423906e7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/97abd51a813067cf0492d6a964778a8b423906e7/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "7f8a2e4deb18081b6cf02c1cdab36dde5175dce9",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/7f8a2e4deb18081b6cf02c1cdab36dde5175dce9",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/7f8a2e4deb18081b6cf02c1cdab36dde5175dce9"
+  } ]
+}, {
+  "sha" : "57043883a99aea0ae3937409b5b03a83cd6e4021",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-10-25T02:58:21Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-10-25T02:58:21Z"
+    },
+    "message" : "#84 #100 期末作业：开发一个仿微信小程序",
+    "tree" : {
+      "sha" : "f7746430ea859764268f10b922c6f3e03a6c8f4b",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/f7746430ea859764268f10b922c6f3e03a6c8f4b"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/57043883a99aea0ae3937409b5b03a83cd6e4021",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/57043883a99aea0ae3937409b5b03a83cd6e4021",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/57043883a99aea0ae3937409b5b03a83cd6e4021",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/57043883a99aea0ae3937409b5b03a83cd6e4021/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "97abd51a813067cf0492d6a964778a8b423906e7",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/97abd51a813067cf0492d6a964778a8b423906e7",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/97abd51a813067cf0492d6a964778a8b423906e7"
+  } ]
+}, {
+  "sha" : "591faec8914acf4e25613cc17b34bc6ad1e3e799",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T01:32:26Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T01:32:26Z"
+    },
+    "message" : "期末的作业",
+    "tree" : {
+      "sha" : "6e555618168d2539cc1c95a1ee1b331d34bead18",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/6e555618168d2539cc1c95a1ee1b331d34bead18"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/591faec8914acf4e25613cc17b34bc6ad1e3e799",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/591faec8914acf4e25613cc17b34bc6ad1e3e799",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/591faec8914acf4e25613cc17b34bc6ad1e3e799",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/591faec8914acf4e25613cc17b34bc6ad1e3e799/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "57043883a99aea0ae3937409b5b03a83cd6e4021",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/57043883a99aea0ae3937409b5b03a83cd6e4021",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/57043883a99aea0ae3937409b5b03a83cd6e4021"
+  } ]
+}, {
+  "sha" : "1af40b4c9efcb30fea69bceeb8c06ae07f8673d6",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T02:33:43Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T02:33:43Z"
+    },
+    "message" : "#84 输出不要的东西",
+    "tree" : {
+      "sha" : "c8a53f4d76ef2d9cd19de901a268f5937043f1d3",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/c8a53f4d76ef2d9cd19de901a268f5937043f1d3"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/1af40b4c9efcb30fea69bceeb8c06ae07f8673d6",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1af40b4c9efcb30fea69bceeb8c06ae07f8673d6",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/1af40b4c9efcb30fea69bceeb8c06ae07f8673d6",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1af40b4c9efcb30fea69bceeb8c06ae07f8673d6/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "591faec8914acf4e25613cc17b34bc6ad1e3e799",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/591faec8914acf4e25613cc17b34bc6ad1e3e799",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/591faec8914acf4e25613cc17b34bc6ad1e3e799"
+  } ]
+}, {
+  "sha" : "6831844176036b98d6232f90c1f281e59220fab7",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T02:45:45Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T02:45:45Z"
+    },
+    "message" : "#84 期末的作业",
+    "tree" : {
+      "sha" : "827014e8aecb9894e3cd6e7dbc1c7fdb712e7332",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/827014e8aecb9894e3cd6e7dbc1c7fdb712e7332"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/6831844176036b98d6232f90c1f281e59220fab7",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/6831844176036b98d6232f90c1f281e59220fab7",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/6831844176036b98d6232f90c1f281e59220fab7",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/6831844176036b98d6232f90c1f281e59220fab7/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "1af40b4c9efcb30fea69bceeb8c06ae07f8673d6",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/1af40b4c9efcb30fea69bceeb8c06ae07f8673d6",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/1af40b4c9efcb30fea69bceeb8c06ae07f8673d6"
+  } ]
+}, {
+  "sha" : "4ea289aacb1f455181b1f8d356e13dd40d671000",
+  "commit" : {
+    "author" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T03:12:10Z"
+    },
+    "committer" : {
+      "name" : "wenjianyangwen",
+      "email" : "2913700732@qq.com",
+      "date" : "2017-11-01T03:12:10Z"
+    },
+    "message" : "删除不要的东西",
+    "tree" : {
+      "sha" : "135f6141d88a2151124cd286b0e63be48be4462e",
+      "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/trees/135f6141d88a2151124cd286b0e63be48be4462e"
+    },
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/git/commits/4ea289aacb1f455181b1f8d356e13dd40d671000",
+    "comment_count" : 0,
+    "verification" : {
+      "verified" : false,
+      "reason" : "unsigned",
+      "signature" : null,
+      "payload" : null
+    }
+  },
+  "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/4ea289aacb1f455181b1f8d356e13dd40d671000",
+  "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/4ea289aacb1f455181b1f8d356e13dd40d671000",
+  "comments_url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/4ea289aacb1f455181b1f8d356e13dd40d671000/comments",
+  "author" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "committer" : {
+    "login" : "wenjianyangwen",
+    "id" : 31909854,
+    "avatar_url" : "https://avatars1.githubusercontent.com/u/31909854?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/wenjianyangwen",
+    "html_url" : "https://github.com/wenjianyangwen",
+    "followers_url" : "https://api.github.com/users/wenjianyangwen/followers",
+    "following_url" : "https://api.github.com/users/wenjianyangwen/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/wenjianyangwen/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/wenjianyangwen/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/wenjianyangwen/subscriptions",
+    "organizations_url" : "https://api.github.com/users/wenjianyangwen/orgs",
+    "repos_url" : "https://api.github.com/users/wenjianyangwen/repos",
+    "events_url" : "https://api.github.com/users/wenjianyangwen/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/wenjianyangwen/received_events",
+    "type" : "User",
+    "site_admin" : false
+  },
+  "parents" : [ {
+    "sha" : "6831844176036b98d6232f90c1f281e59220fab7",
+    "url" : "https://api.github.com/repos/hzuapps/wechat-miniprogram-hzc-2017/commits/6831844176036b98d6232f90c1f281e59220fab7",
+    "html_url" : "https://github.com/hzuapps/wechat-miniprogram-hzc-2017/commit/6831844176036b98d6232f90c1f281e59220fab7"
+  } ]
+} ]

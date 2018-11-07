@@ -1,0 +1,54 @@
+
+	.banner{
+	 height:70px;
+      position:fixed;
+      z-index:1999;
+	}
+    .banner, .footer{
+      width:100%;
+      padding-left: 10%;
+      padding-right: 10%;
+      
+    }
+
+    .banner-title {
+      margin-left: 90px;
+      font-size: 24px;
+      padding-bottom: 15px;
+      line-height:70px;
+    }
+
+    .logo {
+      padding-top: 2%;
+    }
+	
+	/*Ò³½Å*/
+    .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+      font-size:14px;
+      height:30px;
+      line-height:10px;
+    }
+
+    .footer .address {
+      padding-left: 40px;
+    }
+    
+    @media (max-width: 800px){
+    .banner-title {
+      margin-left: 20px;
+      font-size: 0.9em;
+      padding-bottom: 15px;
+      line-height:70px;
+    }
+   .footer {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+      font-size:0.7em;
+      height:30px;
+      line-height:10px;
+    }
+    }

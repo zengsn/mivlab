@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>帮助中心</title>
+<!--  
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="//cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<link rel="stylesheet" href="../js/bootstrap.min.css">
+<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap.min.js.下载"></script>
+<link href="../jqueryUIcustom/css/base/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+<script src="../jqueryUIcustom/js/jquery-1.8.3.js"></script>
+<script src="../jqueryUIcustom/js/jquery-ui-1.9.2.custom.js"></script>
+ <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+  <style>
+  body{
+  	margin:0;
+  	padding:0;
+  	
+  }
+  .banner{
+     
+      background-color:#188ae2;
+      color: #FFFFFF;
+    }
+
+    .banner {
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top:30px;
+      padding-bottom:20px;
+    }
+
+    .banner-title {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 24px;
+      
+    }
+
+    /* Custom Styles  通过 data 属性使用附加导航（Affix）插件*/
+    ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #6a61f9eb;
+        border: 1px solid #5046e5;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 30px; /* Set the top position of pinned element */
+    }
+</style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy">
+	<div class="banner" id="banner" >		       
+	    <div class="banner-title">基于GitHub的虚拟仿真教学实验室  >帮助中心</div>        
+	</div>
+		<div id="tabs">
+		  <ul>
+		    <li><a href="#tabs-1">操作指南</a></li>
+		    <li><a href="#tabs-2">关于我们</a></li>
+		    
+		  </ul>
+		 <div id="tabs-1">
+		 	<div>
+			<div class="container">
+				<div class="jumbotron">
+			        <h1>操作指南</h1>
+			    </div>
+			    <div class="row">
+			        <div class="col-xs-3" id="myScrollspy">
+			            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+			                <li class="active"><a href="#section-1">基于GitHub实验</a></li>
+			                <li><a href="#section-2">如何获得TOKEN</a></li>
+			                <li><a href="#section-3">如何获得CLIENT_ID和CLIENT_SECRET</a></li>
+			                <li><a href="#section-4">学生如何提交实验</a></li>
+			                
+			            </ul>
+			        </div>
+			        <div class="col-xs-9">
+			            <h2 id="section-1">基于GitHub实验</h2>
+			            <p>用户对象：教师</p>
+			            <p>操作步骤：</p>
+			            <ol>
+			            	<li>在“个人信息”——>"GitHub信息"——>填写正确的GitHub信息（请妥善保管您的GitHub信息)
+			            		<img alt="gittips" src="../images/gittips.png" class="img-thumbnail">
+			            	</li>
+			            	<li><p>对GitHub上进行的实验进行统计，生成实验报告。</p>在"统计GitHub实验信息"中填写GitHub实验“组织库名称”、“实验库名称”，然后选择对应课程及学期，最后填写成绩的组成，点击“统计数据”即可。如果实验库的数据较多，需要长达数小时的统计时间，请勿关闭。
+			            		<img alt="getgitdata" src="../images/getgitdata.png" class="img-thumbnail">
+			            	
+			            	</li>
+			            	<li>在GitHub账号上创建组织库和实验库，一个课程对应一个实验库，实验内容和学生实验基于issue，每当学生完成实验，向实验库发送pull request请求，教师检查合格后后合并即可。如下例子：
+			            		<img alt="reposexample" src="../images/reposexample.png" class="img-thumbnail">
+			            	</li>
+			            </ol>
+			            
+			            
+			            <hr>
+			            <h2 id="section-2">如何获得TOKEN</h2>
+			            <p>参考链接：<a href="https://blog.csdn.net/u014175572/article/details/55510825" target="_blank">https://blog.csdn.net/u014175572/article/details/55510825</a></p>
+			            <hr>
+			            <h2 id="section-3">如何获得CLIENT_ID和CLIENT_SECRET</h2>
+			            <p style="color:blue;">开启第三方认证可加快统计GitHub实验的速度</p>
+			            <p>参考链接：<a href="https://www.cnblogs.com/TextEditor/p/5457379.html" target="_blank">https://www.cnblogs.com/TextEditor/p/5457379.html</a></p>
+			            <p>为你的网站申请APP第三方验证</p>
+			            <p>首先你必须要有一个Github的账号。注意这里的ClientID和SecretCode是整个OAuth的凭证，不要将这个信息泄露出去。</p>
+						<p>申请 OAuth Apps之后，如下图，找到ClientID和SecretCode，然后将其填写到您的GitHub信息中即可。</p>
+							
+			            	<img alt="oauth" src="../images/oauth.png" class="img-thumbnail">
+			            <hr>
+			            <h2 id="section-4">学生如何提交实验</h2>
+			            	<img alt="howdo" src="../images/howdo.png" class="img-thumbnail">
+			             <hr>
+			          </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div id="tabs-2">
+	
+	<p align="center">惠州学院 信息科学技术学院  </p>
+	
+	</div>
+	</div>
+</body>
+</html>

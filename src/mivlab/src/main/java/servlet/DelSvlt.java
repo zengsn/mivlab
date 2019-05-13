@@ -54,10 +54,13 @@ public class DelSvlt extends HttpServlet {
 		//创建json对象
 		JSONObject json=new JSONObject();
 		if(userid==null){
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+			/**
 			PrintWriter out=response.getWriter();
 			out.print("请重新登录");
 			out.flush();
 			out.close();
+			**/
 			return;
 		}else{
 			//创建数据库操作对象
@@ -196,10 +199,10 @@ public class DelSvlt extends HttpServlet {
 					i2=db.executeUpdate(sql2);
 				}
 				//如果i>0 说明删除掉了想要删除的数据
-				if(i>0 && i2>0){
-					json.put("msg", "删除失败");
-				}else{
+				if(i2>0){
 					json.put("msg", "删除成功");
+				}else{
+					json.put("msg", "删除失败");
 				}
 			}
 			if("reposdate".equals(tbname)){	//GitHub实验成绩
@@ -216,7 +219,37 @@ public class DelSvlt extends HttpServlet {
 					json.put("msg", "删除失败");
 				}
 			}
-			
+			if("stutask".equals(tbname)){	//学生提交的实验记录
+				if(ids.length()>0){
+					//删除所要删除是信息语句
+					String sql="delete from stutask where id in("+ids+")";
+					//删除操作
+					i=db.executeUpdate(sql);
+				}
+				//如果i>0 说明删除掉了想要删除的数据
+				if(i>0){
+					json.put("msg", "删除成功");
+				}else{
+					json.put("msg", "删除失败");
+				}
+			}
+			if("gitRawdate".equals(tbname)){	//GitHub实验成绩-原始数据
+				
+				
+				if(ids.length()>0){
+					//删除所要删除是信息语句
+					String sql="delete from gitrawdata where id in("+ids+")";
+
+					//删除操作
+					i=db.executeUpdate(sql);
+				}
+				//如果i>0 说明删除掉了想要删除的数据
+				if(i>0){
+					json.put("msg", "删除成功");
+				}else{
+					json.put("msg", "删除失败");
+				}
+			}
 			PrintWriter out=response.getWriter();
 			out.print(json.toString());
 			out.flush();

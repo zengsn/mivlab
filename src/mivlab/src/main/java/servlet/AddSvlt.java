@@ -60,10 +60,13 @@ public class AddSvlt extends HttpServlet {
 		//创建json对象
 		JSONObject json=new JSONObject();
 		if(userid==null){
-			PrintWriter out=response.getWriter();
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+		/**
+		    PrintWriter out=response.getWriter();
 			out.print("请重新登录");
 			out.flush();
 			out.close();
+		**/
 			return;
 		}else{
 			//创建数据库操作对象
@@ -171,6 +174,13 @@ public class AddSvlt extends HttpServlet {
 					}
 				}
 			}
+			//存储导入学生数据时，要导入 的班级
+			if("studentsImportCid".equals(tbname)) {
+				
+				int cid=Integer.parseInt(request.getParameter("cid"));
+				//获取session对象				
+				session.setAttribute("cid", cid);
+			}
 			if("course".equals(tbname)){	//课程信息
 				String cno=request.getParameter("cno");
 				String cname=request.getParameter("cname");
@@ -225,7 +235,54 @@ public class AddSvlt extends HttpServlet {
 					json.put("msg", "2");
 				}				
 			}
+			if("reposdate".equals(tbname)){	//课手动添加实验成绩 
+				String org=request.getParameter("org");
+				String proj=request.getParameter("proj");
+				String terms_id=request.getParameter("terms_id");
+				String course_id=request.getParameter("course_id");				
+				String sno=request.getParameter("sno");
+				String Pulls=request.getParameter("pulls");
+				String PullDone=request.getParameter("pullDone");
+				String PullGood=request.getParameter("pullGood");
+				String PullLate=request.getParameter("pullLate");
+				String PullCopy=request.getParameter("pullCopy");
+				String PullBad=request.getParameter("pullBad");
+				String PullBug=request.getParameter("pullBug");
+				String PullDemo=request.getParameter("pullDemo");
+				String PullInteresting=request.getParameter("pullInteresting");
+				String commits=request.getParameter("Commits");
+				String changedFiles=request.getParameter("ChangedFiles");
+				String comments=request.getParameter("Comments");
+				String Score=request.getParameter("score");
+				int pulls=Integer.parseInt(Pulls);
+				int pullDone=Integer.parseInt(PullDone);
+				int pullGood=Integer.parseInt(PullGood);
+				int pullLate=Integer.parseInt(PullLate);
+				int pullCopy=Integer.parseInt(PullCopy);
+				int pullBad=Integer.parseInt(PullBad);
+				int pullBug=Integer.parseInt(PullBug);
+				int pullDemo=Integer.parseInt(PullDemo);
+				int pullInteresting=Integer.parseInt(PullInteresting);
+				int Commits=Integer.parseInt(commits);
+				int ChangedFiles=Integer.parseInt(changedFiles);
+				int Comments=Integer.parseInt(comments);
+				int score=Integer.parseInt(Score);
+				
+				
+				String sql="insert into reposdate(Num,Pulls,PullDone,PullGood,PullLate,PullCopy,PullBad,PullBug,PullDemo,PullInteresting,Commits,Comments,ChangedFiles,org,proj,terms_id,course_id,tid,score) values('"+sno+"',"+pulls+","+pullDone+","+pullGood+","+pullLate+","+pullCopy+","+pullBad+","+pullBug+","+pullDemo+","+pullInteresting+","+Commits+","+Comments+","+ChangedFiles+",'"+org+"','"+proj+"',"+terms_id+","+course_id+","+userid+","+score+")";
+				System.out.println("sql="+sql);
+				int bls=db.executeUpdate("insert into reposdate(Num,Pulls,PullDone,PullGood,PullLate,PullCopy,PullBad,PullBug,PullDemo,PullInteresting,Commits,Comments,ChangedFiles,org,proj,terms_id,course_id,tid,score) values('"+sno+"',"+pulls+","+pullDone+","+pullGood+","+pullLate+","+pullCopy+","+pullBad+","+pullBug+","+pullDemo+","+pullInteresting+","+Commits+","+Comments+","+ChangedFiles+",'"+org+"','"+proj+"',"+terms_id+","+course_id+","+userid+","+score+")");
+				if(bls>0){
+					json.put("msg", "添加成功");
+				}else{
+					json.put("msg", "添加失败");
+				}			
+			}
 			
+			/*
+			 * 
+			 * 学生界面相关操作
+			 */
 			if("stutask".equals(tbname)){	//学生提交作业
 				String teatask_id=request.getParameter("teatask_id");						
 				String remark=request.getParameter("remark");

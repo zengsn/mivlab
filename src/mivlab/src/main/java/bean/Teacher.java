@@ -2,7 +2,7 @@ package bean;
 
 public class Teacher {
 	private int id;
-	private String tName,tNo,sex,tPhone,tAddr,tPwd,login,gitUsername,TOKEN,CLIENT_ID,CLIENT_SECRET,proftitle;
+	private String tName,tNo,sex,tPhone,tAddr,tPwd,login,gitUsername,TOKEN,CLIENT_ID,CLIENT_SECRET,proftitle,email, outDate,validataCode;;
 	public int getId() {
 		return id;
 	}
@@ -80,6 +80,24 @@ public class Teacher {
 	}
 	public void setProftitle(String proftitle) {
 		this.proftitle = proftitle;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getOutDate() {
+		return outDate;
+	}
+	public void setOutDate(String outDate) {
+		this.outDate = outDate;
+	}
+	public String getValidataCode() {
+		return validataCode;
+	}
+	public void setValidataCode(String validataCode) {
+		this.validataCode = validataCode;
 	}
 	
 }

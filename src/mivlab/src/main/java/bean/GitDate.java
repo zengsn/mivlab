@@ -2,7 +2,7 @@ package bean;
 
 public class GitDate {
 	 private String Login,Num,IssueLabels,FirstTime,org,proj,cname,termname,sname,classname;
-	 private int Id,score,IssueNumber, IssueCount,Events,Additions,Deletions,ReviewComments,Pulls,Commits,ChangedFiles,Comments,terms_id,course_id;
+	 private int Id,score,IssueNumber, IssueCount,Events,Additions,Deletions,ReviewComments,Pulls,PullDone,PullGood,PullLate,PullCopy,PullBad,PullBug,PullDemo,PullInteresting,Commits,ChangedFiles,Comments,terms_id,course_id;
 	 
 	public String getLogin() {
 		return Login;
@@ -148,6 +148,54 @@ public class GitDate {
 	}
 	public void setClassname(String classname) {
 		this.classname = classname;
+	}
+	public int getPullDone() {
+		return PullDone;
+	}
+	public void setPullDone(int pullDone) {
+		PullDone = pullDone;
+	}
+	public int getPullGood() {
+		return PullGood;
+	}
+	public void setPullGood(int pullGood) {
+		PullGood = pullGood;
+	}
+	public int getPullLate() {
+		return PullLate;
+	}
+	public void setPullLate(int pullLate) {
+		PullLate = pullLate;
+	}
+	public int getPullCopy() {
+		return PullCopy;
+	}
+	public void setPullCopy(int pullCopy) {
+		PullCopy = pullCopy;
+	}
+	public int getPullBad() {
+		return PullBad;
+	}
+	public void setPullBad(int pullBad) {
+		PullBad = pullBad;
+	}
+	public int getPullBug() {
+		return PullBug;
+	}
+	public void setPullBug(int pullBug) {
+		PullBug = pullBug;
+	}
+	public int getPullDemo() {
+		return PullDemo;
+	}
+	public void setPullDemo(int pullDemo) {
+		PullDemo = pullDemo;
+	}
+	public int getPullInteresting() {
+		return PullInteresting;
+	}
+	public void setPullInteresting(int pullInteresting) {
+		PullInteresting = pullInteresting;
 	}
 	
 	 

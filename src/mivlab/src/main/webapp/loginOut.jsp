@@ -14,7 +14,7 @@
  session.removeAttribute("navlist");
  session.removeAttribute("snavlist");
  session.removeAttribute("userinfo");
- 
+ session.removeAttribute("userTable");
  
  response.sendRedirect("index.jsp"); 
  %>

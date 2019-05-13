@@ -16,11 +16,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.commons.lang3.math.NumberUtils;
 import utils.JsonUtils;
 import bean.Api;
+
 
 /**
  * 统计一个Repo下贡献者的数据。
@@ -31,7 +33,6 @@ public class App3 implements Api3 {
 	static boolean hasPullsDir = false;
 	static boolean hasCommentsDir = false;
 	static boolean hasIssuesDir = false;
-	
 	 public static int main2(String username,String token,String id,String secret ,String org,String proj,String rootpath) {
 		    Api api=new Api();
 	    	api.setHTTPS("https://");
@@ -53,55 +54,14 @@ public class App3 implements Api3 {
 	    	api.setSTATE_CLOSED("state=" + "closed");
 	    	api.setPER_PAGE("per_page=");
 	    	api.setPAGE("page=");
-	    	api.setLOGIN_TEACHER(username);
-	    	/*
-	    	 * 返回String类型
-	    	String flag="true";
-	    	flag=main(api);
-	    	if(flag=="error") {
-	    		return "error";
-	    	}
-	    	return "true";   */
+	    	api.setLOGIN_TEACHER(username);	   
 	    	int flag=0;
 	    	flag=main(api,rootpath);
 	    	if(flag>=400 && flag<=600) {
 	    		return flag;
 	    	}
 	    	return 0;
-	}
-	 /*返回String类型	 
-	public static String  main(Api api) {
-		String flag="null";
-		flag=runAndRun(api);
-		if(flag=="error") {
-			return "error";
-		}
-		return "true";
-	}
-
-	public static String runAndRun(Api api) {
-		String flag="true";
-		try {
-			System.out.println("Run at " + new Date());
-			 flag=run(api);
-			if(flag=="error") {
-				return "error";
-			}
-			
-		} catch (RuntimeException e) {
-			e.printStackTrace();
-			try {
-				System.out.println("Sleep at " + new Date());
-				Thread.sleep(61 * 60 * 1000);
-				runAndRun(api); // run again
-				
-			} catch (InterruptedException e1) {
-				e1.printStackTrace();
-			}
-		}
-		return "true";
-	} 
-	*/
+	}	
 	 public static int  main(Api api,String rootpath) {
 			int flag=0;
 			flag=runAndRun(api, rootpath);
@@ -139,35 +99,23 @@ public class App3 implements Api3 {
 		// 所有贡献者的数据
 		Map<String, Stats> allData = new HashMap<String, Stats>();
 		// 读取贡献者 Contributors
-		/**创建文件存储路径
-		 
-		  File file = new File("./");
-		  File jsonFile = new File(file.getAbsolutePath() + "/src/json/contributors.json");*/
-		File jsonFile= new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/contributors.json");
-
-		   
-
-		
-		//File jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/contributors.json");
+		File jsonFile= new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/contributors.json");
 		List<Map<String, Object>> contributors = new ArrayList<Map<String, Object>>();
 		if (!jsonFile.exists()) { // 先取回所有的成员列表
 			String url = api.getCONTRIBUTORS() + "?" + api.getCLIENT_ID_SECRET() + "&" + api.getPER_PAGE() + "100&" + api.getPAGE();
 			int total = 0;
 			int pages = 1;
 			String resp = Http3.get(url + pages,api);
-			if (resp == null) { // 限制到了，应该停一个小时
-				
+			if (resp == null) { // 限制到了，应该停一个小时				
 				throw new RuntimeException("Take a rest for one hour!");
 			}
-			
 			/*新添加的代码，判断请求是否错误*/
 			if(resp.length()==3) {
 				int f=Integer.parseInt(resp);
 				if(f >=400 && f<=600) {
 					return f;
 				}
-			}
-			
+			}			
 			while (resp != null && resp.startsWith("[")) {
 				List<Map<String, Object>> list = JsonUtils.toList(resp);
 				System.out.println(list.size());
@@ -196,11 +144,7 @@ public class App3 implements Api3 {
 				System.out.println("新用户：" + login);
 			}
 		}
-
-		// 读取提交记录 Commits
-		//jsonFile = new File(file.getAbsolutePath() + "/src/json/commits.json");
-		//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/commits.json");
-		 jsonFile= new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/commits.json");
+		 jsonFile= new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/commits.json");
 		List<Map<String, Object>> commitList = new ArrayList<Map<String, Object>>();
 		if (!jsonFile.exists()) { // 从GitHub取数据
 			String url = api.getCOMMITS() + "?" + api.getCLIENT_ID_SECRET() + "&" + api.getPER_PAGE() + "100&" + api.getPAGE();
@@ -234,19 +178,14 @@ public class App3 implements Api3 {
 			String json = readFileToString(jsonFile);
 			commitList = JsonUtils.toList(json.toString());
 		}
-
 		// 抓取COMMITS
 		int commitCount = 1;
 		for (Map<String, Object> commitMap : commitList) {
 			String sha = getString(commitMap, "sha");
 			System.out.println("Commit:" + (commitCount++) + " - " + sha);
 			Map<String, Object> authorMap = getMap(commitMap, "author");
-			// System.out.println(commit);
-			// System.out.println(author);
 			if (authorMap == null) {
-				authorMap = getMap(commitMap, "commit.author");
-				// author = (Map<String, Object>) commit.get("commit");
-				// author = (Map<String, Object>) author.get("author");
+				authorMap = getMap(commitMap, "commit.author");	
 			}
 			String login = getString(authorMap, "login");
 			if (login == null) {
@@ -264,10 +203,7 @@ public class App3 implements Api3 {
 				System.out.println("新用户：" + login);
 			}
 			// 取回一条COMMIT的数据
-			//jsonFile = new File(file.getAbsolutePath() + "/src/json/commits/" + sha + ".json");
-			
-			//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/commits/" + sha + ".json");
-			jsonFile= new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/commits/" + sha + ".json");
+			jsonFile= new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/commits/" + sha + ".json");
 			Map<String, Object> oneCommitMap = null;
 			if (!jsonFile.exists()) { // 从服务器取数据
 				String url = api.getCOMMITS() + "/" + sha + "?" + api.getCLIENT_ID_SECRET();
@@ -299,9 +235,7 @@ public class App3 implements Api3 {
 			stats.commits.add(commit);
 			// 评论数
 			if (commit.commentCount > 0) {
-				//jsonFile = new File(file, "/src/json/comments/" + sha + ".json");
-				//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/comments/" + sha + ".json");
-				jsonFile= new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/comments/" + sha + ".json");
+				jsonFile= new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/comments/" + sha + ".json");
 				List<Map<String, Object>> commentsOfCommit = null;
 				if (!jsonFile.exists()) {
 					String url = (String) oneCommitMap.get("comments_url") + "?" + api.getCLIENT_ID_SECRET();
@@ -322,46 +256,26 @@ public class App3 implements Api3 {
 					String json = readFileToString(jsonFile);
 					commentsOfCommit = JsonUtils.toList(json);
 				}
-			}
+			}		
 			// 匹配帐号与学号
-			// String homeworkMark = "/androidlabs/homeworks/"; // 作业目录
-			// String homeworkMark = "labs/"; // 作业目录
-			String homeworkMark = "/"; // 作业目录
-			if (stats.number == null) { // 找学号
-				List<Map<String, Object>> fileList = (List<Map<String, Object>>) get(oneCommitMap, "files");
-				for (Map<String, Object> fileMap : fileList) {
-					String filename = getString(fileMap, "filename");
-					if ("/".equals(homeworkMark)) { // 直接在根目录	
-						int pos = filename.indexOf(homeworkMark);	
-						if (pos > 8) { // 这是学生目录
-							filename = filename.substring(0, pos);
-						}
-						stats.number = filename;
-					} else { // 在某一个子目录
-						// int pos = filename.indexOf("works/");
-						int pos = filename.indexOf(homeworkMark);
-						if (pos > -1) { // 这是学生目录
-							filename = filename.substring(pos + homeworkMark.length());
-							// 后3个字母是专业代号 com-计算机班，net-网络班
-							// String className = filename.substring(0, 3);
-							// if ("com".equals(className.toLowerCase()) // 计算机班
-							// || "net".equals(className.toLowerCase())) // 网络班
-							// { // com1314080903223/ 或 net1314080903223/
-							// filename = filename.substring(3);
-							pos = filename.indexOf("/");
-							if (pos > -1) { // 找到学号
-								stats.number = filename.substring(0, pos) //
-										// .replace("se", "").replace("Se", "");
-										.replace("Net", "").replace("net", "");
+				if (stats.number == null) { // 找学号
+					List<Map<String, Object>> fileList = (List<Map<String, Object>>) get(oneCommitMap, "files");
+					for (Map<String, Object> fileMap : fileList) {
+						String filename = getString(fileMap, "filename");
+						String [] arr = filename.split("\\/");
+				        for(String ss : arr){				            
+				            String regEx="[^0-9]";	//正则表达式,去掉文件前缀，只留下数字、也就是学号
+							Pattern p= Pattern.compile(regEx);
+							Matcher m=p.matcher(ss);
+							String sno=m.replaceAll("").trim();
+							if(sno.length()>8) {
+								stats.number = sno;
 								break;
-							}
-							// }
-						}
+							}		
+				        }
 					}
-				}
-			}
+				}	
 		}
-
 		// 读取Pulls
 		jsonFile = getJsonFile("pulls",rootpath,api);
 		List<Map<String, Object>> pullList = new ArrayList<Map<String, Object>>();
@@ -413,11 +327,8 @@ public class App3 implements Api3 {
 			String filename = "pulls-" + pages + ".json";
 			if (end) {
 				filename = "pulls.json";
-			}
-			//File newFile = new File(file.getAbsolutePath() //
-			//		+ "/src/json/" + filename); // 新文件
-			//File newFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/" + filename);
-			File newFile= new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/" + filename);
+			}		
+			File newFile= new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/" + filename);
 			if (jsonFile == null) {
 				jsonFile = newFile;
 			} else if (!filename.equals(jsonFile.getName())) {
@@ -436,9 +347,7 @@ public class App3 implements Api3 {
 			Map<String, Object> onePullMap = null;
 			int number = (Integer) pullMap.get("number");
 			// 检查文件
-			//jsonFile = new File(file, "/src/json/pulls/" + number + ".json");
-			//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/pulls/" + number + ".json");
-			jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/pulls/" + number + ".json");
+			jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/pulls/" + number + ".json");
 			if (!jsonFile.exists()) { // 不存在，从GitHub抓取
 				String url = api.getPULLS() + "/" + number + "?" + api.getCLIENT_ID_SECRET();
 				String resp = Http3.get(url,api);
@@ -458,7 +367,7 @@ public class App3 implements Api3 {
 				String json = readFileToString(jsonFile);
 				onePullMap = JsonUtils.toMap(json);
 			}
-			// 身份标识
+			// 身份标识			
 			Map<String, Object> userMap = getMap(onePullMap, "user");
 			String login = (String) userMap.get("login");
 			Stats stats = allData.get(login);
@@ -466,8 +375,8 @@ public class App3 implements Api3 {
 				stats = new Stats();
 				stats.login = login;
 				allData.put(login, stats);
-				System.out.println("新用户：" + login);
-			}
+				System.out.println("新用户：" + login);				
+			}					
 			// 记录数据
 			Pull pull = new Pull();
 			pull.number = number;
@@ -482,9 +391,7 @@ public class App3 implements Api3 {
 			if (pull.commentCount > 0) {
 				System.out.println("Comments = " + pull.commentCount);
 				// 先检查文件
-				//jsonFile = new File(file, "/src/json/comments/" + number + ".json");
-				//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/comments/" + number + ".json");
-				jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/comments/" + number + ".json");
+				jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/comments/" + number + ".json");
 				List<Map<String, Object>> commentsOfPull = null;
 				if (!jsonFile.exists()) {
 					String url = (String) onePullMap.get("comments_url") + "?" + api.getCLIENT_ID_SECRET();
@@ -509,10 +416,8 @@ public class App3 implements Api3 {
 			// 取回Commits信息
 			if (pull.commitCount > 0) {
 				// 先检查文件
-				List<Map<String, Object>> list = null;
-				//jsonFile = new File(file, "/src/json/pulls/" + number + "_commits.json");
-				//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/pulls/" + number + "_commits.json");
-				jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/pulls/" + number + "_commits.json");
+				List<Map<String, Object>> list = null;			
+				jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/pulls/" + number + "_commits.json");
 				if (!jsonFile.exists()) {
 					String url = api.getPULLS() + "/" + number + "/commits" + "?" + api.getCLIENT_ID_SECRET();
 					String resp = Http3.get(url,api);
@@ -535,10 +440,8 @@ public class App3 implements Api3 {
 				// 检查Commit是否已抓紧（支持重复抓取）
 				for (Map<String, Object> map2 : list) {
 					String sha = (String) map2.get("sha");
-					Map<String, Object> commitMap = null;
-					//jsonFile = new File(file, "/src/json/commits/" + sha + ".json");
-					//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/commits/" + sha + ".json");
-					jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/commits/" + sha + ".json");
+					Map<String, Object> commitMap = null;					
+					jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/commits/" + sha + ".json");
 					if (!jsonFile.exists()) {
 						String url = api.getCOMMITS() + "/" + sha + "?" + api.getCLIENT_ID_SECRET();
 						String resp = Http3.get(url,api);
@@ -561,7 +464,6 @@ public class App3 implements Api3 {
 				}
 			}
 		}
-
 		// 取回Issue列表
 		jsonFile = getJsonFile("issues",rootpath,api);
 		List<Map<String, Object>> issues = new ArrayList<Map<String, Object>>();
@@ -613,12 +515,9 @@ public class App3 implements Api3 {
 			String filename = "issues-" + pages + ".json";
 			if (end) {
 				filename = "issues.json";
-			}
-			//File newFile = new File(file.getAbsolutePath() //
-			//		+ "/src/json/" + filename); // 新文件
-			//File newFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/" + filename);
+			}			
 			File newFile = new File(rootpath //
-					+"/github"+api.getORG()+api.getPROJ()+"/src/json/" + filename);
+					+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/" + filename);
 			if (jsonFile == null) {
 				jsonFile = newFile;
 			} else if (!filename.equals(jsonFile.getName())) {
@@ -636,10 +535,8 @@ public class App3 implements Api3 {
 		for (Map<String, Object> issueMap : issues) {
 			Map<String, Object> oneIssueMap = null;
 			int number = (Integer) issueMap.get("number");
-			// 检查文件
-			//jsonFile = new File(file, "/src/json/issues/" + number + ".json");
-			//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/issues/" + number + ".json");
-			jsonFile = new File(rootpath+ "/github"+api.getORG()+api.getPROJ()+"/src/json/issues/" + number + ".json");
+			// 检查文件			
+			jsonFile = new File(rootpath+ "/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/issues/" + number + ".json");
 			if (!jsonFile.exists()) { // 不存在，从GitHub抓取
 				String url = api.getISSUES() + "/" + number + "?" + api.getCLIENT_ID_SECRET();
 				String resp = Http3.get(url,api);
@@ -679,10 +576,8 @@ public class App3 implements Api3 {
 				stats.issues = new ArrayList<Issue>();
 			}
 			stats.issues.add(issue);
-			// 检查事件文件
-			//File eventsFile = new File(file, "/src/json/issues/" + number + "_events.json");
-			//File eventsFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/issues/" + number + "_events.json");
-			File eventsFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/issues/" + number + "_events.json");
+			// 检查事件文件			
+			File eventsFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/issues/" + number + "_events.json");
 			List<Map<String, Object>> events = new ArrayList<Map<String, Object>>();
 			if (!eventsFile.exists()) { // 文件不存在，先去GitHub查询
 				String url = (String) oneIssueMap.get("events_url");
@@ -708,7 +603,7 @@ public class App3 implements Api3 {
 		}
 
 		// 数据抓取结果，开始生成统计数据
-		String line = "Login,Number,IssueNumber,IssueCount,IssueLabels,Events,FirstTime,Pulls,Commits,Additions,Deletions,ChangedFiles,Comments,ReviewComments";
+		String line = "Login,Number,IssueNumber,IssueCount,IssueLabels,Events,FirstTime,Pulls,pullDone,pullGood,pullLate,pullCopy,pullBad,pullBug,pullExample,pullInteresting,Commits,Additions,Deletions,ChangedFiles,Comments,ReviewComments";
 		StringBuilder sb = new StringBuilder(line + "\n"); // CSV
 		List<Map<String, Object>> result = new ArrayList<Map<String, Object>>();
 		List<String> issueTitleList = new ArrayList<String>();
@@ -733,10 +628,8 @@ public class App3 implements Api3 {
 				// 但是只取其中一个作为成绩
 				Map<String, Object> issueMap = new HashMap<String, Object>();
 				// 读取Issue信息 - 实验题目信息
-				for (Issue issue : stats.issues) {
-					//jsonFile = new File(file, "/src/json/issues/" + issue.number + ".json");
-					//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/issues/" + issue.number + ".json");
-					jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/issues/" + issue.number + ".json");
+				for (Issue issue : stats.issues) {					
+					jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/issues/" + issue.number + ".json");
 					String json = readFileToString(jsonFile);
 					if (json == null) {
 						continue;
@@ -750,7 +643,6 @@ public class App3 implements Api3 {
 					issueMap.put("number", issue.number);
 					issueNumber = issue.number;
 					issueTitle = title;
-
 					// 标签
 					boolean hasFinished = false; // 标记了完成
 					List<String> labels = new ArrayList<String>();
@@ -769,9 +661,7 @@ public class App3 implements Api3 {
 					}
 					issueMap.put("labels", labels);
 					// 事件
-					//jsonFile = new File(file, "/src/json/issues/" + issue.number + "_events.json");
-					//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/issues/" + issue.number + "_events.json");
-					jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/issues/" + issue.number + "_events.json");
+					jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/issues/" + issue.number + "_events.json");
 					json = readFileToString(jsonFile);
 					list = JsonUtils.toList(json);
 					int references = 0;
@@ -806,13 +696,12 @@ public class App3 implements Api3 {
 			}
 			sb.append(issueNumber + ","); // CSV
 			sb.append(issueCount + ","); // CSV
-			// sb.append(issueTitle + ","); // CSV
 			issueTitleList.add(issueTitle);
 			sb.append(issueLabels.trim() + ",");// CSV
 			sb.append(events + ","); // CSV
 			sb.append(firstTime + ","); // CSV
 			// 统计Pulls
-			if (stats.pulls != null) {
+			if (stats.pulls != null) {				
 				int pullCount = stats.pulls.size();
 				stuMap.put("pullCount", pullCount);
 				// 统计求和
@@ -824,9 +713,7 @@ public class App3 implements Api3 {
 				int totalReviewComments = 0;
 				pullList = new ArrayList<Map<String, Object>>();
 				for (Pull pull : stats.pulls) {
-					//jsonFile = new File(file, "/src/json/pulls/" + pull.number + ".json");
-					//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/pulls/" + pull.number + ".json");
-					jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/pulls/" + pull.number + ".json");
+					jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/pulls/" + pull.number + ".json");
 					String json = readFileToString(jsonFile);
 					Map<String, Object> map = JsonUtils.toMap(json);
 					boolean merged = getBoolean(map, "merged");
@@ -857,10 +744,157 @@ public class App3 implements Api3 {
 						totalChangedFiles += changedFilesCount;
 						totalReviewComments += reviewCommentCount;
 					}
+					//统计pull中的lable标签						
+					List<Map<String, Object>> lablelist = getList(map, "labels");
+					//判断是否有标志label
+					if(!"[]".equals(lablelist)) {
+						for (Map<String, Object> map2 : lablelist) {
+							String name = getString(map2, "name");						
+							if("Done".equals(name) || "完成".equals(name)) {
+								PullLable_done done=new PullLable_done();
+								done.done=1;
+								if(stats.pullLable_done==null) {
+									stats.pullLable_done=new ArrayList<PullLable_done>();
+								}
+								stats.pullLable_done.add(done);
+							}							
+							if("Good".equals(name) || "很好".equals(name)) {
+								PullLable_good good=new PullLable_good();
+								good.good=1;
+								if(stats.pullLable_good==null) {
+									stats.pullLable_good=new ArrayList<PullLable_good>();
+								}
+								stats.pullLable_good.add(good);
+							}
+							if("Late".equals(name) || "迟交".equals(name) || "迟".equals(name)) {
+								PullLable_late late=new PullLable_late();
+								late.late=1;
+								if(stats.pullLable_late==null) {
+									stats.pullLable_late=new ArrayList<PullLable_late>();
+								}
+								stats.pullLable_late.add(late);
+							}
+							if("Copy".equals(name) || "duplicate".equals(name) || "Cheat".equals(name)  || "抄袭".equals(name)) {
+								PullLable_copy copy=new PullLable_copy();
+								copy.copy=1;
+								if(stats.pullLable_copy==null) {
+									stats.pullLable_copy=new ArrayList<PullLable_copy>();
+								}
+								stats.pullLable_copy.add(copy);
+							}
+							if("Bad".equals(name) ) {
+								PullLable_bad bad=new PullLable_bad();
+								bad.bad=1;
+								if(stats.pullLable_bad==null) {
+									stats.pullLable_bad=new ArrayList<PullLable_bad>();
+								}
+								stats.pullLable_bad.add(bad);
+							}
+							if("Bug".equals(name) || "wontfix".equals(name) || "Wrong".equals(name) || "错误".equals(name) || "ToDo".equals(name) || "enhancement".equals(name) || "修改".equals(name)) {
+								PullLable_bug bug=new PullLable_bug();
+								bug.bug=1;
+								
+								if(stats.pullLable_bug==null) {
+									stats.pullLable_bug=new ArrayList<PullLable_bug>();
+								}
+								stats.pullLable_bug.add(bug);
+							}
+							if("Example".equals(name) || "Demo".equals(name) || "讲解".equals(name)) {
+								PullLable_example example=new PullLable_example();
+								example.exam=1;
+								if(stats.pullLable_example==null) {
+									stats.pullLable_example=new ArrayList<PullLable_example>();
+								}
+								stats.pullLable_example.add(example);
+							}
+							if("有点意思".equals(name) ) {
+								PullLable_interesting Interesting=new PullLable_interesting();
+								Interesting.interesting=1;
+								if(stats.pullLable_interesting==null) {
+									stats.pullLable_interesting=new ArrayList<PullLable_interesting>();
+								}
+								stats.pullLable_interesting.add(Interesting);
+							}
+						}
+					}
 				}
 				stuMap.put("pulls", pullList);
-				sb.append(pullCount + ","); // CSV
-				// 保存总数
+				sb.append(pullCount + ","); // CSV				
+				//PullLable统计
+				int pullDone,pullGood,pullLate,pullCopy,pullBad,pullBug,pullExample,pullInteresting;
+				if (!(stats.pullLable_done==null)) {
+					pullDone= stats.pullLable_done.size();
+					stuMap.put("pullDone", pullDone);
+					sb.append(pullDone + ","); // CSV										
+				}else {
+					pullDone= 0;
+					stuMap.put("pullDone", pullDone);
+					sb.append(pullDone + ","); // CSV		
+				}
+				if (!(stats.pullLable_good==null)) {
+					pullGood = stats.pullLable_good.size();					
+					stuMap.put("pullGood", pullGood);
+					sb.append(pullGood + ","); // CSV					
+				}else {
+					pullGood = 0;					
+					stuMap.put("pullGood", pullGood);
+					sb.append(pullGood + ","); // CSV
+				}
+				if (!(stats.pullLable_late==null)) {
+					pullLate = stats.pullLable_late.size();
+					stuMap.put("pullLableLate", pullLate);
+					sb.append(pullLate + ","); // CSV					
+				}else {
+					pullLate = 0;
+					stuMap.put("pullLableLate", pullLate);
+					sb.append(pullLate + ","); // CSV
+				}
+				if (!(stats.pullLable_copy==null)) {
+					pullCopy = stats.pullLable_copy.size();
+					stuMap.put("pullLableCopy", pullCopy);
+					sb.append(pullCopy + ","); // CSV
+				}else {
+					pullCopy = 0;
+					stuMap.put("pullLableCopy", pullCopy);
+					sb.append(pullCopy + ","); // CSV
+				}
+				if (!(stats.pullLable_bad==null)) {
+					pullBad = stats.pullLable_bad.size();					
+					stuMap.put("pullBad", pullBad);
+					sb.append(pullBad + ","); // CSV					
+				}else {
+					pullBad = 0;					
+					stuMap.put("pullBad", pullBad);
+					sb.append(pullBad + ","); // CSV
+				}
+				if (!(stats.pullLable_bug==null)) {
+					pullBug = stats.pullLable_bug.size();
+					stuMap.put("pullBug", pullBug);
+					sb.append(pullBug + ","); // CSV					
+				}else {
+					pullBug = 0;
+					stuMap.put("pullBug", pullBug);
+					sb.append(pullBug + ","); // CSV
+				}
+				if (!(stats.pullLable_example==null)) {
+					pullExample = stats.pullLable_example.size();
+					stuMap.put("pullExample", pullExample);
+					sb.append(pullExample + ","); // CSV
+				}else {
+					pullExample = 0;
+					stuMap.put("pullExample", pullExample);
+					sb.append(pullExample + ","); // CSV
+				}
+				if (!(stats.pullLable_interesting==null)) {
+					pullInteresting = stats.pullLable_interesting.size();
+					stuMap.put("pullInteresting", pullInteresting);
+					sb.append(pullInteresting + ","); // CSV
+				}else {
+					pullInteresting = 0;
+					stuMap.put("pullInteresting", pullInteresting);
+					sb.append(pullInteresting + ","); // CSV
+				}				
+				// 保存总数				
 				stuMap.put("commitCount", totalCommits);
 				stuMap.put("additionCount", totalAdditions);
 				stuMap.put("deletionCount", totalDeletions);
@@ -878,24 +912,12 @@ public class App3 implements Api3 {
 				sb.append("0,0,0,0,0,0,0\n"); // CSV
 			}
 		}
-
-		// 将结果保存为JSON
-		//jsonFile = new File(file, "/src/json/result.json");
-		//jsonFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/result.json");
-		jsonFile = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+"/src/json/result.json");
+		jsonFile = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/result.json");
 		writeToFile(jsonFile, JsonUtils.toString(result));
-		//打印result
-		//System.out.print(JsonUtils.toString(result));
-		//System.out.println();
-		
-		// 将结果保存为CSV
-		//File csvFile = new File(file, "/src/json/result.csv");
-		//File csvFile = new File("E:/eclipseWorkspace/.metadata/allProjUpload/customizableSys/git/src/json/result.csv");
-		File csvFile = new File(rootpath+ "/github"+api.getORG()+api.getPROJ()+"/src/json/result.csv");
+
+		File csvFile = new File(rootpath+ "/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+"/src/json/result.csv");
 		writeToFile(csvFile, sb.toString());
 		//打印sb
-		//System.out.print(sb.toString());
-		//System.out.println();
 		// 打印Issue标题
 		for (String title : issueTitleList) {
 			System.out.println(title);
@@ -949,15 +971,11 @@ public class App3 implements Api3 {
 			System.out.println();
 		}
 		System.out.println("学生人数：" + allData.keySet().size());
-		//return "true";
 		return 0;
 	}
 
-	
 	private static File getJsonFile(final String prefix,String rootpath,Api api) {
-		//File root = new File("./");
-		//File dir = new File(root.getAbsolutePath(), "/src/json/");
-		File dir = new File(rootpath+"/github"+api.getORG()+api.getPROJ()+ "/src/json/");
+		File dir = new File(rootpath+"/github/"+api.getUSERNAME()+api.getORG()+api.getPROJ()+ "/src/json/");
 		File[] files = dir.listFiles(new FilenameFilter() {
 			public boolean accept(File dir, String name) {
 				File file = new File(dir, name);
@@ -966,7 +984,6 @@ public class App3 implements Api3 {
 		});
 		return files != null && files.length > 0 ? files[0] : null;
 	}
-
 	private static String readFileToString(File jsonFile) {
 		try {
 			System.out.println("Read from " + jsonFile.getAbsolutePath());
@@ -987,7 +1004,6 @@ public class App3 implements Api3 {
 		}
 		return null;
 	}
-
 	private static void writeToFile(File jsonFile, String json) {
 		try { // 检查目录是否存在
 			String folderName = jsonFile.getParent();
@@ -1050,34 +1066,61 @@ class Stats {
 	List<Commit> commits;
 	List<Issue> issues;
 	List<Event> events;
+	List<PullLable_done> pullLable_done;
+	List<PullLable_good> pullLable_good;
+	List<PullLable_late> pullLable_late;
+	List<PullLable_copy> pullLable_copy;	
+	List<PullLable_interesting> pullLable_interesting;
+	List<PullLable_bad> pullLable_bad;
+	List<PullLable_bug> pullLable_bug;
+	List<PullLable_example> pullLable_example;
 }
-
 class Pull {
 	int number;
 	String time;
 	int commentCount;
 	int commitCount;
 }
-
 class Comment {
 	int number;
 	String time;
 }
-
 class Commit {
 	String sha;
 	String time;
 	int commentCount;
 }
-
 class Issue {
 	int number;
 	String time;
 	int eventCount;
 }
-
 class Event {
 	String name;
 	String actor;
 	String time;
+}
+class PullLable_done{
+	int done;   //完成	
+}
+class PullLable_good{
+	int good;	//很好
+}
+class PullLable_late{
+	int late;	//迟交
+}
+class PullLable_copy{
+	int copy;   //抄袭
+}
+class PullLable_bad{
+	int bad;	//很好
+}
+class PullLable_bug{
+	int bug;	//有错误
+}
+class PullLable_example{
+	int exam;   //可供参考
+}
+class PullLable_interesting{
+	int interesting;   //有点意思
 }

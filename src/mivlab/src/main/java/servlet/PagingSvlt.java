@@ -20,12 +20,14 @@ import bean.Classinfo;
 import bean.Course;
 import bean.CoursePlan;
 import bean.GitDate;
+import bean.GitRowDate;
 import bean.Snav;
 import bean.Students;
 import bean.Stutask;
 import bean.TeaTask;
 import bean.Teacher;
 import bean.Terms;
+import bean.indexContent;
 import bean.navList;
 import utils.Dbhelper;
 
@@ -66,10 +68,13 @@ public class PagingSvlt extends HttpServlet {
 		//获取当前登录用户信息
 		Object userid=session.getAttribute("userid");
 		if(userid==null){
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+			/**
 			PrintWriter out=response.getWriter();
 			out.print("请重新登录");
 			out.flush();
 			out.close();
+			**/
 			return;
 		}else{
 			//创建数据库操作对象
@@ -77,6 +82,7 @@ public class PagingSvlt extends HttpServlet {
 			//获取操作标识
 			String tbname=request.getParameter("tbname");
 			String flag=request.getParameter("flag");
+			System.out.println("执行分页");
 			ResultSet rs=null;
 			//定义标识符，如果为true说明是首页，否则不是首页
 			boolean syflag=false;
@@ -182,6 +188,58 @@ public class PagingSvlt extends HttpServlet {
 				}
 				return;
 			}
+			if("gitRawdate".equals(tbname)){	//教师分页查看GitHub实验数据--原始数据
+				if(syflag){
+					request.getRequestDispatcher("/InitSvlt?tbname="+tbname).forward(request, response);
+				}else{
+				List<GitRowDate> alist=GetList.getlist(GitRowDate.class, rs);
+				
+				//查询结果传到前台
+				request.setAttribute("alist", alist);
+				
+				request.getRequestDispatcher("/admin/GitRowDate.jsp").forward(request, response);
+				}
+				return;
+			}
+			if("adminstuTask".equals(tbname)){	//学生实验提交记录
+				if(syflag){
+					request.getRequestDispatcher("/InitSvlt?tbname=adminstutask").forward(request, response);
+				}else{
+				List<Stutask> alist=GetList.getlist(Stutask.class, rs);
+				
+				request.setAttribute("alist", alist);
+				//学期
+				List<Terms> termslist=GetList.getlist(Terms.class, db.executeQuery("select * from terms"));
+				request.setAttribute("termslist", termslist);
+				List<Course> courselist=GetList.getlist(Course.class, db.executeQuery("select * from course"));
+				request.setAttribute("courselist", courselist);
+				request.getRequestDispatcher("/admin/StuTaskhistory.jsp").forward(request, response);
+				
+				}
+				return;
+			}
+			if("allshiyan".equals(tbname)){	//教师发布实验记录
+				if(syflag){
+					request.getRequestDispatcher("/InitSvlt?tbname="+tbname).forward(request, response);
+				}else{
+				List<TeaTask> alist=GetList.getlist(TeaTask.class, rs);
+				
+				//查询结果传到前台
+				request.setAttribute("alist", alist);
+				List<Terms> termslist=GetList.getlist(Terms.class, db.executeQuery("select * from terms"));
+				request.setAttribute("termslist", termslist);
+				List<Classinfo> classinfolist=GetList.getlist(Classinfo.class, db.executeQuery("select * from classinfo"));
+				request.setAttribute("classinfolist", classinfolist);
+				List<Course> courselist=GetList.getlist(Course.class, db.executeQuery("select * from course"));
+				request.setAttribute("courselist", courselist);
+				List<Teacher> tealist=GetList.getlist(Teacher.class, db.executeQuery("select * from teacher"));
+				request.setAttribute("tealist", tealist);
+				
+				request.getRequestDispatcher("/admin/allshiyan.jsp").forward(request, response);			
+				
+				}
+				return;
+			}
 	/**
 	 * 教师页面操作处理		
 	 */
@@ -239,15 +297,25 @@ public class PagingSvlt extends HttpServlet {
 				}
 				return;
 			}
-			if("tGitDate2".equals(tbname)){	//教师分页查看GitHub实验数据
+			if("TeagitRawdate".equals(tbname)){	//教师分页查看GitHub实验原始数据
 				if(syflag){
 					request.getRequestDispatcher("/InitSvlt?tbname="+tbname).forward(request, response);
 				}else{
-					List<GitDate> alist=GetList.getlist(GitDate.class, rs);
+					List<GitRowDate> alist=GetList.getlist(GitRowDate.class, rs);
 					request.setAttribute("alist", alist);
+
+					//获取标题及脚注等信息
+					List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+					//创建对象
+					indexContent a=new indexContent();
+					//取查询结果给对象
+					if(other.size()>0){
+						a=other.get(0);
+					}
+					//把信息写入session
 					
-					
-					request.getRequestDispatcher("/teacher/GitDate2.jsp").forward(request, response);
+					session.setAttribute("other", a);
+					request.getRequestDispatcher("/teacher/GitRowDate.jsp").forward(request, response);
 				}
 				return;
 			}

@@ -1,5 +1,6 @@
 
 function sybtdown(svlt, tname) {
+	
 	var pnum = $("#hpagenum").val();
 	if (Number(pnum) != 1) {
 		$("#fm").prop("action", svlt);

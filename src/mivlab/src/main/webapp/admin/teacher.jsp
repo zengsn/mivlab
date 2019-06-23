@@ -1,447 +1,452 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%
 String path = request.getContextPath();String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<%	request.setCharacterEncoding("UTF-8");%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	<head>
-		<base href="<%=basePath%>">
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>教师信息</title>
-		
-				<script type="text/javascript" src="<%=basePath%>js/jquery-3.3.1.min.js"></script>	
-		<script type="text/javascript" src="<%=basePath%>js/bootstrap.min.js.下载"></script>
-		<!-- 翻页-->
-		<script type="text/javascript" src="<%=basePath %>js/syssmp.js"></script>
-		<!-- 头部底部 -->
-		<link rel="stylesheet" href="<%=basePath%>css/titleFooter.css" />
-<!-- 对话框 -->
-		<link rel="stylesheet" type="text/css" href="<%=basePath%>css/demo.css">
-		<link rel="stylesheet" type="text/css" href="<%=basePath%>css/easyui.css">
-		<link rel="stylesheet" type="text/css" href="<%=basePath%>css/icon.css">
-		<link rel="stylesheet" type="text/css" href="<%=basePath%>css/syscss.css">
-		
-		<script type="text/javascript" src="<%=basePath%>js/jquery.easyui.min.js"></script>
-		<script type="text/javascript" src="<%=basePath %>js/syssmp.js"></script>
-<!-- 大体布局 -->		
-		<link rel="stylesheet" href="<%=basePath%>assets/css/amazeui.css" />
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="<%=basePath%>assets/css/core.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/menu.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/index.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/admin.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/page/typography.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/page/form.css" />
-<style> 
-  .banner, .footer {
-      background-color: ${other.bgColor};
-     /* background-image:${other.imgPath};   */
-      color: ${other.wordColor};     
-    }
-  .hiddenli{
-  display:none !important;
-  
-  }
-  @media screen and (max-width: 640px) {
-   .hiddenli{
-  display:block !important;
-  
-  }
-</style>
-<script type="text/javascript">
-function addbt(){
-	$("#flagi").val("add");
-	$("#gtno").textbox('setValue','');
-	$("#gtname").textbox('setValue','');
-	$("#gtgender").combobox('setValue','男');	
-	$("#gtproftitle").combobox('setValue','助教');
-	$("#gtphone").textbox('setValue','');
-	$("#gtaddr").textbox('setValue','');
-	$("#gtpassword").textbox('setValue','');
-	$("#dlg").dialog('open');
-	$("#dlg").dialog({modal:true});
-}
-function updbt(id){
-	$.ajax({
-	url:'GetDataSvlt',
-	type:'post',
-	dataType:'json',
-	data:{"tbname":"teacher","id":id},
-	success:function(data){	
-		var ob=data.ob;
-		$("#flagi").val("upd");
-		$("#idi").val(id);
-		$("#dlg").dialog('open');
-		$("#dlg").dialog({modal:true});
-		$("#gtno").textbox('setValue',ob.tNo);
-		$("#gtname").textbox('setValue',ob.tName);
-		$("#gtgender").combobox('setValue',ob.sex);
-		$("#gtproftitle").combobox('setValue',ob.proftitle);
-		$("#gtphone").textbox('setValue',ob.tPhone);
-		$("#gtaddr").textbox('setValue',ob.tAddr);
-		$("#gtpassword").textbox('setValue',ob.tPwd);
-	}
-});
-}
-//保存
-function gltj(){
-var tno=$("#gtno").textbox('getValue');
-var tname=$("#gtname").textbox('getValue');
-var sex=$("#gtgender").combobox('getValue');
-var proftitle=$("#gtproftitle").textbox('getValue');
-var tphone=$("#gtphone").textbox('getValue');
-var taddr=$("#gtaddr").textbox('getValue');
-var tpassword=$("#gtpassword").textbox('getValue');
-var id=$("#idi").val();
-var flag=$("#flagi").val();
-if(tno==""||tname==""||sex==""||tphone==""||taddr==""||tpassword=="" || proftitle==""){
-	alert('教师信息不完整。');
-	return;
-}
-var checkPhone=/^1[3|4|5|7|8]\d{9}$/ ;
-if(!checkPhone.test(tphone)){
-	alert("请输入有效手机号码")
-    return ;
-}
-if("add"==flag){
-	$.ajax({
-		url:'AddSvlt',
-		type:'post',
-		data:{"tbname":"teacher","tNo":tno,"tName":tname,"sex":sex,"tPhone":tphone,"tAddr":taddr,"tPwd":tpassword,"proftitle":proftitle},
-		dataType:'json',
-		success:function(data){
-			alert(data.msg);
-		}
-	});
-}else if("upd"==flag){
-	$.ajax({
-		url:'UpdSvlt',
-		type:'post',
-		data:{"tbname":"teacher","id":id,"tNo":tno,"tName":tname,"sex":sex,"tPhone":tphone,"tAddr":taddr,"tPwd":tpassword,"proftitle":proftitle},
-		dataType:'json',
-		success:function(data){
-			alert(data.msg);
-		}
-	});
-}
-}
-//取消
-function rst(){
-window.location.href="InitSvlt?tbname=teacher";
-}
-//查询
-function cktj(){
-var sqls="select  teacher.* from  teacher where 1=1 ";
-var un=$("#ckuname").val();
-if(un!=""){
-	sqls+=" and tNo='"+un+"'";
-}
-$.ajax({
-	url:'CkSvlt',
-	type:'post',
-	data:{"sql":sqls},
-	dataType:'json',
-	success:function(data){
-		if(data.msg==1){
-			window.location.href="InitSvlt?tbname=teacher";
-		}else{
-			alert(data.msg);
-		}
-	}
-});
-}
-function delsbt(){
-var ids="";
-$("input:checkbox").each(
-	function(){
-		if($(this).prop("checked")){
-			var nm=$(this).prop("name");
-			if(nm.indexOf("delid")==0){
-				ids+=$(this).val()+",";
-			}
-		}
-	}
-);
-if(ids==""){
-	alert("请选择所要删除的数据.");
-	return;
-};
-$.ajax({
-	url:'DelSvlt',
-	type:'post',
-	dataType:'json',
-	data:{"ids":ids,"tbname":"teacher"},
-	success:function(data){
-		window.location.href="InitSvlt?tbname=teacher";
-		alert(data.msg);
-	}
-});
-}
-$(function(){
-$("#dlg").dialog({closable: false});
-$("#dlg").dialog('close');
-})
-</script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="<%=basePath%>">
+	
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#4188c9">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <!-- Generated: 2018-04-06 16:27:42 +0200 -->
+    <title>基于GitHub的教学管理系统——教师信息管理</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext"> --> 
+    <script src="<%=basePath%>assets/js/require.min.js"></script>
+   
+    <!-- Dashboard Core -->
+    <link href="<%=basePath%>assets/css/dashboard.css" rel="stylesheet" />
+    <script src="<%=basePath%>assets/js/dashboard.js"></script>
+    <!-- c3.js Charts Plugin -->
+    <link href="<%=basePath%>assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
+    <script src="<%=basePath%>assets/plugins/charts-c3/plugin.js"></script>
+    <!-- Google Maps Plugin -->
+    <link href="<%=basePath%>assets/plugins/maps-google/plugin.css" rel="stylesheet" />
+    <script src="<%=basePath%>assets/plugins/maps-google/plugin.js"></script>
+    <!-- Input Mask Plugin -->
+    <script src="<%=basePath%>assets/plugins/input-mask/plugin.js"></script>
+   
+	<!-- jquery -->
+    <script type="text/javascript" src="<%=basePath%>js/jquery-3.3.1.min.js"></script>
+	 <!-- 翻页-->
+	<script type="text/javascript" src="<%=basePath %>js/syssmp.js"></script>
 </head>
-<body>	
-	<header class="am-topbar am-topbar-fixed-top">	
-			<!-- 顶部标题栏 -->
-			<div class="banner" id="banner" >				        
-		    	<div class="banner-title">${other.title }</div>        
-			</div>	
-			<div class="am-topbar-left am-hide-sm-only">
-                <a href="index.html" class="logo"><span>Admin<span>to</span></span><i class="zmdi zmdi-layers"></i></a>
-            </div>
-	
-			<div class="contain">
-				<ul class="am-nav am-navbar-nav am-navbar-left">
-
-					<li><h4 class="page-title">教师信息管理</h4></li>
-				</ul>
-				
-				
-			</div>
-		</header>
-		<!-- end page -->
-		
-		
-		<div class="admin">
-			<!--<div class="am-g">-->
-		<!-- ========== Left Sidebar Start ========== -->
-		<!--<div class="left side-menu am-hide-sm-only am-u-md-1 am-padding-0">
-			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 548px;">
-				<div class="sidebar-inner slimscrollleft" style="overflow: hidden; width: auto; height: 548px;">-->
-                  <!-- sidebar start -->
-				  <div class="admin-sidebar am-offcanvas  am-padding-0" id="admin-offcanvas">
-				    <div class="am-offcanvas-bar admin-offcanvas-bar">
-				    	<!-- User -->
-						<div class="user-box am-hide-sm-only">
-	                        <div class="user-img">
-	                            <img src="<%=basePath%>assets/img/avatar-8.jpg" alt="user-img" title="${userinfo.name }" class="img-circle img-thumbnail img-responsive">
-	                            <div class="user-status offline"><i class="am-icon-dot-circle-o" aria-hidden="true"></i></div>
-	                        </div>
-	                        <h5>${userinfo.name } </h5>
-	                        <ul class="list-inline">
-	                            <li>
-	                                <a href="<%=basePath %>InitSvlt?flgs=1&tbname=adminInfo" class="text-custom">
-	                                    <i class="fa fa-cog" aria-hidden="true">设置</i>
-	                                </a>
-	                            </li>
-								<li>
-	                                <a href="<%=basePath %>admin/loginOut.jsp" class="text-custom">
-	                                    <i class="fa fa-sign-out" aria-hidden="true">退出</i>
-	                                </a>
-	                            </li>
-	
-	                            
-	                        </ul>
-	                    </div>
-	                    <!-- End User -->
-	            
-						<ul class="am-list admin-sidebar-list">
-						    <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage"><span class="am-icon-home"></span> 首页</a></li>
-						    <li class="admin-parent">
-						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-th-list"></span> 前端页面管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-						      <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=title" class="am-cf"> 页面风格管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=fnav"> 一级标题管理</a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=snav"> 二级标题管理</a></li>
-						      </ul>
-						    </li>
-						    <li class="admin-parent">
-						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><i class="am-icon-th-list" aria-hidden="true"></i> 教学管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-						      <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=teacher" class="am-cf"> 教师信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=terms"> 学期信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=classinfo" class="am-cf"> 班级信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=students" class="am-cf"> 学生信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=course" class="am-cf"> 课程信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=courseplan" class="am-cf"> 课程安排</span></a></li>
-						      </ul>
-						    </li>
-						    <li class="hiddenli"><a href="<%=basePath %>InitSvlt?flgs=1&tbname=adminInfo"> 个人设置</a></li>
-					        
-					        <li class="hiddenli"><a href="<%=basePath %>admin/loginOut.jsp"> 退出登录</a></li>
-						  </ul>
-				</div>
-				  </div>
-				  <!-- sidebar end -->
-    
-				<!--</div>
-			</div>
-		</div>-->
-		<!-- ========== Left Sidebar end ========== -->
-		<!--	<div class="am-g">-->
-		<!-- ============================================================== -->
-		<!-- Start right Content here -->
-		<div class="content-page">
-			<!-- Start content -->
-			<div class="content">
-				<div class="card-box">
-					<!-- Row start -->
-					<div class="am-g">
-						<div class="am-u-sm-12 am-u-md-6">
-				          <div class="am-btn-toolbar">
-				            <div class="am-btn-group am-btn-group-xs">
-				              
-				              <button type="button" class="am-btn am-btn-default "  data-am-modal="{target: '#addFnav'}"  onclick="addbt();return false;"><span class="am-icon-plus"></span> 新增</button>
-				              
-				              <button type="button" class="am-btn am-btn-default" onclick="delsbt();return false;"><span class="am-icon-trash-o"></span> 删除</button>
-				            </div>
-				          </div>
-				        </div>	
-				        
-						<div class="am-u-sm-12 am-u-md-3">
-				          <div class="am-input-group am-input-group-sm">
-				            <input type="text" class="am-form-field" id="ckuname" placeholder="请输入工号">	            	
-				          <span class="am-input-group-btn">
-				            <button class="am-btn am-btn-default" type="button" onclick="cktj();return false;">查询</button>
-				          </span>
-				          </div>
-				        </div>
-				      </div>
-					  <!-- Row end -->
-					  
-					  <!-- Row start -->
-					  	<div class="am-g">
-	<div class="am-u-sm-12">
-     <!--    <form class="am-form">  --> 
-            <table class="am-table am-table-striped am-table-hover table-main">
-              <thead>
-              <tr>
-                <th class="table-check"></th><th class="table-title">工号</th><th>姓名</th><th>职称</th><th>性别</th><th>电话</th><th>地址</th><th>密码</th><th class="table-set">操作</th>
-              </tr>
-              </thead>
-              <tbody>
-              <c:forEach var="a" items="${alist }">
-              <tr>
-                <td><input name="delid" type="checkbox" value="${a.id }"/></td>                
-                <td>${a.tNo }</td>
-                <td>${a.tName }</td>
-                <td>${a.proftitle }</td>
-                <td>${a.sex }</td>
-                <td>${a.tPhone }</td>
-                <td>${a.tAddr }</td>
-                 <td>${a.tPwd }</td>
-                <td>
-                  <div class="am-btn-toolbar">
-                    <div class="am-btn-group am-btn-group-xs">                     
-                      <button class="am-btn am-btn-default am-btn-xs am-text-secondary" onclick="updbt('${a.id}');return false;" data-am-modal="{target: '#addFnav'}"><span class="am-icon-file-text-o" ></span> 修改</button>
-                      
-                    </div>
+<body class="">
+<div class="page">
+      <div class="page-main">
+        <div class="header py-4">
+          <div class="container">
+            <div class="d-flex">
+              <a class="header-brand" href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage">
+                <img src="${other.logoPath }" class="header-brand-img" alt="tabler logo">
+                <!-- 惠州学院logo -->
+                <span class="other_title">${other.title }</span>
+              </a>
+              <div class="d-flex order-lg-2 ml-auto">
+                <div class="nav-item d-none d-md-flex">
+                  <a href="" class="btn btn-sm btn-outline-primary" target="_blank">前端主页</a>
+                  <!-- 点击前往前端主页面 -->
+                </div>
+               
+                <div class="dropdown">
+                  <a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
+                    <span class="avatar" style="background-image: url(./images/avatar-8.jpg)"></span>
+                    <span class="ml-2 d-none d-lg-block">
+                      <span class="text-default">${userinfo.name }</span><!-- 用户名 -->
+                      <small class="text-muted d-block mt-1">Administrator</small><!-- 用户身份 -->
+                    </span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                    
+                    <a class="dropdown-item" href="<%=basePath %>InitSvlt?flgs=1&tbname=adminInfo">
+                      <i class="dropdown-icon fe fe-settings"></i> 设 置
+                    </a>
+                    
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="<%=basePath %>teacher/help.html" target="_blank">
+                      <i class="dropdown-icon fe fe-help-circle"></i> 帮 助
+                    </a>
+                    <a class="dropdown-item" href="<%=basePath %>loginOut.jsp">
+                      <i class="dropdown-icon fe fe-log-out"></i> 退 出
+                    </a>
                   </div>
-                </td>
-              </tr>
-              </c:forEach>
-			</tbody>
-            </table>
-            <div class="am-cf">
-              共有 ${allnums } 条记录，当前第 ${pagenum }/${pagenums } 页
-              <div class="am-fr">
-                <ul class="am-pagination">
-                  <li ><a href="javascript:void(0);" onclick="sybtdown('PagingSvlt?flag=1','teacher');return false;">«</a></li>
-                  <li ><a href="javascript:void(0);" onclick="syybtdown('PagingSvlt?flag=2','teacher');return false;">&lt;</a></li>
-                  <li ><a href="javascript:void(0);" onclick="xyybtdown('PagingSvlt?flag=3','teacher');return false;">&gt;</a></li>                 
-                  <li><a href="javascript:void(0);" onclick="wybtdown('PagingSvlt?flag=4','teacher');return false;">»</a></li>
+                </div>
+              </div>
+              <a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-toggle="collapse" data-target="#headerMenuCollapse">
+                <span class="header-toggler-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+          <div class="container">
+            <div class="row align-items-center">
+             
+              <!-- 导航栏 start -->
+              <div class="col-lg order-lg-first">
+                <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+                  <li class="nav-item">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage" class="nav-link active"><i class="fe fe-home"></i> 首页</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=title" class="nav-link"><i class="fe fe-file"></i> 页面风格管理</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=fnav" class="nav-link"><i class="fe fe-file"></i> 一级标题管理</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=snav" class="nav-link"><i class="fe fe-file"></i> 二级标题管理</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=courseplan" class="nav-link"><i class="fe fe-file"></i> 课程安排</a>
+                  </li>
+                 
+                  <li class="nav-item ">
+                    <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> 教学管理</a>
+                    <div class="dropdown-menu dropdown-menu-arrow">
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=teacher" class="dropdown-item "> 教师信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=terms" class="dropdown-item "> 学期信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=classinfo" class="dropdown-item "> 班级信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=students" class="dropdown-item "> 学生信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=course" class="dropdown-item "> 课程信息管理</a>                     
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> GitHub实验管理</a>
+                    <div class="dropdown-menu dropdown-menu-arrow">
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=allshiyan" class="dropdown-item "> 教师实验记录</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=adminstutask" class="dropdown-item "> 学生提交实验记录</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=allGitmana" class="dropdown-item "> 统计GitHub实验信息</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=allGitDate" class="dropdown-item "> GitHub实验信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=gitRawdate" class="dropdown-item "> 原始实验数据</a>
+                    </div>
+                  </li>
+                  
                 </ul>
               </div>
+              <!-- 导航栏 end -->
             </div>
-            
-            
-        <input type="hidden" id="hrownums" value="${rownums }" />
-		<input type="hidden" id="hpagenum" value="${pagenum }" />
-		<input type="hidden" id="hpagenums" value="${pagenums }" />
-		<input type="hidden" id="idi" value="" />
-		<input type="hidden" id="flagi" value="" />
-		<div style="display: none;">
-			<form id="fm" action="" method="post">
-				<input id="pt" name="tbname"/>
-			</form>
-		</div>
-        <hr />
-         
-      <!--      </form>-->
-         <!-- add-dialog -->
-		<table>		
-		<tr>
-			<td style="width: 100%;" align="center">
-				<div id="dlg" class="easyui-dialog" title=" "  style="width:100%;max-width:400px;padding:30px 60px;">
-					<form id="ff" method="post">
-						<div style="margin-bottom:20px">
-							<input id="gtno" class="easyui-textbox" name="gtno" style="width:100%"  data-options="label:'工号:'"/>
-						</div>
-						<div style="margin-bottom:20px">
-							<input id="gtname" class="easyui-textbox" name="gtname" style="width:100%"  data-options="label:'姓名:'"/>
-						</div>
-						<div style="margin-bottom:20px">
-							<select id="gtgender" class="easyui-combobox" name="gtgender" style="width:100%"  data-options="label:'性别:'">
-								<option>男</option>
-								<option>女</option>
-							</select>
-						</div>
-						
-						<div style="margin-bottom:20px">
-							<select id="gtproftitle" class="easyui-combobox" name="gtproftitle" style="width:100%"  data-options="label:'职称:'">
-								
-								<option>助教</option>
-								<option>讲师</option>
-								<option>副教授</option>
-								<option>教授</option>
-							</select>
-						</div>
-						<div style="margin-bottom:20px">
-							<input id="gtphone" class="easyui-textbox" name="gtphone" style="width:100%"  data-options="label:'电话:'"/>
-						</div>
-						<div style="margin-bottom:20px">
-							<input id="gtaddr" class="easyui-textbox" name="gtaddr" style="width:100%"  data-options="label:'地址:'"/>
-						</div>
-						<div style="margin-bottom:20px">
-							<input id="gtpassword" class="easyui-textbox" name="gtpassword" style="width:100%"  data-options="label:'密码:'"/>
-						</div>
-					</form>
-					<div style="text-align:center;padding:5px 0">
-						<a href="javascript:void(0)" class="easyui-linkbutton" onclick="gltj();return false;" style="width:80px">提  交</a>
-						<a href="javascript:void(0)" class="easyui-linkbutton" onclick="rst();return false;" style="width:80px">退  出</a>
-					</div>
-				</div>
-			</td>
-		</tr>
-	</table>
-		<!-- add-dialog end -->
-			
+          </div>
         </div>
-		
-	 <!-- Row end -->					  
-	 </div>	
+       <div class="my-3 my-md-5">
+          <div class="container">
+            <div class="row row-cards">
+              <div class="col-12 card">              
+                  <div class="page-header">
+		              <h1 class="page-title">
+		                	教师信息管理
+		              </h1>
+		          </div>                
+                   <div class="row ">
+                     <div class="col-md-12 col-lg-12 ">                      	
+                       <div class="card-body">	                    
+                        <div class="row gutters-xs">
+                          <div class="col-4 col-lg-1 col-md-6">	                          
+                             <button class="btn btn-block"  onclick="delsbt();return false;">删除</button>	                            	                             
+                          </div>  
+                          <div class="col-4 col-lg-1 col-md-6">	                          
+                             <button class="btn btn-block"  onclick="addbt();return false;" >新增</button>	                            	                             
+                          </div>  
+                          <div class="col-4 col-lg-2 col-md-6">	
+                          	<input type="search" class="form-control header-search"  id="ckuname" placeholder="请输入工号&hellip;" tabindex="1">			                                                                                      	                             
+                          	<div class="input-icon-addon" >
+			                   <i class="fe fe-search" ></i>
+			                </div>
+                          	
+                          </div>
+                           <div class="col-4 col-lg-1 col-md-6">	
+                          	<button class="btn btn-block" onclick="cktj();return false;" >查询</button>	                           		                                                                                      	                             
+                          </div>	 
+                          
+                      	 </div>                     	    
+       			   </div>        			  
+       			 </div>
+       			<div class="col-12">
+                <div class="card">                 
+                  <div class="table-responsive">
+                    <table class="table card-table table-vcenter text-nowrap">
+                      <thead>
+                        <tr>
+                          <th ></th>
+                          <th>工号</th>
+                          <th>姓名</th>
+                          <th>职称</th>
+                          <th>性别</th>
+                          <th>电话</th>
+                          <th>地址</th>
+                          <th>密码</th>
+                          <th ></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      <c:forEach var="a" items="${alist }">
+                        <tr>                         
+                          <td><input name="delid" type="checkbox" value="${a.id }"/></td>                
+		                  <td>${a.tNo }</td>
+		               	  <td>${a.tName }</td>
+		                  <td>${a.proftitle }</td>
+		                  <td>${a.sex }</td>
+		                  <td>${a.tPhone }</td>
+		                  <td>${a.tAddr }</td>
+		                  <td>${a.tPwd }</td>		                  
+                          <td class="text-right">
+                            <a href="javascript:void(0);"  onclick="updbt('${a.id}');return false;" class="btn btn-secondary btn-sm">修改</a>                            
+                          </td>                         
+                        </tr>
+                        </c:forEach>
+                      </tbody>
+                    </table>                   
+                   </div>
+                  </div>
+                  <div class="row align-items-center flex-row-reverse">
+            		<div class="col-auto ml-lg-auto">
+		              <div class="row align-items-center">		                
+		                <div class="col-auto">
+					                   共有 ${allnums } 条记录，当前第 ${pagenum }/${pagenums } 页	
+					      <div>
+					      <a class=" btn btn-sm btn-outline-primary" href="javascript:void(0);" onclick="sybtdown('PagingSvlt?flag=1','teacher');return false;"><i class="fe fe-chevrons-left"></i></a>
+		                  <a class=" btn btn-sm btn-outline-primary" href="javascript:void(0);" onclick="syybtdown('PagingSvlt?flag=2','teacher');return false;"><i class="fe fe-chevron-left"></i></a>
+		                  <a class=" btn btn-sm btn-outline-primary" href="javascript:void(0);" onclick="xyybtdown('PagingSvlt?flag=3','teacher');return false;"><i class="fe fe-chevron-right"></i></a>                
+		                  <a class=" btn btn-sm btn-outline-primary" href="javascript:void(0);" onclick="wybtdown('PagingSvlt?flag=4','teacher');return false;"><i class="fe fe-chevrons-right"></i></a>		              			               		             
+		                 </div>
+		                 <input type="hidden" id="hrownums" value="${rownums }" />
+						 <input type="hidden" id="hpagenum" value="${pagenum }" />
+						 <input type="hidden" id="hpagenums" value="${pagenums }" />
+						 <input type="hidden" id="idi" value="" />
+						 <input type="hidden" id="flagi" value="" />
+						 <div style="display: none;">
+							<form id="fm" action="" method="post">
+								<input id="pt" name="tbname"/>
+							</form>
+						 </div>
+		                </div>
+		              </div>
+		            </div>  		               
+		          </div> 
+                 </div>                            	 		                            
+       		    </div>       		         		 
+        	   </div>
+              </div>
+        	 </div>
+        	</div>
+         </div> 
+        
+  		
+      <footer class="footer">
+        <div class="container">
+          <div class="row align-items-center flex-row-reverse">
+            <div class="col-auto ml-lg-auto">
+              <div class="row align-items-center">
+                
+                <div class="col-auto">
+                   <a href="." target="_blank">基于GitHub的实验教学系统</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+               建设单位：<a href="" target="_blank" title="建设单位">${other.footer_name}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 地址： <a href="" title="addr" target="_blank"> ${other.footer_Addr }</a> 
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- dialog  start -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel"></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>                  
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="gtno">工号</label>
+                        <input type="text" id="gtno" name="gtno"  class="form-control" placeholder="工号">
+                    </div>
+                    <div class="form-group">
+                        <label for="gtname">姓名</label>
+                        <input type="text" id="gtname"  name="gtname"  class="form-control"  placeholder="姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="gtgender">性别</label>
+                        <select id="gtgender" class="form-control custom-select">
+							<option>男</option>
+							<option>女</option>               
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gtproftitle">职称</label>
+                        <select id="gtproftitle" class="form-control custom-select">
+							<option>助教</option>
+							<option>讲师</option>
+							<option>副教授</option>
+							<option>教授</option>               
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="gtphone">电话</label>
+                        <input type="text" id="gtphone" name="gtphone"  class="form-control" placeholder="电话">
+                    </div>
+                    <div class="form-group">
+                        <label for="gtaddr">地址</label>
+                        <input type="text" id="gtaddr"  name="gtaddr"  class="form-control"  placeholder="地址">
+                    </div>
+                    <div class="form-group">
+                        <label for="gtpassword">密码</label>
+                        <input type="text" id="gtpassword"  name="gtpassword"  class="form-control"  placeholder="密码">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>关闭</button>
+                    <button type="button"  class="btn btn-primary" data-dismiss="modal" onclick="gltj();return false;"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>保存</button>
+                </div>
+            </div>
+          </div>
+       </div>
+       <!-- dialog  end  -->
+    </div>
+    <script type="text/javascript">
+	function addbt(){
+		$("#flagi").val("add");
+		$("#gtno").val('');
+		$("#gtname").val('');
+		$("#gtgender").val('男');	
+		$("#gtproftitle").val('助教');
+		$("#gtphone").val('');
+		$("#gtaddr").val('');
+		$("#gtpassword").val('');
+		$('#myModal').modal();
+	}
+	function updbt(id){
+		$.ajax({
+		url:'GetDataSvlt',
+		type:'post',
+		dataType:'json',
+		data:{"tbname":"teacher","id":id},
+		success:function(data){	
+			var ob=data.ob;
+			$("#flagi").val("upd");
+			$("#idi").val(id);
+			$('#myModal').modal();
+			$("#gtno").val(ob.tNo);
+			$("#gtname").val(ob.tName);
+			$("#gtgender").val(ob.sex);
+			$("#gtproftitle").val(ob.proftitle);
+			$("#gtphone").val(ob.tPhone);
+			$("#gtaddr").val(ob.tAddr);
+			$("#gtpassword").val(ob.tPwd);
+		}
+	});
+	}
+	//保存
+	function gltj(){
+	var tno=$("#gtno").val();
+	var tname=$("#gtname").val();
+	var sex=$("#gtgender").val();
+	var proftitle=$("#gtproftitle").val();
+	var tphone=$("#gtphone").val();
+	var taddr=$("#gtaddr").val();
+	var tpassword=$("#gtpassword").val();
+	var id=$("#idi").val();
+	var flag=$("#flagi").val();
+	if(tno==""||tname==""||sex==""||tphone==""||taddr==""||tpassword=="" || proftitle==""){
+		alert('教师信息不完整。');
+		return;
+	}
+	var checkPhone=/^1[3|4|5|7|8]\d{9}$/ ;
+	if(!checkPhone.test(tphone)){
+		alert("请输入有效手机号码")
+	    return ;
+	}
+	if("add"==flag){
+		$.ajax({
+			url:'AddSvlt',
+			type:'post',
+			data:{"tbname":"teacher","tNo":tno,"tName":tname,"sex":sex,"tPhone":tphone,"tAddr":taddr,"tPwd":tpassword,"proftitle":proftitle},
+			dataType:'json',
+			success:function(data){
+				alert(data.msg);
+				window.location.href="InitSvlt?tbname=teacher";
+			}
+		});
+	}else if("upd"==flag){
+		$.ajax({
+			url:'UpdSvlt',
+			type:'post',
+			data:{"tbname":"teacher","id":id,"tNo":tno,"tName":tname,"sex":sex,"tPhone":tphone,"tAddr":taddr,"tPwd":tpassword,"proftitle":proftitle},
+			dataType:'json',
+			success:function(data){
+				alert(data.msg);
+				window.location.href="InitSvlt?tbname=teacher";
+			}
+		});
+	}
+	}
 	
-    </div>  			
-   </div>	
-   <div class="am-g">
-		<!-- 底部信息 -->
-		<div class="footer">
-		    <span class="school">建设单位：${other.footer_name}</span>
-		    <span class="address">${other.footer_Addr }</span>
-		</div>
-   </div>		
-</div>
-</div>
-		<!-- end right Content here -->
-		<!--</div>-->
-		
-		
-		<!-- navbar -->
-		<a href="admin-offcanvas" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"><!--<i class="fa fa-bars" aria-hidden="true"></i>--></a>
-		
-
-		<script type="text/javascript" src="<%=basePath%>assets/js/amazeui.min.js"></script>
-		<script type='application/javascript' src='<%=basePath%>assets/js/fastclick.js'></script>
-		<script type="text/javascript" src="<%=basePath%>assets/js/app.js" ></script>
-		<script type="text/javascript" src="<%=basePath%>assets/js/blockUI.js" ></script>
-	</body>
+	//查询
+	function cktj(){
+	var sqls="select  teacher.* from  teacher where 1=1 ";
+	var un=$("#ckuname").val();
+	if(un!=""){
+		sqls+=" and tNo='"+un+"'";
+	}
+	$.ajax({
+		url:'CkSvlt',
+		type:'post',
+		data:{"sql":sqls},
+		dataType:'json',
+		success:function(data){
+			if(data.msg==1){
+				window.location.href="InitSvlt?tbname=teacher";
+			}else{
+				alert(data.msg);
+			}
+		}
+	});
+	}
+	function delsbt(){
+	var ids="";
+	$("input:checkbox").each(
+		function(){
+			if($(this).prop("checked")){
+				var nm=$(this).prop("name");
+				if(nm.indexOf("delid")==0){
+					ids+=$(this).val()+",";
+				}
+			}
+		}
+	);
+	if(ids==""){
+		alert("请选择所要删除的数据.");
+		return;
+	};
+	$.ajax({
+		url:'DelSvlt',
+		type:'post',
+		dataType:'json',
+		data:{"ids":ids,"tbname":"teacher"},
+		success:function(data){
+			window.location.href="InitSvlt?tbname=teacher";
+			alert(data.msg);
+		}
+	});
+	}
 	
+	</script>
+  </body>
 </html>
-
-
-

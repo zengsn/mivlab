@@ -46,10 +46,32 @@ public class CkSvlt extends HttpServlet {
 		response.setContentType("text/html");
 		//获取session对象
 		HttpSession session=request.getSession();
+		//获取当前登录用户信息
+		Object userid=session.getAttribute("userid");
+		if(userid==null){
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+		/**
+		    PrintWriter out=response.getWriter();
+			out.print("请重新登录");
+			out.flush();
+			out.close();
+		**/
+			return;
+		}else{
 		//创建json对象
 		JSONObject json=new JSONObject();
 		//获取用户操作语句
 		String sql=request.getParameter("sql");
+		String exportScoreSql=request.getParameter("exportScoreSql");
+		String exportFlag=request.getParameter("export");
+		if("1".equals(exportFlag)){
+			//把操作语句写入session
+			session.setAttribute("exportSql", exportScoreSql);
+			json.put("msg", 1);
+		}else{
+			json.put("msg", "出错了");
+		}
+		System.out.println(sql);
 		if(!"".equals(sql)){
 			//把操作语句写入session
 			session.setAttribute("sql", sql);
@@ -62,5 +84,5 @@ public class CkSvlt extends HttpServlet {
 		out.flush();
 		out.close();
 	}
-
+	}
 }

@@ -1,346 +1,311 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%
 String path = request.getContextPath();String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<%	request.setCharacterEncoding("UTF-8");%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	<head>
-		<base href="<%=basePath%>">
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>管理员首页</title>
-		
-		<link rel="stylesheet" href="<%=basePath%>assets/css/amazeui.css" />
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="<%=basePath%>assets/css/core.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/menu.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/index.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/admin.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/page/typography.css" />
-		<link rel="stylesheet" href="<%=basePath%>assets/css/page/form.css" />
-		
-	<!-- 头部底部 -->
-		<link rel="stylesheet" href="<%=basePath%>css/titleFooter.css" />	
-		
-		<script type="text/javascript" src="<%=basePath%>js/jquery.min.js.下载"></script>
-		<script type="text/javascript" src="<%=basePath%>js/bootstrap.min.js.下载"></script>
-<style> 
-  .banner, .footer {
-      background-color: ${other.bgColor};
-   /*   background-image:${other.imgPath};  
-      background-image:url(/allProjUpload/mivlab2/LogoImage/banner.jpg) ;*/
-      color: ${other.wordColor};     
-    }
-  .teamanage ,.stumanage, .classmanage, .fnav, .ssnav :hover{
-  	cursor:pointer;
-  	
-  }
-	.hiddenli{
-  display:none !important;
-  
-  }
-  @media screen and (max-width: 640px) {
-   .hiddenli{
-  display:block !important;
-  
-  }
-</style>
-<script>
-$(document).ready(function(){
-  $(".fnav").click(function(){
-	  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=fnav";
-  });
-  $(".ssnav").click(function(){
-	  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=snav";
-  });
-  $(".teamanage").click(function(){
-	  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=teacher";
-  });
-  $(".classmanage").click(function(){
-	  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=classinfo";
-  });
-  $(".stumanage").click(function(){
-	  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=students";
-  });
-  $(".ssnav").hover(
-		  function (){
-			  $(".ssnav").css("cursor","pointer") ;
-		  }
-		  
-  );
-});
-</script>		
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<base href="<%=basePath%>">
+	
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#4188c9">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <!-- Generated: 2018-04-06 16:27:42 +0200 -->
+    <title>基于GitHub的教学管理系统——概况</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=latin-ext"> --> 
+    <script src="<%=basePath%>assets/js/require.min.js"></script>
+   
+    <!-- Dashboard Core -->
+    <link href="<%=basePath%>assets/css/dashboard.css" rel="stylesheet" />
+    <script src="<%=basePath%>assets/js/dashboard.js"></script>
+    <!-- c3.js Charts Plugin -->
+    <link href="<%=basePath%>assets/plugins/charts-c3/plugin.css" rel="stylesheet" />
+    <script src="<%=basePath%>assets/plugins/charts-c3/plugin.js"></script>
+    <!-- Google Maps Plugin -->
+    <link href="<%=basePath%>assets/plugins/maps-google/plugin.css" rel="stylesheet" />
+    <script src="<%=basePath%>assets/plugins/maps-google/plugin.js"></script>
+    <!-- Input Mask Plugin -->
+    <script src="<%=basePath%>assets/plugins/input-mask/plugin.js"></script>
+    <script type="text/javascript" src="<%=basePath%>js/jquery-3.3.1.min.js"></script>
+    
+	<script>
+		$(document).ready(function(){
+		  $(".fnav").click(function(){
+			  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=fnav";
+		  });
+		  $(".ssnav").click(function(){
+			  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=snav";
+		  });
+		  $(".teamanage").click(function(){
+			  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=teacher";
+		  });
+		  $(".classmanage").click(function(){
+			  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=classinfo";
+		  });
+		  $(".stumanage").click(function(){
+			  window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=students";
+		  });
+		  $(".link").hover(
+				  function (){
+					  $(".link").css("cursor","pointer") ;
+				  }
+				  
+		  );
+		});
+</script>	
+
 </head>
-<body>	
-
-	<header class="am-topbar am-topbar-fixed-top">		
-			<!-- 顶部标题栏 -->
-			<div class="banner" id="banner" >				        
-		    	<div class="banner-title">${other.title }</div>        
-			</div>
-			<div class="am-topbar-left am-hide-sm-only">
-                <a href="index.html" class="logo"><span>Ad</span><i class="zmdi zmdi-layers"></i></a>              
+<body class="">
+<div class="page">
+      <div class="page-main">
+        <div class="header py-4">
+          <div class="container">
+            <div class="d-flex">
+              <a class="header-brand" href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage">
+                <img src="${other.logoPath }" class="header-brand-img" alt="tabler logo">
+                <!-- 惠州学院logo -->
+                <span class="other_title">${other.title }</span>
+              </a>
+              <div class="d-flex order-lg-2 ml-auto">
+                <div class="nav-item d-none d-md-flex">
+                  <a href="" class="btn btn-sm btn-outline-primary" target="_blank">前端主页</a>
+                  <!-- 点击前往前端主页面 -->
+                </div>
+               
+                <div class="dropdown">
+                  <a href="#" class="nav-link pr-0 leading-none" data-toggle="dropdown">
+                    <span class="avatar" style="background-image:  url(./images/avatar-8.jpg)"></span>
+                    <span class="ml-2 d-none d-lg-block">
+                      <span class="text-default">${userinfo.name }</span><!-- 用户名 -->
+                      <small class="text-muted d-block mt-1">Administrator</small><!-- 用户身份 -->
+                    </span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                    
+                    <a class="dropdown-item" href="<%=basePath %>InitSvlt?flgs=1&tbname=adminInfo">
+                      <i class="dropdown-icon fe fe-settings"></i> 设 置
+                    </a>
+                    
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="<%=basePath %>teacher/help.html" target="_blank">
+                      <i class="dropdown-icon fe fe-help-circle"></i> 帮 助
+                    </a>
+                    <a class="dropdown-item" href="<%=basePath %>loginOut.jsp">
+                      <i class="dropdown-icon fe fe-log-out"></i> 退 出
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-toggle="collapse" data-target="#headerMenuCollapse">
+                <span class="header-toggler-icon"></span>
+              </a>
             </div>
-	
-			<div class="contain">
-				 
-				<ul class="am-nav am-navbar-nav am-navbar-left">
-					
-					<li><h4 class="page-title">首页</h4></li>
-				</ul>
-				
-				
-			</div>
-		</header>
-		<!-- end page -->
-		
-		
-		<div class="admin">
-			<!--<div class="am-g">-->
-		<!-- ========== Left Sidebar Start ========== -->
-		<!--<div class="left side-menu am-hide-sm-only am-u-md-1 am-padding-0">
-			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 548px;">
-				<div class="sidebar-inner slimscrollleft" style="overflow: hidden; width: auto; height: 548px;">-->
-                  <!-- sidebar start -->
-				  <div class="admin-sidebar am-offcanvas  am-padding-0" id="admin-offcanvas">
-				    <div class="am-offcanvas-bar admin-offcanvas-bar">
-				    	<!-- User -->
-						<div class="user-box am-hide-sm-only">
-	                        <div class="user-img">
-	                            <img src="<%=basePath%>assets/img/avatar-8.jpg" alt="user-img" title="${userinfo.name }" class="img-circle img-thumbnail img-responsive">
-	                            <div class="user-status offline"><i class="am-icon-dot-circle-o" aria-hidden="true"></i></div>
-	                        </div>
-	                        <h5>${userinfo.name } </h5>
-	                        <ul class="list-inline">
-	                            <li>
-	                                <a href="<%=basePath %>InitSvlt?flgs=1&tbname=adminInfo" class="text-custom">
-	                                    <i class="fa fa-cog" aria-hidden="true">设置</i>
-	                                </a>
-	                            </li>
-								<li>
-	                                <a href="<%=basePath %>admin/loginOut.jsp" class="text-custom">
-	                                    <i class="fa fa-sign-out" aria-hidden="true">退出</i>
-	                                </a>
-	                            </li>
-	                        </ul>
-	                    </div>
-	                    <!-- End User -->
-	            
-						 <ul class="am-list admin-sidebar-list">
-						    <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage"><span class="am-icon-home"></span> 首页</a></li>
-						    <li class="admin-parent">
-						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-th-list"></span> 前端页面管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-						      <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=title" class="am-cf"> 页面风格管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=fnav"> 一级标题管理</a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=snav"> 二级标题管理</a></li>
-						      </ul>
-						    </li>
-						    <li class="admin-parent">
-						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><i class="am-icon-th-list" aria-hidden="true"></i> 教学管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-						      <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=teacher" class="am-cf"> 教师信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=terms"> 学期信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=classinfo" class="am-cf"> 班级信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=students" class="am-cf"> 学生信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=course" class="am-cf"> 课程信息管理</span></a></li>
-						        <li><a href="<%=basePath %>InitSvlt?flgs=1&tbname=courseplan" class="am-cf"> 课程安排</span></a></li>
-						      </ul>
-						    </li>
-						    <li class="hiddenli"><a href="<%=basePath %>InitSvlt?flgs=1&tbname=adminInfo"> 个人设置</a></li>
-					        
-					        <li class="hiddenli"><a href="<%=basePath %>admin/loginOut.jsp"> 退出登录</a></li>
-						  </ul>
-				</div>
-				  </div>
-				  <!-- sidebar end -->
-    
-				<!--</div>
-			</div>
-		</div>-->
-		<!-- ========== Left Sidebar end ========== -->
-		<!--	<div class="am-g">-->
-		<!-- ============================================================== -->
-		<!-- Start right Content here -->
-		<div class="content-page">
-			<!-- Start content -->
-			<div class="content">
-				<div class="am-g">
-					<!-- Row start -->
-						<div class="am-u-md-3">
-							<div class="card-box">
-								<h4 class="header-title m-t-0 m-b-30">前端页面</h4>
-								<div class="widget-chart-1 am-cf">
-                                    <div id="widget-chart-box-1" class="fnav" style="height: 110px;width: 110px;float: left;">
-                                    
-                                        <h2 class="p-t-10 m-b-0"> ${fnavSize} 项</h2>
-                                        <p class="text-muted">一级标题</p>
-                                    
-                                    </div>
-									
-									<div class="widget-chart-box-1 ssnav"  style="float: right;">
-                                        <h2 class="p-t-10 m-b-0 "> ${snavSize} 项</h2>
-                                        <p class="text-muted">二级标题</p>
-                                    </div>
-									
-                                    
-                                </div>
-							</div>
-						</div>
-						<!-- col end -->
-						<div class="am-u-md-3 teamanage">
-							<div class="card-box">
-								<h4 class="header-title m-t-0 m-b-30">教师管理</h4>
-								<div class="widget-chart-1 am-cf">
-                                    
-									
-                                    <div class="widget-detail-1" style="float: right;">
-                                        <h2 class="p-t-10 m-b-0"> ${teaSize} 人</h2>
-                                        <p class="text-muted">教师总数</p>
-                                    </div>
-                                </div>
-							</div>
-						</div>
-						<!-- col end -->
-						<div class="am-u-md-3 classmanage" >
-							<div class="card-box">
-								<h4 class="header-title m-t-0 m-b-30">班级管理</h4>
-								<div class="widget-chart-1 am-cf">
-									
-                                    <div class="widget-detail-1" style="float: right;">
-                                        <h2 class="p-t-10 m-b-0"> ${classSize} </h2>
-                                        <p class="text-muted">班级总数</p>
-                                    </div>
-                                </div>
-							</div>
-						</div>
-						<!-- col end -->
-						<div class="am-u-md-3 stumanage">
-							<div class="card-box">
-								<h4 class="header-title m-t-0 m-b-30">学生管理</h4>
-								<div class="widget-chart-1 am-cf">
-                                    <div class="widget-detail-1" style="float: right;">
-                                        <h2 class="p-t-10 m-b-0"> ${stuSize} 人</h2>
-                                        <p class="text-muted">学生总数</p>
-                                    </div>
-                                </div>
-							</div>
-						</div>
-					<!-- Row end -->
-				</div>
-				
-				<div class="am-g">
-					<!-- Row start -->
-					<div class="am-u-md-12" >
-						<!-- 柱状图 -->
-						<div class="card-box">
-							<div  id="columnar1"   style="width: 100%;height: 400px;"></div>
-						</div>
-					</div>
-					<!-- 快速链接   
-					<div class="am-u-md-6">
-						
-						<div class="card-box">
-							<div  id="" style="width: 100%;height: 400px;">
-							
-							</div>
-						</div>
-					</div>
-					-->
-					<!-- Row end -->
-				</div>
-					</div>
-					<!-- Row end -->
-					<div class="am-g">
-						<!-- 底部信息 -->
-						<div class="footer">
-						    <span class="school">建设单位：${other.footer_name}</span>
-						    <span class="address">${other.footer_Addr }</span>
-						</div>
-					</div>
-				
-			
-				
-			</div>
-		</div>
-		<!-- end right Content here -->
-		<!--</div>-->
-		
-</div>
-    
-		
-		<!-- navbar -->
-		<a href="admin-offcanvas" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"><!--<i class="fa fa-bars" aria-hidden="true"></i>--></a>
-		<!-- 柱状图 -->
-		
-		<script type="text/javascript" src="<%=basePath%>assets/js/jquery-2.1.0.js" ></script>
-		<script type="text/javascript" src="<%=basePath%>assets/js/amazeui.min.js"></script>
-		<script type='application/javascript' src='<%=basePath%>assets/js/fastclick.js'></script>
-		<script type="text/javascript" src="<%=basePath%>assets/js/app.js" ></script>
-		<script type="text/javascript" src="<%=basePath%>assets/js/blockUI.js" ></script>
-		<script type="text/javascript" src="<%=basePath%>assets/js/charts/echarts.min.js" ></script>
-<!--  		<script type="text/javascript" src="<%=basePath%>assets/js/charts/columnarChart.js" ></script>-->
-<script type="text/javascript">
-		(function(){
-	
-var columnar1 = echarts.init(document.getElementById("columnar1"));
+          </div>
+        </div>
+        <div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+          <div class="container">
+            <div class="row align-items-center">
+             
+              <!-- 导航栏 start -->
+              <div class="col-lg order-lg-first">
+                <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+                  <li class="nav-item">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage" class="nav-link active"><i class="fe fe-home"></i> 首页</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=title" class="nav-link"><i class="fe fe-file"></i> 页面风格管理</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=fnav" class="nav-link"><i class="fe fe-file"></i> 一级标题管理</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=snav" class="nav-link"><i class="fe fe-file"></i> 二级标题管理</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="<%=basePath %>InitSvlt?flgs=1&tbname=courseplan" class="nav-link"><i class="fe fe-file"></i> 课程安排</a>
+                  </li>
+                 
+                  <li class="nav-item ">
+                    <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> 教学管理</a>
+                    <div class="dropdown-menu dropdown-menu-arrow">
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=teacher" class="dropdown-item "> 教师信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=terms" class="dropdown-item "> 学期信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=classinfo" class="dropdown-item "> 班级信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=students" class="dropdown-item "> 学生信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=course" class="dropdown-item "> 课程信息管理</a>                     
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> GitHub实验管理</a>
+                    <div class="dropdown-menu dropdown-menu-arrow">
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=allshiyan" class="dropdown-item "> 教师实验记录</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=adminstutask" class="dropdown-item "> 学生提交实验记录</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=allGitmana" class="dropdown-item "> 统计GitHub实验信息</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=allGitDate" class="dropdown-item "> GitHub实验信息管理</a>
+                      <a href="<%=basePath %>InitSvlt?flgs=1&tbname=gitRawdate" class="dropdown-item "> 原始实验数据</a>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+              <!-- 导航栏 end -->
+            </div>
+          </div>
+        </div>
+        <div class="my-3 my-md-5">
+          <div class="container">
+            <div class="page-header">
+              <h1 class="page-title">
+                	概况
+              </h1>
+            </div>
+            <div class="row row-cards">
+              <div class="col-6 col-sm-4 col-lg-2 fnav link">
+                <div class="card " >
+                  <div class="card-body p-3 text-center ">
+                    <div class="text-right text-green">                    
+                      <i class="fe fe-chevron-down"></i>
+                    </div>
+                    <div class="h1 m-0"> ${fnavSize} 项</div>
+                    <div class="text-muted mb-4">一级标题</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-lg-2 link ssnav">
+                <div class="card">
+                  <div class="card-body p-3 text-center">
+                    <div class="text-right text-green">                     
+                      <i class="fe fe-chevron-down"></i>
+                    </div>
+                    <div class="h1 m-0">${snavSize} 项</div>
+                    <div class="text-muted mb-4">二级标题</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-lg-2 link teamanage">
+                <div class="card">
+                  <div class="card-body p-3 text-center">
+                    <div class="text-right text-green">
+                      <i class="fe fe-chevron-down"></i>
+                    </div>
+                    <div class="h1 m-0"> ${teaSize} 人</div>
+                    <div class="text-muted mb-4">教师总数</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-lg-2 classmanage link">
+                <div class="card">
+                  <div class="card-body p-3 text-center">
+                    <div class="text-right text-green">
+                      <i class="fe fe-chevron-down"></i>
+                    </div>
+                    <div class="h1 m-0"> ${classSize} 个</div>
+                    <div class="text-muted mb-4">班级总数</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-lg-2 stumanage link">
+                <div class="card">
+                  <div class="card-body p-3 text-center">
+                    <div class="text-right text-green">
+                      <i class="fe fe-chevron-down"></i>
+                    </div>
+                    <div class="h1 m-0">${stuSize} 人</div>
+                    <div class="text-muted mb-4">学生总数</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-lg-12">
+                <div class="card">
+                  <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">师资队伍</h3>
+                  </div>
+                  <div class="card-body">
+                    <div id="chart-bar" style="height: 16rem"></div>
+                  </div>
+                </div>
+                <script>
+                  require(['c3', 'jquery'], function(c3, $) {
+                  	$(document).ready(function(){
+                  		var chart = c3.generate({
+                  			bindto: '#chart-bar', // id of chart wrapper
+                  			data: {
+                  				columns: [
+                  				    // each columns data
+                  					['data1', '${zhujiao}', '${jiangshi}', '${fujiaoshou}', '${jiaoshou}']
+                  					
+                  				],
+                  				type: 'bar', // default type of chart
+                  				colors: {
+                  					'data1': tabler.colors["blue"]
+                  				
+                  				},
+                  				names: {
+                  				    // name of each serie
+                  					'data1': 'Num'
+                  				}
+                  			},
+                  			axis: {
+                  				x: {
+                  					type: 'category',
+                  					// name of each category
+                  					categories: ['助教', '讲师', '副教授', '教授']
+                  				},
+                  			},
+                  			bar: {
+                  				width: 30
+                  			},
+                  			legend: {
+                                  show: false, //hide legend
+                  			},
+                  			padding: {
+                  				bottom: 0,
+                  				top: 0
+                  			},
+                  		});
+                  	});
+                  });
+                </script>
 
-option = {
-	
-	title: {
-		text: "师资队伍",
-		x:'left'
-	},
-	
-    color: ['#3398DB'],
-    tooltip : {
-        trigger: 'axis',
-        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-        }
-    },
-    toolbox: {
-        feature: {
-            saveAsImage: {}
-        }
-    },
-    grid: {
-        left: '3%',
-        right: '4%',
-        bottom: '3%',
-        containLabel: true
-    },
-    xAxis : [
-        {
-            type : 'category',
-            data : ['助教', '讲师', '副教授', '教授'],
-            axisTick: {
-                alignWithLabel: true
-            }
-        }
-    ],
-    yAxis : [
-        {
-            type : 'value'
-        }
-    ],
-    series : [
-        {
-            name:'人数',
-            type:'bar',
-            barWidth: '30%',
-            data:['${zhujiao}', '${jiangshi}', '${fujiaoshou}', '${jiaoshou}']
-        }
-    ]
-};
-
-columnar1.setOption(option);
-})();
-		</script>
-	</body>
-	
+              </div>                                            
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <footer class="footer">
+        <div class="container">
+          <div class="row align-items-center flex-row-reverse">
+            <div class="col-auto ml-lg-auto">
+              <div class="row align-items-center">
+                
+                <div class="col-auto">
+                   <a href="." target="_blank">基于GitHub的实验教学系统</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+               建设单位：<a href="" target="_blank" title="建设单位">${other.footer_name}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 地址： <a href="" title="addr" target="_blank"> ${other.footer_Addr }</a> 
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
-
-
-

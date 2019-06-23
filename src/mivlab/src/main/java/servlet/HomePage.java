@@ -1,6 +1,7 @@
 package servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -56,29 +57,29 @@ public class HomePage extends HttpServlet {
 		//获取session对象
 		HttpSession session=request.getSession();
 		
-			//获取主菜单
-			List<navList> navlist=GetList.getlist(navList.class, db.executeQuery("select * from fnav"));
-			session.setAttribute("navlist", navlist);
-			//System.out.print(navlist.get(0).getId());
-			//获取二级菜单
-			List<Snav> snavlist=GetList.getlist(Snav.class, db.executeQuery("select * from snav order by fnav_id asc"));
-			//System.out.print(snavlist.get(0).getFnav_id());				
-			session.setAttribute("snavlist", snavlist);
-			//获取标题及脚注等信息
-			List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
-			//创建对象
-			indexContent a=new indexContent();
-			//取查询结果给对象
-			if(other.size()>0){
-				a=other.get(0);
-			}
-			//把信息写入session
-			
-			session.setAttribute("other", a);		
-			//System.out.print(a.getTitle());			
-			//response.sendRedirect("/mivlab/indexShow.jsp");
-			request.getRequestDispatcher("index.jsp").forward(request, response);
+		
+		//获取主菜单
+		List<navList> navlist=GetList.getlist(navList.class, db.executeQuery("select * from fnav"));
+		session.setAttribute("navlist", navlist);
+		//System.out.print(navlist.get(0).getId());
+		//获取二级菜单
+		List<Snav> snavlist=GetList.getlist(Snav.class, db.executeQuery("select * from snav order by fnav_id asc"));
+		//System.out.print(snavlist.get(0).getFnav_id());				
+		session.setAttribute("snavlist", snavlist);
+		//获取标题及脚注等信息
+		List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+		//创建对象
+		indexContent a=new indexContent();
+		//取查询结果给对象
+		if(other.size()>0){
+			a=other.get(0);
+		}
+		//把信息写入session
+		
+		session.setAttribute("other", a);		
+		
+		request.getRequestDispatcher("index.jsp").forward(request, response);
 				
+	
 	}
-
 }

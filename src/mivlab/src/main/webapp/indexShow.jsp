@@ -1,17 +1,22 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" import="java.util.*"
     pageEncoding="UTF-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%
+String path = request.getContextPath();String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 
 <%request.setCharacterEncoding("UTf-8"); %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!-- saved from url=(0031)http://mivlab.infoaas.com/#home -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 	<base href="<%=basePath%>"> 
   <title>${other.title }</title>
  
   <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
   
-  <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   	
+  <link rel="stylesheet" href="<%=basePath%>css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   	
   
   <style>
     .banner, .footer {
@@ -159,7 +164,7 @@ window.onload=function(){
 		type:'post',		
 		
 		success:function(data){
-			$("#dlg").dialog('close');
+			//$("#dlg").dialog('close');
 		}
 	}) 
 
@@ -176,13 +181,12 @@ window.onload=function(){
  
  //用户登录
 function lgbt(){
-	$(".dialog-init").css("display","block");
-	$("#dlg").dialog('open');
+	$('#myModal').modal();
 }
 function lgtj(){
-	var uname=$("#uname").textbox('getValue');
-	var upassword=$("#upassword").textbox('getValue');
-	var utype=$("#utype").combobox('getValue');
+	var uname=$("#uname").val();
+	var upassword=$("#upassword").val();
+	var utype=$("#utype").val();
 	if(uname==""||upassword==""){
 		alert("请输入账号和密码");
 		return;
@@ -198,8 +202,12 @@ function lgtj(){
 			if(data.msg==1){
 				if(utype=="tea"){
 					window.location.href="./teacher/main.jsp";
-				}else{
+				}else if(utype="stu"){
 					window.location.href="./student/main.jsp";
+				}else if(utype="admin"){
+					window.location.href="<%=basePath %>InitSvlt?flgs=1&tbname=homepage";
+				}else{
+					alert(data.msg);
 				}
 				
 			}else{
@@ -232,7 +240,7 @@ function lgtj(){
      
       </c:forEach>
 <!--        <li role="presentation" class="active"><a href="#zxgk" aria-controls="zxgk" role="tab" data-toggle="tab">aaa</a></li>  -->
-      <li role="presentation"><a href="javascript:void(0);" onclick="lgbt();return false;">平台入口</a></li>    
+      <li role="presentation"><a href="<%=basePath %>login.jsp" target="_blank">平台入口</a></li>    
     </ul>   
  
     <!-- 顶部导航内容 -->   		
@@ -329,7 +337,45 @@ function lgtj(){
      
                       	      	   
  </div>
-  
+ <!-- dialog  start -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">平台入口</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>                  
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                    	<label class="form-label">账号</label>
+                   		<input type="email" class="form-control"  id="uname" name="uname" aria-describedby="emailHelp" placeholder="请输入账号">                       
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">
+	               		       密码
+	                      <a href="./forgot-password.html" class="float-right small">I forgot password</a>
+	                    </label>
+	                    <input type="password" class="form-control" id="upassword" name="upassword" placeholder="密码">
+                    </div>
+                    <div class="form-group">
+                        <label for="gtgender">角色</label>
+                        <select id="gtgender" class="form-control custom-select">
+                       		 <option value="admin">管理员</option>
+							<option value="tea">教师</option>
+							<option value="stu">学生</option> 							
+            
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" id="btn_submit" class="btn btn-primary btn-block" data-dismiss="modal" onclick="lgtj();return false;"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>登录</button>
+                </div>
+            </div>
+          </div>
+       </div>
+       <!-- dialog  end  -->
+ <!-- dlg start
   <div id="dlg" class="easyui-dialog dialog-init" title="平台入口"  style="width:100%;max-width:400px;padding:30px 60px;display:none;">
 			<div style="margin-bottom:10px;">
 				<input class="easyui-textbox" id="uname" name="uname" label="账 号：" style="width:100%;height:30px;font-size: 14px;" data-options="prompt:'输入账号',iconCls:'icon-man',iconWidth:28">
@@ -349,7 +395,8 @@ function lgtj(){
 				</a>
 			</div>
 	</div>
-                                    
+	
+ dlg end  -->                                     
   
       
 
@@ -358,27 +405,12 @@ function lgtj(){
     <span class="school">建设单位：${other.footer_name }</span>
     <span class="address">${other.footer_Addr }</span>
   </div>
-<span class="top"><a  href="#banner" style="background-image:url();
-background-repeat:no-repeat;width:20px;height:20px;display:inline-block; float:right;
-position: fixed; top: 500px;right:60px; " ><img style="width:40px;height:40px;"alt="top"
- src="./css/images/top.png"></a></span>	
+
   <!-- jquery -->
-  <script src="./js/jquery.min.js.下载"></script>
+  <script src="./js/jquery-3.3.1.min.js"></script>
   <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
   <script src="./js/bootstrap.min.js.下载" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
-
-    <!--<![endif]-->
-	<!--[if lte IE 8 ]>
-	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-	<script src="lib/amazeui/amazeui.ie8polyfill.min.js"></script>
-	<![endif]-->
-	<script type="text/javascript" src="./lib/handlebars/handlebars.min.js"></script>
-	<script type="text/javascript" src="./lib/iscroll/iscroll-probe.js"></script>
-	<script type="text/javascript" src="./lib/amazeui/amazeui.min.js"></script>
-	<script type="text/javascript" src="./lib/raty/jquery.raty.js"></script>
-	<script type="text/javascript" src="./js/main.min.js?t=1"></script>
+  
+    
 	
-	<link rel="stylesheet" type="text/css" href="./css/easyui.css">
-	<script type="text/javascript" src="./js/jquery.easyui.min.js"></script>
 </body></html>

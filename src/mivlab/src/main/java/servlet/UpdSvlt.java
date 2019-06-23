@@ -15,6 +15,7 @@ import com.wm.utils.DbConn;
 import com.wm.utils.GetList;
 
 import bean.Teacher;
+import bean.user;
 import net.sf.json.JSONObject;
 import utils.Dbhelper;
 
@@ -58,10 +59,13 @@ public class UpdSvlt extends HttpServlet {
 		//创建json对象
 		JSONObject json=new JSONObject();
 		if(userid==null){
+			request.getRequestDispatcher("index.jsp").forward(request, response);
+			/**
 			PrintWriter out=response.getWriter();
 			out.print("请重新登录");
 			out.flush();
 			out.close();
+			**/
 			return;
 		}else{
 			//创建数据库操作对象
@@ -229,15 +233,66 @@ public class UpdSvlt extends HttpServlet {
 				}
 			}
 			if("adminInfo".equals(tbname)) {	//管理员修改个人资料
+				System.out.println("修改管理资料");
 				String id=request.getParameter("id");
 				String name=request.getParameter("name");
-				String newpwd=request.getParameter("newpwd");								
+				String newpwd=request.getParameter("newpwd");	
+				String email=request.getParameter("email");
 				int bls=db.executeUpdate("update admin set name='"+name+"',password='"+newpwd+"' where id="+id);
 				if(bls>0){
 					json.put("msg", "修改成功");
 				}else{
 					json.put("msg", "修改失败");
 				}								
+			}
+			if("adminInfo2".equals(tbname)) {	//首次登录设置邮箱和密码
+				System.out.println("修改管理资料");
+				String id=request.getParameter("id");
+				String name=request.getParameter("name");
+				String newpwd=request.getParameter("newpwd");	
+				String email=request.getParameter("email");
+				int bls=db.executeUpdate("update admin set password='"+newpwd+"',email='"+email+"' where id="+id);
+				if(bls>0){
+					json.put("msg", "修改成功");
+				}else{
+					json.put("msg", "修改失败");
+				}								
+			}
+			if("adInfo".equals(tbname)) {
+				//git账号参数
+				String gitUsername=request.getParameter("gitUsername");
+				String TOKEN=request.getParameter("TOKEN");
+				String CLIENT_ID=request.getParameter("CLIENT_ID");
+				String CLIENT_SECRET=request.getParameter("CLIENT_SECRET");
+				System.out.print("gitUsername="+gitUsername);
+				int bls=db.executeUpdate("update admin set gitUsername='"+gitUsername+"',TOKEN='"+TOKEN+"',CLIENT_ID='"+CLIENT_ID+"',CLIENT_SECRET='"+CLIENT_SECRET+"' where id="+userid);
+				if(bls>0){
+					user ad=new user();
+					List<user> alist=GetList.getlist(user.class, db.executeQuery("select * from admin where id="+userid));
+					if(alist.size()>0){
+						ad=alist.get(0);
+					}
+					session.setAttribute("userinfo", ad);
+					json.put("msg", "修改成功");
+					
+				}else{
+					json.put("msg", "修改失败");
+				}
+			}
+			if("changeScore".equals(tbname)) {
+				
+				String id=request.getParameter("id");
+				String score=request.getParameter("score");
+				System.out.println(id);
+				System.out.println(score);
+				int bls=db.executeUpdate("update reposdate set score='"+score+"' where id="+id);
+				if(bls>0){
+					
+					json.put("msg", "修改成功");
+					
+				}else{
+					json.put("msg", "修改失败");
+				}
 			}
 			
 			/**
@@ -297,6 +352,19 @@ public class UpdSvlt extends HttpServlet {
 				}
 				
 			}
+			if("teacher2".equals(tbname)) {	//教师首次登录设置邮箱和密码
+				System.out.println("教师首次登录设置邮箱和密码");
+				String id=request.getParameter("id");
+				
+				String newpwd=request.getParameter("newpwd");	
+				String email=request.getParameter("email");
+				int bls=db.executeUpdate("update teacher set tPwd='"+newpwd+"',email='"+email+"' where id="+id);
+				if(bls>0){
+					json.put("msg", "修改成功");
+				}else{
+					json.put("msg", "修改失败");
+				}								
+			}
 			if("teatask".equals(tbname)){	//课程安排
 				String teatask_id=request.getParameter("teatask_id");
 								
@@ -324,7 +392,7 @@ public class UpdSvlt extends HttpServlet {
 			/**
 			 * 学生功能相关操作
 			 */
-			if("stuInfo".equals(tbname)) {	//管理员修改个人资料
+			if("stuInfo".equals(tbname)) {	///学生修改个人资料
 				String id=request.getParameter("id");
 				String name=request.getParameter("name");
 				String newpwd=request.getParameter("newpwd");
@@ -346,6 +414,18 @@ public class UpdSvlt extends HttpServlet {
 						json.put("msg", "修改失败");
 					}
 				}
+			}
+			if("students2".equals(tbname)) {	//学生首次登录设置邮箱和密码
+				String id=request.getParameter("id");
+				
+				String newpwd=request.getParameter("newpwd");	
+				String email=request.getParameter("email");
+				int bls=db.executeUpdate("update students set spassword='"+newpwd+"',email='"+email+"' where id="+id);
+				if(bls>0){
+					json.put("msg", "修改成功");
+				}else{
+					json.put("msg", "修改失败");
+				}								
 			}
 			if("stutask".equals(tbname)){	//更新学生实验信息
 				String stutask_id=request.getParameter("stutask_id");								

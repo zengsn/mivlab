@@ -64,4 +64,25 @@ public class Students {
 	public void setSpassword(String spassword){
 		this.spassword=spassword;
 	}
+	private  String email;
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	private  String outDate,validataCode;
+	public String getOutDate() {
+		return outDate;
+	}
+	public void setOutDate(String outDate) {
+		this.outDate = outDate;
+	}
+	public String getValidataCode() {
+		return validataCode;
+	}
+	public void setValidataCode(String validataCode) {
+		this.validataCode = validataCode;
+	}
+	
 }

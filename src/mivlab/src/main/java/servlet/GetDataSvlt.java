@@ -18,6 +18,7 @@ import com.wm.utils.HandlePage;
 import bean.Classinfo;
 import bean.Course;
 import bean.CoursePlan;
+import bean.ExportScoreList;
 import bean.GitDate;
 import bean.Snav;
 import bean.Students;
@@ -25,7 +26,9 @@ import bean.Stutask;
 import bean.TeaTask;
 import bean.Teacher;
 import bean.Terms;
+import bean.indexContent;
 import bean.navList;
+import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import utils.Dbhelper;
 
@@ -74,10 +77,7 @@ public class GetDataSvlt extends HttpServlet {
 		Object useridd=session.getAttribute("userid");
 		
 		if(useridd==null){
-			PrintWriter out=response.getWriter();
-			out.print("请重新登录");
-			out.flush();
-			out.close();
+			request.getRequestDispatcher("index.jsp").forward(request, response);
 			return;
 		}else {
 			if("fnav".equals(tbname)){		//一级导航栏
@@ -105,12 +105,34 @@ public class GetDataSvlt extends HttpServlet {
 				String remark=a.getRemark();
 				List<navList> otitlelist=GetList.getlist(navList.class, db.executeQuery("select * from fnav"));
 				request.setAttribute("otitlelist", otitlelist);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", b);
 				request.getRequestDispatcher("/admin/s_navUpdate.jsp?remark="+remark).forward(request, response);
 				return ;
 			}
 			if("snav_add".equals(tbname)){		//二级导航栏--更新使用数据
 				List<navList> otitlelist=GetList.getlist(navList.class, db.executeQuery("select * from fnav"));
 				request.setAttribute("otitlelist", otitlelist);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", b);
 				request.getRequestDispatcher("/admin/s_navAdd.jsp?").forward(request, response);
 				return ;
 			}
@@ -186,6 +208,108 @@ public class GetDataSvlt extends HttpServlet {
 				//把信息写入json
 				json.put("ob", a);
 			}
+			if("allGitDate".equals(tbname)){	//获取新导入的GitHub实验信息
+				
+				//获取当前登录用户信息
+				Object userid=session.getAttribute("userid");
+				String org=request.getParameter("org");
+				String proj=request.getParameter("proj");
+				
+				String tablename="reposdate";   
+				session.setAttribute("sql", "select "+tablename+".*,students.sname, terms.termname,course.cname from "+tablename+",students,course,terms where  students.sno=Num and course_id=course.id and "+tablename+".terms_id=terms.id and org='"+org+"' and proj='"+proj+"'");
+				
+				//查询结果集转化成链表
+				List<GitDate> alist=GetList.getlist(GitDate.class, HandlePage.Sy(db, "100", session,"sql","mysql"));
+				System.out.print("size="+alist.size());
+				
+				//查询结果传到前台
+				request.setAttribute("alist", alist);
+				//导入成绩链表
+				List<ExportScoreList> scoreList=GetList.getlist(ExportScoreList.class, HandlePage.Sy(db, "1000", session,"sql","mysql"));
+				
+				JSONArray alistJson = JSONArray.fromObject(scoreList);
+				request.setAttribute("alistJson", alistJson);
+				
+				List<Terms> termslist=GetList.getlist(Terms.class, db.executeQuery("select * from terms"));
+				request.setAttribute("termslist", termslist);
+				List<Classinfo> classinfolist=GetList.getlist(Classinfo.class, db.executeQuery("select * from classinfo where id="+id));
+				request.setAttribute("classinfolist", classinfolist);
+				List<Course> courselist=GetList.getlist(Course.class, db.executeQuery("select * from course"));
+				request.setAttribute("courselist", courselist);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", b);
+				request.getRequestDispatcher("/admin/GitDate.jsp").forward(request, response);
+				return;
+			}
+			if("allGitDate2".equals(tbname)){	//获取新导入的GitHub实验信息
+				
+				//获取当前登录用户信息
+				Object userid=session.getAttribute("userid");
+				String org=request.getParameter("org");
+				String proj=request.getParameter("proj");
+				
+				String tablename="outreposdate";   
+				session.setAttribute("sql", "select "+tablename+".* from "+tablename+" where  org='"+org+"' and proj='"+proj+"' and tid=" +userid);
+				
+				//查询结果集转化成链表
+				List<GitDate> alist=GetList.getlist(GitDate.class, HandlePage.Sy(db, "100", session,"sql","mysql"));
+				System.out.print("size="+alist.size());
+				//查询结果传到前台
+				request.setAttribute("alist", alist);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", b);
+				request.getRequestDispatcher("/admin/GitDate2.jsp").forward(request, response);
+				return;
+			}
+			if("AteaTask".equals(tbname)){	//获取教师发布实验的信息
+				
+				//获取当前登录用户信息
+				Object userid=session.getAttribute("userid");
+				int taskid=Integer.parseInt(request.getParameter("id"));
+				session.setAttribute("sql", "select teatask.*,termname,classname,cname,tName from courseplan,teatask,classinfo,course,teacher,terms where classinfo.id=teatask.classinfo_id and teatask.terms_id=terms.id and teatask.teacher_id=teacher.id and  course.id=teatask.course_id and teatask.id="+taskid+" group by id");
+				
+				//查询结果集转化成链表
+				List<TeaTask> alist=GetList.getlist(TeaTask.class, HandlePage.Sy(db, "10", session,"sql","mysql"));
+				//创建对象
+				TeaTask a=new TeaTask();
+				//取查询结果给对象
+				if(alist.size()>0){
+					a=alist.get(0);
+				}
+				//查询结果传到前台
+				request.setAttribute("a", a);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", b);
+				request.getRequestDispatcher("/admin/Taskinfo.jsp").forward(request, response);
+				return;
+			}
 			
 			/*
 			 * 教师功能操作
@@ -207,7 +331,17 @@ public class GetDataSvlt extends HttpServlet {
 				}
 				//查询结果传到前台
 				request.setAttribute("a", a);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
 				
+				session.setAttribute("other", b);
 				request.getRequestDispatcher("/teacher/releaseTask.jsp").forward(request, response);
 				return;
 			}
@@ -229,7 +363,17 @@ public class GetDataSvlt extends HttpServlet {
 				}
 				//查询结果传到前台
 				request.setAttribute("a", a);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
 				
+				session.setAttribute("other", b);
 				request.getRequestDispatcher("/teacher/Taskinfo.jsp").forward(request, response);
 				return;
 			}
@@ -251,54 +395,91 @@ public class GetDataSvlt extends HttpServlet {
 				}
 				//查询结果传到前台
 				request.setAttribute("a", a);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
 				
+				session.setAttribute("other", b);
 				request.getRequestDispatcher("/teacher/TaskHistoryinfo.jsp").forward(request, response);
 				return;
 			}
+			
 			if("tGitDate".equals(tbname)){	//获取新导入的GitHub实验信息
 				
 				//获取当前登录用户信息
 				Object userid=session.getAttribute("userid");
 				String org=request.getParameter("org");
 				String proj=request.getParameter("proj");
-				
+				String sql=request.getParameter("sql");
 				String tablename="reposdate";   
 				session.setAttribute("sql", "select "+tablename+".*,students.sname, terms.termname,course.cname from "+tablename+",students,course,terms where  students.sno=Num and course_id=course.id and "+tablename+".terms_id=terms.id and org='"+org+"' and proj='"+proj+"'");
 				
 				//查询结果集转化成链表
 				List<GitDate> alist=GetList.getlist(GitDate.class, HandlePage.Sy(db, "100", session,"sql","mysql"));
-				System.out.print("size="+alist.size());
+				System.out.print("size="+alist.size());								
 				//查询结果传到前台
 				request.setAttribute("alist", alist);
+				List<ExportScoreList> scoreList=GetList.getlist(ExportScoreList.class, HandlePage.Sy(db, "1000", session,"sql","mysql"));
+				
+				JSONArray alistJson = JSONArray.fromObject(scoreList);
+				request.setAttribute("alistJson", alistJson);
 				List<Terms> termslist=GetList.getlist(Terms.class, db.executeQuery("select * from terms"));
 				request.setAttribute("termslist", termslist);
 				List<Classinfo> classinfolist=GetList.getlist(Classinfo.class, db.executeQuery("select * from classinfo where id="+id));
 				request.setAttribute("classinfolist", classinfolist);
 				List<Course> courselist=GetList.getlist(Course.class, db.executeQuery("select * from course"));
 				request.setAttribute("courselist", courselist);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", b);
 				request.getRequestDispatcher("/teacher/GitDate.jsp").forward(request, response);
 				return;
 			}
-			if("tGitDate2".equals(tbname)){	//获取新导入的GitHub实验信息
+			if("adminstuTask".equals(tbname)){	//学生获取自己的实验提交记录
 				
 				//获取当前登录用户信息
 				Object userid=session.getAttribute("userid");
-				String org=request.getParameter("org");
-				String proj=request.getParameter("proj");
-				
-				String tablename="outreposdate";   
-				session.setAttribute("sql", "select "+tablename+".* from "+tablename+" where  org='"+org+"' and proj='"+proj+"' and tid=" +userid);
+				int taskid=Integer.parseInt(request.getParameter("id"));
+				session.setAttribute("sql", "select teatask.title,teatask.remark,teatask.time,teatask.deadline,stutask.*,termname,classname,cname,tName from stutask,courseplan,teatask,classinfo,course,teacher,terms where classinfo.id=teatask.classinfo_id and teatask.terms_id=terms.id and teatask.teacher_id=teacher.id and  course.id=teatask.course_id and teatask.id=teatask_id and stutask.id="+taskid+" and classinfo.id in (select classinfo_id from students ) group by id");
 				
 				//查询结果集转化成链表
-				List<GitDate> alist=GetList.getlist(GitDate.class, HandlePage.Sy(db, "100", session,"sql","mysql"));
-				System.out.print("size="+alist.size());
+				List<Stutask> alist=GetList.getlist(Stutask.class, HandlePage.Sy(db, "10", session,"sql","mysql"));
+				//创建对象
+				Stutask a=new Stutask();
+				//取查询结果给对象
+				if(alist.size()>0){
+					a=alist.get(0);
+				}
 				//查询结果传到前台
-				request.setAttribute("alist", alist);
+				request.setAttribute("a", a);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent b=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					b=other.get(0);
+				}
+				//把信息写入session
 				
-				request.getRequestDispatcher("/teacher/GitDate2.jsp").forward(request, response);
+				session.setAttribute("other", b);
+				request.getRequestDispatcher("/admin/TaskHistoryinfo.jsp").forward(request, response);
 				return;
 			}
-			
 			
 			/**
 			 * 
@@ -332,6 +513,17 @@ public class GetDataSvlt extends HttpServlet {
 				//查询结果传到前台
 				request.setAttribute("a", a);
 				request.setAttribute("b", b);
+				//获取标题及脚注等信息
+				List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+				//创建对象
+				indexContent c=new indexContent();
+				//取查询结果给对象
+				if(other.size()>0){
+					c=other.get(0);
+				}
+				//把信息写入session
+				
+				session.setAttribute("other", c);
 				request.getRequestDispatcher("/student/Taskinfo.jsp").forward(request, response);
 				return;
 			}
@@ -353,7 +545,17 @@ public class GetDataSvlt extends HttpServlet {
 					}
 					//查询结果传到前台
 					request.setAttribute("a", a);
+					//获取标题及脚注等信息
+					List<indexContent> other=GetList.getlist(indexContent.class, db.executeQuery("select * from indexshow where id=1"));
+					//创建对象
+					indexContent b=new indexContent();
+					//取查询结果给对象
+					if(other.size()>0){
+						b=other.get(0);
+					}
+					//把信息写入session
 					
+					session.setAttribute("other", b);
 					request.getRequestDispatcher("/student/TaskHistoryinfo.jsp").forward(request, response);
 					return;
 				}
